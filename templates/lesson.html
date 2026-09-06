@@ -1,0 +1,102 @@
+{% extends "base.html" %}
+{% block title %}{{ lesson.title }}{% endblock %}
+{% block content %}
+
+<p class="meta">
+  <a href="{{ url_for('learn', subject=lesson.subject, year=lesson.year_level) }}">{{ lesson.subject }}</a>
+  &rsaquo; {{ lesson.strand }} &middot; Year {{ lesson.year_level }}
+</p>
+<h1>{{ lesson.title }}</h1>
+<p class="sub">{{ lesson.intro }}</p>
+
+<div class="lessonbody">
+  {% for section in lesson.sections %}
+    <div class="card" style="margin-bottom:14px">
+      <h3 style="margin-top:0">{{ section.heading }}</h3>
+      {{ section.body|para }}
+      {% if section.example %}
+        <div class="example">
+          <div class="lbl">Worked example</div>
+          <p style="margin:.4em 0"><b>{{ section.example.prompt }}</b></p>
+          {% if section.example.working %}
+          <ol>{% for step in section.example.working %}<li>{{ step }}</li>{% endfor %}</ol>
+          {% endif %}
+          <div class="ans">Answer: {{ section.example.answer }}</div>
+        </div>
+      {% endif %}
+    </div>
+  {% endfor %}
+</div>
+
+{% if lesson.key_points %}
+<div class="keypoints">
+  <b>Worth remembering</b>
+  <ul>{% for point in lesson.key_points %}<li>{{ point }}</li>{% endfor %}</ul>
+</div>
+{% endif %}
+
+{% if lesson.try_this %}
+<div class="trythis" style="margin-top:14px">
+  <b>Try this at home</b>
+  <p style="margin:.4em 0 0">{{ lesson.try_this }}</p>
+</div>
+{% endif %}
+
+<h2>Two things to finish this lesson</h2>
+<div class="grid grid-2">
+
+  <div class="card {{ 'done' if progress.quiz_passed }}">
+    <div class="inline" style="justify-content:space-between">
+      <b>1. The quiz</b>
+      {% if progress.quiz_passed %}<span class="pill pill-green">Passed</span>
+      {% elif progress.best_total %}<span class="pill pill-amber">{{ progress.best_percent }}%</span>{% endif %}
+    </div>
+    <p class="meta">
+      {{ lesson.questions|length }} questions, the last 4 are the hard ones.
+      You need {{ pass_mark }}% to pass, and your best go is the one that counts.
+    </p>
+    {% if progress.best_total %}
+      <p class="meta">Best so far: {{ progress.best_score }}/{{ progress.best_total }} over {{ progress.times_done }} {{ 'go' if progress.times_done == 1 else 'goes' }}.</p>
+    {% endif %}
+    <form method="post" action="{{ url_for('start_quiz', slug=lesson.slug) }}">
+      <button class="btn btn-lg" type="submit">{{ 'Have another go' if progress.best_total else 'Start the quiz' }}</button>
+    </form>
+  </div>
+
+  {% if lesson.activity %}
+  <div class="card {{ 'done' if progress.activity_state == 'approved' }}">
+    <div class="inline" style="justify-content:space-between">
+      <b>2. The activity</b>
+      {% if progress.activity_state == 'approved' %}<span class="pill pill-green">Signed off</span>
+      {% elif progress.activity_state == 'submitted' %}<span class="pill pill-violet">Being checked</span>
+      {% elif progress.activity_state == 'returned' %}<span class="pill pill-amber">Sent back</span>
+      {% else %}<span class="pill pill-grey">To do</span>{% endif %}
+    </div>
+    <p class="meta">
+      <b>{{ lesson.activity.title }}</b><br>
+      About {{ lesson.activity.est_minutes }} min &middot; {{ lesson.activity.help_label|lower }}
+      &middot; {{ lesson.activity.xp }} XP
+    </p>
+    <p class="meta">You have to actually do this one and write down what happened. It gets checked before it counts.</p>
+    <a class="btn btn-lg btn-amber" href="{{ url_for('activity', slug=lesson.slug) }}">
+      {{ 'See what you wrote' if progress.activity_state == 'approved' else 'Do the activity' }}
+    </a>
+  </div>
+  {% endif %}
+</div>
+
+<p class="meta" style="margin-top:14px">
+  {% if progress.state == 'mastered' %}
+    This one's finished — quiz passed and activity signed off.
+  {% else %}
+    The lesson only counts as done once both of those are green.
+  {% endif %}
+</p>
+
+{% if lesson.curriculum_code %}
+<p class="code" style="margin-top:18px">
+  Australian Curriculum v9 &middot; {{ lesson.curriculum_code }} &mdash; {{ lesson.curriculum_text }}
+</p>
+{% endif %}
+
+{% endblock %}

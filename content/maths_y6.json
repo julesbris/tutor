@@ -1,0 +1,3224 @@
+{
+  "pack": "maths_y6",
+  "subject": "Maths",
+  "lessons": [
+    {
+      "slug": "y6-integers-number-line-cartesian-plane",
+      "title": "Negative Numbers, Number Lines and the Cartesian Plane",
+      "strand": "Number",
+      "year_level": 6,
+      "curriculum_code": "AC9M6N01",
+      "curriculum_text": "recognise situations, including financial contexts, that use integers; locate and represent integers on a number line and as coordinates on the Cartesian plane",
+      "position": 1,
+      "est_minutes": 14,
+      "intro": "Money owed, temperatures below zero, depths under the sea - real life needs numbers that go below zero. Today you'll learn to read, place and plot integers, including on a grid with two axes.",
+      "sections": [
+        {
+          "heading": "What is an integer?",
+          "body": "An **integer** is a whole number - positive, negative, or zero. There are no fractions or decimals allowed. So 7, 0 and -12 are all integers, but 2.5 and 1/3 are not.\n\nMoney is a great place to spot integers in real life. If you have money, that's a positive number. If you *owe* money, that's a negative number - it means you're below zero.\n\n- Positive integers: 1, 2, 3, 4 ...\n- Zero: 0 (neither positive nor negative)\n- Negative integers: -1, -2, -3, -4 ...",
+          "example": {
+            "prompt": "Ben has $12 in his account. He buys a $20 fishing lure with his debit card. Write his new balance as an integer.",
+            "working": [
+              "Start at 12",
+              "Spending $20 means subtracting 20",
+              "12 - 20 = -8"
+            ],
+            "answer": "-$8 (he now owes $8)"
+          }
+        },
+        {
+          "heading": "Reading a number line with negatives",
+          "body": "A number line stretches in both directions from zero. Numbers to the right of zero are positive; numbers to the left are negative.\n\nThe further left a number sits, the smaller it is - even though it might look like the \"bigger\" number without its minus sign. -9 is colder and smaller than -4, because -9 sits further left on the line.\n\nThis matters for comparing things like temperature, tide height, or an account balance.",
+          "example": {
+            "prompt": "Which is colder: -4°C or -9°C?",
+            "working": [
+              "On a number line, -9 sits further left than -4",
+              "Further left means a smaller number",
+              "A smaller temperature means colder"
+            ],
+            "answer": "-9°C"
+          }
+        },
+        {
+          "heading": "The Cartesian plane",
+          "body": "Now imagine two number lines crossing at a right angle - one flat (the **x-axis**), one standing up (the **y-axis**). Where they cross is called the **origin**, written (0, 0).\n\nAny point on this grid can be described with a pair of numbers called **coordinates**, written (x, y). The first number tells you how far to move left or right; the second tells you how far to move up or down.\n\nBecause both axes include negative numbers, the plane is split into four sections called **quadrants**.",
+          "example": {
+            "prompt": "Point A is 3 units right of the origin and 2 units down. Write its coordinates.",
+            "working": [
+              "Right along the x-axis is positive, so x = 3",
+              "Down along the y-axis is negative, so y = -2"
+            ],
+            "answer": "(3, -2)"
+          }
+        },
+        {
+          "heading": "Reading points in all four quadrants",
+          "body": "Starting top-right and going anticlockwise, the four quadrants follow a pattern of signs: (+, +), then (-, +), then (-, -), then (+, -).\n\nAlways read the x-coordinate first, then the y-coordinate - just like reading along the floor before going up or down stairs.\n\nIf a point sits exactly on an axis, one of its coordinates is 0. For example, (0, 5) sits on the y-axis, and (-6, 0) sits on the x-axis."
+        }
+      ],
+      "key_points": [
+        "Integers include negative whole numbers, zero, and positive whole numbers.",
+        "On a number line, numbers get smaller the further left you go.",
+        "A coordinate (x, y) tells you how far across, then how far up or down.",
+        "Quadrant signs going anticlockwise from top-right: (+,+), (-,+), (-,-), (+,-)."
+      ],
+      "try_this": "On paper, draw two number lines crossing to make a big plus sign - that's your Cartesian plane. Label -5 to 5 along each arm. Take turns calling out coordinates like (3, -2) for someone else to find and mark with a dot. Play five rounds each.",
+      "questions": [
+        {
+          "type": "tf",
+          "prompt": "Zero is neither positive nor negative.",
+          "answer": true,
+          "explain": "Zero sits exactly between the positive and negative numbers on the number line, so it belongs to neither group.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "Which of these is an integer?",
+          "choices": [
+            "-7",
+            "3.5",
+            "2/3",
+            "-1.25"
+          ],
+          "answer": "-7",
+          "explain": "An integer is a whole number with no fraction or decimal part. -7 is whole; the others all have fractional parts.",
+          "difficulty": 1
+        },
+        {
+          "type": "numeric",
+          "prompt": "Jarrah has $18 in his account. He buys a new fishing reel for $25 using his debit card. What is his new balance?",
+          "answer": -7,
+          "tolerance": 0.001,
+          "unit": "$",
+          "explain": "Spending more than he has takes the balance below zero: 18 - 25 = -7, so he now owes $7.",
+          "difficulty": 2
+        },
+        {
+          "type": "mc",
+          "prompt": "Three snorkellers are at these depths below the surface: -6 m, -14 m, -9 m. Which one is closest to the surface?",
+          "choices": [
+            "-6 m",
+            "-14 m",
+            "-9 m",
+            "They are all the same depth"
+          ],
+          "answer": "-6 m",
+          "explain": "Closest to the surface means the smallest depth below it. On a number line, -6 sits furthest right of the three negative numbers, so -6 m is the shallowest.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "On a treasure map grid, the old anchor is marked 5 units right of the starting point and 3 units below the horizontal line through the start. What is the y-coordinate of the anchor's position?",
+          "answer": -3,
+          "tolerance": 0.001,
+          "explain": "Below the horizontal (x-axis) line means the y-value is negative, so the y-coordinate is -3.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "On the same treasure map grid, the buried chest is 4 units left of the starting point and 6 units above the horizontal line. Write its position as (x, y).",
+          "answer": [
+            "(-4, 6)"
+          ],
+          "explain": "Left of the start gives a negative x-value; above the line gives a positive y-value, so the position is (-4, 6).",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "A crocodile-spotting boat marks a sighting at (-3, -6) on its tracking grid. Name the quadrant that point sits in.",
+          "answer": [
+            "bottom left",
+            "bottom-left",
+            "lower left"
+          ],
+          "explain": "Both coordinates are negative, matching the (-,-) pattern - the bottom-left quadrant.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "Nomi's account sits at -$22 (she owes $22). She sells an esky of mud crabs at the markets and deposits $60. What is her new balance?",
+          "answer": 38,
+          "tolerance": 0.001,
+          "unit": "$",
+          "explain": "-22 + 60 = 38. The deposit clears the $22 debt and leaves $38 in her favour.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A fishing float sits right at the water's surface (call that 0). A sinker is tied 45 cm below the float, and a lure is tied a further 18 cm below the sinker. What integer, in centimetres, describes the lure's position relative to the water's surface?",
+          "answer": -63,
+          "tolerance": 0.001,
+          "explain": "The sinker is at -45 cm. The lure is a further 18 cm below that: -45 - 18 = -63.",
+          "difficulty": 4,
+          "unit": "cm"
+        },
+        {
+          "type": "numeric",
+          "prompt": "On a grid, point A is at (-4, 3) and point B is at (5, 3). Since they share the same y-coordinate, they sit on the same horizontal line. What is the distance between A and B?",
+          "answer": 9,
+          "tolerance": 0.001,
+          "explain": "Both points have y = 3, so the distance is just the gap between the x-values: from -4 to 5 is 9 units (4 to reach 0, then 5 more to reach 5).",
+          "difficulty": 4,
+          "unit": "units"
+        },
+        {
+          "type": "numeric",
+          "prompt": "Maya's fishing gear account starts at -$12 (she owes $12). She sells mangoes and deposits $25, then spends $30 on a new rod. What is her final balance?",
+          "answer": -17,
+          "tolerance": 0.001,
+          "explain": "-12 + 25 = 13, then 13 - 30 = -17. She ends up owing $17.",
+          "difficulty": 4,
+          "unit": "$"
+        },
+        {
+          "type": "mc",
+          "prompt": "Point P is at (3, -7). It is reflected across the x-axis. What are its new coordinates?",
+          "choices": [
+            "(3, 7)",
+            "(-3, -7)",
+            "(-3, 7)",
+            "(3, -7)"
+          ],
+          "answer": "(3, 7)",
+          "explain": "Reflecting across the x-axis keeps x the same and flips the sign of y: -7 becomes 7, giving (3, 7).",
+          "difficulty": 4
+        }
+      ],
+      "activity": {
+        "title": "Build and race a life-size coordinate grid",
+        "why": "Proves they can turn a coordinate pair into a real direction and distance, not just read one off a page.",
+        "est_minutes": 25,
+        "adult_help": "nearby",
+        "materials": [
+          "chalk (or string/sticks on grass)",
+          "tape measure",
+          "a phone timer or stopwatch",
+          "a partner to call out coordinates"
+        ],
+        "steps": [
+          "Outside on a driveway, footpath or lawn, mark a horizontal line and a vertical line crossing at a point with chalk or string - this crossing point is the origin (0,0).",
+          "Measure and mark every 1 metre out to 5 metres along all four arms, so the grid stretches from -5 to 5 in both directions, and label the marks.",
+          "Have a partner call out five different coordinate pairs one at a time, making sure at least two of the five use a negative number.",
+          "Each time a coordinate is called, run from the origin straight to that point while your partner times you with a stopwatch.",
+          "Record your fastest and slowest times out of the five runs.",
+          "On your very last run, use the tape measure to measure the actual diagonal (straight-line) distance from the origin to where you finished.",
+          "Record your results below."
+        ],
+        "record": [
+          {
+            "id": "fastest_time_s",
+            "label": "Your fastest time to reach a called coordinate, in seconds",
+            "type": "number",
+            "unit": "s",
+            "hint": "to the nearest second",
+            "min": 1,
+            "max": 60
+          },
+          {
+            "id": "diagonal_distance_m",
+            "label": "The measured diagonal distance for your final coordinate, in metres",
+            "type": "number",
+            "unit": "m",
+            "hint": "one decimal place",
+            "min": 0.3,
+            "max": 10
+          },
+          {
+            "id": "coordinates_text",
+            "label": "List the five coordinates your partner called out, and say which quadrant each one landed in",
+            "type": "text",
+            "hint": "two or three sentences",
+            "min_words": 15
+          },
+          {
+            "id": "hardest_quadrant",
+            "label": "Which quadrant was hardest to run to correctly?",
+            "type": "choice",
+            "options": [
+              "Top right (+,+)",
+              "Top left (-,+)",
+              "Bottom left (-,-)",
+              "Bottom right (+,-)"
+            ]
+          }
+        ],
+        "check": "A good result names five genuinely different coordinates, including negative numbers, run times of a few seconds each for a 5 m grid, and a diagonal distance that roughly fits Pythagoras (e.g. (3,4) should measure about 5 m). Query it if every coordinate given is in the same quadrant, or if the diagonal distance is wildly bigger than about 7 m for a grid that only reaches 5 m out.",
+        "xp": 40
+      },
+      "kind": "lesson"
+    },
+    {
+      "slug": "y6-primes-composites-squares",
+      "title": "Prime, Composite and Square Numbers",
+      "strand": "Number",
+      "year_level": 6,
+      "curriculum_code": "AC9M6N02",
+      "curriculum_text": "identify and describe the properties of prime, composite and square numbers and use these properties to solve problems and simplify calculations",
+      "position": 2,
+      "est_minutes": 13,
+      "intro": "Some numbers only ever break apart into 1 and themselves. Some numbers are made by multiplying a number by itself. Knowing which is which makes mental maths quicker and helps you spot patterns other people miss.",
+      "sections": [
+        {
+          "heading": "What makes a number prime",
+          "body": "Every whole number has **factors** - numbers that divide into it evenly with nothing left over. A **prime number** has exactly two factors: 1 and itself.\n\n13 is prime because only 1 × 13 = 13 works. Nothing else divides into it evenly.\n\n2 is the only even prime number - every other even number can be divided by 2, which gives it a third factor.\n\nThe number 1 is *not* prime, because it only has one factor (itself), not two.",
+          "example": {
+            "prompt": "Is 13 prime?",
+            "working": [
+              "List its factors: 1 and 13",
+              "That's exactly two factors"
+            ],
+            "answer": "Yes, 13 is prime"
+          }
+        },
+        {
+          "heading": "Composite numbers",
+          "body": "A **composite number** has more than two factors. 12 is composite, because it can be divided evenly by 1, 2, 3, 4, 6 and 12 - six factors in total.\n\nEvery whole number bigger than 1 is either prime or composite - there's no third option.",
+          "example": {
+            "prompt": "List the factors of 12.",
+            "working": [
+              "Try each number from 1 up: does it divide evenly into 12?",
+              "1, 2, 3, 4, 6, 12 all work"
+            ],
+            "answer": "1, 2, 3, 4, 6, 12"
+          }
+        },
+        {
+          "heading": "Square numbers",
+          "body": "A **square number** is what you get when you multiply a whole number by itself: 1×1, 2×2, 3×3, and so on. That gives 1, 4, 9, 16, 25, 36 ...\n\nThey're called \"square\" because you can arrange that many counters into a perfect square shape - 3 rows of 3, or 6 rows of 6.\n\nSpotting a square number quickly can save you time, especially with areas and grid problems."
+        },
+        {
+          "heading": "Using these properties to solve problems",
+          "body": "Knowing whether a number is prime, composite or square helps you work smarter. If a number is prime, you know straight away it can't be split into smaller equal groups. If it's composite, you can search for factor pairs to simplify a fraction or share something out evenly.\n\nRecognising square numbers helps with area problems and with checking your times tables at a glance."
+        }
+      ],
+      "key_points": [
+        "A prime number has exactly two factors: 1 and itself.",
+        "A composite number has more than two factors.",
+        "1 is neither prime nor composite - it only has one factor.",
+        "A square number comes from multiplying a whole number by itself (n × n)."
+      ],
+      "try_this": "Grab 12 dried beans, buttons or coins. Try arranging them into every rectangle you can (1×12, 2×6, 3×4 ...) - each rectangle shows a factor pair. Then try the same with 13 beans. What do you notice? Finally, arrange 16 beans into a perfect square.",
+      "questions": [
+        {
+          "type": "tf",
+          "prompt": "1 is a prime number.",
+          "answer": false,
+          "explain": "A prime number needs exactly two factors. 1 has only one factor (itself), so it's neither prime nor composite.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "Which of these numbers is prime?",
+          "choices": [
+            "9",
+            "15",
+            "17",
+            "21"
+          ],
+          "answer": "17",
+          "explain": "9 = 3×3, 15 = 3×5, 21 = 3×7, so all three are composite. 17 only divides evenly by 1 and 17.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "Four fruit pickers end up with 9, 13, 5 and 2 mangoes. Which picker can arrange their mangoes into a rectangle with more than one row and more than one column, and none left over?",
+          "choices": [
+            "9 mangoes",
+            "13 mangoes",
+            "5 mangoes",
+            "2 mangoes"
+          ],
+          "answer": "9 mangoes",
+          "explain": "9 can be arranged as 3 rows of 3, since its factors are 1, 3 and 9 - more than two, so it's composite. 13, 5 and 2 are prime, so they only ever line up as a single row.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "A market garden has a square plot with 7 garden beds along each side, all identical squares. How many garden beds are there in total?",
+          "answer": 49,
+          "tolerance": 0.001,
+          "explain": "The plot is a 7-by-7 arrangement, so the total is 7 x 7 = 49 beds.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "A caterer wants to split 12 party pies evenly onto trays, with at least 1 pie per tray. How many different tray sizes (from 1 pie per tray up to 12 pies per tray) divide evenly into 12 with none left over?",
+          "answer": 6,
+          "tolerance": 0.001,
+          "explain": "12 divides evenly by 1, 2, 3, 4, 6 and 12 - six different tray sizes work with nothing left over.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "A stallholder is stacking crates into a perfect square arrangement. She has enough for a 5-by-5 square (25 crates) but has just enough extra stock for the next bigger perfect square arrangement. How many crates will that need in total?",
+          "answer": 36,
+          "tolerance": 0.001,
+          "explain": "The next size up from 5x5 (25) is 6x6, which needs 36 crates.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "There are exactly two prime numbers between 30 and 40. What do they add up to?",
+          "answer": 68,
+          "tolerance": 0.001,
+          "explain": "Checking each number from 31 to 39: 32, 34, 36, 38 are even; 33 and 39 divide by 3; 35 divides by 5. Only 31 and 37 have no smaller factor. 31 + 37 = 68.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A cane farmer wants to arrange 60 seedlings into the largest possible perfect square grid, potting any leftover seedlings separately. What is the largest square number that is less than or equal to 60?",
+          "answer": 49,
+          "tolerance": 0.001,
+          "explain": "The square numbers near 60 are 49 (7x7) and 64 (8x8). 64 is too big, so 49 is the largest that fits - a 7x7 grid, with 11 seedlings spare.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A number is a square number AND has exactly 3 factors in total. What is the smallest such number greater than 1?",
+          "answer": 4,
+          "tolerance": 0.001,
+          "explain": "4 = 2 x 2 is a square number, and its factors are 1, 2 and 4 - exactly three. No smaller square number greater than 1 has exactly 3 factors (9 also works but is bigger).",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "60 has several factor pairs (1x60, 2x30, 3x20, 4x15, 5x12, 6x10). Which pair is closest together in value - closest to making a square arrangement? Give the smaller of that pair.",
+          "answer": 6,
+          "tolerance": 0.001,
+          "explain": "The differences between each pair are 59, 28, 17, 11, 7 and 4. The pair 6 and 10 has the smallest difference (4), so 6 is the smaller factor in the closest pair.",
+          "difficulty": 4
+        },
+        {
+          "type": "text",
+          "prompt": "Twin primes are two prime numbers that differ by exactly 2, like 11 and 13. Find the pair of twin primes that both lie between 30 and 50.",
+          "answer": [
+            "41 and 43",
+            "41,43",
+            "41 and 43.",
+            "43 and 41"
+          ],
+          "explain": "The primes between 30 and 50 are 31, 37, 41, 43 and 47. Only 41 and 43 differ by exactly 2.",
+          "difficulty": 4
+        },
+        {
+          "type": "mc",
+          "prompt": "A grower has 23 seedlings - a prime number - and wants to plant them in a rectangular grid with more than one row and more than one column, with none left over. Which of these is true?",
+          "choices": [
+            "1 row of 23 is the only whole-number grid possible",
+            "2 rows of 11, with 1 left over, is the best fit",
+            "23 rows of 1 works with none left over and more than one column",
+            "A 23 x 1 grid is impossible"
+          ],
+          "answer": "1 row of 23 is the only whole-number grid possible",
+          "explain": "23 is prime, so its only factor pair is 1 x 23. That means the only grid with none left over is 1 row of 23 (or 23 rows of 1) - never more than one row AND more than one column.",
+          "difficulty": 4
+        }
+      ],
+      "activity": {
+        "title": "Collect and classify: a prime hunt in the yard",
+        "why": "Proves they can test a real, unpredictable quantity for prime, composite or square by physically building rectangles, not just classify numbers already picked for them.",
+        "est_minutes": 25,
+        "adult_help": "none",
+        "materials": [
+          "a bag or container",
+          "small natural objects from outside (stones, gum nuts, shells, seed pods, sticks)",
+          "paper and pencil"
+        ],
+        "steps": [
+          "Go outside and collect five separate handfuls of small natural objects - somewhere between 10 and 40 objects in each handful.",
+          "Count each handful carefully and write down its exact total.",
+          "For each handful, try to arrange the objects into a rectangle (rows x columns) with none left over, other than the obvious single row.",
+          "Record how many different rectangle arrangements (other than 1 row of everything) each handful can make.",
+          "Work out which handful gave a prime number of objects (only a 1-row rectangle works) and which, if any, gave a square number (an equal-sided square arrangement).",
+          "For the handful with the most factors, list every rectangle arrangement you actually built for it.",
+          "Record your findings below."
+        ],
+        "record": [
+          {
+            "id": "biggest_handful_total",
+            "label": "The count of your largest handful",
+            "type": "number",
+            "unit": "objects",
+            "hint": "your actual count",
+            "min": 10,
+            "max": 60
+          },
+          {
+            "id": "primes_found",
+            "label": "How many of your 5 handfuls turned out to be a prime number of objects?",
+            "type": "number",
+            "hint": "0 to 5",
+            "min": 0,
+            "max": 5
+          },
+          {
+            "id": "arrangements_text",
+            "label": "Describe the rectangle arrangements you found for the handful with the most factors",
+            "type": "text",
+            "hint": "e.g. '4 rows of 6, and 3 rows of 8'",
+            "min_words": 15
+          },
+          {
+            "id": "hardest_to_classify",
+            "label": "Which handful was hardest to classify, and why?",
+            "type": "text",
+            "hint": "one or two sentences",
+            "min_words": 12
+          }
+        ],
+        "check": "A good result has five genuinely different counted handfuls, not suspiciously round numbers like 10, 20, 30, 40, 50. Most random handfuls in this range won't be prime, so 0-2 primes found is typical - 5 out of 5 is worth double-checking. The described arrangements should actually multiply to the totals given.",
+        "xp": 40
+      },
+      "kind": "lesson"
+    },
+    {
+      "slug": "y6-fraction-equivalence-number-line",
+      "title": "Comparing and Ordering Fractions on a Number Line",
+      "strand": "Number",
+      "year_level": 6,
+      "curriculum_code": "AC9M6N03",
+      "curriculum_text": "apply knowledge of equivalence to compare, order and represent common fractions including halves, thirds and quarters on the same number line and justify their order",
+      "position": 3,
+      "est_minutes": 13,
+      "intro": "1/2, 2/4 and 3/6 look different but mean exactly the same amount. Once you can spot equivalent fractions, you can place halves, thirds and quarters on the same number line and prove which is bigger.",
+      "sections": [
+        {
+          "heading": "What equivalent fractions are",
+          "body": "**Equivalent fractions** are different ways of writing the same amount. If you cut a mango in half, then cut each half in half again, you now have quarters - but you still have the same amount of mango. 1/2 = 2/4.\n\nYou can create an equivalent fraction by multiplying (or dividing) the top and bottom numbers by the same amount, because that doesn't change the value - just how finely it's cut up."
+        },
+        {
+          "heading": "Finding a common denominator to compare",
+          "body": "Halves, thirds and quarters don't line up neatly against each other, so to compare them fairly you convert them to the *same* size pieces - a **common denominator**.\n\n12 works well for halves, thirds and quarters, because 2, 3 and 4 all divide evenly into it.",
+          "example": {
+            "prompt": "Compare 2/3 and 3/4 using twelfths.",
+            "working": [
+              "2/3 = 8/12 (multiply top and bottom by 4)",
+              "3/4 = 9/12 (multiply top and bottom by 3)",
+              "9/12 is bigger than 8/12"
+            ],
+            "answer": "3/4 is bigger than 2/3"
+          }
+        },
+        {
+          "heading": "Placing fractions on the same number line",
+          "body": "Once every fraction is written with the same denominator, they can all sit on one number line between 0 and 1. This makes their order easy to see at a glance, instead of guessing.\n\nMark the line in twelfths, then plot 1/2 (6/12), 2/3 (8/12) and 3/4 (9/12) - you'll see them spread out in the right order."
+        },
+        {
+          "heading": "Justifying an order",
+          "body": "In maths, it's not enough to just say which fraction is bigger - you need to explain *why*, using the common denominator.\n\nA good justification looks like this: \"3/4 > 2/3 because 3/4 = 9/12 and 2/3 = 8/12, and 9/12 is more twelfths than 8/12.\""
+        }
+      ],
+      "key_points": [
+        "Equivalent fractions represent the same value, written differently.",
+        "A common denominator lets you compare fractions fairly.",
+        "A shared number line makes the size order easy to see.",
+        "Always justify an order with a reason, using the common denominator - not just a guess."
+      ],
+      "try_this": "Cut three strips of paper the same length. Fold one in half, one into thirds, and one into quarters. Line them up side by side and mark the fold lines. Compare 1/2, 2/3 and 3/4 - can you see why 3/4 is the largest, without a common denominator?",
+      "questions": [
+        {
+          "type": "tf",
+          "prompt": "1/2 and 2/4 are equivalent fractions.",
+          "answer": true,
+          "explain": "Multiplying the top and bottom of 1/2 by 2 gives 2/4 - the same amount, written differently.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "Which fraction is equivalent to 2/3?",
+          "choices": [
+            "3/4",
+            "4/6",
+            "5/6",
+            "1/3"
+          ],
+          "answer": "4/6",
+          "explain": "Multiplying both the top and bottom of 2/3 by 2 gives 4/6 - the same value.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "Which offcut of timber is longest: 1/2 m, 2/3 m, 3/4 m, or 1/4 m?",
+          "choices": [
+            "1/2 m",
+            "2/3 m",
+            "3/4 m",
+            "1/4 m"
+          ],
+          "answer": "3/4 m",
+          "explain": "In twelfths: 1/2=6/12, 2/3=8/12, 3/4=9/12, 1/4=3/12. 9/12 is the biggest, so 3/4 m is longest.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "A carpenter has two lengths of dowel: 3/4 m and 2/3 m. How much longer is the first piece than the second? Give your answer as a fraction in simplest form.",
+          "answer": [
+            "1/12"
+          ],
+          "explain": "3/4 = 9/12 and 2/3 = 8/12 (12 is a common denominator for quarters and thirds). 9/12 - 8/12 = 1/12.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "Maya jogged 3/4 of the school oval and Kobe jogged 2/3 of it. Who jogged further? Answer with the name.",
+          "answer": [
+            "Maya"
+          ],
+          "explain": "3/4 = 9/12 and 2/3 = 8/12. 9/12 is more than 8/12, so Maya jogged further.",
+          "difficulty": 2
+        },
+        {
+          "type": "mc",
+          "prompt": "Three offcuts of rope measure 1/3 m, 1/2 m and 1/4 m. Put them in order from shortest to longest.",
+          "choices": [
+            "1/4, 1/3, 1/2",
+            "1/2, 1/3, 1/4",
+            "1/3, 1/4, 1/2",
+            "1/2, 1/4, 1/3"
+          ],
+          "answer": "1/4, 1/3, 1/2",
+          "explain": "In twelfths: 1/4=3/12, 1/3=4/12, 1/2=6/12. Shortest to longest gives 1/4, 1/3, 1/2.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "During a kayak trip, Priya paddled 5/6 of the river and Tom paddled 3/4 of it. How much further, as a fraction in simplest form, did Priya paddle than Tom?",
+          "answer": [
+            "1/12"
+          ],
+          "explain": "12 is a common denominator for sixths and quarters: 5/6 = 10/12 and 3/4 = 9/12. 10/12 - 9/12 = 1/12.",
+          "difficulty": 3
+        },
+        {
+          "type": "text",
+          "prompt": "Three fishing lines are cut to 5/6 m, 3/4 m and 7/12 m. When ordered from shortest to longest, which length is exactly in the middle? Give it as a fraction in simplest form.",
+          "answer": [
+            "3/4"
+          ],
+          "explain": "Convert to twelfths: 5/6=10/12, 3/4=9/12, 7/12=7/12. Ordered: 7/12, 9/12, 10/12. The middle value, 9/12, simplifies to 3/4.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A recipe needs 3/4 cup of flour and 2/3 cup of sugar. You've lost your measuring cups and only have a 1/12-cup scoop. How many scoops in total do you need for the flour and sugar combined?",
+          "answer": 17,
+          "tolerance": 0.001,
+          "explain": "3/4 = 9/12, so flour needs 9 scoops. 2/3 = 8/12, so sugar needs 8 scoops. Together: 9 + 8 = 17 scoops.",
+          "difficulty": 4
+        },
+        {
+          "type": "text",
+          "prompt": "Three sisters each have a slice of mango cake the same size. Ana ate 5/6 of her slice, Bo ate 3/4 of her slice, and Cy ate 7/12 of her slice. List the sisters from most eaten to least eaten.",
+          "answer": [
+            "Ana, Bo, Cy",
+            "Ana Bo Cy",
+            "Ana, Bo and Cy"
+          ],
+          "explain": "In twelfths: Ana = 10/12, Bo = 9/12, Cy = 7/12. From most to least eaten: Ana, then Bo, then Cy.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "What fraction, written as a decimal, is exactly halfway between 1/2 and 3/4?",
+          "answer": 0.625,
+          "tolerance": 0.001,
+          "explain": "1/2 = 0.5 and 3/4 = 0.75. Halfway between them is (0.5 + 0.75) / 2 = 0.625.",
+          "difficulty": 4
+        },
+        {
+          "type": "mc",
+          "prompt": "Which of these is NOT equivalent to 6/8?",
+          "choices": [
+            "3/4",
+            "9/12",
+            "12/16",
+            "5/6"
+          ],
+          "answer": "5/6",
+          "explain": "6/8 simplifies to 3/4. 9/12 and 12/16 are also equivalent to 3/4 (multiply top and bottom by the same number), but 5/6 is a different value.",
+          "difficulty": 4
+        }
+      ],
+      "activity": {
+        "title": "Prove fraction equivalence with real water",
+        "why": "Shows that equivalent fractions really are the same amount, checked with an actual measured volume rather than just multiplying numbers on paper.",
+        "est_minutes": 20,
+        "adult_help": "none",
+        "materials": [
+          "a measuring jug or clear glass with mL markings (or a ruler taped to a straight-sided glass)",
+          "measuring cups (or one cup you can fill and refill)",
+          "water",
+          "a container to catch spills"
+        ],
+        "steps": [
+          "Find a measuring jug with millilitre markings, or a straight glass with a ruler taped up the side.",
+          "Fill a standard measuring cup to the 1 cup line and pour it into the jug to see how many mL that is (a standard Australian cup is 250 mL) - write this down.",
+          "Measure out 1/2 cup and pour it into the jug, and record the mL level.",
+          "Empty the jug, then measure 1/4 cup twice (to make 2/4 cup) and pour both into the jug, recording the mL level.",
+          "Compare the two readings - do 1/2 cup and 2/4 cup land at (almost) the same mL mark?",
+          "Empty the jug again, measure 1/3 cup twice (to make 2/3 cup), pour it in, and record that mL level too.",
+          "Record your results and what you noticed below."
+        ],
+        "record": [
+          {
+            "id": "half_cup_ml",
+            "label": "Measured mL for 1/2 cup",
+            "type": "number",
+            "unit": "mL",
+            "hint": "read from the jug",
+            "min": 50,
+            "max": 400
+          },
+          {
+            "id": "two_quarters_ml",
+            "label": "Measured mL for 2/4 cup",
+            "type": "number",
+            "unit": "mL",
+            "hint": "read from the jug",
+            "min": 50,
+            "max": 400
+          },
+          {
+            "id": "two_thirds_ml",
+            "label": "Measured mL for 2/3 cup",
+            "type": "number",
+            "unit": "mL",
+            "hint": "read from the jug",
+            "min": 50,
+            "max": 400
+          },
+          {
+            "id": "observation_text",
+            "label": "Did 1/2 cup and 2/4 cup match as you predicted? What about 2/3 cup?",
+            "type": "text",
+            "hint": "two or three sentences",
+            "min_words": 15
+          }
+        ],
+        "check": "1/2 cup and 2/4 cup should read within about 10-15 mL of each other (small wobble is normal); a gap over 30 mL suggests a measuring slip. 2/3 cup should read noticeably more than 1/2 cup - for a 250 mL cup, expect roughly 165 mL versus 125 mL.",
+        "xp": 40
+      },
+      "kind": "lesson"
+    },
+    {
+      "slug": "y6-decimal-addition-subtraction-estimation",
+      "title": "Adding and Subtracting Decimals with Confidence",
+      "strand": "Number",
+      "year_level": 6,
+      "curriculum_code": "AC9M6N04",
+      "curriculum_text": "apply knowledge of place value to add and subtract decimals, using digital tools where appropriate; use estimation and rounding to check the reasonableness of answers",
+      "position": 4,
+      "est_minutes": 13,
+      "intro": "Prices, fuel amounts and measurements are full of decimals. Line them up correctly and you can add or subtract them without a fuss - and a quick estimate first means you'll always know if the answer looks right.",
+      "sections": [
+        {
+          "heading": "Lining up the decimal point",
+          "body": "When adding or subtracting decimals, the golden rule is: **line up the decimal points**, not the last digits. This keeps ones with ones, tenths with tenths, and hundredths with hundredths.\n\nIf one number has fewer decimal places, fill the empty spot with a zero - it doesn't change the value, but it keeps your columns tidy.",
+          "example": {
+            "prompt": "4.5 + 2.75 = ?",
+            "working": [
+              "Write 4.50 so both numbers have two decimal places",
+              "4.50 + 2.75",
+              "Add column by column: 7.25"
+            ],
+            "answer": "7.25"
+          }
+        },
+        {
+          "heading": "Subtracting decimals",
+          "body": "Subtraction works the same way - line up the decimal points first. Sometimes you'll need to \"borrow\" across the decimal point, just like borrowing across the ones column.",
+          "example": {
+            "prompt": "10 - 3.65 = ?",
+            "working": [
+              "Write 10 as 10.00",
+              "10.00 - 3.65",
+              "Borrow across the columns: 6.35"
+            ],
+            "answer": "6.35"
+          }
+        },
+        {
+          "heading": "Estimating first",
+          "body": "Before you calculate, round each number to the nearest whole number and do the sum in your head. This gives you a rough answer to check against.\n\nFor 4.5 + 2.75, rounding gives about 5 + 3 = 8. The real answer, 7.25, is close to that estimate - so it's reasonable."
+        },
+        {
+          "heading": "Using digital tools",
+          "body": "Calculators are handy for decimals with lots of digits, but they only do what you tell them. A slipped finger can turn $7.25 into $72.5 without warning.\n\nAlways estimate first, then check your calculator's answer against your estimate. If they're way off, check your button presses."
+        }
+      ],
+      "key_points": [
+        "Line up decimal points, not the last digits, before adding or subtracting.",
+        "Pad shorter decimals with zero placeholders so columns match.",
+        "Round each number first to estimate a rough answer.",
+        "Always check a calculator's answer against your estimate."
+      ],
+      "try_this": "Grab a shopping list or supermarket receipt (or write a pretend one with mangoes at $4.50/kg, sunscreen at $12.95, fuel etc). Add up the total by hand, lining up the decimal points, then check your answer with a calculator.",
+      "questions": [
+        {
+          "type": "tf",
+          "prompt": "When adding decimals, you must line up the decimal points, not the last digits.",
+          "answer": true,
+          "explain": "Lining up decimal points keeps ones with ones and tenths with tenths, so each column adds correctly.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "Round 7.82 to the nearest whole number to estimate.",
+          "choices": [
+            "7",
+            "8",
+            "7.8",
+            "9"
+          ],
+          "answer": "8",
+          "explain": "7.82 is closer to 8 than to 7, since 0.82 is more than halfway.",
+          "difficulty": 1
+        },
+        {
+          "type": "numeric",
+          "prompt": "Kirra buys a $3.45 mango smoothie and a $2.60 bag of chips. What is the total cost?",
+          "answer": 6.05,
+          "tolerance": 0.001,
+          "unit": "$",
+          "explain": "Line up the decimal points: 3.45 + 2.60 = 6.05.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "A drum holds 8.3 L of fuel. After topping up the mower, 4.75 L is left in the drum. How many litres were used?",
+          "answer": 3.55,
+          "tolerance": 0.001,
+          "unit": "L",
+          "explain": "Write 8.3 as 8.30, then subtract: 8.30 - 4.75 = 3.55.",
+          "difficulty": 2
+        },
+        {
+          "type": "mc",
+          "prompt": "A punnet of mangoes costs $5.60 and a bag of ice costs $3.20. Estimate the total cost by rounding each price to the nearest dollar.",
+          "choices": [
+            "$8",
+            "$9",
+            "$10",
+            "$7"
+          ],
+          "answer": "$9",
+          "explain": "5.60 rounds to 6 and 3.20 rounds to 3. 6 + 3 = 9.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "Diesel costs $1.92 per litre at the Cooktown servo. Unleaded costs $0.18 more per litre than diesel. What does unleaded cost per litre?",
+          "answer": 2.1,
+          "tolerance": 0.001,
+          "unit": "$",
+          "explain": "1.92 + 0.18 = 2.10.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "A family sets off with $85 for a camping trip to Lakefield. They spend $27.35 on fuel, $14.90 on ice and bait, and $8.75 on firewood. How much money do they have left?",
+          "answer": 34.0,
+          "tolerance": 0.001,
+          "unit": "$",
+          "explain": "85 - 27.35 = 57.65, then 57.65 - 14.90 = 42.75, then 42.75 - 8.75 = 34.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "Jarrah buys a $6.80 rash vest and a $3.95 fishing lure. Rounding each price to the nearest dollar, what is his estimated total cost?",
+          "answer": 11,
+          "tolerance": 0.001,
+          "unit": "$",
+          "explain": "6.80 rounds to 7, and 3.95 is close enough to round up to 4. 7 + 4 = 11.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "Mum has $100 for shopping. She buys fuel for $42.85, ice for $6.20, and sunscreen for $18.95. How much change does she get?",
+          "answer": 32.0,
+          "tolerance": 0.001,
+          "explain": "42.85 + 6.20 + 18.95 = 68.00. 100.00 - 68.00 = 32.00.",
+          "difficulty": 4,
+          "unit": "$"
+        },
+        {
+          "type": "numeric",
+          "prompt": "A fuel gauge shows 12.5 L in the tank. After driving to Cairns, only 3.65 L is left. Dad then tops the tank up with 45.8 L. How many litres are in the tank now?",
+          "answer": 49.45,
+          "tolerance": 0.001,
+          "explain": "The 12.5 L reading isn't needed for the final amount - what matters is what was left (3.65 L) plus what was added (45.8 L): 3.65 + 45.8 = 49.45.",
+          "difficulty": 4,
+          "unit": "L"
+        },
+        {
+          "type": "numeric",
+          "prompt": "A prawn trawler's fuel tank reads 340.5 L at 6 am. By 6 pm it reads 85.75 L. How much fuel, in litres, was used during the day?",
+          "answer": 254.75,
+          "tolerance": 0.001,
+          "explain": "340.5 - 85.75 = 254.75.",
+          "difficulty": 4,
+          "unit": "L"
+        },
+        {
+          "type": "text",
+          "prompt": "A docket shows three amounts: $14.85, $9.20 and $3.45 (GST already included). Which two of these amounts add up to exactly $18.30?",
+          "answer": [
+            "14.85 and 3.45",
+            "$14.85 and $3.45",
+            "3.45 and 14.85",
+            "$3.45 and $14.85"
+          ],
+          "explain": "14.85 + 3.45 = 18.30. The other pairs (14.85 + 9.20 = 24.05, and 9.20 + 3.45 = 12.65) don't match.",
+          "difficulty": 4
+        }
+      ],
+      "activity": {
+        "title": "Weigh, price and total a real grocery haul",
+        "why": "Proves they can combine a real measured decimal weight with a real price to work out a cost, then add several of those together and sanity-check the total.",
+        "est_minutes": 25,
+        "adult_help": "none",
+        "materials": [
+          "kitchen scales",
+          "three real food or pantry items, each showing a price per kg or a whole-item price",
+          "calculator",
+          "paper and pencil"
+        ],
+        "steps": [
+          "Find three real items in the kitchen or pantry that show a price per kilogram on the label (fruit, meat, rice, flour) - or, if you can't find any, use a real receipt instead.",
+          "Weigh each item yourself on the kitchen scales, in kilograms to two decimal places, using your own reading rather than what the packet says.",
+          "Note down the price per kilogram from each label (or the whole-item price if it isn't sold by weight).",
+          "For each weighed item, calculate its cost using your own measured weight and the price per kg.",
+          "Add up the total cost of all three items, lining up the decimal points carefully.",
+          "Round each item's cost to the nearest dollar and add those rounded amounts to get a quick estimate.",
+          "Record your results below and check your exact total is close to your estimate."
+        ],
+        "record": [
+          {
+            "id": "heaviest_item_kg",
+            "label": "The weight of your heaviest item, in kg",
+            "type": "number",
+            "unit": "kg",
+            "hint": "two decimal places",
+            "min": 0.01,
+            "max": 25
+          },
+          {
+            "id": "total_cost",
+            "label": "Your calculated total cost for all three items",
+            "type": "number",
+            "unit": "$",
+            "hint": "add the decimals carefully",
+            "min": 0.01,
+            "max": 200
+          },
+          {
+            "id": "estimate_total",
+            "label": "Your rounded estimate for the total",
+            "type": "number",
+            "unit": "$",
+            "hint": "round each item to the nearest dollar first",
+            "min": 0,
+            "max": 200
+          },
+          {
+            "id": "items_text",
+            "label": "Describe the three items you weighed and priced, and anything that surprised you",
+            "type": "text",
+            "hint": "two or three sentences",
+            "min_words": 15
+          }
+        ],
+        "check": "The exact total and the rounded estimate should be within about a dollar or two of each other - a bigger gap usually means a decimal point slipped somewhere. The heaviest item's weight should be plausible for that object (a bag of rice shouldn't weigh 0.01 kg).",
+        "xp": 45
+      },
+      "kind": "lesson"
+    },
+    {
+      "slug": "y6-adding-subtracting-fractions",
+      "title": "Adding and Subtracting Fractions",
+      "strand": "Number",
+      "year_level": 6,
+      "curriculum_code": "AC9M6N05",
+      "curriculum_text": "solve problems involving addition and subtraction of fractions using knowledge of equivalent fractions",
+      "position": 5,
+      "est_minutes": 13,
+      "intro": "You can't add halves and thirds directly - it's like trying to add apples and mangoes and calling the total \"7 fruit-ish things\". Convert to matching pieces first, and fraction addition becomes simple.",
+      "sections": [
+        {
+          "heading": "Why denominators must match",
+          "body": "The bottom number of a fraction (the **denominator**) tells you how big each piece is. Halves are big pieces; eighths are small pieces.\n\nYou can only add or subtract fractions once the pieces are the same size. That means finding **equivalent fractions** with a matching denominator before you touch the numerators."
+        },
+        {
+          "heading": "Finding a common denominator",
+          "body": "Look for a number that both denominators divide into evenly - often just multiplying them together, or using the smaller multiples you already know.",
+          "example": {
+            "prompt": "Find a common denominator for 1/3 and 1/4.",
+            "working": [
+              "List multiples of 3: 3, 6, 9, 12 ...",
+              "List multiples of 4: 4, 8, 12 ...",
+              "12 is the smallest number in both lists"
+            ],
+            "answer": "12"
+          }
+        },
+        {
+          "heading": "Adding fractions",
+          "body": "Once the denominators match, add only the numerators - the denominator stays the same, because the piece size hasn't changed.",
+          "example": {
+            "prompt": "1/3 + 1/4 = ?",
+            "working": [
+              "Convert: 1/3 = 4/12 and 1/4 = 3/12",
+              "Add numerators: 4/12 + 3/12 = 7/12"
+            ],
+            "answer": "7/12"
+          }
+        },
+        {
+          "heading": "Subtracting fractions",
+          "body": "Subtraction works the same way - convert to a common denominator, then subtract the numerators. Simplify your answer at the end if you can.\n\nFor example, 3/4 - 1/2 = 3/4 - 2/4 = 1/4."
+        }
+      ],
+      "key_points": [
+        "Fractions need the same denominator before you can add or subtract them.",
+        "Find a common denominator using multiples of both denominators.",
+        "Add or subtract the numerators only - the denominator stays the same.",
+        "Simplify the final answer to its lowest terms if possible."
+      ],
+      "try_this": "If you have measuring cups (1/2 cup, 1/4 cup, or 1/3 cup), use them to combine amounts for a mango smoothie or damper mix and see the equivalence in action - for example, two 1/4 cups fill one 1/2 cup. No measuring cups? Do it with folded paper strips instead.",
+      "questions": [
+        {
+          "type": "tf",
+          "prompt": "You can add 1/2 + 1/3 by just adding the numerators and denominators (getting 2/5).",
+          "answer": false,
+          "explain": "Fractions need a common denominator before adding. 1/2 + 1/3 = 3/6 + 2/6 = 5/6, not 2/5.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "What is a common denominator for 1/2 and 1/4?",
+          "choices": [
+            "2",
+            "3",
+            "4",
+            "8"
+          ],
+          "answer": "4",
+          "explain": "4 is a multiple of both 2 and 4, so both fractions can be converted to quarters.",
+          "difficulty": 1
+        },
+        {
+          "type": "numeric",
+          "prompt": "Suki eats 1/4 of a damper and her brother eats 1/2 of it. What fraction of the damper have they eaten together, as a decimal?",
+          "answer": 0.75,
+          "tolerance": 0.001,
+          "explain": "1/2 = 2/4, so 1/4 + 2/4 = 3/4, which is 0.75.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "A 3/4 full esky of ice melts down to 1/2 full overnight. What fraction of the esky's ice was lost, as a decimal?",
+          "answer": 0.25,
+          "tolerance": 0.001,
+          "explain": "1/2 = 2/4, so 3/4 - 2/4 = 1/4, which is 0.25.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "A damper recipe needs 1/3 cup of self-raising flour's worth of sugar, plus another 1/6 cup for the topping. How much sugar is that in total, as a fraction in simplest form?",
+          "answer": [
+            "1/2"
+          ],
+          "explain": "1/3 = 2/6, so 2/6 + 1/6 = 3/6, which simplifies to 1/2.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "A rainwater tank is 2/3 full. An overnight storm adds another 1/4 tank of water. How full is the tank now, as a fraction (it may be more than one whole)?",
+          "answer": [
+            "11/12"
+          ],
+          "explain": "2/3 = 8/12 and 1/4 = 3/12 (12 is a common denominator for thirds and quarters). 8/12 + 3/12 = 11/12.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "A cooler on a barra fishing trip starts 7/8 full of ice and fish. By the afternoon, 1/4 of the cooler's contents have melted and drained away. What fraction of the cooler is left, as a decimal?",
+          "answer": 0.625,
+          "tolerance": 0.001,
+          "explain": "1/4 = 2/8, so 7/8 - 2/8 = 5/8, which is 0.625.",
+          "difficulty": 3
+        },
+        {
+          "type": "text",
+          "prompt": "After the trip, 6/8 of a fuel drum has been used. Write the fraction of fuel used in its simplest form.",
+          "answer": [
+            "3/4"
+          ],
+          "explain": "6 and 8 both divide by 2: 6/2=3, 8/2=4, giving 3/4, which can't be simplified further.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A fuel drum is 5/6 full. Dad uses 1/4 of the drum's capacity for the tractor, then a further 1/12 leaks out overnight. What fraction of the drum is left, as a decimal?",
+          "answer": 0.5,
+          "tolerance": 0.001,
+          "explain": "Using twelfths: 5/6 = 10/12, 1/4 = 3/12, 1/12 = 1/12. 10/12 - 3/12 - 1/12 = 6/12 = 0.5.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "On a fishing trip, three eskies hold ice: esky A is 1/2 full, esky B is 1/3 full, and esky C is 1/6 full. If all the ice were tipped into one esky the same size as the others, what fraction of a full esky would that be?",
+          "answer": 1,
+          "tolerance": 0.001,
+          "explain": "Using sixths: 1/2 = 3/6, 1/3 = 2/6, 1/6 = 1/6. 3/6 + 2/6 + 1/6 = 6/6 = 1 whole esky.",
+          "difficulty": 4
+        },
+        {
+          "type": "text",
+          "prompt": "Which leaves more remaining: starting with 7/8 and subtracting 1/4, or starting with 5/6 and subtracting 1/3? Answer 'first' or 'second'.",
+          "answer": [
+            "first",
+            "the first",
+            "first one"
+          ],
+          "explain": "7/8 - 1/4 = 7/8 - 2/8 = 5/8 = 0.625. 5/6 - 1/3 = 5/6 - 2/6 = 3/6 = 0.5. 0.625 is bigger, so the first leaves more remaining.",
+          "difficulty": 4
+        },
+        {
+          "type": "mc",
+          "prompt": "A tank is 5/8 full. After a leak, it drops by 1/4. Which calculation correctly finds the fraction remaining?",
+          "choices": [
+            "5/8 - 1/4 = 4/4",
+            "5/8 - 2/8 = 3/8",
+            "5/8 - 1/4 = 5/4",
+            "5/8 + 1/4 = 7/8"
+          ],
+          "answer": "5/8 - 2/8 = 3/8",
+          "explain": "1/4 must first be converted to eighths (1/4 = 2/8) before subtracting, since the pieces have to be the same size: 5/8 - 2/8 = 3/8.",
+          "difficulty": 4
+        }
+      ],
+      "activity": {
+        "title": "Mix a trail snack using fraction addition",
+        "why": "Proves they can combine several unlike fractions of real ingredients and check the predicted total against what actually comes out on the scale.",
+        "est_minutes": 25,
+        "adult_help": "none",
+        "materials": [
+          "measuring cups (1/2, 1/3 and 1/4 if you have them, or one cup marked with lines)",
+          "three dry ingredients (oats, sultanas, choc chips, nuts, rice, etc.)",
+          "a bowl",
+          "kitchen scales"
+        ],
+        "steps": [
+          "Choose three dry ingredients from the pantry.",
+          "Measure out 1/2 cup of the first, 1/3 cup of the second, and 1/4 cup of the third using your measuring cups.",
+          "Before mixing, work out on paper what 1/2 + 1/3 + 1/4 equals as a fraction (common denominator 12), then convert it to a decimal.",
+          "Tip all three measured amounts into one bowl and mix them together.",
+          "Weigh the total mixed amount on the kitchen scale, in grams.",
+          "Try measuring your mixed snack back out using a 1-cup measure - does it fill more than one cup, exactly one, or less?",
+          "Record your results below."
+        ],
+        "record": [
+          {
+            "id": "calculated_total_decimal",
+            "label": "Your worked-out decimal total for 1/2 + 1/3 + 1/4",
+            "type": "number",
+            "hint": "e.g. 1.08",
+            "min": 0.5,
+            "max": 2
+          },
+          {
+            "id": "mix_weight_g",
+            "label": "The measured weight of your whole mixed snack, in grams",
+            "type": "number",
+            "unit": "g",
+            "hint": "from the kitchen scale",
+            "min": 20,
+            "max": 2000
+          },
+          {
+            "id": "cups_used_estimate",
+            "label": "How many cups did the finished mix fill when measured back?",
+            "type": "number",
+            "unit": "cups",
+            "hint": "e.g. 1.1",
+            "min": 0.5,
+            "max": 3
+          },
+          {
+            "id": "observation_text",
+            "label": "Did the finished mix match your calculated prediction? Describe any difference.",
+            "type": "text",
+            "hint": "two or three sentences",
+            "min_words": 15
+          }
+        ],
+        "check": "1/2 + 1/3 + 1/4 = 13/12, about 1.08 - so the real mix should fill a little more than one cup when measured back. A weighed mass under about 50 g for three combined 1/3-1/2 cup ingredients suggests a cup wasn't filled properly.",
+        "xp": 45
+      },
+      "kind": "lesson"
+    },
+    {
+      "slug": "y6-decimals-powers-of-ten",
+      "title": "Multiplying and Dividing Decimals by 10, 100 and 1000",
+      "strand": "Number",
+      "year_level": 6,
+      "curriculum_code": "AC9M6N06",
+      "curriculum_text": "multiply and divide decimals by multiples of powers of 10 without a calculator, applying knowledge of place value and proficiency with multiplication facts; using estimation and rounding to check the reasonableness of answers",
+      "position": 6,
+      "est_minutes": 12,
+      "intro": "Multiplying or dividing by 10, 100 or 1000 is one of the fastest tricks in maths - once you understand it's the digits that shift, not some magic with the decimal point.",
+      "sections": [
+        {
+          "heading": "What really happens when you multiply by 10",
+          "body": "It's tempting to think \"just add a zero\", but that trick breaks down with decimals. What actually happens is every digit shifts **one place-value column to the left**.\n\n4.5 × 10: the 4 moves from the ones column to the tens column, and the 5 moves from tenths to ones. The result is 45.",
+          "example": {
+            "prompt": "4.5 × 10 = ?",
+            "working": [
+              "Each digit shifts one column left",
+              "4 (ones) becomes 4 (tens); 5 (tenths) becomes 5 (ones)"
+            ],
+            "answer": "45"
+          }
+        },
+        {
+          "heading": "Multiplying by 100 and 1000",
+          "body": "Multiplying by 100 shifts every digit two columns left. Multiplying by 1000 shifts every digit three columns left.\n\n2.36 × 100: shift two columns left, giving 236."
+        },
+        {
+          "heading": "Dividing by powers of 10",
+          "body": "Dividing works the opposite way - digits shift to the **right**. Dividing by 10 shifts one column right, by 100 shifts two columns right, and by 1000 shifts three columns right.",
+          "example": {
+            "prompt": "58.4 ÷ 10 = ?",
+            "working": [
+              "Each digit shifts one column right",
+              "5 (tens) becomes 5 (ones); 8 (ones) becomes 8 (tenths); 4 (tenths) becomes 4 (hundredths)"
+            ],
+            "answer": "5.84"
+          }
+        },
+        {
+          "heading": "Estimating to check",
+          "body": "Before calculating, ask yourself: is the number getting bigger (multiplying) or smaller (dividing)? By roughly how many places?\n\nIf your answer moves the wrong way - for example, dividing by 10 makes the number bigger - you know a digit has shifted the wrong direction."
+        }
+      ],
+      "key_points": [
+        "Multiplying by 10, 100 or 1000 shifts digits left by 1, 2 or 3 places.",
+        "Dividing by 10, 100 or 1000 shifts digits right by 1, 2 or 3 places.",
+        "It's the digits that shift relative to the decimal point, not the point that moves by magic.",
+        "Check the direction: multiplying makes a number bigger, dividing makes it smaller."
+      ],
+      "try_this": "Find a price tag or supermarket docket, for example mangoes at $3.20/kg. Work out the cost of 10 kg and 100 kg mentally by shifting the digits, then check your answer with a calculator.",
+      "questions": [
+        {
+          "type": "tf",
+          "prompt": "Multiplying a decimal by 100 moves the digits two place-value columns to the left.",
+          "answer": true,
+          "explain": "Each factor of 10 shifts the digits one column. 100 is 10×10, so it shifts two columns left.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "4.5 × 10 = ?",
+          "choices": [
+            "4.50",
+            "45",
+            "450",
+            "0.45"
+          ],
+          "answer": "45",
+          "explain": "Every digit shifts one column left: 4.5 becomes 45.",
+          "difficulty": 1
+        },
+        {
+          "type": "numeric",
+          "prompt": "Diesel costs $2.36 per litre. How much would 100 litres cost?",
+          "answer": 236.0,
+          "tolerance": 0.001,
+          "unit": "$",
+          "explain": "Multiplying by 100 shifts every digit two places left: $2.36 becomes $236.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "A group of 10 mates share a $58.40 fuel bill for the tinny equally. How much does each person pay?",
+          "answer": 5.84,
+          "tolerance": 0.001,
+          "unit": "$",
+          "explain": "Dividing by 10 shifts every digit one column right: 58.40 divided by 10 is 5.84.",
+          "difficulty": 2
+        },
+        {
+          "type": "mc",
+          "prompt": "A 0.72 m roll of string is cut into 100 equal pieces. How long is each piece, in metres?",
+          "choices": [
+            "0.72 m",
+            "7.2 m",
+            "0.0072 m",
+            "72 m"
+          ],
+          "answer": "0.0072 m",
+          "explain": "Dividing by 100 shifts every digit two columns right: 0.72 becomes 0.0072.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "Unleaded costs $1.85 per litre. A servo's underground tank holds 1000 litres. What is a full tank worth, in dollars?",
+          "answer": 1850.0,
+          "tolerance": 0.001,
+          "unit": "$",
+          "explain": "Multiplying by 1000 shifts every digit three columns left: 1.85 becomes 1850.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "A bulk tank holds 847.5 L of molasses for cattle feed, to be split evenly into 10 drums. How many litres go in each drum?",
+          "answer": 84.75,
+          "tolerance": 0.001,
+          "unit": "L",
+          "explain": "Dividing by 10 shifts every digit one column right: 847.5 becomes 84.75.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "At the servo till, $4.80 is meant to be multiplied by 10 for a 10-drum diesel order, but the screen still shows $4.80 - the shift didn't register. What should the correct total actually be?",
+          "answer": 48.0,
+          "tolerance": 0.001,
+          "unit": "$",
+          "explain": "Multiplying by 10 shifts every digit one column left: 4.80 becomes 48.00, so the correct total is $48, not $4.80.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A packet of 100 fishing sinkers weighs 2.45 kg in total. If you had 1000 sinkers of the same size, how many kilograms would they weigh?",
+          "answer": 24.5,
+          "tolerance": 0.001,
+          "explain": "One sinker weighs 2.45 ÷ 100 = 0.0245 kg. 1000 sinkers weigh 0.0245 x 1000 = 24.5 kg.",
+          "difficulty": 4,
+          "unit": "kg"
+        },
+        {
+          "type": "numeric",
+          "prompt": "Diesel costs $186.50 for 100 litres. Petrol costs $19.80 for 10 litres. Diesel is cheaper per litre than petrol - by how many cents per litre?",
+          "answer": 11.5,
+          "tolerance": 0.001,
+          "explain": "Diesel: 186.50 ÷ 100 = $1.865/L. Petrol: 19.80 ÷ 10 = $1.98/L. The difference is 1.98 - 1.865 = $0.115, which is 11.5 cents.",
+          "difficulty": 4,
+          "unit": "cents"
+        },
+        {
+          "type": "numeric",
+          "prompt": "A number is divided by 100, then the result is multiplied by 1000. The final answer is 450. What was the original number?",
+          "answer": 45,
+          "tolerance": 0.001,
+          "explain": "Dividing by 100 then multiplying by 1000 is the same as multiplying by 10 overall. So the original number x 10 = 450, meaning the original number was 45.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A depot tank holds 45.6 L. A servo's bulk tank holds 100 times as much, minus 15 L lost to evaporation. How many litres does the servo tank hold?",
+          "answer": 4545,
+          "tolerance": 0.001,
+          "explain": "45.6 x 100 = 4560. 4560 - 15 = 4545.",
+          "difficulty": 4,
+          "unit": "L"
+        }
+      ],
+      "activity": {
+        "title": "Stack, measure and predict using powers of ten",
+        "why": "Proves they can use a x10 shift to predict a real measurement, then check the prediction against something they actually built and measured.",
+        "est_minutes": 20,
+        "adult_help": "none",
+        "materials": [
+          "20-50 identical small flat objects (coins, playing cards, or sheets of paper)",
+          "a ruler with mm markings",
+          "paper and pencil"
+        ],
+        "steps": [
+          "Choose one type of small flat object you have at least 20 of.",
+          "Measure the thickness of a single one as accurately as you can in millimetres - it's fine to stack 5 together, measure that stack, and divide by 5 for a more accurate single thickness.",
+          "Using powers of ten, calculate what you predict the height of a stack of 10 would be, in millimetres.",
+          "Physically stack exactly 10 of the objects and measure the real height with your ruler.",
+          "Compare your prediction to your real measurement.",
+          "Using your single-object thickness, calculate what a stack of 100 would measure, in millimetres.",
+          "Record your results below."
+        ],
+        "record": [
+          {
+            "id": "single_thickness_mm",
+            "label": "Measured thickness of a single object, in mm",
+            "type": "number",
+            "unit": "mm",
+            "hint": "may be a fraction of a mm",
+            "min": 0.05,
+            "max": 20
+          },
+          {
+            "id": "stack_of_10_actual_mm",
+            "label": "Measured height of your real stack of 10, in mm",
+            "type": "number",
+            "unit": "mm",
+            "hint": "from the ruler",
+            "min": 1,
+            "max": 200
+          },
+          {
+            "id": "predicted_100_mm",
+            "label": "Your calculated prediction for a stack of 100, in mm",
+            "type": "number",
+            "unit": "mm",
+            "hint": "use powers of ten",
+            "min": 5,
+            "max": 2000
+          },
+          {
+            "id": "notes_text",
+            "label": "How close was your prediction to reality, and what made measuring one object tricky?",
+            "type": "text",
+            "hint": "two or three sentences",
+            "min_words": 12
+          }
+        ],
+        "check": "The measured 10-stack should be roughly 10 times the single-object thickness (allow for squashing or small gaps). The 100-prediction should be exactly 10 times the measured 10-stack value if the powers-of-ten maths was done correctly.",
+        "xp": 40
+      },
+      "kind": "lesson"
+    },
+    {
+      "slug": "y6-percentages-discounts",
+      "title": "Finding Fractions, Decimals and Percentages of an Amount",
+      "strand": "Number",
+      "year_level": 6,
+      "curriculum_code": "AC9M6N07",
+      "curriculum_text": "solve problems that require finding a familiar fraction, decimal or percentage of a quantity, including percentage discounts, choosing efficient calculation strategies and using digital tools where appropriate",
+      "position": 7,
+      "est_minutes": 14,
+      "intro": "Sale signs, GST, and \"half price\" stickers are all percentages in disguise. Once you see that a fraction, a decimal and a percentage can all describe the exact same amount, working out a discount takes seconds.",
+      "sections": [
+        {
+          "heading": "Fraction, decimal, percentage - same family",
+          "body": "**Percent** means \"out of 100\". 50% is the same amount as 0.5, which is the same amount as 1/2. They're three different outfits for the same idea.\n\n- 1/2 = 0.5 = 50%\n- 1/4 = 0.25 = 25%\n- 3/4 = 0.75 = 75%\n- 1/10 = 0.1 = 10%\n\nKnowing these \"friendly\" conversions by heart makes percentage problems much faster."
+        },
+        {
+          "heading": "Finding a percentage of an amount",
+          "body": "The reliable method: divide the percentage by 100, then multiply by the amount. But for friendly percentages, there's often a shortcut.\n\n- 50% of an amount: halve it.\n- 25% of an amount: quarter it (halve, then halve again).\n- 10% of an amount: divide by 10.",
+          "example": {
+            "prompt": "What is 25% of 80?",
+            "working": [
+              "25% is a quarter",
+              "Halve 80 to get 40, then halve again to get 20"
+            ],
+            "answer": "20"
+          }
+        },
+        {
+          "heading": "Percentage discounts",
+          "body": "A **discount** is an amount taken off the original price. To find the sale price: work out the discount amount, then subtract it from the original price.",
+          "example": {
+            "prompt": "A $45 fishing rod is on sale with 20% off. What's the sale price?",
+            "working": [
+              "Find 20% of 45: 10% of 45 is 4.50, so 20% is double that, 9.00",
+              "Subtract the discount: 45 - 9 = 36"
+            ],
+            "answer": "$36"
+          }
+        },
+        {
+          "heading": "Choosing an efficient strategy",
+          "body": "For awkward percentages like 15%, break them into friendlier pieces: find 10%, then add half of that 10% amount (which is 5%).\n\nDigital tools like a calculator are useful for messy numbers, but knowing the friendly shortcuts means you often don't need one at all."
+        }
+      ],
+      "key_points": [
+        "50% = 1/2, 25% = 1/4, 10% = 1/10 - learn these by heart.",
+        "Find 10% by dividing by 10, then scale up or down from there.",
+        "Sale price = original price minus the discount amount.",
+        "Break awkward percentages (like 15%) into friendlier pieces, such as 10% + 5%."
+      ],
+      "try_this": "Find real sale signs - junk mail, a supermarket catalogue, or an online store. Pick two or three items with a percentage off and work out the discount amount and the new price by hand before checking with a calculator.",
+      "questions": [
+        {
+          "type": "tf",
+          "prompt": "50% of an amount is the same as finding half of it.",
+          "answer": true,
+          "explain": "50% means 50 out of 100, which is exactly one half.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "What is 10% of $60?",
+          "choices": [
+            "$6",
+            "$60",
+            "$0.60",
+            "$16"
+          ],
+          "answer": "$6",
+          "explain": "10% means dividing by 10: 60 ÷ 10 = 6.",
+          "difficulty": 1
+        },
+        {
+          "type": "numeric",
+          "prompt": "A fishing club has 80 members. 25% of them own a tinny. How many members own a tinny?",
+          "answer": 20,
+          "tolerance": 0.001,
+          "unit": "members",
+          "explain": "25% is a quarter. Halving 80 gives 40, halving again gives 20.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "A $65 rod and reel combo is discounted by 20% for the Cooktown Show. How much is the discount, in dollars?",
+          "answer": 13.0,
+          "tolerance": 0.001,
+          "unit": "$",
+          "explain": "10% of 65 is 6.50. 20% is double that: 6.50 x 2 = 13.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "That same $65 rod and reel combo, discounted by 20%, goes on sale. What is the sale price, in dollars?",
+          "answer": 52.0,
+          "tolerance": 0.001,
+          "unit": "$",
+          "explain": "The discount is $13 (20% of 65). 65 - 13 = 52.",
+          "difficulty": 2
+        },
+        {
+          "type": "mc",
+          "prompt": "A shop puts up four signs for the same clearance rack: '1/4 off', '0.25 off', '25% off', and '2.5% off'. Which sign offers a different discount from the other three?",
+          "choices": [
+            "1/4 off",
+            "0.25 off",
+            "25% off",
+            "2.5% off"
+          ],
+          "answer": "2.5% off",
+          "explain": "1/4, 0.25 and 25% are all the same amount. 2.5% is ten times smaller.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "A tinny usually sells for $3,200. During the Wet season clearance, it's reduced by 15%. What is the sale price?",
+          "answer": 2720.0,
+          "tolerance": 0.001,
+          "unit": "$",
+          "explain": "10% of 3200 is 320, and 5% is half of that, 160. 15% = 320 + 160 = 480. 3200 - 480 = 2720.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "An outboard motor service costs $340, plus an extra 15% callout fee for a job out at Ayton. What is the total bill including the callout fee?",
+          "answer": 391.0,
+          "tolerance": 0.001,
+          "unit": "$",
+          "explain": "10% of 340 is 34, and 5% is half of that, 17. 15% = 34 + 17 = 51. Total bill: 340 + 51 = 391.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A boogie board is priced at $88 (GST already included). A floor-stock sale takes 25% off the marked price. What is the final sale price?",
+          "answer": 66,
+          "tolerance": 0.001,
+          "explain": "25% of 88 is 22. 88 - 22 = 66.",
+          "difficulty": 4,
+          "unit": "$"
+        },
+        {
+          "type": "numeric",
+          "prompt": "A $64 pair of thongs (GST included) has two discounts applied one after the other: first 25% off, then a further 10% off the new price. What is the final price?",
+          "answer": 43.2,
+          "tolerance": 0.001,
+          "explain": "25% of 64 is 16, giving a price of 48. 10% of 48 is 4.80, giving a final price of 48 - 4.80 = 43.20.",
+          "difficulty": 4,
+          "unit": "$"
+        },
+        {
+          "type": "numeric",
+          "prompt": "A shirt normally costs $40 and is on sale for $30. What percentage discount is this?",
+          "answer": 25,
+          "tolerance": 0.001,
+          "explain": "The discount is 40 - 30 = $10. As a percentage of the original: 10 ÷ 40 = 0.25, which is 25%.",
+          "difficulty": 4,
+          "unit": "%"
+        },
+        {
+          "type": "mc",
+          "prompt": "A market stall raises the price of mangoes by 20%, then during a later sale drops the new price by 20%. Compared to the original price, the final price is:",
+          "choices": [
+            "The same as the original",
+            "4% lower than the original",
+            "4% higher than the original",
+            "40% lower than the original"
+          ],
+          "answer": "4% lower than the original",
+          "explain": "Starting at $100: +20% gives $120. Then -20% of $120 is $24, giving $96 - that's 4% lower than the original $100, not back to the start.",
+          "difficulty": 4
+        }
+      ],
+      "activity": {
+        "title": "Run a percentage-guessing survey",
+        "why": "Tests whether they can work out a real discount fast enough to judge other people's guesses on the spot, using an actual audience rather than just checking their own working.",
+        "est_minutes": 25,
+        "adult_help": "none",
+        "materials": [
+          "paper and pencil",
+          "two or three real prices (from pantry items, a catalogue or a receipt)",
+          "a stopwatch or phone timer",
+          "at least 3 people to survey"
+        ],
+        "steps": [
+          "Pick 3 real items with prices around the house and make up a percentage discount for each, e.g. '15% off $24'.",
+          "Before asking anyone, work out the exact correct discounted price for each of your 3 items yourself, on paper.",
+          "Ask at least 3 different people to mentally estimate the sale price for each item, without a calculator, and time how long each person takes to answer.",
+          "Record each guess next to the correct answer, and mark whether it was within $1 of correct.",
+          "Total up how many of all the guesses you collected were within $1 of the true answer.",
+          "Record your results below."
+        ],
+        "record": [
+          {
+            "id": "people_surveyed",
+            "label": "How many people did you survey?",
+            "type": "number",
+            "hint": "at least 3",
+            "min": 3,
+            "max": 15
+          },
+          {
+            "id": "correct_within_1",
+            "label": "How many guesses (across all people and items) were within $1 of the true price?",
+            "type": "number",
+            "hint": "out of all guesses collected",
+            "min": 0,
+            "max": 45
+          },
+          {
+            "id": "fastest_guess_time_s",
+            "label": "The fastest time any guesser took to answer, in seconds",
+            "type": "number",
+            "unit": "s",
+            "hint": "from your stopwatch",
+            "min": 1,
+            "max": 120
+          },
+          {
+            "id": "surprises_text",
+            "label": "Who got closest, and did any wrong guess surprise you?",
+            "type": "text",
+            "hint": "two or three sentences",
+            "min_words": 15
+          }
+        ],
+        "check": "correct_within_1 can be at most 3 times the number of people surveyed (one guess per item per person) - a higher total, or every single guess being perfectly correct, is worth double-checking.",
+        "xp": 40
+      },
+      "kind": "lesson"
+    },
+    {
+      "slug": "y6-maths-modelling-money-problems",
+      "title": "Solving Real Problems with Numbers and Percentages",
+      "strand": "Number",
+      "year_level": 6,
+      "curriculum_code": "AC9M6N09",
+      "curriculum_text": "use mathematical modelling to solve practical problems involving natural and rational numbers and percentages, including in financial contexts",
+      "position": 8,
+      "est_minutes": 14,
+      "intro": "Planning a trip, budgeting pocket money, working out fuel costs - these are all real problems with a maths solution hiding inside. Mathematical modelling is the skill of turning a messy real-life story into numbers, solving it, and checking the answer actually makes sense.",
+      "sections": [
+        {
+          "heading": "What mathematical modelling means",
+          "body": "**Mathematical modelling** means taking a real situation, deciding what maths to use, solving it, and then checking your answer against the real world.\n\nIt's different from a plain sums question, because you have to work out *what to calculate* before you can calculate it."
+        },
+        {
+          "heading": "Steps of the modelling cycle",
+          "body": "1. **Understand** - what is the problem actually asking?\n2. **Represent** - choose the operations or equation that match the story.\n3. **Calculate** - work it out carefully.\n4. **Check** - does the answer make sense in real life?\n5. **Interpret** - explain the answer in the context of the original problem."
+        },
+        {
+          "heading": "Worked example: planning a trip",
+          "body": "Say a family is driving from Cooktown to Cairns and wants to know the fuel cost.",
+          "example": {
+            "prompt": "The trip is 330 km. The car uses 1 litre of fuel per 10 km, and fuel costs $1.90 per litre. What's the total fuel cost?",
+            "working": [
+              "Litres needed: 330 ÷ 10 = 33 litres",
+              "Cost: 33 × 1.90 = $62.70"
+            ],
+            "answer": "$62.70"
+          }
+        },
+        {
+          "heading": "Percentages and financial decisions",
+          "body": "Many financial problems use percentages - GST included in a shop price, a discount, or working out how many weeks it will take to save for something.\n\nGST (Goods and Services Tax) in Australia is usually already included in the price you see on the shelf - the number on the tag is what you actually pay."
+        }
+      ],
+      "key_points": [
+        "Mathematical modelling turns a real problem into maths, then back into a real answer.",
+        "Follow the steps: understand, represent, calculate, check, interpret.",
+        "Always check whether your answer makes sense in real life.",
+        "Shop prices in Australia usually already include GST - what you see is what you pay."
+      ],
+      "try_this": "Plan a mini budget for a family outing, such as a picnic at the Endeavour River. Give yourself a pretend $50 and list what you'd spend it on (fuel, snacks, ice for the esky), adding it up as you go to make sure you don't go over budget.",
+      "questions": [
+        {
+          "type": "tf",
+          "prompt": "Checking whether your answer makes sense in real life is an important part of solving a maths problem.",
+          "answer": true,
+          "explain": "This is the \"check\" step of modelling - it catches mistakes like a negative age or an impossible amount of fruit.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "Which is the first step of solving a real-world maths problem?",
+          "choices": [
+            "Just start calculating",
+            "Understand what the problem is really asking",
+            "Guess an answer",
+            "Copy a friend's answer"
+          ],
+          "answer": "Understand what the problem is really asking",
+          "explain": "Without understanding the problem, you can't choose the right operations to represent it.",
+          "difficulty": 1
+        },
+        {
+          "type": "numeric",
+          "prompt": "A ute's fuel tank holds 55 litres. Unleaded costs $1.92 per litre. What does it cost to fill the tank from empty?",
+          "answer": 105.6,
+          "tolerance": 0.001,
+          "unit": "$",
+          "explain": "1.92 x 55 = 105.60.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "A family budgets $280 for a weekend trip to Lakefield. They've already spent $112 on fuel and camping fees, and $79 on food. How much money do they have left?",
+          "answer": 89.0,
+          "tolerance": 0.001,
+          "unit": "$",
+          "explain": "280 - 112 - 79 = 89.",
+          "difficulty": 2
+        },
+        {
+          "type": "mc",
+          "prompt": "A shop price already includes 10% GST. Which statement is true?",
+          "choices": [
+            "The GST is added on top at the checkout",
+            "The price shown is what you pay - GST is already included",
+            "GST only applies to fuel",
+            "You need to add 10% more at the register"
+          ],
+          "answer": "The price shown is what you pay - GST is already included",
+          "explain": "In Australia, GST is built into the shelf price for most goods, so the tag price is the final price.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "Kobie is saving for a $225 kayak paddle and gear bundle. He's saved $45 so far and plans to save $15 each week from bagging mangoes at the packing shed. How many more weeks until he reaches $225?",
+          "answer": 12.0,
+          "tolerance": 0.001,
+          "unit": "weeks",
+          "explain": "He still needs 225 - 45 = 180 dollars. At $15 a week, 180 / 15 = 12 weeks.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "A family drives from Cooktown to Cairns via the inland Mulligan Highway, a distance of 280 km, for the annual show. Their car uses fuel at a rate of 1 litre per 10 km, and fuel costs $1.95 per litre. How much will the fuel cost for the trip?",
+          "answer": 54.6,
+          "tolerance": 0.001,
+          "unit": "$",
+          "explain": "Litres needed: 280 / 10 = 28. Cost: 28 x 1.95 = 54.60.",
+          "difficulty": 3
+        },
+        {
+          "type": "mc",
+          "prompt": "Jayden models a problem and calculates that a 25 kg drum of fishing burley will make -8 serves for the berley trail. What should he do?",
+          "choices": [
+            "Accept the answer since the maths worked",
+            "Recognise a negative number of serves doesn't make sense and check his working",
+            "Round it to zero and move on",
+            "Add 8 to make it positive"
+          ],
+          "answer": "Recognise a negative number of serves doesn't make sense and check his working",
+          "explain": "This is the 'check' step of modelling - a negative number of serves is impossible, which signals an error in the working, not a valid answer.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A family drives from Cooktown to Cairns and back (330 km each way). Their car uses 1 litre per 10 km, and fuel costs $1.90/L. They also budget $60 for food. What is the total cost of the round trip?",
+          "answer": 185.4,
+          "tolerance": 0.001,
+          "explain": "Round trip distance: 330 x 2 = 660 km. Litres needed: 660 ÷ 10 = 66. Fuel cost: 66 x 1.90 = 125.40. Total with food: 125.40 + 60 = 185.40.",
+          "difficulty": 4,
+          "unit": "$"
+        },
+        {
+          "type": "numeric",
+          "prompt": "Tama is saving for a $250 kayak. He already has $70 saved, and plans to save $12 a week. In week 4 he also earns a $20 bonus for chores. After 6 weeks (including that bonus), how much more does he still need?",
+          "answer": 88,
+          "tolerance": 0.001,
+          "explain": "6 weeks of saving: 6 x 12 = 72. Plus the $20 bonus: 72 + 20 = 92. Plus what he already had: 70 + 92 = 162 saved. Still needed: 250 - 162 = 88.",
+          "difficulty": 4,
+          "unit": "$"
+        },
+        {
+          "type": "numeric",
+          "prompt": "A market stall sells mangoes loose at $4.50/kg, or in a 3 kg box for $12. Buying the box is cheaper per kilogram - by how many cents per kg?",
+          "answer": 50,
+          "tolerance": 0.001,
+          "explain": "Loose price is $4.50/kg. Box price per kg: 12 ÷ 3 = $4.00/kg. Difference: 4.50 - 4.00 = $0.50, which is 50 cents.",
+          "difficulty": 4,
+          "unit": "cents"
+        },
+        {
+          "type": "numeric",
+          "prompt": "A school excursion costs $8 per student for entry, plus a flat $40 bus fee split evenly among 20 students. What is the total cost per student?",
+          "answer": 10,
+          "tolerance": 0.001,
+          "explain": "The flat fee per student is 40 ÷ 20 = $2. Adding the entry fee: 8 + 2 = $10 per student.",
+          "difficulty": 4,
+          "unit": "$"
+        }
+      ],
+      "activity": {
+        "title": "Cost and time a real local trip",
+        "why": "Proves they can turn a real, measured distance and real prices into one modelled total and an average speed, not just plug numbers into a formula that's already set up for them.",
+        "est_minutes": 30,
+        "adult_help": "nearby",
+        "materials": [
+          "a bike or walking shoes",
+          "a phone with a maps app, a bike odometer, or careful pacing",
+          "a real receipt or three priced pantry items",
+          "paper and pencil"
+        ],
+        "steps": [
+          "Choose a real short trip you could do today - riding or walking to a nearby park, shop, or the end of the street and back.",
+          "With an adult's OK, use a maps app, bike computer, or careful pacing (count paces and multiply by your measured pace length) to find the real one-way distance.",
+          "Actually do the round trip and time the whole thing, in minutes.",
+          "Find 3 real food or drink prices from pantry items or a receipt at home that you'd realistically take on the trip.",
+          "Add up the total cost of your 3 items.",
+          "Work out your average speed for the trip in km/h (round-trip distance in km, divided by time in hours).",
+          "Record your results below."
+        ],
+        "record": [
+          {
+            "id": "round_trip_distance_km",
+            "label": "Total round-trip distance, in km",
+            "type": "number",
+            "unit": "km",
+            "hint": "one or two decimal places",
+            "min": 0.1,
+            "max": 20
+          },
+          {
+            "id": "time_taken_min",
+            "label": "Total time taken for the round trip, in minutes",
+            "type": "number",
+            "unit": "min",
+            "hint": "timed with a phone or watch",
+            "min": 1,
+            "max": 180
+          },
+          {
+            "id": "total_snack_cost",
+            "label": "Total cost of your 3 chosen items",
+            "type": "number",
+            "unit": "$",
+            "hint": "add the real prices",
+            "min": 0.5,
+            "max": 50
+          },
+          {
+            "id": "speed_reflection",
+            "label": "How did you calculate your speed, and did it feel fast or slow compared to normal?",
+            "type": "text",
+            "hint": "two or three sentences",
+            "min_words": 15
+          }
+        ],
+        "check": "The calculated speed should be a believable walking pace (roughly 4-6 km/h) or riding pace (roughly 12-20 km/h). A speed over about 30 km/h for a walk, or a huge mismatch between distance and time, usually means the distance or time was measured incorrectly.",
+        "xp": 45
+      },
+      "kind": "lesson"
+    },
+    {
+      "slug": "y6-number-patterns-growing-rules",
+      "title": "Number Patterns and Growing Rules",
+      "strand": "Algebra",
+      "year_level": 6,
+      "curriculum_code": "AC9M6A01",
+      "curriculum_text": "recognise and use rules that generate visually growing patterns and number patterns involving rational numbers",
+      "position": 9,
+      "est_minutes": 13,
+      "intro": "Every pattern is hiding a rule. Find the rule, and you can predict the 20th term without ever writing out the first 19 - even when the pattern grows by a fraction or a decimal.",
+      "sections": [
+        {
+          "heading": "Spotting the rule in a number pattern",
+          "body": "Look at the gap between each term and the next. If it's always the same, you've found the rule.\n\nIn 2, 5, 8, 11 ... each term is 3 more than the last. The rule is \"start at 2, add 3 each time\"."
+        },
+        {
+          "heading": "Visually growing patterns",
+          "body": "Shape patterns - dots, tiles, matchsticks - can grow the same way. Count how many items are added at each step, and you'll find a matching number pattern.\n\nA row of mango crates stacked in a growing triangle, or matchstick triangles joined in a row, both hide a number rule you can write down."
+        },
+        {
+          "heading": "Patterns with decimals and fractions",
+          "body": "The rule doesn't have to be a whole number. A pattern can grow by 0.5 each time, or by a fraction like 1/4.",
+          "example": {
+            "prompt": "1/4, 1/2, 3/4, __ - what comes next?",
+            "working": [
+              "Each term adds 1/4",
+              "3/4 + 1/4 = 4/4 = 1"
+            ],
+            "answer": "1"
+          }
+        },
+        {
+          "heading": "Predicting further terms",
+          "body": "Once you know the rule, you don't need to list every term to find, say, the 10th one. Use the rule directly: start value, plus the rule applied the right number of times.\n\nFor \"start at 3, add 4 each time\", the 5th term is 3 + 4×4 = 19 - four \"add 4\" steps after the start."
+        }
+      ],
+      "key_points": [
+        "Find the difference between terms to spot an addition/subtraction rule.",
+        "A pattern's rule can involve fractions or decimals, not just whole numbers.",
+        "Describe a rule in words: the start value, plus what happens each step.",
+        "Use the rule to jump ahead to a far term without listing every one in between."
+      ],
+      "try_this": "Build a growing pattern with matchsticks, toothpicks or dried beans - for example, triangles that share a side, adding 2 matchsticks each time. Record the total after each step and work out the rule.",
+      "questions": [
+        {
+          "type": "tf",
+          "prompt": "In the pattern 2, 5, 8, 11, ..., the rule is add 3 each time.",
+          "answer": true,
+          "explain": "5-2=3, 8-5=3, 11-8=3. The gap is always 3.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "What is the next number in this pattern: 4, 7, 10, 13, __?",
+          "choices": [
+            "15",
+            "16",
+            "17",
+            "14"
+          ],
+          "answer": "16",
+          "explain": "The rule is add 3 each time. 13 + 3 = 16.",
+          "difficulty": 1
+        },
+        {
+          "type": "numeric",
+          "prompt": "A young mango tree grows the same extra height each year. It stands 1.5 m, then 2 m, then 2.5 m, then 3 m tall at the end of each of its first four years. Following the pattern, how tall will it be at the end of year 5, in metres?",
+          "answer": 3.5,
+          "tolerance": 0.001,
+          "explain": "The rule is add 0.5 each year. 3 + 0.5 = 3.5.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "A rain gauge fills by the same fraction of its capacity every hour: 1/4, then 1/2, then 3/4 full after the first three hours. Following the pattern, what fraction full will it be after hour 4, as a decimal?",
+          "answer": 1,
+          "tolerance": 0.001,
+          "explain": "The rule is add 1/4 each hour. 3/4 + 1/4 = 1, so the gauge reaches full (1.0).",
+          "difficulty": 2
+        },
+        {
+          "type": "mc",
+          "prompt": "A fish trap is built with extra rungs at each metre mark: 3 rungs at 1 m, 7 rungs at 2 m, 11 rungs at 3 m. Following the same rule, how many rungs will there be at the 5 m mark?",
+          "choices": [
+            "15",
+            "19",
+            "23",
+            "17"
+          ],
+          "answer": "19",
+          "explain": "The rule is add 4 each metre: 3, 7, 11, 15, 19. At the 5 m mark there are 19 rungs.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "A row of crab pots is joined by rope: the first pot needs 3 m of rope, and each extra pot in the row adds 2 more metres. How many metres of rope are needed for a row of 4 pots?",
+          "answer": 9,
+          "tolerance": 0.001,
+          "unit": "m",
+          "explain": "1 pot needs 3 m. Each extra pot adds 2 m: 3 + 2 + 2 + 2 = 9 m for 4 pots.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "A dam's water level drops by the same amount each week during the dry season: 100 cm, then 92.5 cm, then 85 cm deep after the first three weeks. What is the depth after the 4th week, following the pattern?",
+          "answer": 77.5,
+          "tolerance": 0.001,
+          "unit": "cm",
+          "explain": "Each step subtracts 7.5: 100, 92.5, 85, 77.5.",
+          "difficulty": 3
+        },
+        {
+          "type": "mc",
+          "prompt": "A post about a Lakefield croc sighting starts with 2 shares, then the number of new shares triples each round: 2, 6, 18 ... At which round does the count of new shares first reach 162?",
+          "choices": [
+            "3rd round",
+            "4th round",
+            "5th round",
+            "6th round"
+          ],
+          "answer": "5th round",
+          "explain": "Rounds: 2, 6, 18, 54, 162. 162 is the 5th round.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A pattern starts at an unknown number and adds 6 each time. Its 4th term is 29. What is the 1st term (the starting number)?",
+          "answer": 11,
+          "tolerance": 0.001,
+          "explain": "Getting from the 1st term to the 4th term takes 3 'add 6' steps: 4th term = start + 3x6 = start + 18. Since the 4th term is 29, start = 29 - 18 = 11.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A pattern grows by adding 2.5 each time. Its 6th term is 21. What is its 10th term?",
+          "answer": 31,
+          "tolerance": 0.001,
+          "explain": "Getting from the 6th term to the 10th term takes 4 more 'add 2.5' steps: 21 + 4x2.5 = 21 + 10 = 31.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "Mango crates are stacked so each row has 3 fewer crates than the row below it. The bottom row has 24 crates, and the pattern continues until the top row has just 3 crates. How many rows are there in total, including the bottom and top rows?",
+          "answer": 8,
+          "tolerance": 0.001,
+          "explain": "The rows are 24, 21, 18, 15, 12, 9, 6, 3 - each dropping by 3. Counting them: (24 - 3) ÷ 3 + 1 = 7 + 1 = 8 rows.",
+          "difficulty": 4
+        },
+        {
+          "type": "mc",
+          "prompt": "A pattern's rule is 'multiply by 2, then add 1' each time, starting at 3: 3, 7, 15, 31 ... What is the next term after 31?",
+          "choices": [
+            "61",
+            "63",
+            "62",
+            "64"
+          ],
+          "answer": "63",
+          "explain": "Apply the rule to 31: 31 x 2 = 62, then + 1 = 63.",
+          "difficulty": 4
+        }
+      ],
+      "activity": {
+        "title": "Build a growing pattern five stages tall and test your rule",
+        "why": "Proves they can find a growth rule from something they physically built, then use it to correctly predict a stage they haven't built yet.",
+        "est_minutes": 30,
+        "adult_help": "none",
+        "materials": [
+          "at least 40 identical small objects (stones, cups, bottle caps, blocks or coins)",
+          "paper and pencil"
+        ],
+        "steps": [
+          "Choose a growing pattern to build, e.g. a triangle of cups gaining a fixed number each new row, or a spiral of stones growing by the same number each step.",
+          "Build stage 1, then stage 2, then stage 3, counting the total objects used at each stage and writing each total down.",
+          "Build stage 4 and confirm the totals follow the same growing rule (a constant difference between stages) you can now see.",
+          "From your 4 recorded totals, work out the rule in words: the start amount, plus how many are added each stage.",
+          "Without building it, use your rule to predict the total for stage 7.",
+          "Now actually build stage 7 for real and count the total objects it needs.",
+          "Record your results, including whether your prediction was correct."
+        ],
+        "record": [
+          {
+            "id": "stage4_total",
+            "label": "Counted total number of objects at stage 4",
+            "type": "number",
+            "hint": "your actual count",
+            "min": 1,
+            "max": 200
+          },
+          {
+            "id": "predicted_stage7_total",
+            "label": "Your calculated prediction for stage 7",
+            "type": "number",
+            "hint": "worked out using your rule",
+            "min": 1,
+            "max": 500
+          },
+          {
+            "id": "actual_stage7_total",
+            "label": "Your actual counted total after building stage 7",
+            "type": "number",
+            "hint": "count carefully",
+            "min": 1,
+            "max": 500
+          },
+          {
+            "id": "rule_text",
+            "label": "Describe the rule you found (starting amount and how much is added each stage)",
+            "type": "text",
+            "hint": "one or two sentences",
+            "min_words": 12
+          }
+        ],
+        "check": "The predicted and actual stage-7 totals should match exactly if the rule was applied correctly. A mismatch usually means the step size or starting value was worked out wrong from the first four stages.",
+        "xp": 45
+      },
+      "kind": "lesson"
+    },
+    {
+      "slug": "y6-equations-brackets-unknowns",
+      "title": "Finding Unknown Values in Equations",
+      "strand": "Algebra",
+      "year_level": 6,
+      "curriculum_code": "AC9M6A02",
+      "curriculum_text": "find unknown values in numerical equations involving brackets and combinations of arithmetic operations, using the properties of numbers and operations",
+      "position": 10,
+      "est_minutes": 13,
+      "intro": "An equation is a balanced puzzle - both sides are worth exactly the same, even if one side has a missing number hiding in it. Learn the order of operations and how to undo steps, and you can find any hidden number.",
+      "sections": [
+        {
+          "heading": "What an equation says",
+          "body": "An **equation** claims two things are equal, with an equals sign in between. The unknown value is often shown as a letter, like n, standing in for a missing number.\n\n n + 8 = 15 says \"some number, plus 8, equals 15\"."
+        },
+        {
+          "heading": "Order of operations with brackets",
+          "body": "When a sum has brackets, always work out what's inside the brackets first, before doing anything else. Then multiply or divide, and finally add or subtract.\n\n3 × (2 + 5): work out (2 + 5) = 7 first, then 3 × 7 = 21."
+        },
+        {
+          "heading": "Working backwards to find an unknown",
+          "body": "To find an unknown, think of the equation as balanced scales. Whatever you do to one side, you must do to the other, to keep it balanced. Undo the operations in reverse order using their opposite (inverse) operation.",
+          "example": {
+            "prompt": "Find n: 4 × n = 36",
+            "working": [
+              "The opposite of multiplying by 4 is dividing by 4",
+              "Do it to both sides: n = 36 ÷ 4"
+            ],
+            "answer": "n = 9"
+          }
+        },
+        {
+          "heading": "Equations with brackets and multiple operations",
+          "body": "For a harder equation, undo the operations from the outside in - the reverse of how you'd normally work them out.",
+          "example": {
+            "prompt": "Find n: 3 × (n + 4) = 21",
+            "working": [
+              "Undo the ×3 first: (n + 4) = 21 ÷ 3 = 7",
+              "Undo the +4: n = 7 - 4 = 3"
+            ],
+            "answer": "n = 3"
+          }
+        }
+      ],
+      "key_points": [
+        "Work out brackets first, before multiplying, dividing, adding or subtracting.",
+        "An equation stays balanced - do the same thing to both sides.",
+        "Use inverse (opposite) operations to undo steps and reveal the unknown.",
+        "Always check your answer by substituting it back into the original equation."
+      ],
+      "try_this": "Use a coat hanger or drawn seesaw as a pretend balance scale, with the same number of counters or coins on each side. Remove or add the same number from both sides at once to show why an equation stays balanced.",
+      "questions": [
+        {
+          "type": "tf",
+          "prompt": "In the equation 2 × (3 + 4), you must work out what's in the brackets first.",
+          "answer": true,
+          "explain": "Brackets are always calculated first, before multiplying: (3+4)=7, then 2×7=14.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "What is 3 × (2 + 5)?",
+          "choices": [
+            "21",
+            "17",
+            "11",
+            "35"
+          ],
+          "answer": "21",
+          "explain": "Brackets first: 2 + 5 = 7. Then 3 × 7 = 21.",
+          "difficulty": 1
+        },
+        {
+          "type": "numeric",
+          "prompt": "After earning $8 for washing the boat, Milo has $23 in total. How much did he have before he earned the $8?",
+          "answer": 15,
+          "tolerance": 0.001,
+          "unit": "$",
+          "explain": "Undo the +8 by subtracting 8: 23 - 8 = 15.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "Four identical bags of ice cost $36 in total at the servo. What does one bag cost?",
+          "answer": 9.0,
+          "tolerance": 0.001,
+          "unit": "$",
+          "explain": "Undo the x4 by dividing both sides by 4: 36 / 4 = 9.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "Two friends each pay the same boat-ramp fee, plus $3 each for a locker. Together they pay $16. What is the boat-ramp fee alone?",
+          "answer": 5,
+          "tolerance": 0.001,
+          "unit": "$",
+          "explain": "Undo the x2: fee + 3 = 8. Undo the +3: fee = 5.",
+          "difficulty": 2
+        },
+        {
+          "type": "mc",
+          "prompt": "A tackle shop takes $2 off the marked price of a rod as a loyalty discount, then charges 5 times that discounted price for a bulk order of 5 identical rods. The bulk order came to $20. What was the marked price of one rod?",
+          "choices": [
+            "2",
+            "4",
+            "6",
+            "8"
+          ],
+          "answer": "6",
+          "explain": "Undo the x5: discounted price = 4. Undo the -2: marked price = 6.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "A car park charges a $4 flat entry fee, then $3 for every hour after the first hour (the first hour is included in the entry fee). A shopper's total charge was $19. How many hours in total did they park for?",
+          "answer": 6,
+          "tolerance": 0.001,
+          "unit": "hours",
+          "explain": "After the $4 entry fee, $15 was charged at $3 per extra hour: 19 - 4 = 15, 15 / 3 = 5 extra hours, plus the first hour = 6 hours total.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A reef fishing charter costs a flat $70 boat fee plus $20 per person. A group's total bill came to $190. How many people were in the group?",
+          "answer": 6.0,
+          "tolerance": 0.001,
+          "unit": "people",
+          "explain": "The per-person charge covers the amount above the $70 base fee: 190 - 70 = 120. Splitting $120 into $20 shares: 120 / 20 = 6 people.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A family runs a mango stall for the day. They pay $9 total for a stall fee and shade-cloth hire, and sell mangoes at $3 per kilogram. If their profit for the day was $15, how many kilograms of mangoes did they sell?",
+          "answer": 8,
+          "tolerance": 0.001,
+          "explain": "Profit = 3 x kg - 9. Setting this equal to 15: 3 x kg - 9 = 15, so 3 x kg = 24, so kg = 8.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "Find n: 3 x (n ÷ 2 - 1) = 12",
+          "answer": 10,
+          "tolerance": 0.001,
+          "explain": "Undo the x3: (n ÷ 2 - 1) = 4. Undo the -1: n ÷ 2 = 5. Undo the ÷2: n = 10.",
+          "difficulty": 4
+        },
+        {
+          "type": "text",
+          "prompt": "A fishing charter charges a $50 flat fee plus $12 per person, but gives a $20 discount if the group has more than 6 people. A group of 9 people was charged a total of $138. Does this match the charter's pricing rule? Answer yes or no.",
+          "answer": [
+            "yes",
+            "Yes"
+          ],
+          "explain": "50 + 12x9 = 50 + 108 = 158. Since the group has more than 6 people, subtract the $20 discount: 158 - 20 = 138, which matches - so yes.",
+          "difficulty": 4
+        },
+        {
+          "type": "mc",
+          "prompt": "A rectangle's perimeter is found using P = 2 x (length + width). If the perimeter is 38 cm and the width is 7 cm, what is the length?",
+          "choices": [
+            "10 cm",
+            "12 cm",
+            "14 cm",
+            "19 cm"
+          ],
+          "answer": "12 cm",
+          "explain": "38 = 2 x (length + 7). Undo the x2: length + 7 = 19. Undo the +7: length = 12 cm.",
+          "difficulty": 4
+        }
+      ],
+      "activity": {
+        "title": "Find a mystery weight using a real balance equation",
+        "why": "Proves they can turn a real, measured weight into an equation and solve it for an unknown, then check the answer against the scale.",
+        "est_minutes": 25,
+        "adult_help": "nearby",
+        "materials": [
+          "kitchen scales",
+          "at least 10 identical small objects (coins, same-size stones, blocks)",
+          "a small bag or cup",
+          "paper and pencil"
+        ],
+        "steps": [
+          "Weigh a single one of your identical objects on the kitchen scale and record its weight in grams.",
+          "Weigh the empty bag or cup on its own and record its weight in grams.",
+          "Put an unknown number of the identical objects into the bag (without counting them) and weigh the bag with objects inside - record this total weight.",
+          "Write the equation: (number of objects x single-object weight) + empty bag weight = total weight.",
+          "Solve the equation on paper to work out how many objects (n) must be in the bag.",
+          "Check your answer by actually opening the bag and counting the objects.",
+          "Record your results below."
+        ],
+        "record": [
+          {
+            "id": "single_object_weight_g",
+            "label": "Weight of a single object, in grams",
+            "type": "number",
+            "unit": "g",
+            "hint": "from the kitchen scale",
+            "min": 0.1,
+            "max": 500
+          },
+          {
+            "id": "mystery_bag_total_g",
+            "label": "Total weight of the bag with the mystery objects inside, in grams",
+            "type": "number",
+            "unit": "g",
+            "hint": "from the kitchen scale",
+            "min": 1,
+            "max": 2000
+          },
+          {
+            "id": "calculated_object_count",
+            "label": "The number of objects you calculated using the equation",
+            "type": "number",
+            "hint": "solved on paper",
+            "min": 1,
+            "max": 100
+          },
+          {
+            "id": "actual_object_count",
+            "label": "The number of objects you counted after opening the bag",
+            "type": "number",
+            "hint": "count them out",
+            "min": 1,
+            "max": 100
+          },
+          {
+            "id": "notes_text",
+            "label": "Did your calculated count match the actual count? What caused any difference?",
+            "type": "text",
+            "hint": "one or two sentences",
+            "min_words": 12
+          }
+        ],
+        "check": "calculated_object_count and actual_object_count should match exactly, or be off by at most 1 due to scale rounding. A bigger mismatch usually means the equation was set up or solved incorrectly.",
+        "xp": 45
+      },
+      "kind": "lesson"
+    },
+    {
+      "slug": "y6-metric-unit-conversions",
+      "title": "Converting Metric Units of Length, Mass and Capacity",
+      "strand": "Measurement",
+      "year_level": 6,
+      "curriculum_code": "AC9M6M01",
+      "curriculum_text": "convert between common metric units of length, mass and capacity; choose and use decimal representations of metric measurements relevant to the context of a problem",
+      "position": 11,
+      "est_minutes": 13,
+      "intro": "The metric system is built on powers of 10, which makes converting between units - millimetres to metres, grams to kilograms, millilitres to litres - just a matter of shifting the decimal point.",
+      "sections": [
+        {
+          "heading": "The metric ladder",
+          "body": "Each type of measurement has a ladder of units, all connected by 10, 100 or 1000:\n\n- **Length**: 10 mm = 1 cm, 100 cm = 1 m, 1000 m = 1 km\n- **Mass**: 1000 g = 1 kg, 1000 kg = 1 tonne\n- **Capacity**: 1000 mL = 1 L\n\nMoving to a smaller unit means multiplying; moving to a larger unit means dividing."
+        },
+        {
+          "heading": "Converting length",
+          "body": "The walking track along the Endeavour River foreshore might be measured in metres, but road distances to Cairns are measured in kilometres. Being able to switch between them keeps numbers sensible for the situation.",
+          "example": {
+            "prompt": "Convert 3.5 km to metres.",
+            "working": [
+              "1 km = 1000 m",
+              "3.5 × 1000 = 3500"
+            ],
+            "answer": "3500 m"
+          }
+        },
+        {
+          "heading": "Converting mass",
+          "body": "A crate of mangoes might be weighed in kilograms, but a road train's total cattle-feed load is easier to picture in tonnes.",
+          "example": {
+            "prompt": "Convert 24,000 kg to tonnes.",
+            "working": [
+              "1 tonne = 1000 kg",
+              "24,000 ÷ 1000 = 24"
+            ],
+            "answer": "24 tonnes"
+          }
+        },
+        {
+          "heading": "Converting capacity, using decimals",
+          "body": "Fuel tanks and eskies are usually measured in litres, but a small bottle might be labelled in millilitres. Decimals let you show part-units neatly - 2.5 L is easier to read than \"two and a half litres\" written out.\n\nAlways check which unit fits the situation best: nobody measures a swimming pool in millilitres, and nobody measures a mosquito repellent bottle in kilolitres."
+        }
+      ],
+      "key_points": [
+        "1 km = 1000 m, 1 m = 100 cm, 1 cm = 10 mm.",
+        "1 tonne = 1000 kg, 1 kg = 1000 g.",
+        "1 L = 1000 mL.",
+        "Converting to a smaller unit means multiplying; to a larger unit means dividing."
+      ],
+      "try_this": "Find three items around the house with metric labels - a drink bottle in mL, a cereal box in g, a tape measure in cm. Convert each measurement to a different unit (for example, mL to L) by hand.",
+      "questions": [
+        {
+          "type": "tf",
+          "prompt": "There are 1000 grams in 1 kilogram.",
+          "answer": true,
+          "explain": "The mass ladder is 1000 g = 1 kg, just like 1000 m = 1 km.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "How many centimetres are in 1 metre?",
+          "choices": [
+            "10",
+            "100",
+            "1000",
+            "10000"
+          ],
+          "answer": "100",
+          "explain": "1 m = 100 cm - this is why a metre ruler is marked to 100.",
+          "difficulty": 1
+        },
+        {
+          "type": "numeric",
+          "prompt": "The Cooktown walking track to Elliott Creek is 3.5 km long. How many metres is that?",
+          "answer": 3500.0,
+          "tolerance": 0.001,
+          "unit": "m",
+          "explain": "1 km = 1000 m, so 3.5 x 1000 = 3500.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "A bottle of cordial holds 2500 mL. How many litres is that?",
+          "answer": 2.5,
+          "tolerance": 0.001,
+          "unit": "L",
+          "explain": "1000 mL = 1 L, so 2500 / 1000 = 2.5.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "A crate of mangoes weighs 4.6 kg. How many grams is that?",
+          "answer": 4600.0,
+          "tolerance": 0.001,
+          "unit": "g",
+          "explain": "1 kg = 1000 g, so 4.6 x 1000 = 4600.",
+          "difficulty": 2
+        },
+        {
+          "type": "mc",
+          "prompt": "A bottle of insect repellent holds 0.65 L. Which of these is the same amount?",
+          "choices": [
+            "6.5 mL",
+            "65 mL",
+            "650 mL",
+            "6500 mL"
+          ],
+          "answer": "650 mL",
+          "explain": "1 L = 1000 mL, so 0.65 x 1000 = 650 mL.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "A road train hauls 36,500 kg of sugarcane to the mill. How many tonnes is that?",
+          "answer": 36.5,
+          "tolerance": 0.001,
+          "unit": "tonnes",
+          "explain": "1 tonne = 1000 kg, so 36,500 / 1000 = 36.5.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "The Grassy Hill lookout walk is 0.9 km one way. If you walk up and back down, how many metres do you walk in total?",
+          "answer": 1800.0,
+          "tolerance": 0.001,
+          "unit": "m",
+          "explain": "0.9 km = 900 m one way. There and back doubles it: 900 x 2 = 1800.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A recipe needs 750 g of flour. The packet's price is $3.20 per kilogram. How much will 750 g of flour cost?",
+          "answer": 2.4,
+          "tolerance": 0.001,
+          "explain": "750 g = 0.75 kg. Cost: 0.75 x 3.20 = 2.40.",
+          "difficulty": 4,
+          "unit": "$"
+        },
+        {
+          "type": "numeric",
+          "prompt": "A ute can carry a maximum load of 1.2 tonnes. It is already loaded with 850 kg of gear. How many more kilograms can be added before reaching the limit?",
+          "answer": 350,
+          "tolerance": 0.001,
+          "explain": "1.2 tonnes = 1200 kg. 1200 - 850 = 350.",
+          "difficulty": 4,
+          "unit": "kg"
+        },
+        {
+          "type": "numeric",
+          "prompt": "A car uses fuel at a rate of 8.5 L per 100 km. How many litres will it use to drive 650 km?",
+          "answer": 55.25,
+          "tolerance": 0.001,
+          "explain": "8.5 L per 100 km means 0.085 L per km. 0.085 x 650 = 55.25.",
+          "difficulty": 4,
+          "unit": "L"
+        },
+        {
+          "type": "mc",
+          "prompt": "A fish is measured at 45 cm long. A size limit says fish must be at least 0.5 m to keep. Is this fish legal to keep?",
+          "choices": [
+            "Yes, it's over the limit",
+            "No, it's under the limit",
+            "Exactly at the limit",
+            "Cannot tell without weighing it"
+          ],
+          "answer": "No, it's under the limit",
+          "explain": "0.5 m = 50 cm. The fish is 45 cm, which is less than 50 cm, so it's under the size limit.",
+          "difficulty": 4
+        }
+      ],
+      "activity": {
+        "title": "Test whether 1 mL of water really weighs 1 g",
+        "why": "Proves they can convert between capacity and mass using a real, measured experiment rather than just repeating a fact.",
+        "est_minutes": 20,
+        "adult_help": "none",
+        "materials": [
+          "kitchen scales",
+          "a measuring jug or cup with mL markings",
+          "water",
+          "a bowl or container to catch spills"
+        ],
+        "steps": [
+          "Weigh an empty cup or small container on the kitchen scale and record its weight in grams.",
+          "Pour exactly 250 mL of water into the cup using the measuring jug.",
+          "Weigh the cup with water in it and record the new total weight.",
+          "Subtract the empty cup's weight from the total to find the mass of just the water.",
+          "Empty the cup, then repeat the whole process with 500 mL of water and record the water's mass again.",
+          "Compare: for both amounts, does the water's mass in grams roughly match its volume in mL?",
+          "Record your results below."
+        ],
+        "record": [
+          {
+            "id": "water_mass_250ml_g",
+            "label": "Mass of 250 mL of water, in grams",
+            "type": "number",
+            "unit": "g",
+            "hint": "total minus empty cup weight",
+            "min": 200,
+            "max": 300
+          },
+          {
+            "id": "water_mass_500ml_g",
+            "label": "Mass of 500 mL of water, in grams",
+            "type": "number",
+            "unit": "g",
+            "hint": "total minus empty cup weight",
+            "min": 450,
+            "max": 550
+          },
+          {
+            "id": "empty_cup_g",
+            "label": "Weight of the empty cup, in grams",
+            "type": "number",
+            "unit": "g",
+            "hint": "from the kitchen scale",
+            "min": 1,
+            "max": 500
+          },
+          {
+            "id": "comparison_text",
+            "label": "Did the water's mass match its volume in both tests? Describe any difference.",
+            "type": "text",
+            "hint": "two or three sentences",
+            "min_words": 15
+          }
+        ],
+        "check": "250 mL of water should weigh close to 250 g, and 500 mL close to 500 g - within about 10 g is normal scale wobble. A result far outside that range points to a measuring mistake, not a wrong rule.",
+        "xp": 40
+      },
+      "kind": "lesson"
+    },
+    {
+      "slug": "y6-area-of-rectangles",
+      "title": "The Area of a Rectangle",
+      "strand": "Measurement",
+      "year_level": 6,
+      "curriculum_code": "AC9M6M02",
+      "curriculum_text": "establish the formula for the area of a rectangle and use it to solve practical problems",
+      "position": 12,
+      "est_minutes": 13,
+      "intro": "How much shade cloth do you need over the mango trees? How much turf for the backyard? Area answers questions like these - and for a rectangle, there's a simple formula behind it.",
+      "sections": [
+        {
+          "heading": "What area measures",
+          "body": "**Area** measures how much flat space something covers. It's measured in square units, like square centimetres (cm²) or square metres (m²) - a square unit is a square with sides of that length."
+        },
+        {
+          "heading": "Establishing the rectangle formula",
+          "body": "Imagine a rectangle drawn on grid paper, split into rows of unit squares. If it's 4 units long and 3 units wide, you'd count 3 rows of 4 squares - 12 squares in total.\n\nCounting rows of squares is really just repeated addition, which is multiplication: length × width. That's why the formula for the area of a rectangle is:\n\n**Area = length × width**"
+        },
+        {
+          "heading": "Using the formula",
+          "body": "Once you know the formula, you don't need to count individual squares - just multiply.",
+          "example": {
+            "prompt": "A garden bed is 4 m long and 3 m wide. What is its area?",
+            "working": [
+              "Area = length × width",
+              "4 × 3 = 12"
+            ],
+            "answer": "12 m²"
+          }
+        },
+        {
+          "heading": "Practical problems",
+          "body": "Area comes up whenever you're covering, painting, planting or turfing a rectangular space - working out how much shade cloth, turf or tarp to buy.\n\nAlways check that your length and width are measured in the same unit before multiplying - mixing metres and centimetres will give a wrong answer."
+        }
+      ],
+      "key_points": [
+        "Area = length × width, for a rectangle.",
+        "Area is measured in square units, like cm² or m².",
+        "Counting unit squares in rows and columns shows why the formula works.",
+        "Always convert to the same unit before multiplying length and width."
+      ],
+      "try_this": "Measure the length and width of a table, door, or garden bed at home with a tape measure or ruler. Calculate its area in cm² or m², then check by estimating how many of your hand-spans would fit across it.",
+      "questions": [
+        {
+          "type": "tf",
+          "prompt": "Area is measured in square units, like m² or cm².",
+          "answer": true,
+          "explain": "A unit of area is a square with sides of that length - a square metre, a square centimetre, and so on.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "What is the formula for the area of a rectangle?",
+          "choices": [
+            "length + width",
+            "length × width",
+            "2 × (length + width)",
+            "length × width × height"
+          ],
+          "answer": "length × width",
+          "explain": "Multiplying length by width counts how many unit squares fit inside the rectangle.",
+          "difficulty": 1
+        },
+        {
+          "type": "numeric",
+          "prompt": "A raised garden bed for chillies is 5 m long and 2 m wide. How much space does it take up on the ground?",
+          "answer": 10,
+          "tolerance": 0.001,
+          "unit": "m²",
+          "explain": "5 x 2 = 10.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "New shade cloth needs to cover a rectangle 7 m by 3.5 m above the mango trees. How much material is needed?",
+          "answer": 24.5,
+          "tolerance": 0.001,
+          "unit": "m²",
+          "explain": "7 x 3.5 = 24.5.",
+          "difficulty": 2
+        },
+        {
+          "type": "mc",
+          "prompt": "A screen protector is cut to fit a phone screen 15 cm long and 6 cm wide. What area does it cover?",
+          "choices": [
+            "21 cm²",
+            "45 cm²",
+            "90 cm²",
+            "105 cm²"
+          ],
+          "answer": "90 cm²",
+          "explain": "15 x 6 = 90.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "A tarp for covering the tinny needs to be 4.5 m long and 2 m wide. What area does it need to cover?",
+          "answer": 9.0,
+          "tolerance": 0.001,
+          "unit": "m²",
+          "explain": "4.5 x 2 = 9.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "A rectangular vegie patch is 320 cm long and 2.5 m wide. What is its area, in m²?",
+          "answer": 8.0,
+          "tolerance": 0.001,
+          "unit": "m²",
+          "explain": "Convert 320 cm to 3.2 m first. Area = 3.2 x 2.5 = 8.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A rectangular block of land is 36 m by 20 m. The family wants to plant mango trees, each needing 4 m² of space. How many trees can fit?",
+          "answer": 180.0,
+          "tolerance": 0.001,
+          "unit": "trees",
+          "explain": "Area = 36 x 20 = 720 m². 720 / 4 = 180 trees.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A rectangular deck is 5.5 m long and 3.2 m wide. Decking boards cost $24 per square metre. What is the total cost to cover the deck?",
+          "answer": 422.4,
+          "tolerance": 0.001,
+          "explain": "Area = 5.5 x 3.2 = 17.6 m². Cost = 17.6 x 24 = 422.40.",
+          "difficulty": 4,
+          "unit": "$"
+        },
+        {
+          "type": "numeric",
+          "prompt": "A vegetable patch has an area of 18 m². Its length is 6 m. What is its width?",
+          "answer": 3,
+          "tolerance": 0.001,
+          "explain": "Width = area ÷ length = 18 ÷ 6 = 3.",
+          "difficulty": 4,
+          "unit": "m"
+        },
+        {
+          "type": "numeric",
+          "prompt": "An L-shaped chicken run is made from a 4 m x 3 m rectangle with a 2 m x 1.5 m rectangle cut out of one corner. What is the remaining area?",
+          "answer": 9,
+          "tolerance": 0.001,
+          "explain": "Full rectangle: 4 x 3 = 12 m². Cut-out piece: 2 x 1.5 = 3 m². Remaining area: 12 - 3 = 9 m².",
+          "difficulty": 4,
+          "unit": "m²"
+        },
+        {
+          "type": "mc",
+          "prompt": "Two rectangular paddocks have the same area of 24 m². Paddock A is 8 m by 3 m. Which of these could be the dimensions of Paddock B?",
+          "choices": [
+            "4 m x 6 m",
+            "5 m x 5 m",
+            "2 m x 10 m",
+            "3 m x 9 m"
+          ],
+          "answer": "4 m x 6 m",
+          "explain": "4 x 6 = 24 m², matching Paddock A's area. The others give 25, 20 and 27 m², which don't match.",
+          "difficulty": 4
+        }
+      ],
+      "activity": {
+        "title": "Measure a real area and work out how many pavers it would take",
+        "why": "Proves they can take real, imperfect measurements outside and turn them into an area and a materials estimate, the way you would before an actual building job.",
+        "est_minutes": 30,
+        "adult_help": "nearby",
+        "materials": [
+          "tape measure",
+          "paper and pencil",
+          "chalk or a real paving stone/tile to use as a size reference (optional)"
+        ],
+        "steps": [
+          "Choose a real rectangular (or roughly rectangular) area outside or inside the house - part of the yard, a driveway, a veranda, or a garage floor.",
+          "Measure its length and width with the tape measure, in metres to one decimal place, and record them.",
+          "Calculate the area in square metres.",
+          "Decide on a paver size, e.g. 0.5 m x 0.5 m (or measure a real paving stone, tile, or piece of cardboard to use as your 'paver').",
+          "Work out how many of these pavers would be needed to cover your measured area with no gaps.",
+          "Lay out, or mark with chalk, at least 4 real pavers in the space to check your paver-size assumption makes sense.",
+          "Record your results below."
+        ],
+        "record": [
+          {
+            "id": "measured_length_m",
+            "label": "Measured length of your area, in metres",
+            "type": "number",
+            "unit": "m",
+            "hint": "one decimal place",
+            "min": 0.5,
+            "max": 30
+          },
+          {
+            "id": "measured_width_m",
+            "label": "Measured width of your area, in metres",
+            "type": "number",
+            "unit": "m",
+            "hint": "one decimal place",
+            "min": 0.5,
+            "max": 30
+          },
+          {
+            "id": "calculated_area_m2",
+            "label": "Calculated area, in square metres",
+            "type": "number",
+            "unit": "m²",
+            "hint": "length x width",
+            "min": 0.25,
+            "max": 900
+          },
+          {
+            "id": "pavers_needed",
+            "label": "How many pavers of your chosen size would be needed to cover it?",
+            "type": "number",
+            "hint": "area ÷ one paver's area",
+            "min": 1,
+            "max": 3600
+          },
+          {
+            "id": "reflection_text",
+            "label": "Once you laid a few real pavers out, did the total number still seem realistic?",
+            "type": "text",
+            "hint": "two or three sentences",
+            "min_words": 15
+          }
+        ],
+        "check": "calculated_area_m2 should equal measured_length_m x measured_width_m (allowing small rounding). pavers_needed should equal that area divided by one paver's own area - if it's wildly off, the paver's area was probably worked out incorrectly.",
+        "xp": 45
+      },
+      "kind": "lesson"
+    },
+    {
+      "slug": "y6-timetables-itineraries-duration",
+      "title": "Reading Timetables and Working Out Durations",
+      "strand": "Measurement",
+      "year_level": 6,
+      "curriculum_code": "AC9M6M03",
+      "curriculum_text": "interpret and use timetables and itineraries to plan activities and determine the duration of events and journeys",
+      "position": 13,
+      "est_minutes": 13,
+      "intro": "Missing the school bus or the Cairns coach usually comes down to one thing: a mix-up with time. Get comfortable switching between 24-hour and am/pm time, and working out how long a trip really takes, and you'll never be caught out.",
+      "sections": [
+        {
+          "heading": "24-hour time vs am/pm time",
+          "body": "**Am/pm time** repeats 1 to 12 twice a day. **24-hour time** counts straight through from 00:00 (midnight) to 23:59, so there's no mixing up morning and afternoon.\n\nFor times after noon, add 12 to the pm hour: 2:30 pm becomes 14:30. Before noon, the hour usually stays the same, just written with a leading zero if needed: 9:45 am becomes 09:45.",
+          "example": {
+            "prompt": "Write 3:00 pm in 24-hour time.",
+            "working": [
+              "It's after noon, so add 12 to the hour",
+              "3 + 12 = 15"
+            ],
+            "answer": "15:00"
+          }
+        },
+        {
+          "heading": "Reading a timetable",
+          "body": "A timetable usually lists stops down the side and times across the top (or the reverse), showing when a bus, ferry or train departs and arrives at each stop.\n\nRead carefully - mixing up a departure time with an arrival time is one of the most common timetable mistakes."
+        },
+        {
+          "heading": "Working out duration",
+          "body": "**Duration** is how long something takes - the gap between a start time and an end time. A handy trick: count up to a friendly time first (like the next whole hour), then add the rest.",
+          "example": {
+            "prompt": "A bus leaves at 9:15 am and arrives at 11:40 am. How long is the trip?",
+            "working": [
+              "9:15 to 10:00 is 45 minutes",
+              "10:00 to 11:40 is 1 hour 40 minutes",
+              "45 min + 1 h 40 min = 2 h 25 min"
+            ],
+            "answer": "2 hours 25 minutes"
+          }
+        },
+        {
+          "heading": "Planning an itinerary",
+          "body": "An **itinerary** lists the legs of a trip in order, often with connections between them. When planning one, remember to include any waiting or connection time between legs - it's easy to forget and end up running late."
+        }
+      ],
+      "key_points": [
+        "24-hour time adds 12 to pm hours (after noon), so there's no am/pm mix-up.",
+        "Always check whether a timetable time is a departure or an arrival.",
+        "To find a duration, count to a friendly time first, then add the rest.",
+        "When planning an itinerary, don't forget waiting or connection time between legs."
+      ],
+      "try_this": "Find a real timetable - a bus, ferry, footy fixture, or TV guide. Pick two events and work out the duration between them, writing the times in both am/pm and 24-hour form.",
+      "questions": [
+        {
+          "type": "tf",
+          "prompt": "In 24-hour time, 3:00 pm is written as 15:00.",
+          "answer": true,
+          "explain": "3:00 pm is after noon, so add 12 to the hour: 3 + 12 = 15, giving 15:00.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "What is 09:45 in am/pm time?",
+          "choices": [
+            "9:45 am",
+            "9:45 pm",
+            "7:45 am",
+            "19:45"
+          ],
+          "answer": "9:45 am",
+          "explain": "Hours below 12 in 24-hour time are the same hour in the morning, so 09:45 is 9:45 am.",
+          "difficulty": 1
+        },
+        {
+          "type": "numeric",
+          "prompt": "A bus leaves Cooktown at 06:45 and arrives in Cairns at 10:20. How many minutes does the trip take?",
+          "answer": 215,
+          "tolerance": 0.001,
+          "unit": "minutes",
+          "explain": "06:45 to 10:45 is 4 hours (240 min). 10:45 back to 10:20 is 25 minutes less: 240 - 25 = 215.",
+          "difficulty": 2
+        },
+        {
+          "type": "mc",
+          "prompt": "What is 18:05 in am/pm time?",
+          "choices": [
+            "6:05 am",
+            "8:05 pm",
+            "6:05 pm",
+            "4:05 pm"
+          ],
+          "answer": "6:05 pm",
+          "explain": "18:05 is after noon, so subtract 12: 18 - 12 = 6, giving 6:05 pm.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "The Isabella Falls swimming hole shuttle departs the info centre at 9:05 am and takes 18 minutes to arrive. What time does it arrive? Answer in am/pm form, like 8:22 am.",
+          "answer": [
+            "9:23 am",
+            "9:23am"
+          ],
+          "explain": "9:05 am plus 18 minutes is 9:23 am.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "A junior rugby league match kicks off at 2:40 pm and finishes at 4:15 pm, including breaks. How many minutes long is the match?",
+          "answer": 95,
+          "tolerance": 0.001,
+          "unit": "minutes",
+          "explain": "2:40 pm to 4:40 pm is 120 minutes. 4:40 pm back to 4:15 pm is 25 minutes less: 120 - 25 = 95.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "Nan wants to arrive at the Cairns hospital by 1:30 pm for an appointment. The drive from Cooktown takes 4 hours 10 minutes, plus a 20-minute fuel and toilet stop. What is the latest time she should leave Cooktown? Answer in am/pm form, like 8:00 am.",
+          "answer": [
+            "9:00 am",
+            "9:00am"
+          ],
+          "explain": "Total time needed is 4 h 10 min + 20 min = 4 hours 30 minutes. Counting back 4 h 30 min from 1:30 pm gives 9:00 am.",
+          "difficulty": 3
+        },
+        {
+          "type": "mc",
+          "prompt": "A coach timetable shows: Cooktown depart 05:45, Helenvale arrive 07:05, Helenvale depart 07:20, Cairns arrive 10:35. How long is the stop at Helenvale?",
+          "choices": [
+            "10 minutes",
+            "15 minutes",
+            "20 minutes",
+            "25 minutes"
+          ],
+          "answer": "15 minutes",
+          "explain": "The coach arrives at 07:05 and departs at 07:20. 07:20 - 07:05 = 15 minutes.",
+          "difficulty": 3
+        },
+        {
+          "type": "text",
+          "prompt": "A school trip leaves home at 6:45 am to catch a bus. The bus trip takes 2 hours 50 minutes. After arriving, there's a 25-minute wait for a connecting coach, which then takes 1 hour 35 minutes. What time (in 24-hour time) does the group finally arrive?",
+          "answer": [
+            "11:35",
+            "1135"
+          ],
+          "explain": "6:45 am + 2 h 50 min = 9:35 am. Add the 25-minute wait: 10:00 am. Add 1 h 35 min for the coach: 11:35 am, written as 11:35 in 24-hour time.",
+          "difficulty": 4
+        },
+        {
+          "type": "text",
+          "prompt": "A ferry departs Cooktown at 22:40, and the overnight crossing takes 5 hours 45 minutes. What time (24-hour) does it arrive, and is that the same day or the next day?",
+          "answer": [
+            "04:25 the next day",
+            "04:25 next day",
+            "4:25 the next day",
+            "4:25am the next day"
+          ],
+          "explain": "22:40 + 5:45 = 28:25. Since a day only has 24 hours, subtract 24: 28:25 - 24:00 = 04:25, and it rolls over into the next day.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A coach timetable shows three trips from Cooktown to Cairns: Trip 1 departs 05:30, arrives 09:10. Trip 2 departs 07:15, arrives 11:00. Trip 3 departs 09:45, arrives 13:05. How many minutes does the shortest of the three trips take?",
+          "answer": 200,
+          "tolerance": 0.001,
+          "explain": "Trip 1: 05:30 to 09:10 = 3 h 40 min = 220 min. Trip 2: 07:15 to 11:00 = 3 h 45 min = 225 min. Trip 3: 09:45 to 13:05 = 3 h 20 min = 200 min. Trip 3 is shortest, at 200 minutes.",
+          "difficulty": 4,
+          "unit": "minutes"
+        },
+        {
+          "type": "mc",
+          "prompt": "A ferry timetable lists departures every 40 minutes starting at 06:00 (06:00, 06:40, 07:20, 08:00 ...). If Mia arrives at the wharf at 07:50, how long will she wait for the next ferry?",
+          "choices": [
+            "10 minutes",
+            "20 minutes",
+            "30 minutes",
+            "40 minutes"
+          ],
+          "answer": "10 minutes",
+          "explain": "The departures are 06:00, 06:40, 07:20, 08:00. The next one after 07:50 is 08:00, which is 10 minutes away.",
+          "difficulty": 4
+        }
+      ],
+      "activity": {
+        "title": "Plan a real return trip with a connection, using an actual timetable",
+        "why": "Proves they can read a real published timetable and correctly work out total travel time including a connection - not one written especially for them.",
+        "est_minutes": 30,
+        "adult_help": "nearby",
+        "materials": [
+          "a real timetable with more than one leg (a bus/coach/ferry schedule, a footy fixture list, or one an adult writes out from a real schedule)",
+          "paper and pencil",
+          "a clock or watch"
+        ],
+        "steps": [
+          "With an adult's help, get hold of one real timetable that has more than one leg or stop - a bus/coach route, a ferry schedule, or a fixture list with more than one event in a day.",
+          "Choose a starting point and a destination that involves waiting for a second service (a genuine connection), or choose two consecutive real events and treat the gap as a connection wait.",
+          "Write down the exact departure and arrival time of the first leg.",
+          "Write down the exact departure and arrival time of the second leg.",
+          "Calculate the waiting/connection time between the two legs.",
+          "Calculate the total door-to-door time for the whole trip, from the very first departure to the very last arrival.",
+          "Record your results below."
+        ],
+        "record": [
+          {
+            "id": "first_leg_min",
+            "label": "Duration of the first leg, in minutes",
+            "type": "number",
+            "unit": "min",
+            "hint": "from the real timetable",
+            "min": 1,
+            "max": 600
+          },
+          {
+            "id": "connection_wait_min",
+            "label": "Waiting time between the two legs, in minutes",
+            "type": "number",
+            "unit": "min",
+            "hint": "gap between arrival and next departure",
+            "min": 0,
+            "max": 300
+          },
+          {
+            "id": "total_trip_min",
+            "label": "Total door-to-door time for the whole trip, in minutes",
+            "type": "number",
+            "unit": "min",
+            "hint": "first departure to final arrival",
+            "min": 5,
+            "max": 1440
+          },
+          {
+            "id": "itinerary_text",
+            "label": "Describe the real timetable you used and the two legs/times you chose",
+            "type": "text",
+            "hint": "two or three sentences",
+            "min_words": 15
+          }
+        ],
+        "check": "total_trip_min should equal first_leg_min + connection_wait_min + the second leg's own duration. Ask to see the timetable if the total doesn't add up, or if the described schedule doesn't sound like a real published one.",
+        "xp": 45
+      },
+      "kind": "lesson"
+    },
+    {
+      "slug": "y6-angles-line-point-vertically-opposite",
+      "title": "Angles on a Line, at a Point and Vertically Opposite",
+      "strand": "Measurement",
+      "year_level": 6,
+      "curriculum_code": "AC9M6M04",
+      "curriculum_text": "identify the relationships between angles on a straight line, angles at a point and vertically opposite angles; use these to determine unknown angles, communicating reasoning",
+      "position": 14,
+      "est_minutes": 13,
+      "intro": "You don't always need a protractor to find a missing angle - sometimes reasoning alone gets you there, using three simple facts about how angles fit together.",
+      "sections": [
+        {
+          "heading": "Angles on a straight line",
+          "body": "A straight line is exactly a half-turn, which measures 180°. Any angles sitting along that line, next to each other, always add up to 180°.\n\nThink of a fence post leaning against a straight fence rail - the angle on one side plus the angle on the other side always makes 180°."
+        },
+        {
+          "heading": "Angles at a point",
+          "body": "A full turn all the way around a single point measures 360°. If several angles meet at that point, with nothing overlapping and no gaps, they add up to 360°.\n\nPicture the spokes of a bike wheel, or slices of a whole pizza - however many angles are squeezed around that centre point, they total 360°."
+        },
+        {
+          "heading": "Vertically opposite angles",
+          "body": "When two straight lines cross, like an X, they form four angles. The two angles directly across from each other (not next to each other) are called **vertically opposite angles**, and they are always exactly equal.\n\nThink of two straight roads crossing at an intersection - the angle facing north-east and the angle facing south-west (straight across from it) are always the same size.",
+          "example": {
+            "prompt": "Two lines cross. One angle is 40°. What is the angle vertically opposite it?",
+            "working": [
+              "Vertically opposite angles are always equal"
+            ],
+            "answer": "40°"
+          }
+        },
+        {
+          "heading": "Putting it together to find unknown angles",
+          "body": "Real problems often combine these three facts. Work out which rule applies - straight line (180°), full point (360°), or vertically opposite (equal) - and always write down which rule you used. That's your reasoning, not just your answer."
+        }
+      ],
+      "key_points": [
+        "Angles on a straight line add up to 180°.",
+        "Angles at a point (a full turn) add up to 360°.",
+        "Vertically opposite angles, formed when two lines cross, are always equal.",
+        "Always state which rule you used - that's the reasoning behind your answer."
+      ],
+      "try_this": "Cross two rulers or straws on a table like an X, to represent two roads crossing. If you have a protractor, measure the four angles formed and check that the angles across from each other match, and that angles next to each other add to 180°.",
+      "questions": [
+        {
+          "type": "tf",
+          "prompt": "Angles on a straight line always add up to 180°.",
+          "answer": true,
+          "explain": "A straight line is a half-turn, which measures exactly 180°.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "Angles at a point (a full turn) add up to:",
+          "choices": [
+            "90°",
+            "180°",
+            "270°",
+            "360°"
+          ],
+          "answer": "360°",
+          "explain": "A full turn all the way around a point is 360°.",
+          "difficulty": 1
+        },
+        {
+          "type": "numeric",
+          "prompt": "A fence post leans against a straight rail. The angle between the post and the rail on one side is 118°. What is the angle on the other side?",
+          "answer": 62,
+          "tolerance": 0.001,
+          "unit": "°",
+          "explain": "Angles on a straight line add to 180°. 180 - 118 = 62.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "Three garden paths meet at a single point, like spokes. Two of the angles between neighbouring paths are 150° and 95°. What is the third angle?",
+          "answer": 115,
+          "tolerance": 0.001,
+          "unit": "°",
+          "explain": "Angles at a point add to 360°. 360 - 150 - 95 = 115.",
+          "difficulty": 2
+        },
+        {
+          "type": "mc",
+          "prompt": "Two straight bike paths cross at the lookout, forming an X shape. One of the four angles is 55°. What is the angle vertically opposite it?",
+          "choices": [
+            "55°",
+            "35°",
+            "125°",
+            "305°"
+          ],
+          "answer": "55°",
+          "explain": "Vertically opposite angles, formed by two crossing lines, are always equal.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "At a crossroads, two straight roads cross. One of the angles formed is 83°. What is the size of the angle right next to it, along the same straight road?",
+          "answer": 97,
+          "tolerance": 0.001,
+          "unit": "°",
+          "explain": "Angles next to each other on a straight line add to 180°. 180 - 83 = 97.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "Two straight fence lines cross at a corner post. One of the four angles formed measures 38°. What do the other three angles add up to?",
+          "answer": 322,
+          "tolerance": 0.001,
+          "unit": "°",
+          "explain": "All four angles at the crossing point add to 360° (angles at a point). The other three together are 360 - 38 = 322.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "At a point, three angles meet: 158°, 77°, and an unknown third angle. What is the third angle?",
+          "answer": 125,
+          "tolerance": 0.001,
+          "unit": "°",
+          "explain": "Angles at a point add to 360°. 360 - 158 - 77 = 125.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "Two straight lines cross at a point, forming four angles. One angle is 3 times the size of the angle next to it on the straight line. What is the size of the smaller angle?",
+          "answer": 45,
+          "tolerance": 0.001,
+          "explain": "Let the smaller angle be x, so the larger is 3x. Angles on a straight line add to 180: x + 3x = 180, so 4x = 180, so x = 45.",
+          "difficulty": 4,
+          "unit": "°"
+        },
+        {
+          "type": "numeric",
+          "prompt": "At a point, four angles meet. Two of them are vertically opposite each other and each measure 70°. The other two angles are also equal to each other. What is the size of each of those other two angles?",
+          "answer": 110,
+          "tolerance": 0.001,
+          "explain": "The two vertically opposite angles total 70 + 70 = 140°. All four angles at a point add to 360°, so the other two together are 360 - 140 = 220°. Since they're equal, each is 220 ÷ 2 = 110°.",
+          "difficulty": 4,
+          "unit": "°"
+        },
+        {
+          "type": "numeric",
+          "prompt": "Three straight roads meet at one point, making three angles that share the point (a full turn). The first angle is 110°. The second angle is 40° more than the third angle. What is the size of the third (smallest) angle?",
+          "answer": 105,
+          "tolerance": 0.001,
+          "explain": "Let the third angle be x, so the second is x + 40. All three add to 360: 110 + x + (x + 40) = 360, so 2x + 150 = 360, so 2x = 210, so x = 105.",
+          "difficulty": 4,
+          "unit": "°"
+        },
+        {
+          "type": "mc",
+          "prompt": "A student measures five angles meeting at a point as 60°, 70°, 80° and 95°, and says the fifth angle must be 60° as well. Using the fact that angles at a point add to 360°, is the student correct?",
+          "choices": [
+            "Yes, 60° is correct",
+            "No, it should be 55°",
+            "No, it should be 65°",
+            "No, it should be 50°"
+          ],
+          "answer": "No, it should be 55°",
+          "explain": "The four known angles add to 60 + 70 + 80 + 95 = 305°. The fifth angle must be 360 - 305 = 55°, not 60°.",
+          "difficulty": 4
+        }
+      ],
+      "activity": {
+        "title": "Measure a real crossing and test the angle rules",
+        "why": "Proves the angle facts hold for actual measured angles in the real world, not just angles drawn perfectly in a diagram.",
+        "est_minutes": 25,
+        "adult_help": "none",
+        "materials": [
+          "a protractor (or a phone angle-measuring app, or a paper set square for right-angle checks)",
+          "two long straight objects (rulers, sticks, brooms) or a real crossing outside (fence lines, path edges, roof lines)",
+          "paper and pencil"
+        ],
+        "steps": [
+          "Find or create a place where two straight lines cross - two rulers or sticks laid across each other, or a real crossing point outside such as two paths or fence rails.",
+          "Label the four angles formed 1, 2, 3 and 4, going around the crossing point.",
+          "Using your protractor, measure each of the four angles as accurately as you can, and record all four.",
+          "Add angle 1 and angle 2 (two that sit next to each other on the same straight line) - check whether they add close to 180°.",
+          "Add all four angles together - check whether the total is close to 360°.",
+          "Compare the two angles that are vertically opposite each other (across the crossing, not next to each other) - check whether they are close to equal.",
+          "Record your results below."
+        ],
+        "record": [
+          {
+            "id": "angle1_deg",
+            "label": "Your measured angle 1, in degrees",
+            "type": "number",
+            "unit": "°",
+            "hint": "from the protractor",
+            "min": 0,
+            "max": 360
+          },
+          {
+            "id": "angle2_deg",
+            "label": "Your measured angle 2 (next to angle 1), in degrees",
+            "type": "number",
+            "unit": "°",
+            "hint": "from the protractor",
+            "min": 0,
+            "max": 360
+          },
+          {
+            "id": "sum_all_four",
+            "label": "The sum of all four of your measured angles added together",
+            "type": "number",
+            "unit": "°",
+            "hint": "should be close to 360°",
+            "min": 300,
+            "max": 400
+          },
+          {
+            "id": "observation_text",
+            "label": "How close did your measurements come to the exact rules, and what was tricky about measuring?",
+            "type": "text",
+            "hint": "two or three sentences",
+            "min_words": 15
+          }
+        ],
+        "check": "sum_all_four should be close to 360° - within about 10° is normal for a hand-read protractor. A total well outside that range (under 300 or over 400 wouldn't even be accepted) suggests one angle was misread.",
+        "xp": 40
+      },
+      "kind": "lesson"
+    }
+  ]
+}

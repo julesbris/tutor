@@ -1,0 +1,2672 @@
+{
+  "pack": "practical_money",
+  "subject": "Practical",
+  "lessons": [
+    {
+      "slug": "y4-money-notes-coins-rounding",
+      "title": "Australian Money: Notes, Coins and Rounding to 5 Cents",
+      "strand": "Money and budgeting",
+      "year_level": 4,
+      "curriculum_code": "",
+      "curriculum_text": "",
+      "position": 1,
+      "est_minutes": 12,
+      "intro": "Every dollar and cent you handle has a story behind it - and a few tricks, like why cash prices always end up in a 0 or a 5. Let's sort out Australian money properly.",
+      "sections": [
+        {
+          "heading": "Australia's coins and notes",
+          "body": "Australian coins come in six values: 5c, 10c, 20c, 50c, $1 and $2. Notice that the $1 and $2 coins are actually smaller than the 20c and 50c coins - size doesn't tell you the value, so it pays to check the number stamped on the coin.\n\nNotes come in $5, $10, $20, $50 and $100. Each one is a different colour and a different size, which makes them easy to tell apart quickly - handy when you're serving customers at a market stall or checking your change in a hurry.\n\n- Coins: 5c, 10c, 20c, 50c, $1, $2\n- Notes: $5, $10, $20, $50, $100",
+          "example": {
+            "prompt": "You have a $2 coin, a 50c coin and a 20c coin in your pocket. How much money is that altogether?",
+            "working": [
+              "$2.00 + $0.50 + $0.20"
+            ],
+            "answer": "$2.70"
+          }
+        },
+        {
+          "heading": "Whatever happened to 1c and 2c coins?",
+          "body": "Australia used to make 1 cent and 2 cent coins, but they stopped being made back in the early 1990s. They're still legal money if you happen to find one in a drawer, but you won't get them in change anymore.\n\nThat means the smallest coin you can actually be given today is 5 cents. Every cash price in the country has to work around that fact."
+        },
+        {
+          "heading": "Rounding cash totals to the nearest 5 cents",
+          "body": "Because 5c is the smallest coin, a cash total that ends in 1c, 2c, 3c, 4c, 6c, 7c, 8c or 9c gets **rounded** to the nearest 5 cents before you pay.\n\nThe rule is simple: look at the last digit of the cents.\n\n- Ends in 1 or 2 - round down\n- Ends in 3 or 4 - round up to the next 5\n- Ends in 6 or 7 - round down to the next 5\n- Ends in 8 or 9 - round up to the next 10\n\nTotals already ending in 0 or 5 don't change at all.",
+          "example": {
+            "prompt": "A cash sale comes to $8.47. What will the shopkeeper actually charge in cash?",
+            "working": [
+              "Look at the last digit of the cents: 7",
+              "7 rounds down to the nearest 5, so 47 becomes 45"
+            ],
+            "answer": "$8.45"
+          }
+        },
+        {
+          "heading": "Cards are not rounded",
+          "body": "Rounding is only a cash thing. If you pay with a card, phone or watch, the exact price is charged down to the cent - no rounding at all, because no physical coins need to change hands.\n\nThis matters when you're ordering things online to Cooktown too. Online and card totals are always exact - it's only coins in your hand that force the rounding."
+        }
+      ],
+      "key_points": [
+        "Australian coins: 5c, 10c, 20c, 50c, $1, $2. Notes: $5, $10, $20, $50, $100.",
+        "1c and 2c coins haven't been made since the early 1990s.",
+        "Cash totals are rounded to the nearest 5 cents because 5c is the smallest coin.",
+        "Card, phone and online payments are charged the exact price - no rounding.",
+        "Rounding can go up or down - it isn't always in the shop's favour."
+      ],
+      "try_this": "Grab a handful of coins from a jar at home (or ask an adult). Sort them by value and count up the total. Then imagine paying for something that costs $6.83 in cash - work out what you'd actually be charged, and check by trying to make that amount with real coins.",
+      "questions": [
+        {
+          "type": "mc",
+          "prompt": "Which of these is NOT an Australian coin?",
+          "choices": [
+            "5c",
+            "20c",
+            "2c",
+            "50c"
+          ],
+          "answer": "2c",
+          "explain": "1c and 2c coins stopped being made in the early 1990s, so 2c isn't a coin you'll get in change today.",
+          "difficulty": 1
+        },
+        {
+          "type": "tf",
+          "prompt": "Australia still makes 1 cent and 2 cent coins.",
+          "answer": false,
+          "explain": "They were phased out in the early 1990s. The smallest coin made today is 5 cents.",
+          "difficulty": 1
+        },
+        {
+          "type": "numeric",
+          "prompt": "A shop's till shows $6.83 owing. You're paying with cash, not card. How much will the shopkeeper actually ask you to hand over?",
+          "answer": 6.85,
+          "tolerance": 0.001,
+          "unit": "$",
+          "explain": "Cash totals get rounded to the nearest 5 cents. The last digit of $6.83 is 3, which rounds up to 5, so $6.83 becomes $6.85.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "At the Cooktown IGA, your basket comes to $12.29 and you're paying cash. What's the actual amount you'll hand over?",
+          "answer": 12.3,
+          "tolerance": 0.001,
+          "unit": "$",
+          "explain": "The last digit of $12.29 is 9, and totals ending in 8 or 9 round up to the next 10, so $12.29 becomes $12.30.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "Sam pays for a $7.28 item using his card. How much does the transaction actually charge, in dollars and cents?",
+          "answer": 7.28,
+          "tolerance": 0.001,
+          "unit": "$",
+          "explain": "Card payments are never rounded to the nearest 5 cents - only cash is. So the exact amount, $7.28, is charged.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "A shopkeeper says she can't give you 2 cents change because that coin doesn't exist anymore. What is the smallest coin she actually could give you instead?",
+          "answer": [
+            "5c",
+            "5 cents",
+            "five cents"
+          ],
+          "explain": "1c and 2c coins are no longer made, so 5c is now the smallest Australian coin she could hand you.",
+          "difficulty": 2
+        },
+        {
+          "type": "tf",
+          "prompt": "Nikki says: 'Cash rounding is bad because you always end up paying more.' A friend points out that $8.71 in cash rounds down to $8.70. Does this example prove Nikki wrong?",
+          "answer": true,
+          "explain": "$8.71 ends in 1, which rounds down to 70, so the customer pays 1 cent less, not more. This shows rounding doesn't always favour the shop, so Nikki's claim is wrong.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A Cooktown fishing shop's docket reads: ice $4.20, drinks $5.24. You're paying with coins and notes. What's the actual total you'll hand over?",
+          "answer": 9.45,
+          "tolerance": 0.001,
+          "unit": "$",
+          "explain": "Add the item prices: $4.20 + $5.24 = $9.44. The last digit is 4, which rounds up to 5, so the cash total becomes $9.45.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A Cooktown market stall sells a mango box for $2.15, a bag of ice for $3.68 and a bottle of water for $2.49, all paid in one cash sale. What is the total the customer will actually be charged, once the WHOLE sale is rounded to the nearest 5 cents?",
+          "answer": 8.3,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "Add the three prices first: $2.15 + $3.68 + $2.49 = $8.32. The last digit of the cents is 2, and totals ending in 1 or 2 round down, so $8.32 becomes $8.30.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "Imagine the stallholder rounded each of those three prices to the nearest 5 cents FIRST, and then added the three rounded prices together. What total would that give?",
+          "answer": 8.35,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "$2.15 already ends in 5, so it stays $2.15. $3.68 ends in 8, so it rounds up to $3.70. $2.49 ends in 9, so it rounds up to $2.50. Added together: $2.15 + $3.70 + $2.50 = $8.35 - a different (and wrong) total to rounding the sale once.",
+          "difficulty": 4
+        },
+        {
+          "type": "text",
+          "prompt": "Given that rounding each item first gives a different total to rounding the whole sale once, which is the CORRECT way for a cash sale to be rounded - the total, or each item?",
+          "answer": [
+            "the total",
+            "total",
+            "the whole total",
+            "round the total"
+          ],
+          "explain": "Only the final cash total gets rounded to the nearest 5 cents. Rounding each item separately and adding the rounded prices can give a different, incorrect answer, as the example above shows.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "To pay the correctly-rounded $8.30 total in cash using the FEWEST possible individual notes and coins, how many individual notes and coins would that be?",
+          "answer": 5,
+          "tolerance": 0.01,
+          "unit": "pieces",
+          "explain": "$8.30 breaks down as $5 + $2 + $1 + 20c + 10c - that's 5 pieces in total, and you can't make it in fewer using Australian notes and coins.",
+          "difficulty": 4
+        }
+      ],
+      "activity": {
+        "title": "The Real Coin Audit",
+        "why": "Proves they can count real money accurately and apply cash rounding to genuine prices, not just worked examples.",
+        "est_minutes": 25,
+        "adult_help": "nearby",
+        "materials": [
+          "a coin jar, wallet or coin container from around the house",
+          "a supermarket receipt, catalogue or shopping app showing real prices",
+          "paper and pencil"
+        ],
+        "steps": [
+          "Find every coin you can (with permission) from a coin jar, pockets, the car or a wallet, and tip them into one pile.",
+          "Sort the coins by value: 5c, 10c, 20c, 50c, $1, $2.",
+          "Count how many of each coin there are and work out the total value of the whole pile.",
+          "Pick three real prices from a receipt, a shop catalogue or a grocery app - things that don't already end in 0 or 5 cents.",
+          "For each price, work out what a cash customer would actually be charged after rounding to the nearest 5 cents.",
+          "Check whether your coin pile actually contains the right coins to make each rounded amount exactly, and write down which ones you could pay exactly."
+        ],
+        "record": [
+          {
+            "id": "coin_total",
+            "label": "What was the total value of every coin you found, in dollars?",
+            "type": "number",
+            "unit": "$",
+            "hint": "add up all the coins",
+            "min": 0,
+            "max": 200
+          },
+          {
+            "id": "coin_count",
+            "label": "How many individual coins did you count in total?",
+            "type": "number",
+            "unit": "coins",
+            "hint": "count each coin once",
+            "min": 0,
+            "max": 500
+          },
+          {
+            "id": "prices_text",
+            "label": "Write the three real prices you used and what each one rounds to in cash.",
+            "type": "text",
+            "hint": "e.g. $4.83 rounds to $4.85",
+            "min_words": 15
+          },
+          {
+            "id": "could_pay",
+            "label": "Which of the three rounded amounts could you actually pay exactly with the coins in your pile, and why not the others?",
+            "type": "text",
+            "hint": "two or three sentences",
+            "min_words": 15
+          }
+        ],
+        "check": "A good result has a coin total that roughly matches what an adult would expect from that jar, three genuinely different real prices (not round numbers), and rounding worked out correctly for each - query it if the rounded totals aren't multiples of 5 cents.",
+        "xp": 40
+      },
+      "kind": "lesson"
+    },
+    {
+      "slug": "y4-working-out-change",
+      "title": "Working Out Change (and Checking It's Right)",
+      "strand": "Money and budgeting",
+      "year_level": 4,
+      "curriculum_code": "",
+      "curriculum_text": "",
+      "position": 2,
+      "est_minutes": 12,
+      "intro": "Handing over money is only half the job - the other half is making sure you get the right change back. Here's how to work it out fast, and how to check it.",
+      "sections": [
+        {
+          "heading": "What change actually is",
+          "body": "**Change** is the money you get back when you pay with more than the exact price. It's simply the amount you paid, minus the price of what you bought.",
+          "example": {
+            "prompt": "You buy a mango smoothie for $4.20 and pay with a $5 note. How much change should you get?",
+            "working": [
+              "$5.00 - $4.20"
+            ],
+            "answer": "$0.80"
+          }
+        },
+        {
+          "heading": "Counting up - a fast way to work out change",
+          "body": "Instead of subtracting, lots of people find it faster to **count up** from the price to the amount they paid. Add small, easy amounts until you reach a round number, then keep adding to the total paid.\n\nAdd up all the little jumps you made along the way - that total is the change.",
+          "example": {
+            "prompt": "Price $3.55, paid with a $5 note. Count up to work out the change.",
+            "working": [
+              "3.55 + 0.45 = 4.00 (jump of 45c)",
+              "4.00 + 1.00 = 5.00 (jump of $1)",
+              "45c + $1.00 = $1.45"
+            ],
+            "answer": "$1.45"
+          }
+        },
+        {
+          "heading": "Checking the change you're given",
+          "body": "It's always fine to check your change - shopkeepers and even machines can make mistakes. The easy check: add the change to the price you paid. It should equal exactly what you handed over.\n\nIf it doesn't match, that's your cue to ask about it, calmly and politely."
+        },
+        {
+          "heading": "Change and cash rounding together",
+          "body": "Remember that cash totals get rounded to the nearest 5 cents first (see the money basics lesson). So when you're working out change on a cash purchase, round the price first, *then* work out the change from what you actually pay. Card payments skip this step entirely, since they're never rounded.",
+          "example": {
+            "prompt": "A cash total of $27.83 gets rounded first (to $27.85), then paid with a $30 note. What's the change?",
+            "working": [
+              "Round $27.83 to the nearest 5c -> $27.85",
+              "$30.00 - $27.85"
+            ],
+            "answer": "$2.15"
+          }
+        }
+      ],
+      "key_points": [
+        "Change = amount paid minus the price of the item.",
+        "Counting up from the price to the amount paid is often faster than subtracting.",
+        "Check change by adding it back to the price - it should equal what you handed over.",
+        "For cash purchases, round the price to the nearest 5c first, then work out the change.",
+        "Card payments are never rounded, so change (or your new balance) is always exact."
+      ],
+      "try_this": "Set up a play shop with priced items from a supermarket catalogue or sticky notes. Take turns being customer and shopkeeper with real coins, working out - and checking - each other's change.",
+      "questions": [
+        {
+          "type": "tf",
+          "prompt": "To check your change, you can add the change to the price you paid and see if it equals the amount you handed over.",
+          "answer": true,
+          "explain": "Change plus the price paid should always equal the amount you handed over - that's the easiest way to check it's correct.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "You buy a drink for $3.20 and pay with a $5 note. What change should you get?",
+          "choices": [
+            "$1.80",
+            "$2.80",
+            "$1.20",
+            "$2.20"
+          ],
+          "answer": "$1.80",
+          "explain": "$5.00 - $3.20 = $1.80.",
+          "difficulty": 1
+        },
+        {
+          "type": "numeric",
+          "prompt": "A servo receipt shows one ice cream at $4.50. You pay with a $10 note. How much lands back in your hand?",
+          "answer": 5.5,
+          "tolerance": 0.001,
+          "unit": "$",
+          "explain": "$10.00 - $4.50 = $5.50.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "A punnet of Cooktown mangoes is $2.95. You hand over a $10 note. How much should you get back?",
+          "answer": 7.05,
+          "tolerance": 0.001,
+          "unit": "$",
+          "explain": "$10.00 - $2.95 = $7.05.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "You pay a $10 note for a purchase totalling $8.25. What should you get back?",
+          "answer": 1.75,
+          "tolerance": 0.001,
+          "unit": "$",
+          "explain": "$10.00 - $8.25 = $1.75.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "A shopkeeper mutters '$3.55... $4, that's 45c... and $5, that's another dollar' while handing back your change. What method is she using?",
+          "answer": [
+            "counting up",
+            "counting on"
+          ],
+          "explain": "This method is called 'counting up' (or 'counting on') - adding small jumps from the price until you reach the amount paid.",
+          "difficulty": 2
+        },
+        {
+          "type": "tf",
+          "prompt": "Jayden pays for a $13.42 item using his phone's tap-to-pay. He tells his sister his new balance will be worked out from $13.40, since totals get rounded. Is he right?",
+          "answer": false,
+          "explain": "Card and phone payments are charged the exact price - rounding to the nearest 5 cents only applies to cash.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A market stall's cash total comes to $14.12 for a hat and $13.71 for sunnies. You pay with cash using a $30 note. How much do you get back?",
+          "answer": 2.15,
+          "tolerance": 0.001,
+          "unit": "$",
+          "explain": "$14.12 + $13.71 = $27.83, which rounds up to $27.85 (last digit 3 rounds up). $30.00 - $27.85 = $2.15.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "You buy three items for $4.35, $2.80 and $1.14 cash, and pay with a $20 note. What change should you get, once the total has been rounded to the nearest 5 cents?",
+          "answer": 11.7,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "Add the items: $4.35 + $2.80 + $1.14 = $8.29. Rounded to the nearest 5 cents, that becomes $8.30. $20.00 - $8.30 = $11.70.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "Using the $11.70 change above, what is the FEWEST number of individual notes and coins the shopkeeper could hand over to make that exact amount?",
+          "answer": 4,
+          "tolerance": 0.01,
+          "unit": "pieces",
+          "explain": "$11.70 breaks down as $10 + $1 + 50c + 20c - that's 4 pieces, and there's no way to make it in fewer with Australian notes and coins.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "Priya receives $3.75 change from a $20 note after a cash purchase (the price had already been rounded). What was the rounded price she paid?",
+          "answer": 16.25,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "Change = amount paid - price, so price = amount paid - change. $20.00 - $3.75 = $16.25.",
+          "difficulty": 4
+        },
+        {
+          "type": "mc",
+          "prompt": "A shopkeeper makes a mistake: instead of rounding a $14.62 cash total to the nearest 5 cents first, they work out change straight from the exact $14.62 price, after being paid with a $20 note. By how much is the change wrong, and who does the mistake favour?",
+          "choices": [
+            "$0.02 less, cheating the customer",
+            "$0.02 more, cheating the shop",
+            "$0.05 less, cheating the customer",
+            "No difference at all"
+          ],
+          "answer": "$0.02 less, cheating the customer",
+          "explain": "$14.62 rounds down to $14.60 (last digit 2). Correct change: $20.00 - $14.60 = $5.40. The mistaken change from the exact price: $20.00 - $14.62 = $5.38. That's $0.02 less than the customer is actually owed.",
+          "difficulty": 4
+        }
+      ],
+      "activity": {
+        "title": "Real Receipt Change Relay",
+        "why": "Proves they can apply rounding and change-making to genuine prices under time pressure, not just worked examples.",
+        "est_minutes": 25,
+        "adult_help": "nearby",
+        "materials": [
+          "5 real receipts, price tags or online order totals from home",
+          "a jar or pile of real coins and notes (or family's spare change)",
+          "a timer or phone stopwatch",
+          "paper and pencil"
+        ],
+        "steps": [
+          "Collect 5 different real prices from receipts, shop tags or a grocery app - avoid ones that already end in 0 or 5 cents.",
+          "For each price, imagine paying cash and work out the rounded total to the nearest 5 cents.",
+          "Decide which real note ($20 or $50, actual or a paper stand-in) you would hand over for each.",
+          "Work out the change owed for each of the 5 purchases.",
+          "Using real coins and notes from home, physically count out the exact change for each purchase, one at a time, timing how long the whole relay takes.",
+          "Write down your total time and which purchase's change was hardest to make."
+        ],
+        "record": [
+          {
+            "id": "total_time_min",
+            "label": "How many minutes did the whole relay take?",
+            "type": "number",
+            "unit": "min",
+            "hint": "use a stopwatch",
+            "min": 1,
+            "max": 60
+          },
+          {
+            "id": "hardest_change_amount",
+            "label": "The dollar amount of the trickiest change to make",
+            "type": "number",
+            "unit": "$",
+            "min": 0,
+            "max": 100
+          },
+          {
+            "id": "prices_used",
+            "label": "List your 5 real prices and what each one rounded to.",
+            "type": "text",
+            "min_words": 20
+          },
+          {
+            "id": "reflection",
+            "label": "Which purchase's change was hardest to physically make with real coins, and why?",
+            "type": "text",
+            "min_words": 15
+          }
+        ],
+        "check": "Look for 5 genuinely different real prices (from receipts or tags, not invented), correct rounding to the nearest 5 cents, and a completion time that's plausible for counting real coins by hand.",
+        "xp": 40
+      },
+      "kind": "lesson"
+    },
+    {
+      "slug": "y4-price-per-unit",
+      "title": "Price Per Unit: Which One's Actually Cheaper?",
+      "strand": "Money and budgeting",
+      "year_level": 4,
+      "curriculum_code": "",
+      "curriculum_text": "",
+      "position": 3,
+      "est_minutes": 13,
+      "intro": "Bigger packs look like better deals - but not always. Working out the price per unit tells you the truth.",
+      "sections": [
+        {
+          "heading": "What 'price per unit' means",
+          "body": "A **unit** is just a fixed amount - like 100 grams, 1 kilogram, 1 litre, or even 1 single item. The **unit price** is how much that one fixed amount costs, no matter how big or small the whole pack is.\n\nWorking out the unit price lets you compare two different pack sizes fairly, because you're comparing the same-sized slice of each one.",
+          "example": {
+            "prompt": "A 500g bag of flour costs $2.00. What is the price per 100g?",
+            "working": [
+              "500g is made up of 5 lots of 100g",
+              "$2.00 ÷ 5"
+            ],
+            "answer": "$0.40 per 100g"
+          }
+        },
+        {
+          "heading": "Comparing two sizes",
+          "body": "Say pasta comes in a 500g pack for $3.50, or a 1kg pack for $6.40. The 1kg pack costs more overall - but is it actually the better deal?\n\nWork out the price per 100g for each: the 500g pack is $3.50 ÷ 5 = $0.70 per 100g. The 1kg pack is $6.40 ÷ 10 = $0.64 per 100g. Even though it costs more upfront, the 1kg pack is actually cheaper per 100g.",
+          "example": {
+            "prompt": "Soft drink cans: a 6-pack costs $4.20, a 12-pack costs $7.80. Which is cheaper per can?",
+            "working": [
+              "6-pack: $4.20 ÷ 6 = $0.70 per can",
+              "12-pack: $7.80 ÷ 12 = $0.65 per can"
+            ],
+            "answer": "The 12-pack, at $0.65 per can"
+          }
+        },
+        {
+          "heading": "Unit pricing on the shelf",
+          "body": "Australian supermarkets usually print the unit price in small writing on the shelf ticket, like '$/100g' or '$/L'. It's worth glancing at instead of guessing - though it's still handy to know how to work it out yourself, in case the label is missing or you're comparing an in-store price to an online one."
+        },
+        {
+          "heading": "Why this matters more in a remote town",
+          "body": "Freight costs mean grocery prices in a remote town like Cooktown can be higher than in big cities, especially for items trucked or flown in from far away. Sometimes only one pack size is on the shelf, or ordering online adds a delivery cost on top.\n\nKnowing how to calculate the unit price yourself means you can compare the local shop price to an online order properly, instead of just guessing which is the better deal."
+        }
+      ],
+      "key_points": [
+        "Unit price is the cost of one fixed amount, like 100g, 1kg, 1L or 1 item.",
+        "Divide the total price by the number of units to find the unit price.",
+        "The bigger pack isn't always cheaper per unit - always check.",
+        "Australian shelf tags often show the unit price in small print.",
+        "In a remote town, comparing unit prices helps when freight pushes prices up or when comparing in-store to online."
+      ],
+      "try_this": "Find a supermarket catalogue, or two products at home with different sizes of the same thing (like two sizes of juice or shampoo). Work out the price per 100mL or per 100g for each, and decide which is really the better deal.",
+      "questions": [
+        {
+          "type": "mc",
+          "prompt": "What does 'price per unit' tell you?",
+          "choices": [
+            "The total price of the whole pack",
+            "How much one item or a fixed amount (like 100g) costs",
+            "The size of the discount",
+            "The name brand of the product"
+          ],
+          "answer": "How much one item or a fixed amount (like 100g) costs",
+          "explain": "Unit price is the cost of a single fixed amount - like 100g or 1L - so you can compare packs fairly.",
+          "difficulty": 1
+        },
+        {
+          "type": "tf",
+          "prompt": "The bigger pack is always the cheaper option per unit.",
+          "answer": false,
+          "explain": "Sometimes the bigger pack costs more per unit - it's worth checking rather than assuming.",
+          "difficulty": 1
+        },
+        {
+          "type": "numeric",
+          "prompt": "A shelf tag under a 250 g block of chocolate shows only the price: $4.00 (no per-100g figure printed). What per-100g price should be on that tag?",
+          "answer": 1.6,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "250g is 2.5 lots of 100g. $4.00 ÷ 2.5 = $1.60 per 100g.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "A 2kg bag of rice is priced at $5.20 with no per-kg figure on the shelf tag. What per-kilogram price should be printed?",
+          "answer": 2.6,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "$5.20 ÷ 2 = $2.60 per kg.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "Two bottles of water sit side by side at the servo: a 600 mL bottle for $2.10, and a 1.5 L bottle for $4.50. Which one gives more water for your money?",
+          "answer": [
+            "the 1.5 L bottle",
+            "1.5 l bottle",
+            "1.5 litre bottle",
+            "the 1.5 litre bottle",
+            "1.5l"
+          ],
+          "explain": "600 mL works out to $2.10 ÷ 0.6 = $3.50 per litre. 1.5 L works out to $4.50 ÷ 1.5 = $3.00 per litre, so the 1.5 L bottle is cheaper per litre.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "A shelf tag prints '$0.65/100g' underneath the price. What is that per-100g figure called?",
+          "answer": [
+            "unit price",
+            "price per unit"
+          ],
+          "explain": "This is called the unit price - it lets you compare packs of different sizes fairly.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "A 2 kg bag of frozen vegetables is priced at $11.80, but the shelf tag's per-kilogram figure has rubbed off. What number belongs there?",
+          "answer": 5.9,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "$11.80 ÷ 2 = $5.90 per kg.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "At the servo freezer, frozen veg comes as a 1 kg bag for $6.50, or a 2 kg bag for $11.80. Per kilogram, how much cheaper is the 2 kg bag than the 1 kg bag?",
+          "answer": 0.6,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "The 1 kg bag costs $6.50 per kg. The 2 kg bag costs $11.80 ÷ 2 = $5.90 per kg. $6.50 - $5.90 = $0.60 cheaper per kg.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "Peanut butter comes as a 375g jar for $5.25, or a 500g jar for $7.60. Work out the price per 100g for both jars, then give the price per 100g of the CHEAPER jar.",
+          "answer": 1.4,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "375g jar: $5.25 ÷ 3.75 = $1.40 per 100g. 500g jar: $7.60 ÷ 5 = $1.52 per 100g. Even though it's the smaller jar, the 375g jar is cheaper per 100g.",
+          "difficulty": 4
+        },
+        {
+          "type": "mc",
+          "prompt": "Rice comes in three sizes: 1kg for $3.80, 2kg for $8.20, and 5kg for $19.50. Which is the best value per kilogram?",
+          "choices": [
+            "1kg ($3.80/kg)",
+            "2kg ($4.10/kg)",
+            "5kg ($3.90/kg)",
+            "They are all equal"
+          ],
+          "answer": "1kg ($3.80/kg)",
+          "explain": "1kg: $3.80 per kg. 2kg: $8.20 ÷ 2 = $4.10 per kg. 5kg: $19.50 ÷ 5 = $3.90 per kg. The smallest pack is actually the cheapest here - the biggest pack isn't automatically the best deal.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "Long-life milk costs $2.60 per litre at the Cooktown shop. Ordering a 3L box online (including delivery) costs $9.90 total. Working out the delivered price per litre, how much MORE expensive per litre is the online option than the shop?",
+          "answer": 0.7,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "Online delivered price per litre: $9.90 ÷ 3 = $3.30. Shop price: $2.60 per litre. $3.30 - $2.60 = $0.70 more per litre online, once delivery is included.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "Shampoo comes as 200mL for $4.20, 400mL for $7.60, or 900mL for $15.30. What is the price per 100mL of the CHEAPEST bottle?",
+          "answer": 1.7,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "200mL: $4.20 ÷ 2 = $2.10 per 100mL. 400mL: $7.60 ÷ 4 = $1.90 per 100mL. 900mL: $15.30 ÷ 9 = $1.70 per 100mL. Here the biggest bottle really is the cheapest per 100mL - but you have to check every time, not assume.",
+          "difficulty": 4
+        }
+      ],
+      "activity": {
+        "title": "Real Trolley Unit-Price Showdown",
+        "why": "Proves they can find real unit prices from genuine listings, not textbook numbers, including cases where the bigger pack isn't the cheaper one.",
+        "est_minutes": 30,
+        "adult_help": "nearby",
+        "materials": [
+          "a supermarket catalogue, receipt, or an online grocery site/app",
+          "calculator",
+          "paper and pencil"
+        ],
+        "steps": [
+          "Pick one product that comes in at least 3 different pack sizes (e.g. rice, pasta, shampoo, juice) from a real catalogue, website or the pantry.",
+          "Write down the exact size and price of each of the 3 pack sizes.",
+          "Work out the price per 100g, per 100mL or per item for each pack size.",
+          "Circle or highlight which pack size is actually the cheapest per unit.",
+          "Repeat the whole process for a second, different product.",
+          "Write down whether the cheapest pack was the biggest one, for each of your two products."
+        ],
+        "record": [
+          {
+            "id": "product1_best_unit_price",
+            "label": "Cheapest unit price you found for product 1 (per 100g/100mL/item)",
+            "type": "number",
+            "unit": "$",
+            "min": 0,
+            "max": 50
+          },
+          {
+            "id": "product2_best_unit_price",
+            "label": "Cheapest unit price you found for product 2",
+            "type": "number",
+            "unit": "$",
+            "min": 0,
+            "max": 50
+          },
+          {
+            "id": "pack_sizes_text",
+            "label": "List both products, all their pack sizes and prices, and which was cheapest per unit.",
+            "type": "text",
+            "min_words": 25
+          },
+          {
+            "id": "surprised",
+            "label": "Was the cheapest pack the biggest one for both products? Explain what surprised you.",
+            "type": "text",
+            "min_words": 15
+          }
+        ],
+        "check": "Both products should be real ones with 3 real pack sizes and prices copied accurately - the unit price maths should check out when you divide price by size yourself.",
+        "xp": 45
+      },
+      "kind": "lesson"
+    },
+    {
+      "slug": "y4-wants-vs-needs",
+      "title": "Wants vs Needs: Choosing When You Can't Have Both",
+      "strand": "Money and budgeting",
+      "year_level": 4,
+      "curriculum_code": "",
+      "curriculum_text": "",
+      "position": 4,
+      "est_minutes": 11,
+      "intro": "Everyone wants stuff. Not everything is a need. When money's tight, knowing the difference helps you choose without the stress.",
+      "sections": [
+        {
+          "heading": "What's a need?",
+          "body": "A **need** is something required for your health, safety or basic daily life - things like food, a school hat, shoes that actually fit, or bus fare to get somewhere important.\n\nNeeds aren't about being fancy - they're about the basics being covered."
+        },
+        {
+          "heading": "What's a want?",
+          "body": "A **want** is something nice to have, but not essential - the latest game, an extra snack, another pair of sneakers when your current ones are still fine.\n\nThere's nothing wrong with wanting things! It's just a different category to a need, and that difference matters when money is limited."
+        },
+        {
+          "heading": "When you can't afford both",
+          "body": "With a limited amount of money, choosing one thing over another isn't a punishment - it's just how money works, for kids and grown-ups alike. Add up what both things cost, compare that total to what you actually have, and see where you land.",
+          "example": {
+            "prompt": "Jack has $20. A school hat (need) costs $14. A comic (want) costs $9. Can he buy both today?",
+            "working": [
+              "$14 + $9 = $23",
+              "$23 is more than his $20"
+            ],
+            "answer": "No - he is $3 short"
+          }
+        },
+        {
+          "heading": "Needs and wants can look different for different people",
+          "body": "What counts as a need can depend on your situation. In a hot, sunny place like Cooktown, a good hat or sun-safe clothing might be more of a need than it would be somewhere cooler. There's no single right list - the key skill is being able to sort your own situation into needs and wants, then plan around it."
+        }
+      ],
+      "key_points": [
+        "A need is required for health, safety or daily life. A want is nice to have, but not essential.",
+        "It's completely normal to want things - wanting isn't a problem.",
+        "When money is limited, add up the total cost and compare it to what you have.",
+        "Needs usually come first when you can't afford everything.",
+        "What counts as a need can be different for different people and places."
+      ],
+      "try_this": "Look through a supermarket catalogue or around your room and list five things. For each one, decide with a family member whether it's mostly a need or mostly a want, and talk about why.",
+      "questions": [
+        {
+          "type": "mc",
+          "prompt": "Which of these is a need?",
+          "choices": [
+            "A new bike helmet",
+            "The latest video game",
+            "A pack of football cards",
+            "Extra lollies"
+          ],
+          "answer": "A new bike helmet",
+          "explain": "A bike helmet protects your safety, which makes it a need rather than a want.",
+          "difficulty": 1
+        },
+        {
+          "type": "tf",
+          "prompt": "Wants are things we'd like to have but don't need for our health, safety or daily life.",
+          "answer": true,
+          "explain": "That's exactly the difference - wants are nice extras, needs are the essentials.",
+          "difficulty": 1
+        },
+        {
+          "type": "tf",
+          "prompt": "Jack has $20. He wants a $14 school hat and a $9 comic. He decides he can afford both because $20 is more than either item alone. Is he right?",
+          "answer": false,
+          "explain": "$14 + $9 = $23, which is $3 more than the $20 Jack has, so he can't actually afford both.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "Jack counts his $20 pocket money against a $14 hat and a $9 comic he wants. How many dollars short is he?",
+          "answer": 3,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "$14 + $9 = $23. $23 - $20 = $3 more than he has.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "Mia can only afford one thing this week: shoes that actually fit her growing feet, or a poster for her wall. Which kind of item - a need or a want - should usually come first when money's tight?",
+          "answer": [
+            "need",
+            "needs"
+          ],
+          "explain": "Needs cover health, safety and daily life essentials, so they're usually prioritised over wants.",
+          "difficulty": 2
+        },
+        {
+          "type": "tf",
+          "prompt": "A family in Cooktown says a good sun hat is a need because of the heat, while a cousin in Melbourne treats hats as just a want. Can 'need' mean different things for different families or places?",
+          "answer": true,
+          "explain": "Needs depend on someone's situation - a good hat matters more in a hot, sunny place like Cooktown than it might somewhere cooler.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "Mia needs a $6 item and wants a $24 item. She saves $8 a week and doesn't spend any of it. How many whole weeks until she's saved enough for both?",
+          "answer": 4,
+          "tolerance": 0.01,
+          "unit": "weeks",
+          "explain": "$6 + $24 = $30 needed in total. $30 ÷ $8 = 3.75 weeks. Since she can't save part of a week, round up to 4 weeks.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A family sets aside $50 for extras this week: a $30 fuel top-up and an $8 school notebook are needs, and $15 takeaway is a want. After covering the needs, how much is left for the want?",
+          "answer": 12,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "$50 - $30 - $8 = $12 left, which is less than the $15 takeaway costs, so they can't afford it in full.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "Mia has $40. Needs: bus fare $9 and a glue stick $4. Wants: a comic $8, a keyring $6, and a poster $15. She buys both needs, then the comic and the poster (but not the keyring). How much money does she have left?",
+          "answer": 4,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "Needs: $9 + $4 = $13. Left after needs: $40 - $13 = $27. Comic + poster: $8 + $15 = $23. Left after those wants: $27 - $23 = $4.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "Using the $4 Mia has left above, how much MORE money would she need to also buy the $6 keyring?",
+          "answer": 2,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "The keyring costs $6, but she only has $4 left. $6 - $4 = $2 more needed.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A family has $120 for the week. Needs: fuel top-up $45, groceries $52. They also buy two wants: fishing bait $9 and a movie rental $14. How much money is left after the needs AND both wants?",
+          "answer": 0,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "Needs: $45 + $52 = $97. Left after needs: $120 - $97 = $23. Wants: $9 + $14 = $23. Left after wants too: $23 - $23 = $0 - just enough, with nothing spare.",
+          "difficulty": 4
+        },
+        {
+          "type": "mc",
+          "prompt": "Another family has $60 and $30 of needs, leaving $30 for a want. They're deciding between Want A ($25 all-in) and Want B ($15 plus a required $9 accessory to use it, $24 total). Which is actually the cheaper overall want, and does it fit their $30 leftover?",
+          "choices": [
+            "Want B, because $24 total is cheaper than Want A's $25 - both fit the $30 leftover",
+            "Want A, because $25 is cheaper than Want B's $24",
+            "They cost exactly the same once totalled",
+            "Neither fits the $30 leftover"
+          ],
+          "answer": "Want B, because $24 total is cheaper than Want A's $25 - both fit the $30 leftover",
+          "explain": "Want B looks cheaper at $15, but it needs a $9 accessory to actually work, making its real total $24. Comparing full totals: $24 (Want B) is still cheaper than $25 (Want A), and both fit inside the $30 leftover - but only once the hidden accessory cost is added in.",
+          "difficulty": 4
+        }
+      ],
+      "activity": {
+        "title": "The $40 Real Trolley Trade-off",
+        "why": "Proves they can classify real items and make an actual spending trade-off under a real budget limit, not a made-up one.",
+        "est_minutes": 30,
+        "adult_help": "nearby",
+        "materials": [
+          "a real supermarket catalogue, shopping app, or price tags from home",
+          "paper and pencil",
+          "calculator"
+        ],
+        "steps": [
+          "From a real catalogue, app or the pantry, write down 6 real items with their real prices - a mix of things you'd call needs and things you'd call wants.",
+          "Sort the 6 items into a needs list and a wants list, with a family member checking your sorting.",
+          "Add up the total price of all your needs.",
+          "Pretend you have exactly $40. Subtract your needs total to see what's left for wants.",
+          "Decide which combination of your real wants uses as much of the leftover money as possible without going over.",
+          "Write down your final choice and how much money (if any) was left unspent."
+        ],
+        "record": [
+          {
+            "id": "needs_total",
+            "label": "Total price of all your real needs items",
+            "type": "number",
+            "unit": "$",
+            "min": 0,
+            "max": 40
+          },
+          {
+            "id": "leftover_unspent",
+            "label": "How much money was left unspent after your final want choices?",
+            "type": "number",
+            "unit": "$",
+            "min": 0,
+            "max": 40
+          },
+          {
+            "id": "items_list",
+            "label": "List your 6 real items, their real prices, and how you sorted each into needs or wants.",
+            "type": "text",
+            "min_words": 25
+          },
+          {
+            "id": "tradeoff_reason",
+            "label": "Explain why you chose that combination of wants over another possible combination.",
+            "type": "text",
+            "min_words": 15
+          }
+        ],
+        "check": "Prices should be real ones copied from a catalogue, app or pantry, needs total plus chosen wants should not exceed $40, and the leftover amount should match the arithmetic.",
+        "xp": 45
+      },
+      "kind": "lesson"
+    },
+    {
+      "slug": "y4-saving-up-goals",
+      "title": "Saving Up: Goals, Weeks and How Far Off You Are",
+      "strand": "Money and budgeting",
+      "year_level": 4,
+      "curriculum_code": "",
+      "curriculum_text": "",
+      "position": 5,
+      "est_minutes": 12,
+      "intro": "Got your eye on something that costs more than you have right now? Here's how to turn 'I want that' into an actual plan.",
+      "sections": [
+        {
+          "heading": "Setting a savings goal",
+          "body": "A **savings goal** is a specific item or amount you're saving toward, plus a rough idea of when you'd like to reach it. It helps to know the exact price - not a guess - so your plan is based on real numbers."
+        },
+        {
+          "heading": "How far off are you?",
+          "body": "Once you know the goal price and how much you've already saved, subtract to find out how much more you need.",
+          "example": {
+            "prompt": "Zoe wants a $60 scooter part. She has saved $22 so far. How much more does she need?",
+            "working": [
+              "$60 - $22"
+            ],
+            "answer": "$38"
+          }
+        },
+        {
+          "heading": "Working out how many weeks",
+          "body": "Divide the amount you still need by how much you save each week. If it doesn't divide evenly, round up to the next whole week - you can't save 'half a week', so an extra week gets you the rest of the way.",
+          "example": {
+            "prompt": "Zoe needs $38 more and saves $4 a week. How many weeks until she reaches her goal?",
+            "working": [
+              "$38 ÷ $4 = 9.5",
+              "9 weeks isn't quite enough, since 9 × $4 = $36",
+              "Round up to the next whole week"
+            ],
+            "answer": "10 weeks"
+          }
+        },
+        {
+          "heading": "When the goal changes",
+          "body": "Prices change, and sometimes a birthday gift or a bit of extra chore money lands partway through saving. That's normal - it just means recalculating with the new numbers, not starting over or giving up."
+        }
+      ],
+      "key_points": [
+        "A savings goal needs a real price and an idea of how much you can save each week.",
+        "Amount still needed = goal price minus what you've already saved.",
+        "Weeks needed = amount still needed divided by weekly savings, rounded up.",
+        "A gift or bonus toward your goal reduces the amount still needed.",
+        "It's normal to recalculate your plan when the goal or your savings change."
+      ],
+      "try_this": "Find or start a coin jar. Count what's in it now, pick something you'd like to save for, find out its real price, and work out how many weeks it'll take if you add the same amount each week.",
+      "questions": [
+        {
+          "type": "mc",
+          "prompt": "What is a savings goal?",
+          "choices": [
+            "A target amount you're saving toward",
+            "The amount you spend each day",
+            "A discount at the shops",
+            "The price of something on special"
+          ],
+          "answer": "A target amount you're saving toward",
+          "explain": "A savings goal is the specific amount or item you're aiming to save enough money for.",
+          "difficulty": 1
+        },
+        {
+          "type": "tf",
+          "prompt": "Writing down how much you've already saved helps you know how far off your goal you are.",
+          "answer": true,
+          "explain": "Knowing your current savings lets you subtract it from the goal price to see exactly how much more is needed.",
+          "difficulty": 1
+        },
+        {
+          "type": "numeric",
+          "prompt": "Zoe has $22 saved toward a $60 scooter part. How much further does she have to go?",
+          "answer": 38,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "$60 - $22 = $38.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "Zoe still needs $38 for her scooter part, and saves $4 every week. How many whole weeks before she's got enough?",
+          "answer": 10,
+          "tolerance": 0.01,
+          "unit": "weeks",
+          "explain": "$38 ÷ $4 = 9.5 weeks. Since 9 weeks only covers $36, she needs a 10th week to cover the rest.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "The scooter part's price rises to $65. Zoe has $22 saved and still saves $4 a week. How many more whole weeks does she need?",
+          "answer": 11,
+          "tolerance": 0.01,
+          "unit": "weeks",
+          "explain": "$65 - $22 = $43 still needed. $43 ÷ $4 = 10.75 weeks, so she needs to round up to 11 weeks.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "Every Sunday, Zoe checks her coin jar against her $65 target to see how close she's getting. What's this habit called?",
+          "answer": [
+            "progress",
+            "tracking"
+          ],
+          "explain": "Checking how close you are to your goal is called tracking your progress.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "Amy has $36 saved toward a $120 fishing rod, and adds $12 a week from her weekend job. How many whole weeks until she's saved enough?",
+          "answer": 7,
+          "tolerance": 0.01,
+          "unit": "weeks",
+          "explain": "$120 - $36 = $84 still needed. $84 ÷ $12 = 7 weeks exactly.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "Amy's grandma gives her a one-off $24 gift toward her fishing rod fund, on top of her usual $12-a-week saving. How many fewer weeks does she now need, compared to the 7 weeks it would've taken without the gift?",
+          "answer": 2,
+          "tolerance": 0.01,
+          "unit": "weeks",
+          "explain": "The $24 gift covers $24 ÷ $12 = 2 weeks worth of saving, so she needs 2 fewer weeks than the original 7.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "Leo saves $5 a week for an $85 skateboard part. After 6 weeks he has saved $30. But the price then rises to $95. How many MORE whole weeks does he now need?",
+          "answer": 13,
+          "tolerance": 0.01,
+          "unit": "weeks",
+          "explain": "After 6 weeks he has $30. He now needs $95 - $30 = $65 more. At $5 a week: $65 ÷ $5 = 13 weeks exactly.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "In week 7, Leo also gets a one-off $10 chore bonus on top of his usual $5 weekly saving. How much has he saved in total by the end of week 7?",
+          "answer": 45,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "After 6 weeks: $30. Week 7 adds his usual $5 plus the $10 bonus: $5 + $10 = $15. Total: $30 + $15 = $45.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "Using the $45 Leo has saved after week 7, and the $95 goal, how many MORE whole weeks does he need at $5 a week?",
+          "answer": 10,
+          "tolerance": 0.01,
+          "unit": "weeks",
+          "explain": "He still needs $95 - $45 = $50. At $5 a week: $50 ÷ $5 = 10 weeks exactly.",
+          "difficulty": 4
+        },
+        {
+          "type": "mc",
+          "prompt": "Instead, from week 8 Leo could save $8 a week, still needing the same $50. How many weeks would that take, compared to the 10 weeks at $5 a week?",
+          "choices": [
+            "7 weeks - 3 fewer than the $5-a-week plan",
+            "6 weeks - 4 fewer",
+            "7 weeks - 3 more",
+            "10 weeks - the same"
+          ],
+          "answer": "7 weeks - 3 fewer than the $5-a-week plan",
+          "explain": "$50 ÷ $8 = 6.25 weeks. Since part of a week isn't enough, round up to 7 weeks. That's 3 fewer weeks than the 10 it would take saving $5 a week.",
+          "difficulty": 4
+        }
+      ],
+      "activity": {
+        "title": "Two-Price Savings Recalculation",
+        "why": "Proves they can adjust a real savings plan when a real price actually changes, not just in a worked example.",
+        "est_minutes": 30,
+        "adult_help": "nearby",
+        "materials": [
+          "access to a real shop, catalogue or online store (with an adult)",
+          "coin jar or savings tin",
+          "paper and pencil",
+          "calculator"
+        ],
+        "steps": [
+          "Pick something real you'd like to save for and find its real current price online or in a shop, with an adult's help.",
+          "Count how much you actually have saved right now (coins, tin, whatever is real and available).",
+          "Work out how much more you need and, using a realistic weekly saving amount you agree with an adult, how many weeks that will take.",
+          "A few days later, or by checking a different shop or website, find the SAME item's price again - it may have gone up, down or stayed the same.",
+          "Recalculate how many weeks you now need using the new price.",
+          "Write down both prices and both week counts, and explain what changed."
+        ],
+        "record": [
+          {
+            "id": "first_price",
+            "label": "The item's first real price you found",
+            "type": "number",
+            "unit": "$",
+            "min": 0,
+            "max": 500
+          },
+          {
+            "id": "second_price",
+            "label": "The item's second real price you found (different day or shop)",
+            "type": "number",
+            "unit": "$",
+            "min": 0,
+            "max": 500
+          },
+          {
+            "id": "weeks_recalculated",
+            "label": "How many whole weeks do you now need at your saving rate, using the second price?",
+            "type": "number",
+            "unit": "weeks",
+            "min": 0,
+            "max": 100
+          },
+          {
+            "id": "what_changed",
+            "label": "Explain what happened to the price and how your plan changed as a result.",
+            "type": "text",
+            "min_words": 20
+          }
+        ],
+        "check": "Both prices should be genuinely looked up (not guessed), the weeks recalculation should match dividing the new shortfall by the weekly saving amount and rounding up, and the explanation should reference the actual price difference.",
+        "xp": 45
+      },
+      "kind": "lesson"
+    },
+    {
+      "slug": "y4-earning-chores-value-of-time",
+      "title": "Earning: Chores, Small Jobs and What Your Time Is Worth",
+      "strand": "Money and budgeting",
+      "year_level": 4,
+      "curriculum_code": "",
+      "curriculum_text": "",
+      "position": 6,
+      "est_minutes": 12,
+      "intro": "Earning your own money feels great - and comparing jobs by what they actually pay per hour is a handy trick for the rest of your life.",
+      "sections": [
+        {
+          "heading": "Ways kids can earn",
+          "body": "There are plenty of ways to earn a bit of money beyond your usual pocket money: doing extra chores for pay, helping a neighbour or family member with a job (watering plants, walking a dog), or selling something you've made - like friendship bracelets at a local market."
+        },
+        {
+          "heading": "Time, effort and what a job is worth",
+          "body": "Two jobs that pay the same dollar amount aren't automatically equally good deals. A job that pays more but takes much longer might actually be worth less per hour than a quicker job that pays a little less overall."
+        },
+        {
+          "heading": "Working out an hourly rate",
+          "body": "To compare jobs fairly, work out the **hourly rate**: the money earned divided by the hours it took.",
+          "example": {
+            "prompt": "Tom earns $12 for washing the car, which takes 1.5 hours. What's his hourly rate?",
+            "working": [
+              "$12 ÷ 1.5 hours"
+            ],
+            "answer": "$8 per hour"
+          }
+        },
+        {
+          "heading": "Costs of earning",
+          "body": "Sometimes earning money costs a little too - bus fare to get there, or materials you had to buy. Your real, or **net**, earnings are what's left after subtracting those costs, and that's the number worth comparing between jobs."
+        }
+      ],
+      "key_points": [
+        "Kids can earn through extra chores, small jobs for others, or selling things they make.",
+        "Two jobs paying the same total amount aren't equally good if one takes much longer.",
+        "Hourly rate = money earned divided by hours worked.",
+        "Net earnings = what you keep after subtracting any costs of doing the job.",
+        "Comparing hourly rates (not just totals) shows which job is really the better use of your time."
+      ],
+      "try_this": "List three jobs you could realistically do around home this week (with a grown-up's okay) and roughly how long each would take. Guess how much each is worth, then work out the hourly rate for each and see which is the best use of your time.",
+      "questions": [
+        {
+          "type": "mc",
+          "prompt": "Which of these is an example of earning money as a kid?",
+          "choices": [
+            "Finding coins under the couch",
+            "Doing extra chores for pay",
+            "Waiting for a birthday gift",
+            "Winning a raffle"
+          ],
+          "answer": "Doing extra chores for pay",
+          "explain": "Earning means doing something - like a job or extra chore - in exchange for money, unlike finding money or winning it by luck.",
+          "difficulty": 1
+        },
+        {
+          "type": "tf",
+          "prompt": "The amount someone earns for a job can depend on how much time and effort the job takes.",
+          "answer": true,
+          "explain": "Jobs that take more time, skill or effort are often paid more, though it's always worth checking the rate per hour.",
+          "difficulty": 1
+        },
+        {
+          "type": "numeric",
+          "prompt": "Tom earns $12 washing his dad's car, a job that takes him 1.5 hours. Working it out per hour, what's he actually making?",
+          "answer": 8,
+          "tolerance": 0.01,
+          "unit": "$/hr",
+          "explain": "$12 ÷ 1.5 hours = $8 per hour.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "Priya earns $18 weeding the garden, a job that takes her 2 hours. What does that work out to per hour?",
+          "answer": 9,
+          "tolerance": 0.01,
+          "unit": "$/hr",
+          "explain": "$18 ÷ 2 hours = $9 per hour.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "Tom's car-washing job pays $8 an hour and Priya's weeding job pays $9 an hour. Whose job is the better use of an hour?",
+          "answer": [
+            "priya",
+            "priya's"
+          ],
+          "explain": "$9 per hour is more than $8 per hour, even though Tom's job took less total time.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "Tom works out he makes $8 for every hour he spends washing cars. What's this per-hour figure called?",
+          "answer": [
+            "hourly rate",
+            "rate per hour"
+          ],
+          "explain": "This is called the hourly rate - it lets you compare jobs of different lengths fairly.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "Ben helps out at a family fishing shed for 3 Saturdays, earning $25 each time. Over those weeks he spends $9 total on bus fares just getting there. Once the bus fares are accounted for, how much has he actually kept?",
+          "answer": 66,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "$25 × 3 = $75 earned. $75 - $9 (bus fares) = $66 net earnings.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "Ben kept $66 after costs, for about 9 hours of work across his 3 Saturdays. To the nearest dollar, what does that work out to per hour?",
+          "answer": 7,
+          "tolerance": 0.5,
+          "unit": "$/hr",
+          "explain": "$66 ÷ 9 hours ≈ $7.33 per hour, which rounds to about $7/hr.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "Chore A pays $20 total for 2.5 hours, but the earner has to buy $3 of cleaning supplies themselves. What is Chore A's NET hourly rate?",
+          "answer": 6.8,
+          "tolerance": 0.01,
+          "unit": "$/hr",
+          "explain": "Net earnings: $20 - $3 = $17. Hourly rate: $17 ÷ 2.5 hours = $6.8/hr.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "Chore B pays $15 for 1.5 hours, with no costs to the earner. What is Chore B's hourly rate?",
+          "answer": 10.0,
+          "tolerance": 0.01,
+          "unit": "$/hr",
+          "explain": "$15 ÷ 1.5 hours = $10.0/hr.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "Comparing Chore A's net rate of $6.8/hr and Chore B's rate of $10.0/hr, how much MORE per hour does the better chore earn?",
+          "answer": 3.2,
+          "tolerance": 0.01,
+          "unit": "$/hr",
+          "explain": "$10.0/hr - $6.8/hr = $3.2/hr more for Chore B, even though Chore A pays more in total dollars.",
+          "difficulty": 4
+        },
+        {
+          "type": "mc",
+          "prompt": "Chore C pays $30 for 2 hours of work, but also needs 1 hour of unpaid travel each way included as part of the time spent. Counting the travel as time spent, what is Chore C's real hourly rate?",
+          "choices": [
+            "$10.0/hr - the same as Chore B",
+            "$15.0/hr - higher than Chore B",
+            "$30/hr",
+            "$6.8/hr - the same as Chore A"
+          ],
+          "answer": "$10.0/hr - the same as Chore B",
+          "explain": "Total time spent is 2 + 1 = 3 hours, not just the 2 hours of actual work. $30 ÷ 3 hours = $10.0/hr, exactly matching Chore B once the unpaid travel time is counted.",
+          "difficulty": 4
+        }
+      ],
+      "activity": {
+        "title": "Time-and-Cost a Real Chore",
+        "why": "Proves they can measure real time and real cost to work out a genuine hourly rate, not an estimated one.",
+        "est_minutes": 35,
+        "adult_help": "nearby",
+        "materials": [
+          "a stopwatch or phone timer",
+          "an actual chore to do (agreed with an adult) and any real materials it needs",
+          "paper and pencil"
+        ],
+        "steps": [
+          "Agree with an adult on one real chore you'll actually do today and how much it will actually pay.",
+          "Note down any real cost involved in doing it (petrol, cleaning spray, dog treats, batteries, etc), if any.",
+          "Start the timer and do the chore properly, timing exactly how long it takes from start to finish.",
+          "Stop the timer the moment the chore is properly finished and record the total time.",
+          "Subtract any real costs from the pay to find your net earnings.",
+          "Work out your real hourly rate by dividing net earnings by the time taken, in hours."
+        ],
+        "record": [
+          {
+            "id": "time_minutes",
+            "label": "How many minutes did the chore actually take?",
+            "type": "number",
+            "unit": "min",
+            "min": 1,
+            "max": 240
+          },
+          {
+            "id": "net_earnings",
+            "label": "Your net earnings after subtracting any real costs",
+            "type": "number",
+            "unit": "$",
+            "min": 0,
+            "max": 200
+          },
+          {
+            "id": "hourly_rate",
+            "label": "Your real hourly rate, worked out from the above",
+            "type": "number",
+            "unit": "$/hr",
+            "min": 0,
+            "max": 100
+          },
+          {
+            "id": "worth_it",
+            "label": "Was this chore a good use of your time compared to other jobs you could have done? Explain.",
+            "type": "text",
+            "min_words": 15
+          }
+        ],
+        "check": "The time should be a real stopwatch reading, the hourly rate should equal net earnings divided by time in hours (check the arithmetic), and the reflection should refer to an actual alternative, not a vague guess.",
+        "xp": 40
+      },
+      "kind": "lesson"
+    },
+    {
+      "slug": "y6-building-a-simple-budget",
+      "title": "Building a Simple Budget: Money In, Money Out, What's Left",
+      "strand": "Money and budgeting",
+      "year_level": 6,
+      "curriculum_code": "",
+      "curriculum_text": "",
+      "position": 7,
+      "est_minutes": 14,
+      "intro": "A budget isn't complicated maths - it's just money in, minus money out, equals what's left. Once you can do that, you can plan almost anything.",
+      "sections": [
+        {
+          "heading": "Money in and money out",
+          "body": "**Money in** (income) is anything you receive - pocket money, gifts, or pay from a job. **Money out** (expenses) is anything you spend, including money you deliberately set aside into savings.\n\nIt might feel odd to count savings as 'money out', but in a budget it's treated that way - it's money leaving your pocket, even though it's going somewhere useful rather than being spent."
+        },
+        {
+          "heading": "Working out what's left",
+          "body": "**What's left** = money in − money out. If the result is positive, you have a **surplus**. If it's negative, you're in **deficit** (a shortfall) - spending more than is coming in, which isn't sustainable for long.",
+          "example": {
+            "prompt": "Weekly income is $35. Expenses: $10 savings, $8 phone credit, $6 snacks. What's left?",
+            "working": [
+              "Total money out: $10 + $8 + $6 = $24",
+              "$35 - $24"
+            ],
+            "answer": "$11"
+          }
+        },
+        {
+          "heading": "Budgeting over a longer period",
+          "body": "Budgets can run weekly or monthly. A monthly budget can smooth out income that varies week to week - useful if some weeks bring more chore or job money than others.",
+          "example": {
+            "prompt": "Monthly income is $150. Expenses: $40 savings, $25 sports club fee, $20 entertainment. What's left?",
+            "working": [
+              "Total money out: $40 + $25 + $20 = $85",
+              "$150 - $85"
+            ],
+            "answer": "$65"
+          }
+        },
+        {
+          "heading": "Budgeting in a remote town",
+          "body": "In a place like Cooktown, freight surcharges can push up everyday costs - fuel and groceries especially - in weeks when supply trucks or barges cost more to run. A budget built around a 'normal' week might not stretch as far if prices jump, so it helps to leave a small buffer where you can."
+        }
+      ],
+      "key_points": [
+        "Money in = income. Money out = expenses, including savings you set aside.",
+        "What's left = money in minus money out.",
+        "A positive result is a surplus; a negative result is a deficit (shortfall).",
+        "Budgets can be built weekly or monthly.",
+        "In remote areas, freight-driven price rises mean it helps to budget in a small buffer."
+      ],
+      "try_this": "Grab a real receipt or a week's worth of pocket money and jot down every dollar that came in and went out. Add up money in, add up money out, and work out what's left. Try it again next week and compare.",
+      "questions": [
+        {
+          "type": "mc",
+          "prompt": "In a budget, 'money in' means:",
+          "choices": [
+            "Income you receive, like pocket money or pay",
+            "Money you spend on things",
+            "The tax added to a price",
+            "The change you get back"
+          ],
+          "answer": "Income you receive, like pocket money or pay",
+          "explain": "Money in is income - anything coming into your pocket, like pocket money, gifts or pay from a job.",
+          "difficulty": 1
+        },
+        {
+          "type": "tf",
+          "prompt": "A budget only shows what you spent in the past - it can't be used to plan ahead.",
+          "answer": false,
+          "explain": "A budget can be used to plan future money in and money out, not just to look backward.",
+          "difficulty": 1
+        },
+        {
+          "type": "numeric",
+          "prompt": "One week, $35 comes in. $10 goes to savings, $8 to phone credit and $6 to snacks. What's left over?",
+          "answer": 11,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "Total money out: $10 + $8 + $6 = $24. $35 - $24 = $11.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "One month, $150 comes in. $40 goes to savings, $25 to a sports club fee and $20 to entertainment. What's left over?",
+          "answer": 65,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "Total money out: $40 + $25 + $20 = $85. $150 - $85 = $65.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "One week, $40 goes out but only $30 comes in. What's this situation called?",
+          "answer": [
+            "deficit",
+            "a deficit",
+            "shortfall",
+            "a shortfall"
+          ],
+          "explain": "Spending more than you receive creates a deficit, or shortfall.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "After paying for everything this week, Leo has $9 sitting unspent in his account. What's this leftover amount called?",
+          "answer": [
+            "surplus",
+            "leftover"
+          ],
+          "explain": "Money left over after expenses is called a surplus.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "A family's weekly grocery bill in Cooktown is normally $220, but this week freight surcharges push it up by 8%. What's the new total?",
+          "answer": 237.6,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "8% of $220 is $17.60. $220 + $17.60 = $237.60.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A student's monthly income is $180. She puts 20% of it into savings, plus spends $15 on her phone and $25 on outings. How much does she have left after all of that?",
+          "answer": 104,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "Savings: 20% of $180 = $36. Total money out: $36 + $15 + $25 = $76. $180 - $76 = $104.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "Monthly income is $210. Expenses: 25% into savings, $35 phone/internet, $48 sports fees, and groceries which normally cost $90 but have a 12% Cooktown freight surcharge added this month. What is the TOTAL money out?",
+          "answer": 236.3,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "Savings: 25% of $210 = $52.5. Groceries with the surcharge: $90 × 1.12 = $100.8. Total out: $52.5 + $35 + $48 + $100.8 = $236.3.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "Using the $236.3 total money out above, by how much is this month's budget in DEFICIT (a shortfall)?",
+          "answer": 26.3,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "$210 income - $236.3 money out = -$26.3, meaning the budget is $26.3 short.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "Without touching savings, phone or sports fees, what would grocery spending need to be for this month's budget to balance exactly (no deficit, no surplus)?",
+          "answer": 74.5,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "Savings + phone + sports = $52.5 + $35 + $48 = $135.5. For the budget to balance, groceries must be $210 - $135.5 = $74.5.",
+          "difficulty": 4
+        },
+        {
+          "type": "mc",
+          "prompt": "Instead of cutting groceries, the family drops their savings rate from 25% to 15% of income (still with the $100.8 surcharged groceries, $35 phone and $48 sports fees). Does that fully fix the $26.3 deficit?",
+          "choices": [
+            "No - still $5.3 short",
+            "Yes - exactly balanced",
+            "No - $10.00 short",
+            "Yes - $5.3 surplus"
+          ],
+          "answer": "No - still $5.3 short",
+          "explain": "New savings: 15% of $210 = $31.5. New total out: $31.5 + $35 + $48 + $100.8 = $215.3. That still leaves a shortfall of $210 - $215.3 = -$5.3, so the deficit shrinks but isn't fixed.",
+          "difficulty": 4
+        }
+      ],
+      "activity": {
+        "title": "Your Real One-Week Budget",
+        "why": "Proves they can build a working budget from real money over real time, including a genuine surplus or deficit, not a hypothetical one.",
+        "est_minutes": 35,
+        "adult_help": "none",
+        "materials": [
+          "paper and pencil (or a notes app) to track for a week",
+          "any real receipts, pocket money or pay you actually receive that week"
+        ],
+        "steps": [
+          "For one full week, write down every real amount of money that comes in (pocket money, gifts, job pay) as it happens.",
+          "For the same week, write down every real amount that goes out, including anything you put straight into savings.",
+          "At the end of the week, add up all your money in.",
+          "Add up all your money out.",
+          "Work out what's left: money in minus money out. Write a negative number if it's a deficit.",
+          "If a grown-up mentions any real price rise that week (fuel, groceries, freight), note what caused it and how much extra it added to money out."
+        ],
+        "record": [
+          {
+            "id": "money_in",
+            "label": "Total real money in for the week",
+            "type": "number",
+            "unit": "$",
+            "min": 0,
+            "max": 500
+          },
+          {
+            "id": "money_out",
+            "label": "Total real money out for the week",
+            "type": "number",
+            "unit": "$",
+            "min": 0,
+            "max": 500
+          },
+          {
+            "id": "result_amount",
+            "label": "What's left (money in minus money out) - write a negative number if it's a deficit",
+            "type": "number",
+            "unit": "$",
+            "min": -500,
+            "max": 500
+          },
+          {
+            "id": "week_summary",
+            "label": "Describe your week's money: what came in, what went out, and whether you had a surplus or deficit.",
+            "type": "text",
+            "min_words": 20
+          }
+        ],
+        "check": "Money in minus money out should equal the result exactly, and the week should include genuinely different real transactions, not the same number repeated.",
+        "xp": 50
+      },
+      "kind": "lesson"
+    },
+    {
+      "slug": "y6-percentages-in-the-shops",
+      "title": "Percentages in the Shops: Discounts and Sale Tricks",
+      "strand": "Money and budgeting",
+      "year_level": 6,
+      "curriculum_code": "",
+      "curriculum_text": "",
+      "position": 8,
+      "est_minutes": 14,
+      "intro": "Big red 'SALE' signs are everywhere - but percentages don't lie, even when marketing tries to make a deal look bigger than it is.",
+      "sections": [
+        {
+          "heading": "What a percentage discount means",
+          "body": "'% off' means that percentage is subtracted from the original price. If something is 25% off, you're paying the remaining 75% of the price.",
+          "example": {
+            "prompt": "Sneakers are $40, discounted by 25%. What do you pay?",
+            "working": [
+              "25% of $40 = $10",
+              "$40 - $10"
+            ],
+            "answer": "$30"
+          }
+        },
+        {
+          "heading": "Was/now pricing",
+          "body": "Shops often show a 'was $X, now $Y' tag. If the percentage isn't printed, you can work it out: find the dollar difference, then compare it to the original price.",
+          "example": {
+            "prompt": "A jacket is 'was $120, now $84'. What percentage discount is that?",
+            "working": [
+              "Discount amount: $120 - $84 = $36",
+              "$36 ÷ $120 = 0.30"
+            ],
+            "answer": "30%"
+          }
+        },
+        {
+          "heading": "Sale tricks to watch for",
+          "body": "Some sale signs are designed to look bigger than they really are. 'Up to 70% off' often means only a couple of items are actually 70% off, and most are far less. An inflated 'was' price - one that was barely ever charged - makes the 'now' price look like a bigger saving than it is.\n\nTaking a moment to check the real numbers, rather than trusting the sign, is always worth it."
+        },
+        {
+          "heading": "Comparing two different-looking deals",
+          "body": "To compare two deals fairly, work out the final price for each - don't just compare the percentages. A bigger percentage off a smaller original price can end up cheaper *or* pricier than a smaller percentage off a bigger original price.",
+          "example": {
+            "prompt": "Shop A: a $60 item, 20% off. Shop B: the same item, originally $66, 25% off. Which is cheaper?",
+            "working": [
+              "Shop A: $60 × 0.80 = $48",
+              "Shop B: $66 × 0.75 = $49.50"
+            ],
+            "answer": "Shop A, by $1.50"
+          }
+        }
+      ],
+      "key_points": [
+        "'% off' means paying the remaining percentage of the original price.",
+        "Discount amount = original price × discount percentage.",
+        "You can find a discount percentage by dividing the dollar saving by the original price.",
+        "'Up to X% off' often means only a few items get the full discount.",
+        "Always compare final prices, not just the percentages, when comparing two deals."
+      ],
+      "try_this": "Find a real sale sign, catalogue or online listing with a percentage discount. Work out the actual dollar saving and the final price yourself, then check it against what's printed.",
+      "questions": [
+        {
+          "type": "mc",
+          "prompt": "'25% off' means you pay:",
+          "choices": [
+            "75% of the price",
+            "25% of the price",
+            "The full price",
+            "125% of the price"
+          ],
+          "answer": "75% of the price",
+          "explain": "If 25% is taken off, the remaining 75% is what you pay.",
+          "difficulty": 1
+        },
+        {
+          "type": "tf",
+          "prompt": "A sticker reading 'was $50, now $50' represents a genuine discount.",
+          "answer": false,
+          "explain": "If the 'was' and 'now' prices are the same, there's no actual saving at all.",
+          "difficulty": 1
+        },
+        {
+          "type": "numeric",
+          "prompt": "A shoe shop tag reads: Runners, was $80, 30% off. Before you even see the new price, how many dollars does that 30% actually take off?",
+          "answer": 24,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "30% of $80 = 0.30 × $80 = $24.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "Those $80 runners with 30% off - what do you actually pay at the till?",
+          "answer": 56,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "$80 - $24 (the discount) = $56.",
+          "difficulty": 2
+        },
+        {
+          "type": "mc",
+          "prompt": "A sign out the front says 'UP TO 60% OFF EVERYTHING!' in huge letters. Before grabbing anything, what's worth checking?",
+          "choices": [
+            "Nothing - just buy it",
+            "Whether most items are actually only a small percentage off",
+            "The colour of the sign",
+            "That the shop is open"
+          ],
+          "answer": "Whether most items are actually only a small percentage off",
+          "explain": "'Up to' phrasing usually means only a few items get the maximum discount, so it's worth checking the real percentage on what you actually want.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "A tag shows '$120' crossed out next to a lower price of '$84'. What do we call that crossed-out $120 figure?",
+          "answer": [
+            "was price",
+            "original price"
+          ],
+          "explain": "This is usually labelled the 'was' price, or the original price, before the discount.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "A jacket's tag reads 'was $120, now $84'. What percentage has been taken off?",
+          "answer": 30,
+          "tolerance": 0.5,
+          "unit": "%",
+          "explain": "Discount amount: $120 - $84 = $36. $36 ÷ $120 = 0.30, which is 30%.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "Shop A prices an item at $60 with 20% off. Shop B prices the identical item at $66 with 25% off. By how many dollars is the cheaper shop's price lower than the other shop's?",
+          "answer": 1.5,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "Shop A: $60 × 0.80 = $48. Shop B: $66 × 0.75 = $49.50. Shop A is cheaper by $49.50 - $48 = $1.50.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A sign reads '50% off! Was $80, now $52.' What is the ACTUAL percentage discount, based on the two prices?",
+          "answer": 35.0,
+          "tolerance": 0.5,
+          "unit": "%",
+          "explain": "Discount amount: $80 - $52 = $28. $28 ÷ $80 = 0.35, which is 35.0% - not the 50% claimed on the sign.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "By how many percentage points is the sign's claimed 50% discount overstated, compared to the real discount you just calculated?",
+          "answer": 15.0,
+          "tolerance": 0.5,
+          "unit": "points",
+          "explain": "Claimed: 50%. Actual: 35.0%. 50 - 35.0 = 15.0 percentage points overstated.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A jacket priced $150 has 20% taken off, and then a further 10% taken off the ALREADY-discounted price at the checkout. What is the final price?",
+          "answer": 108.0,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "First discount: $150 × 0.80 = $120.0. Second discount, applied to the new price: $120.0 × 0.90 = $108.0.",
+          "difficulty": 4
+        },
+        {
+          "type": "mc",
+          "prompt": "Which gives a bigger saving on the $150 jacket: two successive discounts of 20% then 10% (final price $108.0), or one straight 30% discount?",
+          "choices": [
+            "A straight 30% off is cheaper, by $3.0",
+            "They give exactly the same final price",
+            "Two successive discounts are cheaper, by $3.0",
+            "Two successive discounts are cheaper, by $10.00"
+          ],
+          "answer": "A straight 30% off is cheaper, by $3.0",
+          "explain": "Straight 30% off: $150 × 0.70 = $105.0. Two successive discounts give $108.0, which is $3.0 more than $105.0. 20% then 10% does NOT add up to a 30% discount - it's slightly less.",
+          "difficulty": 4
+        }
+      ],
+      "activity": {
+        "title": "Fact-Check a Real Sale",
+        "why": "Proves they can verify whether a real advertised discount is actually true, not just calculate a discount someone else already worked out.",
+        "est_minutes": 25,
+        "adult_help": "none",
+        "materials": [
+          "a real sale catalogue, shop window sign, or online store showing a % discount",
+          "calculator",
+          "paper and pencil"
+        ],
+        "steps": [
+          "Find 3 real 'was/now' or '% off' deals - in a catalogue, shop, or online store - and write down the exact was price, now price, and advertised percentage for each.",
+          "For each one, calculate the actual percentage discount yourself from the two prices.",
+          "Compare your calculated percentage to the advertised percentage for each deal.",
+          "Note whether each deal's advertised percentage was accurate, overstated or understated, and by how many percentage points.",
+          "Pick the deal that is genuinely the best real saving in dollars, not just the biggest percentage.",
+          "Write down which real deal you'd actually recommend buying and why."
+        ],
+        "record": [
+          {
+            "id": "deals_checked",
+            "label": "How many real deals did you check?",
+            "type": "number",
+            "min": 3,
+            "max": 10
+          },
+          {
+            "id": "biggest_gap",
+            "label": "The biggest gap you found between advertised and actual percentage",
+            "type": "number",
+            "unit": "points",
+            "min": 0,
+            "max": 100
+          },
+          {
+            "id": "deals_text",
+            "label": "List your 3 deals: was price, now price, advertised %, and your calculated actual %.",
+            "type": "text",
+            "min_words": 25
+          },
+          {
+            "id": "recommendation",
+            "label": "Which deal would you actually recommend, and why - in dollars, not just percentage?",
+            "type": "text",
+            "min_words": 15
+          }
+        ],
+        "check": "Every price should be copied from a genuine sign, catalogue or listing (not invented), and the calculated percentage should match dividing the dollar saving by the was price.",
+        "xp": 45
+      },
+      "kind": "lesson"
+    },
+    {
+      "slug": "y6-gst-receipts-dockets",
+      "title": "GST, Receipts and Reading a Docket Properly",
+      "strand": "Money and budgeting",
+      "year_level": 6,
+      "curriculum_code": "",
+      "curriculum_text": "",
+      "position": 9,
+      "est_minutes": 14,
+      "intro": "That little 'GST' line on a receipt confuses plenty of adults too. Here's what it actually means and how to work it out yourself.",
+      "sections": [
+        {
+          "heading": "What GST is",
+          "body": "**GST** stands for **Goods and Services Tax** - a 10% tax added to most things bought in Australia. Unlike some countries, GST is already built into the price you see on the shelf, so the price tag is exactly what you pay."
+        },
+        {
+          "heading": "What's GST-free",
+          "body": "Most fresh, basic food - fruit, vegetables, plain milk, bread, eggs, meat - has no GST added. Most other things do, including takeaway meals, soft drinks, electronics, clothes and entertainment. That's part of why cooking at home often works out cheaper than takeaway, beyond just the ingredient cost."
+        },
+        {
+          "heading": "Finding the GST hidden inside a price",
+          "body": "Since GST is already included in the price, you can find how much of a total is GST by dividing the total by 11. That works because the pre-GST price × 1.10 = the total, so total ÷ 1.10 = the pre-GST price, and the GST itself works out to exactly total ÷ 11.",
+          "example": {
+            "prompt": "A docket shows a total of $55.00, GST included. How much of that is GST?",
+            "working": [
+              "$55 ÷ 11"
+            ],
+            "answer": "$5.00"
+          }
+        },
+        {
+          "heading": "Reading a docket properly",
+          "body": "A typical docket lists each item with its price, a subtotal, sometimes a GST amount shown separately (even though it's already included in the item prices), and the final total. Adding up the individual item prices yourself is a good habit - it's an easy way to catch a scanning mistake."
+        }
+      ],
+      "key_points": [
+        "GST stands for Goods and Services Tax, at 10% in Australia.",
+        "Prices shown already include GST - what you see is what you pay.",
+        "Most fresh basic food is GST-free; most other purchases include GST.",
+        "To find the GST inside a total, divide the total by 11.",
+        "Check a docket by adding up the item prices yourself."
+      ],
+      "try_this": "Find a real shopping receipt at home (or ask to see one). Add up the item prices to check the total is right, and if it shows a GST amount, work out whether it matches total ÷ 11.",
+      "questions": [
+        {
+          "type": "mc",
+          "prompt": "GST stands for:",
+          "choices": [
+            "Goods and Services Tax",
+            "General Store Tax",
+            "Government Savings Total",
+            "Grocery Sales Total"
+          ],
+          "answer": "Goods and Services Tax",
+          "explain": "GST is short for Goods and Services Tax.",
+          "difficulty": 1
+        },
+        {
+          "type": "tf",
+          "prompt": "GST in Australia is charged at 10% on most goods and services.",
+          "answer": true,
+          "explain": "GST is a flat 10% added to the price of most goods and services in Australia.",
+          "difficulty": 1
+        },
+        {
+          "type": "numeric",
+          "prompt": "A docket total reads $22.00, GST included. How much of that total is actually GST?",
+          "answer": 2.0,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "$22 ÷ 11 = $2.00.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "Another docket totals $44.00, GST included. How much of that is GST?",
+          "answer": 4.0,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "$44 ÷ 11 = $4.00.",
+          "difficulty": 2
+        },
+        {
+          "type": "mc",
+          "prompt": "Your family's docket has four items on it: bananas, a takeaway burger, a phone case and a soft drink. Which one is GST-free?",
+          "choices": [
+            "Fresh bananas",
+            "A takeaway burger",
+            "A new phone case",
+            "A soft drink"
+          ],
+          "answer": "Fresh bananas",
+          "explain": "Basic fresh food like bananas is GST-free, while takeaway food, phone cases and soft drinks generally include GST.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "After paying at the till, the cashier hands you a slip listing everything you bought and the total. What's that slip called?",
+          "answer": [
+            "receipt",
+            "docket"
+          ],
+          "explain": "This is called a receipt, or docket.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "A docket shows a total of $132.00, GST included. What was the price before GST got added on?",
+          "answer": 120,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "$132 ÷ 1.10 = $120.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "Docket A totals $110, GST included. Docket B starts from a pre-GST price of $95, with 10% GST added on top. By how many dollars does the higher docket exceed the lower one?",
+          "answer": 5.5,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "Docket B's total: $95 × 1.10 = $104.50. Docket A's $110 is higher by $110 - $104.50 = $5.50.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A docket shows: fresh bananas $4.00 (GST-free), a magazine $9.90 (GST included), and a toy $16.50 (GST included). What is the TOTAL GST included on this docket?",
+          "answer": 2.4,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "Bananas are GST-free, so they contribute nothing. Magazine GST: $9.90 ÷ 11 = $0.90. Toy GST: $16.50 ÷ 11 = $1.50. Total: $0.90 + $1.50 = $2.40.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "What is the combined PRE-GST (before tax) price of just the magazine and the toy?",
+          "answer": 24.0,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "Magazine pre-GST: $9.90 ÷ 1.10 = $9.00. Toy pre-GST: $16.50 ÷ 1.10 = $15.00. Combined: $9.00 + $15.00 = $24.00.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "The docket's total is $30.40 (bananas + magazine + toy). If a checkout mistake meant GST was wrongly added to the bananas too, what would the new total come to?",
+          "answer": 30.8,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "Bananas with GST wrongly added: $4.00 × 1.10 = $4.40, which is $0.40 extra. New total: $30.40 + $0.40 = $30.80.",
+          "difficulty": 4
+        },
+        {
+          "type": "mc",
+          "prompt": "A café bill for a meal totals $38.50, GST included. A takeaway shop's pre-GST price for the same food is $34.00, with 10% GST added at checkout. Which is more expensive, and by how much?",
+          "choices": [
+            "The café, by $1.10",
+            "The takeaway shop, by $1.10",
+            "They're exactly equal",
+            "The café, by $4.50"
+          ],
+          "answer": "The café, by $1.10",
+          "explain": "Takeaway total: $34.00 × 1.10 = $37.40. The café's $38.50 is $1.10 more than that.",
+          "difficulty": 4
+        }
+      ],
+      "activity": {
+        "title": "Audit a Real Receipt for GST",
+        "why": "Proves they can pull apart a genuine receipt into GST-free and GST-included items and check the maths, not a made-up docket.",
+        "est_minutes": 25,
+        "adult_help": "none",
+        "materials": [
+          "1-2 real receipts from home (supermarket, takeaway, or any shop)",
+          "calculator",
+          "paper and pencil"
+        ],
+        "steps": [
+          "Find a real shopping receipt at home, or ask an adult for one from their wallet, bag or car.",
+          "List every item on it with its exact real price.",
+          "Decide which items are probably GST-free (fresh basic food) and which probably include GST.",
+          "For each item you think includes GST, work out the GST portion by dividing its price by 11.",
+          "Add up the GST portions for the whole receipt to estimate the total GST paid.",
+          "Add up all the item prices yourself and check it matches the receipt's printed total."
+        ],
+        "record": [
+          {
+            "id": "items_count",
+            "label": "How many items were on your real receipt?",
+            "type": "number",
+            "min": 1,
+            "max": 60
+          },
+          {
+            "id": "total_gst_estimate",
+            "label": "Your estimated total GST on the receipt, in dollars",
+            "type": "number",
+            "unit": "$",
+            "min": 0,
+            "max": 200
+          },
+          {
+            "id": "items_breakdown",
+            "label": "List at least 5 real items, their prices, and whether each is GST-free or includes GST.",
+            "type": "text",
+            "min_words": 25
+          },
+          {
+            "id": "total_check",
+            "label": "Did your added-up total match the receipt's printed total? Explain any difference you found.",
+            "type": "text",
+            "min_words": 15
+          }
+        ],
+        "check": "The items and prices should be copied exactly from a real receipt, the GST-free/taxable split should be sensible (fresh food GST-free, most else taxed), and the GST estimate should roughly equal total÷11 for the taxable items.",
+        "xp": 45
+      },
+      "kind": "lesson"
+    },
+    {
+      "slug": "y6-bank-accounts-cards-tracking",
+      "title": "Bank Accounts, Cards and Keeping Track of What You Spent",
+      "strand": "Money and budgeting",
+      "year_level": 6,
+      "curriculum_code": "",
+      "curriculum_text": "",
+      "position": 10,
+      "est_minutes": 14,
+      "intro": "Tap-and-go feels like magic money, but it's still your money leaving your account, every single tap. Here's how to stay on top of it.",
+      "sections": [
+        {
+          "heading": "What a bank account does",
+          "body": "A **bank account** is a safe place to keep money, with a running record of everything that goes in and out. Many accounts come with a linked card, so the money can be spent directly without needing cash."
+        },
+        {
+          "heading": "Debit cards and tap-and-go",
+          "body": "A **debit card** spends money you already have in your account - it's different from borrowing, which is a separate idea covered in the next lesson. **Tap-and-go** (contactless) payments work exactly the same as inserting the card and entering a PIN - the money still comes straight out of your account, just faster."
+        },
+        {
+          "heading": "Why small taps add up",
+          "body": "Several small contactless purchases can add up to a surprising amount without feeling like it, since there's no cash visibly leaving your hand each time. Keeping track matters.",
+          "example": {
+            "prompt": "In one week, Chloe's tap purchases were $5.60, $2.30, $8.00 and $3.10. What's her total spent for the week?",
+            "working": [
+              "$5.60 + $2.30 + $8.00 + $3.10"
+            ],
+            "answer": "$19.00"
+          }
+        },
+        {
+          "heading": "Checking your balance and statement",
+          "body": "Checking a banking app or statement regularly lets you see the running list of transactions, spot mistakes, and catch anything that looks wrong. This matters everywhere, but especially in a remote town like Cooktown, where the nearest physical bank branch might be a long drive away - knowing how to check things through an app or online really pays off."
+        }
+      ],
+      "key_points": [
+        "A bank account keeps a running record of money going in and out.",
+        "A debit card spends money you already have in the account.",
+        "Tap-and-go works the same as inserting a card - the money still leaves your account.",
+        "Small purchases can add up quickly without feeling like it.",
+        "Checking your balance or statement regularly helps you catch mistakes or unexpected charges."
+      ],
+      "try_this": "If your family has a banking app or paper statement, ask to look at a recent week's transactions together (with a grown-up). Add up the total spent that week yourself and compare it to the balance change shown.",
+      "questions": [
+        {
+          "type": "mc",
+          "prompt": "A debit card takes money from:",
+          "choices": [
+            "Money you already have in your account",
+            "Money the bank lends you",
+            "Someone else's account",
+            "Nowhere - it's free"
+          ],
+          "answer": "Money you already have in your account",
+          "explain": "A debit card spends money already sitting in your own account.",
+          "difficulty": 1
+        },
+        {
+          "type": "tf",
+          "prompt": "Tap-and-go (contactless) payments still take money out of your account, just like inserting the card.",
+          "answer": true,
+          "explain": "Tap-and-go is just a faster way to make the same payment - the money still comes out of your account.",
+          "difficulty": 1
+        },
+        {
+          "type": "numeric",
+          "prompt": "Chloe's banking app lists four tap purchases this week: $5.60, $2.30, $8.00 and $3.10. Added together, how much has she spent?",
+          "answer": 19.0,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "$5.60 + $2.30 + $8.00 + $3.10 = $19.00.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "Chloe's account had $50 at the start of the week. After her $19.00 of tap purchases, what does her balance show now?",
+          "answer": 31,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "$50 - $19.00 = $31.",
+          "difficulty": 2
+        },
+        {
+          "type": "mc",
+          "prompt": "Chloe's mum checks the banking app every Sunday night. Why is that a useful habit?",
+          "choices": [
+            "To see all your transactions and catch mistakes or scams",
+            "It's not useful, statements don't matter",
+            "To change your PIN automatically",
+            "To earn free money"
+          ],
+          "answer": "To see all your transactions and catch mistakes or scams",
+          "explain": "Regularly checking your statement helps you spot errors, unexpected charges, or anything suspicious early.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "To pay for a bigger purchase, Chloe has to type in a four-digit number at the machine instead of just tapping. What's that number called?",
+          "answer": [
+            "pin",
+            "PIN"
+          ],
+          "explain": "This is your PIN - a personal identification number that keeps your card secure.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "Liam's account had $85 at the start of the week. He made 5 tap purchases that averaged $6.40 each. What does his balance show now?",
+          "answer": 53,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "5 × $6.40 = $32.00 spent. $85 - $32.00 = $53.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "Liam's balance is $53, and he wants to keep at least $40 in his account for an upcoming school trip payment. What is the largest amount he could still spend right now and keep at least $40 in his account?",
+          "answer": 13,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "$53 - $40 = $13. He could spend up to $13, so a $15 purchase would take him below the $40 he wants to keep.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "Zac's account starts the week at $64. He makes 6 tap payments: $3.50, $7.20, $2.15, $12.00, $4.65 and $9.90. He also receives $20 pocket money mid-week. What is his end-of-week balance?",
+          "answer": 44.6,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "Total spent: $3.50+$7.20+$2.15+$12.00+$4.65+$9.90 = $39.40. Balance: $64 - $39.40 + $20 = $44.60.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "Zac wants to keep at least $30 in his account at all times. Based on his $44.60 balance above, what is the MOST he could spend on one more purchase without dropping below $30?",
+          "answer": 14.6,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "$44.60 - $30 = $14.60 is the most he can spend and still have exactly $30 left.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A bank statement shows a starting balance of $120 and an ending balance of $85.50, after exactly 4 transactions: -$18.00, -$9.50, +$25.00, and one unknown transaction. What was the unknown transaction's amount? (Use a minus sign if it's money going out.)",
+          "answer": -32.0,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "The 3 known transactions net to -$18.00 - $9.50 + $25.00 = $-2.50. Balance after those 3: $120 + (-2.50) = $117.50. To reach the real ending balance of $85.50, the unknown transaction must be $85.50 - $117.50 = $-32.00.",
+          "difficulty": 4
+        },
+        {
+          "type": "mc",
+          "prompt": "Zac's statement shows 5 transactions this week averaging -$6.40 each (all spending, no income). If his balance was $53 before these 5 transactions, what is his balance after?",
+          "choices": [
+            "$21.00",
+            "$46.60",
+            "$85.00",
+            "$53.00"
+          ],
+          "answer": "$21.00",
+          "explain": "Total spent: 5 × $6.40 = $32.00. Balance: $53 - $32.00 = $21.00.",
+          "difficulty": 4
+        }
+      ],
+      "activity": {
+        "title": "Reconcile a Real Week of Transactions",
+        "why": "Proves they can build and check a real running balance across many transactions, not just add up a handful in a worked example.",
+        "est_minutes": 30,
+        "adult_help": "nearby",
+        "materials": [
+          "a real banking app or paper statement (with an adult), or your own week of real pocket-money transactions",
+          "paper and pencil",
+          "calculator"
+        ],
+        "steps": [
+          "With an adult, look at a real week of transactions on a banking app or statement, or track your own real spending and any money received for a week.",
+          "Write down the starting balance (or starting amount) for that week.",
+          "List every real transaction in order, marking each as money in (+) or money out (-).",
+          "Work out a running balance after each transaction, one at a time, by hand.",
+          "Compare your final worked-out balance to the actual ending balance shown, or the actual money left.",
+          "If they don't match, go back through your running balance to find where the mistake happened."
+        ],
+        "record": [
+          {
+            "id": "transaction_count",
+            "label": "How many real transactions did you track or review?",
+            "type": "number",
+            "min": 3,
+            "max": 60
+          },
+          {
+            "id": "final_balance",
+            "label": "Your worked-out final balance",
+            "type": "number",
+            "unit": "$",
+            "min": -500,
+            "max": 2000
+          },
+          {
+            "id": "transactions_text",
+            "label": "List at least 6 of the real transactions in order, with the running balance after each.",
+            "type": "text",
+            "min_words": 25
+          },
+          {
+            "id": "match_check",
+            "label": "Did your worked-out balance match the real ending balance? If not, explain what you found.",
+            "type": "text",
+            "min_words": 15
+          }
+        ],
+        "check": "The transactions should be genuinely real (or genuinely tracked that week), the running balance should add and subtract correctly at each step, and the final figure should match the real ending balance (or the mismatch should be explained).",
+        "xp": 50
+      },
+      "kind": "lesson"
+    },
+    {
+      "slug": "y6-interest-saving-and-borrowing",
+      "title": "Interest: How Saving Grows and Borrowing Costs",
+      "strand": "Money and budgeting",
+      "year_level": 6,
+      "curriculum_code": "",
+      "curriculum_text": "",
+      "position": 11,
+      "est_minutes": 15,
+      "intro": "Interest is just a percentage that moves in your favour when you save, and against you when you borrow. Once you can calculate it, none of it is a mystery.",
+      "sections": [
+        {
+          "heading": "What interest is",
+          "body": "When you save money in an account, sometimes a little extra gets added over time - that's **interest earned**. When you borrow money, you usually have to pay back more than you borrowed - that's **interest charged**. Same idea, opposite direction."
+        },
+        {
+          "heading": "A simple way to calculate it",
+          "body": "A simple way to work out interest: **interest = the amount saved or borrowed (the 'principal') × the interest rate × the amount of time (in years)**.",
+          "example": {
+            "prompt": "You save $300 for one year at a simple interest rate of 2% per year. How much interest do you earn?",
+            "working": [
+              "$300 × 2% (0.02)"
+            ],
+            "answer": "$6"
+          }
+        },
+        {
+          "heading": "Borrowing costs more the longer you take",
+          "body": "The same formula works for borrowing - except now the extra amount is what you owe on top of what you borrowed.",
+          "example": {
+            "prompt": "You borrow $150 at a simple interest rate of 10% per year. How much extra will you owe after one year?",
+            "working": [
+              "$150 × 10% (0.10)"
+            ],
+            "answer": "$15"
+          }
+        },
+        {
+          "heading": "Saving over more than one year",
+          "body": "Leave money saved for longer, and it earns more interest, since time is part of the formula. Real accounts often add interest more than once a year, which grows the total a little faster than this simple version - but simple interest still gives an honest, easy-to-calculate estimate."
+        }
+      ],
+      "key_points": [
+        "Interest earned rewards saving; interest charged is the extra cost of borrowing.",
+        "Simple interest = principal × rate × time (in years).",
+        "The longer money is saved, the more interest it earns.",
+        "Borrowing for longer means paying more interest overall.",
+        "Real accounts can be a bit more complex than simple interest, but the basic idea is the same."
+      ],
+      "try_this": "Using a calculator, pick a pretend savings amount (like $200) and a pretend interest rate (like 3% per year). Work out how much interest it would earn after 1 year, then after 3 years, using the simple interest idea.",
+      "questions": [
+        {
+          "type": "mc",
+          "prompt": "Interest on savings is:",
+          "choices": [
+            "Extra money added for keeping your money saved",
+            "A fee you pay to open an account",
+            "Free money with no reason",
+            "The same thing as GST"
+          ],
+          "answer": "Extra money added for keeping your money saved",
+          "explain": "Interest on savings is extra money that can be added over time as a reward for keeping money saved.",
+          "difficulty": 1
+        },
+        {
+          "type": "tf",
+          "prompt": "When you borrow money, you usually have to pay back more than you borrowed, because of interest.",
+          "answer": true,
+          "explain": "Borrowing typically comes with interest charged on top, so more is repaid than was originally borrowed.",
+          "difficulty": 1
+        },
+        {
+          "type": "numeric",
+          "prompt": "You put $300 in a savings account for one year, earning simple interest at 2% per year. How much interest lands in your account?",
+          "answer": 6,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "$300 × 0.02 = $6.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "Your $300 savings earned $6 in interest over the year. What's your new total?",
+          "answer": 306,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "$300 + $6 = $306.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "You borrow $150 at a simple interest rate of 10% per year. After one year, how much extra do you owe on top of the $150?",
+          "answer": 15,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "$150 × 0.10 = $15.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "Before any interest is added, Maya's savings account statement lists the original $500 she put in. What's that starting amount called?",
+          "answer": [
+            "principal"
+          ],
+          "explain": "The original amount is called the principal.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "Maya saves $500 in an account earning simple interest at 4% per year, and leaves it there for 2 years. How much interest will she have earned in total by then?",
+          "answer": 40,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "$500 × 0.04 × 2 years = $40.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "You could save $400 for a year at 3% simple interest, or borrow $400 for a year at 7% simple interest. In dollars, how much more does the borrowing cost you than the saving would earn you?",
+          "answer": 16,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "Saving earns $400 × 0.03 = $12. Borrowing costs $400 × 0.07 = $28. The difference is $28 - $12 = $16.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "Using simple interest, $250 is saved at 5% per year for 18 months (1.5 years). How much interest is earned?",
+          "answer": 18.75,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "Interest = principal × rate × time = $250 × 0.05 × 1.5 = $18.75.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "What is the TOTAL amount in the account after the 18 months, including the interest?",
+          "answer": 268.75,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "$250 + $18.75 interest = $268.75.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "Simple interest earned on a savings account was $27 after 3 years at a rate of 3% per year. What was the ORIGINAL principal?",
+          "answer": 300.0,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "Interest = principal × rate × time, so principal = interest ÷ (rate × time) = $27 ÷ (0.03 × 3) = $27 ÷ 0.09 = $300.0.",
+          "difficulty": 4
+        },
+        {
+          "type": "mc",
+          "prompt": "Option A: save $200 at 6% simple interest for 2 years. Option B: save $300 at 3% simple interest for 2 years. Which earns more interest, and by how much?",
+          "choices": [
+            "Option A, by $6.0",
+            "Option B, by $6.0",
+            "They earn exactly the same",
+            "Option A, by $12.0"
+          ],
+          "answer": "Option A, by $6.0",
+          "explain": "Option A: $200 × 0.06 × 2 = $24.0. Option B: $300 × 0.03 × 2 = $18.0. $24.0 - $18.0 = $6.0 more from Option A, even though it starts with the smaller amount.",
+          "difficulty": 4
+        }
+      ],
+      "activity": {
+        "title": "Real-World Interest Calculator",
+        "why": "Proves they can apply the simple interest formula to a genuine real-world rate and amount, not just a textbook example.",
+        "est_minutes": 25,
+        "adult_help": "nearby",
+        "materials": [
+          "an adult who can share one real interest rate they know of (savings or borrowing), without naming any company",
+          "calculator",
+          "paper and pencil"
+        ],
+        "steps": [
+          "Ask an adult for one real interest rate they know about - from savings, a loan, or something advertised - just the percentage and whether it's a savings or borrowing rate, no need to name where.",
+          "Pick a realistic principal amount together with the adult (e.g. $500, $2000).",
+          "Using the simple interest formula, work out how much interest that would add up to after 1 year.",
+          "Work out how much interest it would add up to after 3 years.",
+          "If it's a savings rate, work out the total balance after 3 years. If it's a borrowing rate, work out the total owed after 3 years.",
+          "Ask the adult if real bank interest works exactly like this simple version, and write down what they say is different."
+        ],
+        "record": [
+          {
+            "id": "rate_percent",
+            "label": "The real interest rate you used, as a percentage",
+            "type": "number",
+            "unit": "%",
+            "min": 0,
+            "max": 30
+          },
+          {
+            "id": "principal_used",
+            "label": "The principal amount you used",
+            "type": "number",
+            "unit": "$",
+            "min": 1,
+            "max": 100000
+          },
+          {
+            "id": "interest_3yr",
+            "label": "Interest (or extra owed) after 3 years, using simple interest",
+            "type": "number",
+            "unit": "$",
+            "min": 0,
+            "max": 50000
+          },
+          {
+            "id": "adult_explains",
+            "label": "What did the adult say is different about how real interest actually works, compared to this simple version?",
+            "type": "text",
+            "min_words": 20
+          }
+        ],
+        "check": "The 3-year interest figure should equal principal × rate × 3 exactly, and the adult's explanation should mention something genuine (like interest compounding, or rates changing) rather than being left blank.",
+        "xp": 45
+      },
+      "kind": "lesson"
+    },
+    {
+      "slug": "y6-spotting-a-ripoff",
+      "title": "Spotting a Rip-Off: In-Game Buys, 'Free' Apps and Online Pressure",
+      "strand": "Money and budgeting",
+      "year_level": 6,
+      "curriculum_code": "",
+      "curriculum_text": "",
+      "position": 12,
+      "est_minutes": 15,
+      "intro": "Not every 'amazing deal' online or in a game is what it looks like. A bit of maths and a pause before you click can save real money.",
+      "sections": [
+        {
+          "heading": "How 'free' apps and games actually make money",
+          "body": "A free download doesn't mean the app makes no money - it usually earns through in-app purchases, ads, or subscriptions instead. Games often use gems, coins or tokens instead of dollar signs, which can make spending feel less real. It's always worth converting back to actual dollars before deciding.",
+          "example": {
+            "prompt": "A game sells gems in bundles of 500 for $7.99. A skin costs 1200 gems. How many bundles do you need to buy, and what's the real dollar cost?",
+            "working": [
+              "1200 ÷ 500 = 2.4 bundles",
+              "You can't buy part of a bundle, so round up to 3",
+              "3 × $7.99"
+            ],
+            "answer": "3 bundles, $23.97"
+          }
+        },
+        {
+          "heading": "Pressure tricks",
+          "body": "Countdown timers, 'only 2 left!' and 'X people are viewing this right now' are all designed to make you decide fast instead of thinking it through. It's completely fine - and smart - to wait, sleep on it, or ask an adult before spending, especially online."
+        },
+        {
+          "heading": "Marketplace scams",
+          "body": "On online marketplaces, watch for prices well below what something is normally worth, sellers asking to be paid before you've seen the item, or pressure to decide fast. This matters even more in a remote place like Cooktown, where buying online is common and you often can't just pop round and check an item in person before paying."
+        },
+        {
+          "heading": "Subscriptions that keep charging",
+          "body": "A **subscription** charges automatically and repeatedly - weekly or monthly - until it's cancelled. Forgetting to check on one can quietly add up to real money over a few months.",
+          "example": {
+            "prompt": "An app charges $12.99 a month automatically. If nobody notices for 4 months, how much has been charged in total?",
+            "working": [
+              "$12.99 × 4"
+            ],
+            "answer": "$51.96"
+          }
+        }
+      ],
+      "key_points": [
+        "'Free' apps usually make money through in-app purchases, ads or subscriptions.",
+        "Convert game currency (gems, coins) back to real dollars before deciding to spend.",
+        "Countdown timers and urgency messages are designed to rush your decision.",
+        "Marketplace prices that seem too good to be true, or sellers wanting payment upfront, are warning signs.",
+        "Subscriptions keep charging automatically until cancelled - check them regularly."
+      ],
+      "try_this": "Next time you see a game, app or online listing that makes you want to buy right now, don't. Write down what it costs in real dollars (converting from gems or coins if needed) and talk it over with a trusted adult the next day before deciding.",
+      "questions": [
+        {
+          "type": "mc",
+          "prompt": "Why do 'free' apps often ask you to buy things inside the game?",
+          "choices": [
+            "Because that's how the app makes money, even though downloading was free",
+            "Because the app is broken",
+            "Because the government requires it",
+            "Because it's actually not free to download"
+          ],
+          "answer": "Because that's how the app makes money, even though downloading was free",
+          "explain": "Free-to-download apps commonly earn money through in-app purchases, ads or subscriptions.",
+          "difficulty": 1
+        },
+        {
+          "type": "tf",
+          "prompt": "A countdown timer saying 'offer ends in 10 minutes!' is designed to make you decide quickly without thinking it through.",
+          "answer": true,
+          "explain": "Countdown timers create a sense of urgency to push a fast decision, rather than giving you time to think.",
+          "difficulty": 1
+        },
+        {
+          "type": "numeric",
+          "prompt": "A game sells gems in bundles of 500 for $7.99 each. A skin you want costs 1200 gems. Since you can only buy whole bundles, how many do you need?",
+          "answer": 3,
+          "tolerance": 0.01,
+          "explain": "1200 ÷ 500 = 2.4 bundles. Since you can't buy part of a bundle, round up to 3.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "Those 3 gem bundles cost $7.99 each. Once you actually add it up, what's the real dollar cost of the skin, in cash?",
+          "answer": 23.97,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "3 × $7.99 = $23.97.",
+          "difficulty": 2
+        },
+        {
+          "type": "mc",
+          "prompt": "On an online marketplace, a bike normally worth about $250 is listed for $40, with the seller asking for payment before you see it in person. This is most likely:",
+          "choices": [
+            "A genuine bargain",
+            "A scam - a price too good to be true",
+            "A factory sale",
+            "A loyalty discount"
+          ],
+          "answer": "A scam - a price too good to be true",
+          "explain": "A price far below normal value combined with pressure to pay before seeing the item is a classic scam warning sign.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "A countdown timer says 'BUY NOW - 2 minutes left!' on an in-game offer. What's the smart move before tapping buy?",
+          "answer": [
+            "ask an adult",
+            "ask a trusted adult"
+          ],
+          "explain": "Asking a trusted adult before making a pressured purchase gives you time to think it through properly.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "A subscription quietly charges $12.99 every month. If nobody notices it for 4 months, how much has come out of the account in total?",
+          "answer": 51.96,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "$12.99 × 4 = $51.96.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A loot box costs $2.50 and gives a random item. On average it takes 15 openings to get the rare item you actually want. About how much would chasing that item cost in total?",
+          "answer": 37.5,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "$2.50 × 15 = $37.50.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A game sells gems in three bundles: 100 gems for $1.99, 550 gems for $9.99, and 1200 gems for $19.99. Working out gems per dollar for each, what is the BEST gems-per-dollar rate, to 1 decimal place?",
+          "answer": 60.0,
+          "tolerance": 0.2,
+          "unit": "gems/$",
+          "explain": "Gems per dollar: 100 ÷ 1.99 = 50.3, 550 ÷ 9.99 = 55.1, 1200 ÷ 19.99 = 60.0. The biggest bundle gives the best rate, at about 60.0 gems per dollar.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "Using only the 1200-gem bundle (the best value one), what is the cheapest way to buy at least 2400 gems in total?",
+          "answer": 39.98,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "2400 ÷ 1200 = 2 bundles exactly. 2 × $19.99 = $39.98. Mixing in smaller, worse-value bundles would only make it more expensive.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "An app offers a 'free trial' that auto-renews into a $4.49-a-week subscription if not cancelled. If nobody notices for 10 weeks, how much has been charged in total?",
+          "answer": 44.9,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "$4.49 × 10 weeks = $44.90 charged before anyone noticed the 'free' trial had ended.",
+          "difficulty": 4
+        },
+        {
+          "type": "mc",
+          "prompt": "A skateboard normally sells second-hand for around $180. An online listing offers one for $45, asking for payment upfront before shipping. What percentage of the normal price is being asked, and what does that suggest?",
+          "choices": [
+            "25% of normal value - a classic too-good-to-be-true scam sign",
+            "75% of normal value - a fair deal",
+            "45% of normal value - a small discount",
+            "125% of normal value - overpriced"
+          ],
+          "answer": "25% of normal value - a classic too-good-to-be-true scam sign",
+          "explain": "$45 ÷ $180 = 0.25, which is 25%. A price this far below normal value, combined with payment demanded before shipping, is a classic scam warning sign.",
+          "difficulty": 4
+        }
+      ],
+      "activity": {
+        "title": "Real Gem-Bundle Rate Check",
+        "why": "Proves they can pull real in-app purchase prices from an actual app or website and work out which is genuinely the best value, not a made-up example.",
+        "est_minutes": 25,
+        "adult_help": "nearby",
+        "materials": [
+          "a real free-to-play game or app with in-app currency, viewed with an adult, no purchase made",
+          "calculator",
+          "paper and pencil"
+        ],
+        "steps": [
+          "With an adult, open a real free game or app that sells in-game currency (gems, coins, gold) and look at the in-app store - don't buy anything.",
+          "Write down at least 3 real bundle sizes and their real prices in dollars.",
+          "Work out how many units of currency you get per dollar for each real bundle.",
+          "Circle which real bundle is actually the best value per dollar.",
+          "Find one real item in that game priced in the currency, and work out its real dollar cost using the best-value bundle.",
+          "Ask an adult whether they think that real dollar cost is reasonable, and write down what they say."
+        ],
+        "record": [
+          {
+            "id": "bundles_checked",
+            "label": "How many real bundles did you compare?",
+            "type": "number",
+            "min": 3,
+            "max": 10
+          },
+          {
+            "id": "best_units_per_dollar",
+            "label": "The best real units-per-dollar rate you found",
+            "type": "number",
+            "unit": "units/$",
+            "min": 0,
+            "max": 10000
+          },
+          {
+            "id": "bundles_text",
+            "label": "List the real bundle sizes and prices you found, and which was best value.",
+            "type": "text",
+            "min_words": 20
+          },
+          {
+            "id": "adult_view",
+            "label": "What did the adult say about whether the real item's dollar cost was reasonable?",
+            "type": "text",
+            "min_words": 15
+          }
+        ],
+        "check": "The bundle sizes and prices should be genuinely copied from a real app, no purchase should have been made, and the best-value bundle should actually have the highest units-per-dollar when checked.",
+        "xp": 40
+      },
+      "kind": "lesson"
+    }
+  ]
+}

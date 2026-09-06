@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% block title %}Boss challenges{% endblock %}
+{% block content %}
+
+<h1>Boss challenges</h1>
+<p class="sub">
+  One per strand, 14 questions, no warm-ups. Each one unlocks when you've mastered every
+  lesson it draws on &mdash; quiz passed and activity signed off.
+</p>
+
+{% for row in rows %}
+  {% set boss = row.boss %}
+  <div class="card boss {{ 'locked' if not row.unlocked }}" style="margin-bottom:14px">
+    <div class="inline" style="justify-content:space-between;align-items:flex-start">
+      <div style="flex:1;min-width:200px">
+        <div class="meta">{{ boss.subject }} &middot; {{ boss.covers|join(', ') }}</div>
+        <h3 style="margin:.15em 0">{{ boss.title }}</h3>
+        <div class="meta">{{ boss.questions|length }} questions &middot; about {{ boss.est_minutes }} min</div>
+      </div>
+      {% if row.beaten %}
+        <span class="pill pill-green">Beaten &middot; {{ row.best }}%</span>
+      {% elif row.unlocked %}
+        <span class="pill pill-amber">Unlocked</span>
+      {% else %}
+        <span class="pill pill-grey">Locked</span>
+      {% endif %}
+    </div>
+
+    <div class="bar {{ '' if row.unlocked else 'amber' }}">
+      <i style="width:{{ (100 * row.done / row.total)|round if row.total else 0 }}%"></i>
+    </div>
+    <div class="meta">{{ row.done }} of {{ row.total }} lessons mastered</div>
+
+    {% if row.unlocked %}
+      <form method="post" action="{{ url_for('start_quiz', slug=boss.slug) }}" style="margin-top:12px">
+        <button class="btn {{ 'btn-ghost' if row.beaten else 'btn-amber' }}" type="submit">
+          {{ 'Take it on again' if row.beaten else 'Take it on' }}
+        </button>
+      </form>
+    {% else %}
+      <details style="margin-top:10px">
+        <summary class="meta" style="cursor:pointer">What's still in the way ({{ row.outstanding|length }})</summary>
+        <ul class="meta" style="margin:.5em 0 0">
+          {% for l in row.outstanding %}
+            <li><a href="{{ url_for('lesson', slug=l.slug) }}">{{ l.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </details>
+    {% endif %}
+  </div>
+{% else %}
+  <div class="card">No boss challenges at this year level yet.</div>
+{% endfor %}
+
+{% endblock %}

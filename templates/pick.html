@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block title %}Who's learning?{% endblock %}
+{% block content %}
+
+<h1>Who's learning today?</h1>
+<p class="sub">Pick your name to pick up where you left off.</p>
+
+<div class="pickgrid">
+  {% for kid in kids %}
+    <a class="kidcard {{ kid.colour }}" href="{{ url_for('switch', kid_id=kid.id) }}">
+      <div class="face">{{ kid.name[0]|upper }}</div>
+      <div class="who">{{ kid.name }}</div>
+      <div class="meta">Year {{ kid.year_level }} &middot; Level {{ kid.level }} &middot; {{ kid.xp }} XP</div>
+    </a>
+  {% endfor %}
+</div>
+
+<div class="card" style="margin-top:26px">
+  <h3 style="margin-top:0">Add another profile</h3>
+  <form method="post" action="{{ url_for('kid_new') }}" class="inline">
+    <input class="numin" style="max-width:220px;font-size:1rem" name="name" placeholder="Name" required>
+    <select class="numin" style="max-width:150px;font-size:1rem" name="year_level">
+      <option value="4">Year 4</option>
+      <option value="6">Year 6</option>
+    </select>
+    <select class="numin" style="max-width:150px;font-size:1rem" name="colour">
+      <option value="teal">Teal</option>
+      <option value="amber">Amber</option>
+      <option value="violet">Violet</option>
+    </select>
+    <button class="btn" type="submit">Add</button>
+  </form>
+  <p class="meta" style="margin-bottom:0">Year level decides which lessons show up. You can change it later.</p>
+</div>
+
+{% endblock %}

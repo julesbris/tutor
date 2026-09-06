@@ -1,0 +1,53 @@
+# Push to main -> the Kamatera server pulls and restarts itself.
+#
+# Optional. If you'd rather deploy by hand, delete this file and just run
+# `bash /opt/questlab/app/deploy/update.sh` on the server when you want the
+# changes live.
+#
+# Set these three repository secrets first
+# (Settings -> Secrets and variables -> Actions):
+#
+#   SSH_HOST         your server's IP or hostname
+#   SSH_USER         a user that can sudo (root works)
+#   SSH_PRIVATE_KEY  the private half of a key that user accepts
+#
+# DEPLOY.md has the commands for generating that key pair.
+
+name: Deploy
+
+on:
+  workflow_run:
+    workflows: [Tests]
+    branches: [main]
+    types: [completed]
+  workflow_dispatch:
+
+concurrency:
+  group: deploy
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    # Only deploy when the tests actually passed.
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Set up the SSH key
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.SSH_PRIVATE_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan -H "${{ secrets.SSH_HOST }}" >> ~/.ssh/known_hosts 2>/dev/null
+
+      - name: Pull and restart on the server
+        run: |
+          ssh -i ~/.ssh/id_ed25519 -o BatchMode=yes \
+            "${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}" \
+            "sudo bash /opt/questlab/app/deploy/update.sh"
+
+      - name: Check it came back up
+        run: |
+          ssh -i ~/.ssh/id_ed25519 -o BatchMode=yes \
+            "${{ secrets.SSH_USER }}@${{ secrets.SSH_HOST }}" \
+            "curl -fsS http://127.0.0.1:8000/healthz"

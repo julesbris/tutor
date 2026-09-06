@@ -1,0 +1,2749 @@
+{
+  "pack": "practical_home",
+  "subject": "Practical",
+  "lessons": [
+    {
+      "slug": "y4-measuring-properly",
+      "title": "Measuring properly: tape measure, ruler, mm/cm/m, and reading between the marks",
+      "strand": "Home and tools",
+      "year_level": 4,
+      "curriculum_code": "",
+      "curriculum_text": "",
+      "position": 1,
+      "est_minutes": 12,
+      "intro": "Whether you're building a cubby, hanging a picture, or checking if the new bookshelf will actually fit, everything starts with a good measurement. Let's get the tape measure out.",
+      "sections": [
+        {
+          "heading": "Why measuring properly matters",
+          "body": "Guessing a length might work sometimes, but it goes wrong just as often. A shelf cut too short leaves a gap. A curtain measured too long drags on the floor.\n\nMeasuring properly means using the right tool, lining it up correctly, and reading it carefully. It only takes a few extra seconds, and it saves you from redoing the job."
+        },
+        {
+          "heading": "The units: millimetres, centimetres and metres",
+          "body": "We measure length in **millimetres (mm)**, **centimetres (cm)** and **metres (m)**. They're all connected by tens.\n\n- 10 mm = 1 cm\n- 100 cm = 1 m\n- 1000 mm = 1 m\n\nSmall, fiddly things like a screw or a gap in a hinge are usually measured in millimetres. A book or a picture frame is usually measured in centimetres. A hallway or a piece of decking is usually measured in metres.",
+          "example": {
+            "prompt": "A plank is 2.4 m long. How many centimetres is that?",
+            "working": [
+              "1 m = 100 cm",
+              "2.4 m = 2.4 x 100 cm"
+            ],
+            "answer": "240 cm"
+          }
+        },
+        {
+          "heading": "Reading between the marks",
+          "body": "Look closely at a ruler or tape measure and you'll see big numbers for whole centimetres, and lots of small tick marks in between. Each of those small ticks is 1 millimetre.\n\nWhen something doesn't line up exactly on a big number, count the small marks past it. If the edge sits on the third small tick after the 6 cm mark, that's 6 cm and 3 mm, which is written as 6.3 cm."
+        },
+        {
+          "heading": "Choosing the right tool",
+          "body": "A **ruler** is great for small, straight things like a page or a pencil case. A **tape measure** is better for anything longer than your ruler, or for measuring around curves and corners, because it's flexible and can reach right across a room.\n\nMost tape measures have a metal hook on the end that slides slightly — that's normal, it's built that way so the measurement is accurate whether you're hooking it over an edge or butting it up against a wall."
+        }
+      ],
+      "key_points": [
+        "10 mm = 1 cm, 100 cm = 1 m, and 1000 mm = 1 m.",
+        "Use millimetres for small or fiddly things, centimetres for medium objects, and metres for rooms or long items.",
+        "The small tick marks between the numbers on a ruler or tape measure are millimetres.",
+        "A tape measure's sliding hook is designed that way — it's not broken.",
+        "Measuring carefully the first time saves having to redo a job."
+      ],
+      "try_this": "Grab a tape measure or ruler and measure five things around your home in centimetres — your foot, a door, a table, a book, and one thing you choose. Write down each measurement, then guess a sixth item's length before measuring it to check how close your guess was.",
+      "questions": [
+        {
+          "type": "tf",
+          "prompt": "There are 100 centimetres in 1 metre.",
+          "answer": true,
+          "explain": "1 metre is made up of 100 centimetres, which is why metre rulers and tape measures show numbers up to 100 in centimetres.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "Which tool is best for measuring the length of a hallway?",
+          "choices": [
+            "Ruler",
+            "Tape measure",
+            "Kitchen scales",
+            "Measuring cup"
+          ],
+          "answer": "Tape measure",
+          "explain": "A ruler is too short for a hallway. A tape measure is long, flexible, and designed for measuring longer distances.",
+          "difficulty": 1
+        },
+        {
+          "type": "numeric",
+          "prompt": "A screw gap measures 7 cm across. A hardware app wants the measurement entered in millimetres instead. What number should you enter?",
+          "answer": 70,
+          "tolerance": 0,
+          "unit": "mm",
+          "explain": "There are 10 mm in every centimetre, so 7 cm x 10 = 70 mm.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "You measure a shelf gap and the tape shows 2.3 m. The cutting list needs it written in centimetres. What number goes on the list?",
+          "answer": 230,
+          "tolerance": 0,
+          "unit": "cm",
+          "explain": "1 m = 100 cm, so 2.3 m = 2.3 x 100 = 230 cm.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "You look closely at a ruler and see lots of tiny lines between each centimetre number. What unit do those tiny lines measure?",
+          "answer": [
+            "mm",
+            "millimetres",
+            "millimeters"
+          ],
+          "explain": "Each small tick between the big centimetre numbers represents 1 millimetre, since 10 mm make up 1 cm.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "The materials list for a birdhouse says a gap needs to be exactly 3 millimetres. How would that unit normally be written using its short symbol?",
+          "answer": [
+            "mm"
+          ],
+          "explain": "Millimetre is shortened to mm, the same way centimetre is shortened to cm.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "A workshop plan lists a plank as 1.24 m long, but the cutting saw's dial only shows millimetres. What number should be set on the dial?",
+          "answer": 1240,
+          "tolerance": 0,
+          "unit": "mm",
+          "explain": "1 m = 1000 mm, so 1.24 m = 1.24 x 1000 = 1240 mm.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A pencil's tip lines up exactly halfway between the 6 cm and 7 cm marks on a ruler. How long is the pencil, in centimetres?",
+          "answer": 6.5,
+          "tolerance": 0.05,
+          "unit": "cm",
+          "explain": "Halfway between 6 cm and 7 cm is 0.5 cm further than 6 cm, which is 6.5 cm.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A tape measure's metal hook has come loose, so it slides an extra 3 mm past its resting point before the numbers start counting — every reading comes out 3 mm longer than the real length. The tape shows a doorframe as 204.6 cm wide. What is the doorframe's real width, in cm?",
+          "answer": 204.3,
+          "tolerance": 0.05,
+          "unit": "cm",
+          "explain": "The faulty hook adds 3 mm (0.3 cm) to every reading, so the true width is the tape's reading minus that extra amount: 204.6 cm - 0.3 cm = 204.3 cm.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "Skirting board only comes in 2.4 m lengths, and every join has to land on a wall stud rather than butting two odd offcuts together — so each length used along a wall must be a fresh, uncut piece. You need to cover a straight wall run of 5.5 m. How many 2.4 m lengths do you need to buy?",
+          "answer": 3,
+          "tolerance": 0,
+          "unit": "lengths",
+          "explain": "Two lengths only give 2 x 2.4 m = 4.8 m, which is short of 5.5 m. A third length is needed to cover the rest, even though most of it goes to waste, so you must round up to 3.",
+          "difficulty": 4
+        },
+        {
+          "type": "text",
+          "prompt": "A tape measure's hook is deliberately made to slide back and forth by its own thickness. Imagine that hook was glued rigid instead, and you measured an inside width by pushing the rigid hook flat against a wall (rather than hooking it over an outside edge). Compared to the true length, would your reading come out too long or too short?",
+          "answer": [
+            "too long",
+            "longer"
+          ],
+          "explain": "A sliding hook cancels out its own thickness whichever way it's used. A rigid hook pressed flat against a surface for an inside measurement would add its own thickness on top, making the reading too long.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A shelf bracket's top screw hole needs to sit exactly 32.5 cm down from the top of a cupboard side panel that is 72 cm tall overall. If you measure up from the bottom of the panel instead of down from the top, at what distance from the bottom should that same hole line up, in cm?",
+          "answer": 39.5,
+          "tolerance": 0.1,
+          "unit": "cm",
+          "explain": "The hole sits 32.5 cm down from the top, so it is 72 cm - 32.5 cm = 39.5 cm up from the bottom. Measuring from the wrong edge without redoing this sum puts the hole in the wrong spot entirely.",
+          "difficulty": 4
+        }
+      ],
+      "activity": {
+        "title": "Measure a real tabletop for a trim job",
+        "why": "Proves they can take a genuine measurement two different ways, notice if the two disagree, and use the result in a real calculation rather than just reading a single number off a tape.",
+        "est_minutes": 20,
+        "adult_help": "none",
+        "materials": [
+          "tape measure",
+          "ruler",
+          "paper and pencil"
+        ],
+        "steps": [
+          "Choose a rectangular object at home — a tabletop, door, or the top of a box — and measure its length and width with a tape measure, to the nearest millimetre.",
+          "Measure the same two sides again using only the ruler, moving it along in short sections and adding the sections together if the ruler is shorter than the object.",
+          "Compare your two sets of measurements and note whether the tape measure and the ruler agreed.",
+          "Calculate the perimeter by adding all four sides together (length + width + length + width).",
+          "Imagine running a strip of trim all the way around the edge of the object, and work out how many centimetres of trim that would take in total.",
+          "Record your results below."
+        ],
+        "record": [
+          {
+            "id": "length_cm",
+            "label": "Length of the object, in cm (tape measure)",
+            "type": "number",
+            "unit": "cm",
+            "hint": "to the nearest mm",
+            "min": 10,
+            "max": 300
+          },
+          {
+            "id": "width_cm",
+            "label": "Width of the object, in cm (tape measure)",
+            "type": "number",
+            "unit": "cm",
+            "hint": "to the nearest mm",
+            "min": 10,
+            "max": 300
+          },
+          {
+            "id": "perimeter_cm",
+            "label": "Total perimeter (all four sides added up), in cm",
+            "type": "number",
+            "unit": "cm",
+            "hint": "your own calculation",
+            "min": 40,
+            "max": 1200
+          },
+          {
+            "id": "match_note",
+            "label": "Did the tape measure and ruler agree? What did you do if they didn't?",
+            "type": "text",
+            "hint": "two or three sentences",
+            "min_words": 12
+          }
+        ],
+        "check": "The perimeter should equal 2 x (length + width) from the two measured sides. The tape and ruler readings should be within a few millimetres of each other — if they're wildly different, something was measured wrong.",
+        "xp": 35
+      },
+      "kind": "lesson"
+    },
+    {
+      "slug": "y4-hand-tool-kit",
+      "title": "The hand tool kit: what each common tool is for and how to hold it safely",
+      "strand": "Home and tools",
+      "year_level": 4,
+      "curriculum_code": "",
+      "curriculum_text": "",
+      "position": 2,
+      "est_minutes": 13,
+      "intro": "Open up almost any toolbox in Cooktown and you'll find the same handful of tools doing most of the work. Let's meet them, and learn how to hold each one properly.",
+      "sections": [
+        {
+          "heading": "The everyday tool box",
+          "body": "Most home jobs only need a small set of hand tools: a **screwdriver**, a **hammer**, **pliers**, and an **adjustable spanner** (often called a **shifter**). Each one is built for a particular job, and using the right tool makes the job easier and safer.\n\nThis lesson is about hand tools you can use with an adult keeping an eye on you. Power tools are a different story — they're always an adult's job to operate, even though you might help hold or hand things over."
+        },
+        {
+          "heading": "Screwdrivers: Phillips head and flathead",
+          "body": "A **Phillips head** screwdriver has a cross-shaped tip that fits into a cross-shaped slot in the screw. A **flathead** screwdriver has a flat blade tip that fits a straight slot.\n\nUsing the wrong driver on a screw makes it slip and can chew up the screw head or scratch whatever you're working on. Before you start, look closely at the screw's slot and pick the driver that matches it exactly."
+        },
+        {
+          "heading": "Hammers, pliers and the shifter",
+          "body": "A **hammer** drives nails in with a swinging strike. **Pliers** grip, hold or bend things — handy for gripping a nail to pull it out, or bending a piece of wire. A **shifter** (adjustable spanner) opens and closes to fit different sized nuts and bolts, so you can turn them tight or loosen them.\n\nEach tool does one job well. Trying to use pliers as a hammer, or a screwdriver as a lever, usually ends with a slipped tool and a sore hand."
+        },
+        {
+          "heading": "Holding tools safely",
+          "body": "For a controlled hammer swing, hold the handle nearer the end, not right up against the head — this gives you better control and more power with less effort. Keep your other hand well clear of where the hammer will land.\n\nWhen using a screwdriver, keep the point aimed away from your body and hold the item steady. With pliers, keep your fingers clear of the pivot point in the middle where they could get pinched.\n\n- Point sharp or pointed tools away from people\n- Put a tool down flat when you're not using it, rather than leaving it balanced on an edge\n- Ask an adult before using any tool you haven't used before"
+        }
+      ],
+      "key_points": [
+        "Phillips head screwdrivers have a cross-shaped tip; flathead screwdrivers have a flat blade.",
+        "A shifter (adjustable spanner) is used to turn nuts and bolts.",
+        "Pliers grip and bend; a hammer drives nails.",
+        "Hold a hammer's handle near the end for better control, and keep your other hand clear of the strike zone.",
+        "Power tools are always an adult's job to operate."
+      ],
+      "try_this": "With an adult, go through a household toolbox or junk drawer and sort what you find into groups: screwdrivers, gripping tools, hammering tools, and spanners. For any screws you can see around the house (on switch plates, hinges, furniture), work out whether they're Phillips head or flathead without undoing them.",
+      "questions": [
+        {
+          "type": "tf",
+          "prompt": "A Phillips head screwdriver has a cross-shaped tip.",
+          "answer": true,
+          "explain": "A Phillips head screwdriver's tip is shaped like a cross, matching screws with a cross-shaped slot.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "Which tool would you use to tighten a nut onto a bolt?",
+          "choices": [
+            "Hammer",
+            "Shifter (adjustable spanner)",
+            "Tape measure",
+            "Paintbrush"
+          ],
+          "answer": "Shifter (adjustable spanner)",
+          "explain": "A shifter's jaws adjust to fit around a nut so it can be turned tight or loosened.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "You try to undo a screw with a screwdriver that doesn't match its slot, and it slips sideways instead of turning. Why does matching the driver to the screw matter?",
+          "choices": [
+            "So the driver grips the screw properly and doesn't slip or damage it",
+            "Because flathead screwdrivers are always faster",
+            "Because Phillips head screws are illegal to use with flatheads",
+            "It doesn't actually matter"
+          ],
+          "answer": "So the driver grips the screw properly and doesn't slip or damage it",
+          "explain": "A matching driver sits firmly in the screw's slot. A mismatched driver can slip, damaging the screw head or whatever you're working on.",
+          "difficulty": 2
+        },
+        {
+          "type": "tf",
+          "prompt": "Grandpa always grips his hammer near the very end of the handle, not close to the head. Does that give him better control of the swing?",
+          "answer": true,
+          "explain": "Holding near the end of the handle gives a more controlled, powerful swing and keeps your hand further from where the hammer strikes.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "You need to tighten a nut, and reach for the tool with jaws that adjust to fit different sized nuts and bolts. What's the everyday tradie nickname for this tool?",
+          "answer": [
+            "shifter"
+          ],
+          "explain": "An adjustable spanner is commonly called a shifter because its jaws shift to fit different sized nuts and bolts.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "You need to bend a length of wire into a hook shape and hold it steady while you do. Which everyday tool is actually built for gripping and bending like this?",
+          "answer": [
+            "pliers"
+          ],
+          "explain": "Pliers are designed to grip firmly and can bend wire or small objects that are hard to hold with fingers alone.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "You're about to swing a hammer at a nail, and your little brother is standing right where the hammer will swing. What should you do before you start?",
+          "answer": [
+            "ask him to stand clear",
+            "tell him to stand clear",
+            "ask him to move away",
+            "get him to stand back"
+          ],
+          "explain": "Checking the space around you before you swing a tool is always the safest first step, even if you plan to be careful.",
+          "difficulty": 3
+        },
+        {
+          "type": "tf",
+          "prompt": "Jake wants to pry open a paint tin lid with his flathead screwdriver instead of grabbing a proper tool for the job. Is that a safe way to use the screwdriver?",
+          "answer": false,
+          "explain": "Screwdrivers aren't built to be levered or hit like a chisel. Doing this can snap the tip or make it slip, which can cause an injury. Use the tool actually made for the job.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "You're assembling a cubby house that needs 20 coach screws, all driven with a Phillips head screwdriver. Coach screws are only sold in packets of 8. How many packets do you need to buy?",
+          "answer": 3,
+          "tolerance": 0,
+          "unit": "packets",
+          "explain": "Two packets only give 16 screws, which is short of the 20 needed. A third packet is needed to cover the rest, so you round up to 3, even though 4 screws will be left over.",
+          "difficulty": 4
+        },
+        {
+          "type": "text",
+          "prompt": "You've matched a Phillips head driver to a Phillips head screw, but the tip keeps slipping out of the slot no matter how hard you push. The type of driver is right. What should you check next about the driver?",
+          "answer": [
+            "size",
+            "wrong size",
+            "the size",
+            "driver size"
+          ],
+          "explain": "Phillips head drivers come in different sizes (like PH1 and PH2), and a driver that's the right type but the wrong size will still slip and chew up the screw. Checking the size is the next thing to try.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A shifter's jaw opens to a maximum of 24 mm. You need to loosen a nut that measures 19 mm across the flats, but years of paint have built up around it, adding roughly 2 mm of extra thickness all around. How many millimetres of clearance will be left once the shifter is opened to fit over the painted nut?",
+          "answer": 3,
+          "tolerance": 0,
+          "unit": "mm",
+          "explain": "The paint adds 2 mm to the nut's effective size: 19 mm + 2 mm = 21 mm. The shifter opens to 24 mm, so the clearance left is 24 mm - 21 mm = 3 mm.",
+          "difficulty": 4
+        },
+        {
+          "type": "text",
+          "prompt": "You're using a hammer's claw to pull out a bent nail, but the timber underneath is starting to crack as you pull. What should you place under the hammer's head to protect the wood and give you better leverage?",
+          "answer": [
+            "wood block",
+            "block of wood",
+            "scrap wood",
+            "offcut",
+            "piece of wood"
+          ],
+          "explain": "Placing a scrap block of wood under the hammer's head spreads the pressure over a wider area (protecting the timber) and gives the claw a higher pivot point, which increases your leverage on the nail.",
+          "difficulty": 4
+        }
+      ],
+      "activity": {
+        "title": "Tool audit and shifter fit-test",
+        "why": "Proves they can sort real tools by function, and actually measure and compare a tool's capability (a shifter's jaw opening) against real hardware instead of just naming tools.",
+        "est_minutes": 20,
+        "adult_help": "nearby",
+        "materials": [
+          "household toolbox or tool drawer",
+          "ruler",
+          "shifter (adjustable spanner)",
+          "paper and pencil"
+        ],
+        "steps": [
+          "With an adult, gather the household toolbox or tool drawer.",
+          "Sort every tool you find into four piles: screwdrivers, gripping tools, hammering tools, spanners/shifters.",
+          "Count the total number of tools across all four piles.",
+          "Find three different nuts, bolts, or hex heads around the house (a garden tap, a bike, a piece of furniture) and use the ruler to measure the widest one across its flats, in millimetres.",
+          "Open the shifter's jaw against your ruler and check whether it's wide enough to fit around each of the three items you found.",
+          "Pick one screw you can see without undoing it, and work out whether it needs a Phillips head or flathead driver just by looking closely at its slot.",
+          "Record your results below."
+        ],
+        "record": [
+          {
+            "id": "total_tools",
+            "label": "Total number of tools you sorted",
+            "type": "number",
+            "unit": "tools",
+            "hint": "count every pile",
+            "min": 3,
+            "max": 60
+          },
+          {
+            "id": "widest_mm",
+            "label": "Width across the flats of the widest nut/bolt/hex head you measured, in mm",
+            "type": "number",
+            "unit": "mm",
+            "hint": "measured with the ruler",
+            "min": 3,
+            "max": 40
+          },
+          {
+            "id": "shifter_fit",
+            "label": "How many of the three items did the shifter's jaw fit around?",
+            "type": "choice",
+            "options": [
+              "All three",
+              "Two",
+              "One",
+              "None"
+            ]
+          },
+          {
+            "id": "notes",
+            "label": "What did you learn about matching a driver's size to a screw, from the one you looked at?",
+            "type": "text",
+            "hint": "two or three sentences",
+            "min_words": 12
+          }
+        ],
+        "check": "A typical household toolbox has somewhere between 5 and 30 tools. The widest nut/bolt measured should be a plausible everyday size — most household hardware sits well under 25 mm across the flats.",
+        "xp": 40
+      },
+      "kind": "lesson"
+    },
+    {
+      "slug": "y4-fasteners-screws-nails-nuts-bolts",
+      "title": "Screws, nails, nuts and bolts: which fastener for which job",
+      "strand": "Home and tools",
+      "year_level": 4,
+      "curriculum_code": "",
+      "curriculum_text": "",
+      "position": 3,
+      "est_minutes": 12,
+      "intro": "Screws, nails, nuts and bolts all do the same basic job — holding two things together — but they're not interchangeable. Picking the right one makes a build stronger and easier to fix later.",
+      "sections": [
+        {
+          "heading": "Why fasteners matter",
+          "body": "A **fastener** is anything used to join two materials together. Different fasteners hold in different ways, come apart (or don't) in different ways, and suit different materials. Choosing the right one is part of planning a build properly."
+        },
+        {
+          "heading": "Nails vs screws",
+          "body": "A **nail** is a smooth metal spike driven in with a hammer. It's quick to put in, but it can pull out more easily and isn't meant to be removed and reused.\n\nA **screw** has a spiral thread and is driven in with a screwdriver (or a drill, when an adult is using one). Screws generally hold more strongly than nails of a similar size, and they can be undone again if you need to take something apart."
+        },
+        {
+          "heading": "Nuts and bolts",
+          "body": "A **bolt** is a threaded rod, usually with a head on one end. A **nut** is a small block with a matching thread that screws onto the bolt to clamp two things together. A **washer** — a flat metal ring — often sits under the nut or bolt head to spread the load evenly.\n\nNuts and bolts are great for jobs that might need to come apart later, like flat-pack furniture, bike parts, or a trailer that gets serviced.",
+          "example": {
+            "prompt": "You're building flat-pack furniture that the family might need to move house with one day and take apart again. Which fastener type makes the most sense?",
+            "working": [
+              "Nuts and bolts can be tightened firmly and undone again",
+              "This makes them ideal for furniture that may need disassembling later"
+            ],
+            "answer": "Nuts and bolts"
+          }
+        },
+        {
+          "heading": "Picking the right fastener",
+          "body": "Ask yourself: does this need to come apart again? Is it wood, metal, or something else? Does it need to hold a heavy load, or just something light?\n\nFor quick wood-to-wood joins that won't be taken apart, nails often do the job. For anything that needs real strength or might be undone later, screws or nuts and bolts are the better choice."
+        }
+      ],
+      "key_points": [
+        "A nut screws onto the threads of a bolt to clamp materials together.",
+        "Screws generally hold more strongly than nails and can be undone again.",
+        "Nails are quick for simple wood joins that won't need to come apart.",
+        "A washer spreads the load under a nut or bolt head.",
+        "Choosing a fastener depends on the material, the strength needed, and whether it needs to come apart later."
+      ],
+      "try_this": "With an adult's permission, look around the house for five different fasteners — on furniture, door hinges, a bike, or in a junk drawer. For each one, decide whether it's a nail, screw, nut, bolt, or washer, and guess why that fastener was chosen for that job.",
+      "questions": [
+        {
+          "type": "tf",
+          "prompt": "A nut screws onto the threads of a bolt.",
+          "answer": true,
+          "explain": "A nut has a matching internal thread that screws onto a bolt's external thread, clamping materials together.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "Which fastener is best for joining two pieces of flat-pack furniture that might need to come apart later?",
+          "choices": [
+            "Nail",
+            "Nut and bolt",
+            "Staple",
+            "Glue"
+          ],
+          "answer": "Nut and bolt",
+          "explain": "A nut and bolt can be tightened firmly and then undone again later, which suits furniture that may be moved or reassembled.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "You notice a thin metal ring sitting under a bolt head, between it and the wood. What job is it doing there?",
+          "choices": [
+            "To spread the load under a nut or bolt head so it doesn't dig into the material",
+            "To make the bolt longer",
+            "To colour-match the screw",
+            "To replace a nut"
+          ],
+          "answer": "To spread the load under a nut or bolt head so it doesn't dig into the material",
+          "explain": "A washer is a flat ring that spreads out the pressure from a nut or bolt head, protecting the surface underneath.",
+          "difficulty": 2
+        },
+        {
+          "type": "tf",
+          "prompt": "Dad chooses screws instead of nails for a garden box that'll get knocked around a lot. Do screws generally hold two pieces of wood together more strongly than similar-sized nails?",
+          "answer": true,
+          "explain": "A screw's spiral thread grips the wood fibres along its whole length, which usually holds more strongly than a smooth nail.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "Under the bolt head on a bike rack, there's a thin flat metal ring spreading out the pressure so it doesn't dig into the metal. What's this ring called?",
+          "answer": [
+            "washer"
+          ],
+          "explain": "A washer sits under the nut or bolt head and spreads the clamping force over a wider area.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "A hardware packet is laid out as 4 rows of screws, 6 to a row. How many screws does the packet actually contain?",
+          "answer": 24,
+          "tolerance": 0,
+          "unit": "screws",
+          "explain": "4 rows of 6 screws is 4 x 6 = 24 screws.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "You're helping build a garden trellis that'll stay in one spot forever and never need to come apart. For a quick wood-to-wood join like this, which everyday fastener makes the most sense?",
+          "answer": [
+            "nails",
+            "nail"
+          ],
+          "explain": "For a simple wood join that won't need to be undone, nails are quick and do the job well.",
+          "difficulty": 3
+        },
+        {
+          "type": "mc",
+          "prompt": "You're building a bike rack from steel tubing that might need adjusting or repairing down the track. Why would a nut and bolt make more sense here than a nail?",
+          "choices": [
+            "It can be tightened firmly and undone again for adjustments or repairs",
+            "It's always cheaper than a nail",
+            "It doesn't need a spanner",
+            "Bolts can't be used with metal"
+          ],
+          "answer": "It can be tightened firmly and undone again for adjustments or repairs",
+          "explain": "Nuts and bolts suit metal builds that might need adjusting or repairing later, since they can be loosened and retightened.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "You're building deck rail sections. Each section uses 6 bolts, and each bolt needs 2 washers. A bag has 100 washers in it. How many complete sections can you build before the washers run out?",
+          "answer": 8,
+          "tolerance": 0,
+          "unit": "sections",
+          "explain": "Each section needs 6 x 2 = 12 washers. 100 washers divided by 12 per section is 8.33, so only 8 whole sections can be built (with 4 washers left over) before running out.",
+          "difficulty": 4
+        },
+        {
+          "type": "text",
+          "prompt": "A nail was hammered into a piece of decking to join two boards, but after a few weeks of wind and movement the boards keep working loose and the nail heads are popping up above the surface. Which fastener should replace the nails to actually fix this, since the boards keep flexing?",
+          "answer": [
+            "screw",
+            "screws"
+          ],
+          "explain": "A screw's spiral thread bites into the wood fibres along its whole length, which resists the repeated flexing that gradually backs a smooth nail straight out.",
+          "difficulty": 4
+        },
+        {
+          "type": "text",
+          "prompt": "A gate hinge keeps working loose because the wood around the screw hole has worn soft and spongy, so the screw just spins in the hole without gripping. Putting in a longer screw of the same width doesn't help. What kind of fastener change would actually fix this?",
+          "answer": [
+            "nut and bolt",
+            "bolt through with a nut",
+            "through-bolt",
+            "bolt and nut",
+            "a bolt and nut"
+          ],
+          "explain": "Passing a bolt right through both sides and clamping it with a washer and nut on the far side doesn't rely on grip in the worn-out wood at all, unlike a screw that only holds if the timber around it is solid.",
+          "difficulty": 4
+        },
+        {
+          "type": "mc",
+          "prompt": "A steel bolt holding a swing seat's chain has been outside for two years. It now looks pitted and reddish-brown, and the nut barely turns when you try to check it. What does this mean, and what should happen before it's trusted with weight again?",
+          "choices": [
+            "Rust has weakened it — replace it with new galvanised or stainless hardware",
+            "It's just dirty — a wipe with a cloth will fix it",
+            "Steel bolts never rust, so it's fine as is",
+            "Paint over it and reuse it straight away"
+          ],
+          "answer": "Rust has weakened it — replace it with new galvanised or stainless hardware",
+          "explain": "Pitting and a seized nut are signs the metal has corroded and lost strength. A fastener holding weight, especially a child's, should be replaced with new rust-resistant hardware rather than patched up.",
+          "difficulty": 4
+        }
+      ],
+      "activity": {
+        "title": "Fastener sort and washer test",
+        "why": "Proves they can identify real fasteners by handling them, and actually test (not just recite) what a washer does by comparing a real result with and without one.",
+        "est_minutes": 25,
+        "adult_help": "nearby",
+        "materials": [
+          "assorted nuts, bolts, washers, screws and nails from a junk drawer or shed",
+          "a piece of cardboard or thick foam",
+          "ruler",
+          "shifter"
+        ],
+        "steps": [
+          "With an adult, collect at least 10 mixed fasteners from a junk drawer, shed or toolbox — nails, screws, nuts, bolts and washers.",
+          "Sort them into groups and count how many of each type you found.",
+          "Take one bolt and nut. Sandwich two layers of cardboard between the bolt head and the nut with no washer, and tighten by hand or with the shifter until snug.",
+          "Undo it, then repeat with a washer under the nut, tightening it by the same amount.",
+          "Measure the diameter of the dent left in the cardboard each time with the ruler, in millimetres.",
+          "Compare the two dents and write down what you noticed.",
+          "Record your results below."
+        ],
+        "record": [
+          {
+            "id": "total_fasteners",
+            "label": "Total number of fasteners you sorted",
+            "type": "number",
+            "unit": "fasteners",
+            "hint": "count every pile",
+            "min": 5,
+            "max": 60
+          },
+          {
+            "id": "dent_no_washer_mm",
+            "label": "Diameter of the dent in the cardboard without a washer, in mm",
+            "type": "number",
+            "unit": "mm",
+            "hint": "measured with a ruler",
+            "min": 2,
+            "max": 60
+          },
+          {
+            "id": "dent_with_washer_mm",
+            "label": "Diameter of the dent in the cardboard with a washer, in mm",
+            "type": "number",
+            "unit": "mm",
+            "hint": "measured with a ruler",
+            "min": 2,
+            "max": 60
+          },
+          {
+            "id": "observation",
+            "label": "What was different about the two dents, and why do you think that happened?",
+            "type": "text",
+            "hint": "two or three sentences",
+            "min_words": 15
+          }
+        ],
+        "check": "The dent made with a washer should be spread over a wider, shallower area matching the washer's shape, while the dent without one is usually smaller and more sharply cut by the nut's edges alone.",
+        "xp": 45
+      },
+      "kind": "lesson"
+    },
+    {
+      "slug": "y4-following-instructions-materials-list",
+      "title": "Following instructions and a materials list: flat-pack, model kit or recipe",
+      "strand": "Home and tools",
+      "year_level": 4,
+      "curriculum_code": "",
+      "curriculum_text": "",
+      "position": 4,
+      "est_minutes": 12,
+      "intro": "Flat-pack furniture, model kits and recipes all come with instructions for a reason. Reading them properly, in order, is a skill on its own — and it saves a lot of frustration.",
+      "sections": [
+        {
+          "heading": "Why instructions have an order",
+          "body": "Instructions are written in the order they need to happen. Step 3 often depends on step 2 being done correctly. Skipping ahead, or doing steps out of order, can mean a part gets stuck, glued the wrong way, or left out completely."
+        },
+        {
+          "heading": "Reading the materials list before you start",
+          "body": "Most kits, flat-packs and recipes start with a **materials list** (sometimes called a parts list or ingredients list). This tells you everything you'll need and how much of it.\n\nBefore you begin, lay everything out and check it against the list. It's much easier to notice a missing part now than halfway through the build."
+        },
+        {
+          "heading": "Step by step, not skipping ahead",
+          "body": "Read a whole step before you start doing it, not just the first few words. Gather any tools that step needs before you begin. Going slowly and checking each step as you finish it is faster in the end than rushing and having to undo a mistake.",
+          "example": {
+            "prompt": "A birdhouse kit's materials list needs 4 identical panels, using 3 screws per panel. You've already fitted 2 panels. How many screws have you used so far?",
+            "working": [
+              "Each panel uses 3 screws",
+              "2 panels x 3 screws = 6 screws"
+            ],
+            "answer": "6 screws"
+          }
+        },
+        {
+          "heading": "What to do when something doesn't fit",
+          "body": "If a part doesn't fit or a step doesn't make sense, stop. Don't force it — forcing a part can break it or bend something out of shape. Go back and check the step before, make sure you have the right piece, and ask an adult if you're still stuck."
+        }
+      ],
+      "key_points": [
+        "Instructions are written in order because later steps often depend on earlier ones.",
+        "Check the materials list against your parts before you start.",
+        "Read a whole step before doing it, and gather the tools it needs first.",
+        "If something doesn't fit, stop and check rather than forcing it.",
+        "Going slowly and checking your work is usually faster than rushing and fixing mistakes."
+      ],
+      "try_this": "Pick a simple recipe, model kit, or piece of flat-pack furniture at home. Read through the whole materials list first and tick off each item as you find it, before doing a single step. If you don't have an actual kit handy, do this with a recipe from a cookbook instead.",
+      "questions": [
+        {
+          "type": "tf",
+          "prompt": "It's a good idea to check all the parts against the materials list before you start building.",
+          "answer": true,
+          "explain": "Checking the materials list first means you'll notice a missing part before it becomes a problem partway through.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "Before starting a flat-pack furniture build, what should you do first?",
+          "choices": [
+            "Lay out all the parts and check them against the materials list",
+            "Start screwing pieces together randomly",
+            "Throw away the instructions",
+            "Skip to the last step"
+          ],
+          "answer": "Lay out all the parts and check them against the materials list",
+          "explain": "Laying out and checking parts first means you'll spot anything missing or extra before you start, saving time later.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "You count the screws in a birdhouse kit's bag and find only 6, but the materials list says you need 8. What's the smart move?",
+          "choices": [
+            "Stop and check with an adult before continuing, in case parts are missing",
+            "Use nails instead without telling anyone",
+            "Just build it with 6 and hope it holds",
+            "Throw the whole kit away"
+          ],
+          "answer": "Stop and check with an adult before continuing, in case parts are missing",
+          "explain": "Missing parts are worth flagging early. An adult might find spares, check the bag again, or contact the supplier.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "A birdhouse kit needs 3 screws for each of its 4 identical panels. You've fitted 2 panels so far. How many screws have you used up to this point?",
+          "answer": 6,
+          "tolerance": 0,
+          "unit": "screws",
+          "explain": "Each panel uses 3 screws, so 2 panels use 2 x 3 = 6 screws.",
+          "difficulty": 2
+        },
+        {
+          "type": "tf",
+          "prompt": "A panel won't quite slot into place on a model kit. Jake decides to push harder rather than stop and check. Is forcing it the right call?",
+          "answer": false,
+          "explain": "Forcing a part that doesn't fit can break it or bend it out of shape. It's better to stop and check what went wrong.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "Before starting a flat-pack build, you check the page at the front that lists every part and how many of each you'll need. What's that page called?",
+          "answer": [
+            "materials list",
+            "parts list"
+          ],
+          "explain": "This is usually called a materials list or parts list, and it's worth checking before you start building.",
+          "difficulty": 2
+        },
+        {
+          "type": "mc",
+          "prompt": "Halfway through following a recipe, you realise a later step needs flour measured out - something you haven't done yet. What should you have done differently from the start?",
+          "choices": [
+            "Read the whole recipe first so you understand the order before you start",
+            "Just start and figure it out as you go",
+            "Skip the flour step entirely",
+            "Double the sugar to compensate"
+          ],
+          "answer": "Read the whole recipe first so you understand the order before you start",
+          "explain": "Reading the whole recipe first means you won't be caught out partway through, scrambling to measure something at the last second.",
+          "difficulty": 3
+        },
+        {
+          "type": "mc",
+          "prompt": "Following a 10-step model kit, step 6 asks you to glue a part that step 4 was meant to have already attached. What's the smartest thing to check before gluing anything?",
+          "choices": [
+            "Go back and make sure step 4 was actually completed correctly before continuing",
+            "Ignore it and keep going forward",
+            "Start again from step 1 without checking anything",
+            "Use extra glue to fix it later"
+          ],
+          "answer": "Go back and make sure step 4 was actually completed correctly before continuing",
+          "explain": "When a later step assumes something earlier was done, it's worth going back to check rather than pushing on and hoping.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A model kit's instructions say each of 6 identical wings needs 4 rivets. The rivet bag only has 20 rivets in it. How many complete wings can you build before the rivets run out?",
+          "answer": 5,
+          "tolerance": 0,
+          "unit": "wings",
+          "explain": "Each wing needs 4 rivets. 20 rivets divided by 4 per wing is exactly 5, so you can complete 5 whole wings before running out, one short of the full 6.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A fence kit's instructions describe 7 identical panels. Attaching the first panel (following steps 2-4 carefully for the first time) takes 6 minutes. Each panel after that only takes 4 minutes, because you already know the process. How many minutes in total will all 7 panels take?",
+          "answer": 30,
+          "tolerance": 0,
+          "unit": "minutes",
+          "explain": "The first panel takes 6 minutes. The remaining 6 panels take 4 minutes each: 6 x 4 = 24 minutes. Total time = 6 + 24 = 30 minutes.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A flat-pack wardrobe's materials list needs 32 identical cam bolts, packed 8 to a bag. You count the bags already in the box: there are 3 full bags plus 5 loose bolts. How many bolts are missing from the full order?",
+          "answer": 3,
+          "tolerance": 0,
+          "unit": "bolts",
+          "explain": "3 full bags give 3 x 8 = 24 bolts, plus 5 loose bolts is 29 bolts in total. The order needs 32, so 32 - 29 = 3 bolts are missing.",
+          "difficulty": 4
+        },
+        {
+          "type": "text",
+          "prompt": "A recipe says 'bake for 25 minutes at 180°C', but after 15 minutes you notice the oven dial has actually been set to 160°C the whole time because you misread it earlier. Once you fix the temperature, what should happen to the total baking time compared to the original plan?",
+          "answer": [
+            "increase it",
+            "bake longer",
+            "add more time",
+            "extend it",
+            "make it longer",
+            "extend the time",
+            "increase the time"
+          ],
+          "explain": "Baking at a lower temperature than planned means the food has cooked more slowly than intended, so the total time in the oven needs to be extended once the temperature is corrected, not left at the original 25 minutes.",
+          "difficulty": 4
+        }
+      ],
+      "activity": {
+        "title": "Full materials-check and timed build",
+        "why": "Proves they can run a real build end-to-end the proper way — checking the materials list first, timing the actual work, and comparing that to their own prediction.",
+        "est_minutes": 30,
+        "adult_help": "nearby",
+        "materials": [
+          "a simple model kit, flat-pack item, or a no-cook recipe (like a wrap, sandwich or trail mix)",
+          "a clock, watch or phone timer",
+          "paper and pencil"
+        ],
+        "steps": [
+          "Choose a simple model kit, flat-pack item, or a no-cook recipe (like a wrap, sandwich or trail mix) that you can finish today, working from a full materials or ingredients list.",
+          "Before starting, write down or list every material, part or ingredient it needs.",
+          "Guess how many minutes you think the whole thing will take, and write your guess down.",
+          "Check every item off the list, noting anything missing or needing a substitute.",
+          "Start a timer, then follow the steps in order without skipping ahead.",
+          "Stop the timer the moment you finish, and record the total number of minutes it actually took.",
+          "Record your results below, including anything that didn't fit or need fixing along the way."
+        ],
+        "record": [
+          {
+            "id": "guess_minutes",
+            "label": "How many minutes did you guess it would take?",
+            "type": "number",
+            "unit": "min",
+            "hint": "your prediction, before starting",
+            "min": 1,
+            "max": 180
+          },
+          {
+            "id": "actual_minutes",
+            "label": "How many minutes did it actually take?",
+            "type": "number",
+            "unit": "min",
+            "hint": "timed with a clock or phone",
+            "min": 1,
+            "max": 180
+          },
+          {
+            "id": "items_missing",
+            "label": "How many items on the materials list were missing or needed substituting?",
+            "type": "number",
+            "hint": "count them",
+            "min": 0,
+            "max": 20
+          },
+          {
+            "id": "writeup",
+            "label": "Describe one step that didn't go as planned, and what you'd do differently next time.",
+            "type": "text",
+            "hint": "two or three sentences",
+            "min_words": 15
+          }
+        ],
+        "check": "The actual time should be a genuine timer reading, not a round guess — most simple builds take somewhere between 5 and 45 minutes. A guess that exactly matches the actual time every time is worth double-checking.",
+        "xp": 40
+      },
+      "kind": "lesson"
+    },
+    {
+      "slug": "y4-kitchen-measuring",
+      "title": "Kitchen measuring: grams, millilitres, cups, and scaling a recipe up or down",
+      "strand": "Home and tools",
+      "year_level": 4,
+      "curriculum_code": "",
+      "curriculum_text": "",
+      "position": 5,
+      "est_minutes": 13,
+      "intro": "Baking is basically maths you get to eat. Get the measuring right and a recipe works every time — get it wrong and the pikelets don't rise. Let's sort out grams, millilitres and cups.",
+      "sections": [
+        {
+          "heading": "Weighing vs measuring volume",
+          "body": "**Grams (g)** measure how heavy something is — that's **mass**, and you use kitchen scales. **Millilitres (mL)** measure how much space a liquid takes up — that's **volume**, and you use a measuring jug or spoons.\n\nAn Australian standard cup holds 250 mL. A tablespoon holds 20 mL, and a teaspoon holds 5 mL."
+        },
+        {
+          "heading": "Reading kitchen scales and a measuring jug",
+          "body": "Digital kitchen scales show a number in grams once you place the bowl or ingredient on them — remember to zero (or \"tare\") the scale with the empty bowl on it first, so you're only weighing the ingredient.\n\nA measuring jug has lines marked up the side in millilitres. Pour to eye level and read the line the liquid's surface sits at, not from above looking down, which can make the reading look higher than it really is."
+        },
+        {
+          "heading": "Scaling a recipe up",
+          "body": "If a recipe is written for 4 people and you need to feed 8, you double every ingredient. If you need to feed 12, you multiply everything by 3, and so on.",
+          "example": {
+            "prompt": "A pikelet recipe for 4 people needs 150 g of flour and 125 mL of milk. How much of each do you need for 8 people?",
+            "working": [
+              "8 people is double 4 people, so multiply every ingredient by 2",
+              "150 g x 2 = 300 g flour",
+              "125 mL x 2 = 250 mL milk"
+            ],
+            "answer": "300 g flour and 250 mL milk"
+          }
+        },
+        {
+          "heading": "Scaling a recipe down",
+          "body": "The same idea works in reverse. If you only want to feed half as many people, use half the amount of every ingredient. It helps to work out the amount for one person first, then multiply by however many people you actually need."
+        }
+      ],
+      "key_points": [
+        "Grams measure mass (weight) using kitchen scales; millilitres measure liquid volume using a jug or spoons.",
+        "An Australian standard cup is 250 mL, a tablespoon is 20 mL, and a teaspoon is 5 mL.",
+        "To scale a recipe up, multiply every ingredient by the same amount.",
+        "To scale a recipe down, divide every ingredient by the same amount.",
+        "Read a measuring jug at eye level for an accurate reading."
+      ],
+      "try_this": "Pick a simple recipe from home (even just toast with a spread, or a cordial drink) and work out what the ingredients would be if you doubled it to serve twice as many people, or halved it for one person. Use kitchen scales or a measuring jug to check your maths by actually measuring it out, with an adult if the recipe involves the stove.",
+      "questions": [
+        {
+          "type": "tf",
+          "prompt": "Grams measure how heavy something is, and millilitres measure how much liquid there is.",
+          "answer": true,
+          "explain": "Grams measure mass (weight), while millilitres measure the volume of a liquid.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "In Australia, 1 standard cup equals how many millilitres?",
+          "choices": [
+            "250 mL",
+            "100 mL",
+            "500 mL",
+            "1000 mL"
+          ],
+          "answer": "250 mL",
+          "explain": "An Australian standard measuring cup holds 250 mL.",
+          "difficulty": 1
+        },
+        {
+          "type": "numeric",
+          "prompt": "A pikelet recipe written for 4 people uses 150 g of flour. You're cooking for 8 people instead. How much flour do you need?",
+          "answer": 300,
+          "tolerance": 0,
+          "unit": "g",
+          "explain": "8 people is double 4 people, so 150 g x 2 = 300 g.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "That same recipe (written for 4 people) uses 125 mL of milk. You're only cooking for 2 people this time. How much milk do you need?",
+          "answer": 62.5,
+          "tolerance": 0.5,
+          "unit": "mL",
+          "explain": "2 people is half of 4 people, so 125 mL divided by 2 = 62.5 mL.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "You need exactly 200 mL of milk for a recipe. Which kitchen item actually has markings that let you measure that?",
+          "answer": [
+            "measuring jug",
+            "jug"
+          ],
+          "explain": "A measuring jug has millilitre markings up the side, making it the right tool for measuring liquid volume.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "A recipe card lists an ingredient as '200 mL' of milk. How is that unit written in its short form?",
+          "answer": [
+            "mL",
+            "ml"
+          ],
+          "explain": "Millilitre is shortened to mL, matching how millimetre is shortened to mm.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "A biscuit recipe uses 100 g of butter to make 12 biscuits. You want to make 30 biscuits for the school fete. How much butter do you need?",
+          "answer": 250,
+          "tolerance": 1,
+          "unit": "g",
+          "explain": "30 biscuits is 2.5 times as many as 12 biscuits (30 divided by 12 = 2.5), so 100 g x 2.5 = 250 g.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A recipe uses 2 teaspoons of baking powder for 4 people. You're scaling it down to serve just 2 people. How many teaspoons of baking powder should you use?",
+          "answer": 1,
+          "tolerance": 0.1,
+          "unit": "teaspoons",
+          "explain": "2 people is half of 4 people, so you use half of 2 teaspoons, which is 1 teaspoon.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A pikelet recipe for 4 people needs 125 mL of milk. How much milk, in mL, is needed to scale the recipe up for 6 people?",
+          "answer": 187.5,
+          "tolerance": 1,
+          "unit": "mL",
+          "explain": "6 people is 1.5 times as many as 4 people (6 divided by 4 = 1.5), so the milk needed is 125 mL x 1.5 = 187.5 mL.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "You forgot to tare (zero) the kitchen scale with the empty mixing bowl before adding flour. The empty bowl weighs 120 g. With the bowl still on the scale, the reading after adding flour is 420 g. How many grams of flour did you actually add?",
+          "answer": 300,
+          "tolerance": 0,
+          "unit": "g",
+          "explain": "The scale is weighing the bowl and the flour together. To find just the flour, subtract the bowl's weight: 420 g - 120 g = 300 g.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "You need exactly 625 mL of milk, but you only have a 250 mL measuring cup and no smaller measure. After filling the cup completely twice, how many more millilitres do you still need to add?",
+          "answer": 125,
+          "tolerance": 0,
+          "unit": "mL",
+          "explain": "Two full cups give 2 x 250 mL = 500 mL. The remaining amount needed is 625 mL - 500 mL = 125 mL.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A recipe needs 45 mL of oil, but you only have a 20 mL tablespoon to measure it with, and no smaller measure. Using whole tablespoons only, rounding up to the next full spoon when needed, how many millilitres more than the recipe's 45 mL will you end up adding?",
+          "answer": 15,
+          "tolerance": 0,
+          "unit": "mL",
+          "explain": "45 mL divided by 20 mL per tablespoon is 2.25, so you need 3 whole tablespoons, which is 3 x 20 mL = 60 mL. That's 60 mL - 45 mL = 15 mL more than the recipe asked for.",
+          "difficulty": 4
+        }
+      ],
+      "activity": {
+        "title": "Scale and measure a real recipe",
+        "why": "Proves they can turn a scaling calculation into real measured ingredients using scales and a jug, and check their own maths against what actually comes out.",
+        "est_minutes": 25,
+        "adult_help": "nearby",
+        "materials": [
+          "a simple recipe with grams and/or millilitres",
+          "kitchen scales",
+          "measuring jug or spoons",
+          "ingredients",
+          "paper and pencil"
+        ],
+        "steps": [
+          "Pick a simple recipe from home that lists ingredients in grams and/or millilitres.",
+          "Decide how many people you'll scale it for — a different number from the recipe's original serving size.",
+          "Calculate what each ingredient amount should be for your new serving size, and write down your target numbers before weighing anything.",
+          "Tare (zero) the kitchen scale with the empty bowl on it, then measure out each ingredient using the scale or a measuring jug, aiming for your calculated targets.",
+          "Record the actual amount the scale or jug showed for two of the ingredients.",
+          "Compare your actual measured amounts to your calculated targets and note any difference."
+        ],
+        "record": [
+          {
+            "id": "target_g",
+            "label": "Your calculated target amount for one ingredient, in grams",
+            "type": "number",
+            "unit": "g",
+            "hint": "worked out before you measured",
+            "min": 5,
+            "max": 2000
+          },
+          {
+            "id": "actual_g",
+            "label": "The actual amount the scale showed for that ingredient, in grams",
+            "type": "number",
+            "unit": "g",
+            "hint": "measured on the scale",
+            "min": 5,
+            "max": 2000
+          },
+          {
+            "id": "scale_factor",
+            "label": "What scaling factor did you use (e.g. 1.5 for one and a half times the recipe)?",
+            "type": "number",
+            "hint": "new servings divided by original servings",
+            "min": 0.1,
+            "max": 10
+          },
+          {
+            "id": "notes",
+            "label": "How close was your actual measurement to your target, and why might they differ slightly?",
+            "type": "text",
+            "hint": "two or three sentences",
+            "min_words": 15
+          }
+        ],
+        "check": "The target and actual grams should be close — within a few grams for most kitchen scales. The scale factor should genuinely match new servings divided by original servings, not just be guessed.",
+        "xp": 40
+      },
+      "kind": "lesson"
+    },
+    {
+      "slug": "y4-looking-after-gear",
+      "title": "Looking after gear: cleaning, storing, and why tools rust so fast up here",
+      "strand": "Home and tools",
+      "year_level": 4,
+      "curriculum_code": "",
+      "curriculum_text": "",
+      "position": 6,
+      "est_minutes": 12,
+      "intro": "Leave a tool out overnight in the Far North Queensland wet season and you might find it going rusty by the weekend. Looking after gear properly means it's still working next time you need it.",
+      "sections": [
+        {
+          "heading": "Why tools need looking after",
+          "body": "A tool that's cleaned and stored properly lasts for years. A tool that's left dirty, wet, or lying around outside wears out fast, and can even become unsafe to use — a rusty blade or a loose, swollen wooden handle is harder to control."
+        },
+        {
+          "heading": "Cleaning after a job",
+          "body": "Before putting a tool away, wipe off dirt, dust or sawdust with a dry cloth. If it's picked up mud or something sticky, a quick wipe with a damp cloth is fine — but dry it off straight afterwards. Putting a tool away wet is one of the fastest ways to ruin it."
+        },
+        {
+          "heading": "Why tools rust so fast in the tropics",
+          "body": "**Rust** forms when iron or steel reacts with water and oxygen in the air. The more moisture in the air, the faster rust can form.\n\nCooktown's tropical climate means high humidity for a lot of the year, plus salty sea air near the coast — both speed up rusting on bare metal tools. That's exactly why keeping tools dry, and giving bare metal parts a light wipe of oil now and then, matters more here than it would somewhere dry and inland."
+        },
+        {
+          "heading": "Storing tools properly",
+          "body": "Store tools somewhere dry, ideally in a toolbox or on a wall rack rather than sitting on damp ground. Keep them out of the rain and away from puddles. A light coat of oil on bare metal parts helps stop moisture from reaching the metal in the first place."
+        }
+      ],
+      "key_points": [
+        "Rust forms when iron or steel meets water and oxygen.",
+        "Wipe tools dry before storing them, especially after a wet or dusty job.",
+        "Cooktown's humid, sometimes salty tropical air speeds up rusting compared to a dry climate.",
+        "A light coat of oil on bare metal helps protect it from moisture.",
+        "Store tools in a dry place, off the ground, not out in the weather."
+      ],
+      "try_this": "With an adult, check a few metal tools around the house or shed for any spots of rust. Wipe them clean and dry with a cloth, and talk about the best dry place to store them so they're ready next time they're needed.",
+      "questions": [
+        {
+          "type": "tf",
+          "prompt": "Rust forms when iron or steel is exposed to water and oxygen.",
+          "answer": true,
+          "explain": "Rust is caused by a chemical reaction between iron (or steel), water and oxygen in the air.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "What should you do to a metal tool before putting it away, to help stop rust?",
+          "choices": [
+            "Wipe it dry",
+            "Leave it out in the rain",
+            "Spray it with water",
+            "Bury it in damp sand"
+          ],
+          "answer": "Wipe it dry",
+          "explain": "Wiping a tool dry removes the moisture that would otherwise sit on the metal and start the rusting process.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "You've just finished using a metal trowel in the garden. What should you do before putting it back in the shed to help stop rust?",
+          "choices": [
+            "Wipe it dry",
+            "Leave it out in the rain",
+            "Spray it with water",
+            "Bury it in damp sand"
+          ],
+          "answer": "Wipe it dry",
+          "explain": "Wiping a tool dry removes the moisture that would otherwise sit on the metal and start the rusting process.",
+          "difficulty": 2
+        },
+        {
+          "type": "tf",
+          "prompt": "Dad wipes a thin film of oil over the bare metal head of his axe before storing it for the wet season. Does that actually help stop rust?",
+          "answer": true,
+          "explain": "A thin layer of oil creates a barrier that keeps moisture from reaching the bare metal underneath.",
+          "difficulty": 2
+        },
+        {
+          "type": "mc",
+          "prompt": "After finishing a job, where should hand tools actually be kept so they last?",
+          "choices": [
+            "A dry toolbox off the ground",
+            "Outside on the wet grass",
+            "In a puddle near the shed door",
+            "Wrapped in a damp towel"
+          ],
+          "answer": "A dry toolbox off the ground",
+          "explain": "A dry toolbox keeps tools away from moisture and dirt, which are the two biggest causes of rust and wear.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "You notice a reddish-brown coating creeping over an old metal tool left out in the wet. What's that coating called?",
+          "answer": [
+            "rust"
+          ],
+          "explain": "This coating is called rust, and it forms when iron or steel reacts with water and oxygen.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "You finish sawing timber and notice the blade is covered in damp sawdust. What should you do to it before storing the saw away?",
+          "answer": [
+            "wipe it dry",
+            "clean and dry it",
+            "brush and dry it",
+            "wipe it clean and dry"
+          ],
+          "explain": "Damp sawdust left on a blade holds moisture against the metal, which can cause rust to start quickly.",
+          "difficulty": 3
+        },
+        {
+          "type": "tf",
+          "prompt": "After a wet job, Alex seals a still-damp tool inside a plastic bag to 'protect' it until next time. Is that actually a good way to prevent rust?",
+          "answer": false,
+          "explain": "A sealed bag traps moisture in with the tool, which can actually make rusting worse rather than better.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "You inspect 6 tools in the shed and find 3 have rust spots. If that same rate holds for another 8 tools you haven't checked yet, about how many of those 8 would you expect to be rusty?",
+          "answer": 4,
+          "tolerance": 0.5,
+          "unit": "tools",
+          "explain": "3 out of 6 tools rusty is a rate of a half (3/6 = 0.5). Applying that same rate to 8 more tools gives 8 x 0.5 = 4 expected rusty tools.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A tin of tool oil holds 500 mL. Each light wipe-down of a tool uses about 4 mL of oil. How many tools can you treat with oil from one full tin before it runs out?",
+          "answer": 125,
+          "tolerance": 0,
+          "unit": "tools",
+          "explain": "500 mL of oil divided by 4 mL used per tool is 500 / 4 = 125 tools that can be treated before the tin runs out.",
+          "difficulty": 4
+        },
+        {
+          "type": "text",
+          "prompt": "A shed 5 km inland and a shed right on the coast in Cooktown both measure the same humidity level, yet tools in the coastal shed rust noticeably faster. What is in the coastal air, on top of ordinary humidity, that speeds up the rusting?",
+          "answer": [
+            "salt",
+            "salt spray",
+            "sea salt",
+            "salty air",
+            "salt in the air"
+          ],
+          "explain": "Salt carried in sea air lands on bare metal and speeds up the chemical reaction that causes rust, on top of whatever effect the humidity alone is having.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A pair of pliers left outside starts showing light rust spots after just 2 days. Left outside the whole wet season, the pivot fully seizes up after 14 days. How many times longer did full seizing take compared to when visible rust first appeared?",
+          "answer": 7,
+          "tolerance": 0,
+          "unit": "times",
+          "explain": "14 days divided by 2 days is 7, meaning it took 7 times as long for the pivot to fully seize as it did for the first visible rust spots to appear.",
+          "difficulty": 4
+        }
+      ],
+      "activity": {
+        "title": "Whole-house tool audit and clean-up",
+        "why": "Proves they can find and count every metal tool in the house, actually judge which ones need cleaning, and follow through with real maintenance rather than just describing it.",
+        "est_minutes": 25,
+        "adult_help": "nearby",
+        "materials": [
+          "household metal hand tools",
+          "dry and slightly damp cloths",
+          "cooking oil or machine oil",
+          "a dry storage spot"
+        ],
+        "steps": [
+          "With an adult, gather every metal hand tool you can find in the house, shed or garage.",
+          "Count the total number of metal tools you found.",
+          "Inspect each one closely for spots of rust or dulling and count how many show any rust at all.",
+          "Wipe every rusty tool clean with a dry or slightly damp cloth, then dry it fully.",
+          "Apply a very light wipe of oil to the bare metal parts of each cleaned tool, using a rag rather than your bare fingers on any sharp edge.",
+          "Decide on a dry storage spot for the tools, off the ground and away from the weather, and move them there.",
+          "Record your results below."
+        ],
+        "record": [
+          {
+            "id": "total_tools",
+            "label": "Total number of metal tools you found",
+            "type": "number",
+            "unit": "tools",
+            "hint": "count them all",
+            "min": 3,
+            "max": 60
+          },
+          {
+            "id": "rusty_tools",
+            "label": "How many of them had visible rust?",
+            "type": "number",
+            "unit": "tools",
+            "hint": "count them",
+            "min": 0,
+            "max": 60
+          },
+          {
+            "id": "oil_type",
+            "label": "What did you use to oil them?",
+            "type": "choice",
+            "options": [
+              "Cooking oil",
+              "Machine or tool oil",
+              "WD-40 or similar spray",
+              "Other"
+            ]
+          },
+          {
+            "id": "storage_spot",
+            "label": "Describe the dry storage spot you chose and why it's better than where the tools were.",
+            "type": "text",
+            "hint": "two or three sentences",
+            "min_words": 12
+          }
+        ],
+        "check": "The rusty count should be no more than the total tools found. A sensible household check usually turns up somewhere between 0 and half the tools with some rust, more if they've been left outside.",
+        "xp": 40
+      },
+      "kind": "lesson"
+    },
+    {
+      "slug": "y6-marking-out-cutting",
+      "title": "Marking out and cutting: measure twice, square lines, allowing for saw kerf",
+      "strand": "Home and tools",
+      "year_level": 6,
+      "curriculum_code": "",
+      "curriculum_text": "",
+      "position": 7,
+      "est_minutes": 14,
+      "intro": "Once a piece of timber is cut, there's no putting the offcut back on. Marking out carefully before any cutting starts is what separates a neat job from a wonky one.",
+      "sections": [
+        {
+          "heading": "Measure twice, cut once",
+          "body": "It's an old saying for a good reason. A wrong measurement is easy to fix before you cut, and impossible to fix afterwards. Check your measurement, then check it again, before you ever pick up a saw."
+        },
+        {
+          "heading": "Marking a square line",
+          "body": "A **try square** (or **speed square**) is used to mark a straight line at exactly 90 degrees across a board. Hold the square's edge firmly against the side of the timber, then draw your pencil line along its other edge.\n\nA line that isn't square means the cut edge won't sit flush against the next piece, which can throw off an entire build."
+        },
+        {
+          "heading": "Saw kerf: the width the blade removes",
+          "body": "A saw blade isn't paper-thin — it has some width, and every cut removes a thin strip of material as sawdust. That strip is called the **kerf**, and it's usually a couple of millimetres wide.\n\nWhen you're cutting several pieces to the same length from one board, you need to allow extra length for the kerf lost at each cut, or your last piece will come up short.",
+          "example": {
+            "prompt": "You need 3 pieces of timber, each 250 mm long, cut from a board that already has one squared end. The saw's kerf is 3 mm. What is the minimum board length needed?",
+            "working": [
+              "3 pieces x 250 mm = 750 mm of usable timber",
+              "With one end already square, 2 more cuts are needed to create 3 pieces",
+              "2 cuts x 3 mm kerf = 6 mm lost to the saw",
+              "750 mm + 6 mm = 756 mm"
+            ],
+            "answer": "756 mm"
+          }
+        },
+        {
+          "heading": "Cutting safely",
+          "body": "Cutting with a saw is always done with an adult, and power saws are always operated by the adult, not a child. Clamp the workpiece down so it can't shift, and keep your free hand well clear of the line the blade will travel along.\n\nSafety glasses protect your eyes from flying dust and splinters, and it's worth checking the area is clear before the first cut."
+        }
+      ],
+      "key_points": [
+        "Measure and check a length twice before you cut, since a cut can't be undone.",
+        "A try square or speed square marks a true 90-degree line across a board.",
+        "Kerf is the thin strip of material a saw blade removes with every cut.",
+        "Allow extra board length for kerf when cutting several same-sized pieces.",
+        "Clamp your workpiece and keep hands clear of the blade's path; saws are always adult-operated."
+      ],
+      "try_this": "Using a ruler, a book (as a straight-edge square), and a piece of scrap cardboard, mark out three 100 mm x 100 mm squares. Cut them out carefully with scissors, then check with your ruler how accurate your marking and cutting turned out to be. This is safe to do on your own with scissors and cardboard.",
+      "questions": [
+        {
+          "type": "tf",
+          "prompt": "Kerf is the width of wood or material removed by the saw blade during a cut.",
+          "answer": true,
+          "explain": "Kerf is the thin strip of material turned into sawdust by the width of the saw blade as it cuts.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "What does the saying 'measure twice, cut once' remind you to do?",
+          "choices": [
+            "Check your measurement carefully before making a cut you can't undo",
+            "Always cut everything twice",
+            "Use two different rulers",
+            "Measure only after cutting"
+          ],
+          "answer": "Check your measurement carefully before making a cut you can't undo",
+          "explain": "A cut can't be reversed, so double-checking the measurement first avoids wasting material on a mistake.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "You need to mark a perfectly straight line dead square across a board before cutting. What's used to do that?",
+          "choices": [
+            "A try square (or speed square)",
+            "A tape measure alone",
+            "A hammer",
+            "A shifter"
+          ],
+          "answer": "A try square (or speed square)",
+          "explain": "A try square or speed square has a fixed 90-degree edge, making it the right tool for marking a square line.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "Each cut with a particular saw eats up 3 mm of timber as sawdust. If you make 4 cuts along one board, how much wood is lost to the saw itself, in total?",
+          "answer": 12,
+          "tolerance": 0,
+          "unit": "mm",
+          "explain": "Each cut loses 3 mm to kerf, so 4 cuts lose 4 x 3 mm = 12 mm in total.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "You need 2 pieces of timber, each 300 mm long, cut from a board that already has one squared end. Every cut this saw makes eats 2 mm of timber. What's the shortest board you could start with?",
+          "answer": 602,
+          "tolerance": 0,
+          "unit": "mm",
+          "explain": "2 pieces need 2 x 300 mm = 600 mm of timber, plus 1 cut to separate them from the squared board, which loses 2 mm. 600 mm + 2 mm = 602 mm.",
+          "difficulty": 2
+        },
+        {
+          "type": "tf",
+          "prompt": "Before cutting, Dad clamps the timber to the bench instead of holding it with his free hand. Does that help keep both hands clear of the blade's path?",
+          "answer": true,
+          "explain": "A clamp holds the timber steady so you don't need a hand near the blade just to keep the piece from moving.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "You need 3 identical shelf pieces, each 400 mm long, from a board with one end already squared. Each cut this saw makes costs 3 mm of timber. What's the shortest board that will give you all 3 pieces?",
+          "answer": 1206,
+          "tolerance": 0,
+          "unit": "mm",
+          "explain": "3 pieces need 3 x 400 mm = 1200 mm. With one end already square, 2 more cuts are needed, losing 2 x 3 mm = 6 mm. 1200 mm + 6 mm = 1206 mm.",
+          "difficulty": 3
+        },
+        {
+          "type": "mc",
+          "prompt": "You've measured out exactly enough board for 3 same-sized pieces, with nothing extra. Why will you actually end up short once you start cutting?",
+          "choices": [
+            "Because each cut removes a thin strip of material that isn't part of any finished piece",
+            "Because the saw blade adds material to the board",
+            "Because kerf only matters for metal, not wood",
+            "Because square lines make the board shorter"
+          ],
+          "answer": "Because each cut removes a thin strip of material that isn't part of any finished piece",
+          "explain": "Kerf material becomes sawdust, not part of any finished piece, so it has to be allowed for on top of the pieces you actually want.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "You need to cut 8 identical support battens, each 320 mm long, from timber sold only in 2.4 m lengths. You start from a fresh factory-square end, and each cut through the timber removes 3 mm of kerf. How many 2.4 m lengths do you need to buy?",
+          "answer": 2,
+          "tolerance": 0,
+          "unit": "lengths",
+          "explain": "8 pieces need 8 x 320 mm = 2560 mm of timber. With one end already square, getting 8 pieces takes 7 cuts, losing 7 x 3 mm = 21 mm to kerf. Total needed: 2560 mm + 21 mm = 2581 mm, which is more than one 2.4 m (2400 mm) length, so you need to buy 2 lengths.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A board's factory-cut end is ragged and uneven by up to 4 mm. If someone measures a piece as 500 mm long starting from that ragged end, instead of from a true squared line, what is the largest possible error, in mm, in the piece's real length?",
+          "answer": 4,
+          "tolerance": 0,
+          "unit": "mm",
+          "explain": "The ragged end itself is out by up to 4 mm, so any measurement taken from it (rather than from a properly squared reference line) carries that same error straight into the finished piece.",
+          "difficulty": 4
+        },
+        {
+          "type": "text",
+          "prompt": "A line is marked across a board freehand with a ruler instead of a try square, and it ends up angled rather than at a true 90 degrees. Once the board is cut along that angled line and butted up against another squared board, what will you see at the joint?",
+          "answer": [
+            "a gap",
+            "gap",
+            "a gap at the joint",
+            "an uneven gap",
+            "gaps"
+          ],
+          "explain": "An angled cut edge can only touch the next board's square edge along one point or line, leaving a wedge-shaped gap the rest of the way across the joint.",
+          "difficulty": 4
+        },
+        {
+          "type": "mc",
+          "prompt": "You're crosscutting 5 pieces from one board and forget to allow any extra length for kerf — your planned piece lengths add up to exactly the board's starting length. What will actually happen when you cut them?",
+          "choices": [
+            "The last piece comes out shorter than planned, because each cut ate a little material as sawdust",
+            "Nothing changes — kerf doesn't affect timber, only metal",
+            "The board magically becomes exactly the right length",
+            "The pieces will all come out longer than planned"
+          ],
+          "answer": "The last piece comes out shorter than planned, because each cut ate a little material as sawdust",
+          "explain": "Every cut turns a few millimetres of timber into sawdust (the kerf). Without extra length allowed up front to cover this, that lost material comes out of your last piece, leaving it short.",
+          "difficulty": 4
+        }
+      ],
+      "activity": {
+        "title": "Mark, square and cut real timber",
+        "why": "Proves they can plan cut lengths, mark a true square line, and then check their own accuracy against the real kerf a saw actually removes.",
+        "est_minutes": 30,
+        "adult_help": "required",
+        "materials": [
+          "a scrap piece of timber or dowel at least 40 cm long",
+          "pencil",
+          "try square or a book with a straight edge",
+          "hand saw (not a power saw)",
+          "clamp or vice, or an adult to hold it steady",
+          "tape measure or ruler"
+        ],
+        "steps": [
+          "Find a scrap piece of timber, dowel or an old broom handle at least 40 cm long that's okay to cut up.",
+          "Work out and write down three cut lengths you plan to use, before marking anything.",
+          "Use a try square (or a book held firmly against the edge) to draw a true square line across the timber at each planned cut point.",
+          "With an adult clamping or holding the timber steady, saw carefully along each square line using a hand saw — never a power saw.",
+          "After each cut, measure the actual length of the piece you just cut off with a tape measure or ruler.",
+          "Look closely at the cut end of the offcut and measure the width of the saw's kerf with a ruler, in millimetres.",
+          "Add up your three actual piece lengths and compare the total to your original timber's starting length.",
+          "Record your results below."
+        ],
+        "record": [
+          {
+            "id": "kerf_mm",
+            "label": "Measured width of the saw's kerf, in mm",
+            "type": "number",
+            "unit": "mm",
+            "hint": "measured on a cut end",
+            "min": 0.5,
+            "max": 5
+          },
+          {
+            "id": "original_length_mm",
+            "label": "Length of the timber before you started cutting, in mm",
+            "type": "number",
+            "unit": "mm",
+            "hint": "measured with a tape measure",
+            "min": 100,
+            "max": 3000
+          },
+          {
+            "id": "total_cut_mm",
+            "label": "Total of your three actual cut piece lengths added together, in mm",
+            "type": "number",
+            "unit": "mm",
+            "hint": "measured after cutting",
+            "min": 50,
+            "max": 2000
+          },
+          {
+            "id": "reflection",
+            "label": "What happened to the difference between the original length and your three pieces added together? Does it roughly match the kerf lost to your cuts?",
+            "type": "text",
+            "hint": "two or three sentences",
+            "min_words": 15
+          }
+        ],
+        "check": "The original length should be a little more than the total of the three cut pieces — the missing amount should be roughly the kerf width multiplied by the number of cuts made, plus any final offcut.",
+        "xp": 55
+      },
+      "kind": "lesson"
+    },
+    {
+      "slug": "y6-reading-plans-scale-drawings",
+      "title": "Reading a plan and a simple scale drawing",
+      "strand": "Home and tools",
+      "year_level": 6,
+      "curriculum_code": "",
+      "curriculum_text": "",
+      "position": 8,
+      "est_minutes": 13,
+      "intro": "You can't fit a real garden bed or shed onto a sheet of paper — so plans are drawn smaller, using a scale that shows exactly how the drawing relates to real life.",
+      "sections": [
+        {
+          "heading": "What a plan shows",
+          "body": "A **plan** is a drawing, usually from directly above or from the side, that shows the shape and size of something before it's built. Lines represent real edges, and numbers on the plan usually give you the real-world size of each part."
+        },
+        {
+          "heading": "What a scale means",
+          "body": "Since a real object is normally too big to draw at full size on paper, plans are drawn at a **scale** — a ratio that tells you how the drawing size relates to the real size. A scale of 1:20 means every 1 unit on the plan equals 20 of the same unit in real life.",
+          "example": {
+            "prompt": "A garden bed plan is drawn at a scale of 1:20. On the plan, the garden bed is 8 cm long. How long is it in real life?",
+            "working": [
+              "A scale of 1:20 means 1 cm on the plan = 20 cm in real life",
+              "8 cm x 20 = 160 cm"
+            ],
+            "answer": "160 cm (1.6 m)"
+          }
+        },
+        {
+          "heading": "Measuring a scale drawing with a ruler",
+          "body": "To find a real-world measurement from a plan, measure the length on the drawing with a ruler, then multiply by the scale factor. Always double check which way the scale goes — 1:20 means the real object is 20 times bigger than the drawing, not the other way around."
+        },
+        {
+          "heading": "Common scales you'll see",
+          "body": "A whole house plan is often drawn at 1:100, so it fits on one page. Smaller projects like garden beds, furniture or decks are often drawn at 1:20 or 1:50. A **1:1** scale drawing is full size — the drawing is exactly as big as the real object."
+        }
+      ],
+      "key_points": [
+        "A scale is a ratio showing how a drawing's size relates to the real-world size.",
+        "A scale of 1:20 means 1 unit on the plan equals 20 of the same unit in real life.",
+        "To find a real measurement, measure the plan with a ruler and multiply by the scale factor.",
+        "House plans are often drawn at 1:100; smaller projects at 1:20 or 1:50.",
+        "A 1:1 scale drawing is exactly full size."
+      ],
+      "try_this": "Draw a simple plan of your bedroom (or another room) on paper at a scale you choose, such as 1 cm on paper = 50 cm in real life. Measure the real room with a tape measure first, then work out and draw the matching lengths on your plan.",
+      "questions": [
+        {
+          "type": "tf",
+          "prompt": "A scale of 1:50 means every 1 unit on the plan equals 50 of the same unit in real life.",
+          "answer": true,
+          "explain": "A ratio like 1:50 means each unit on the drawing stands for 50 of that same unit in the real object.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "On a plan, what does a scale tell you?",
+          "choices": [
+            "How the drawing size relates to the real-world size",
+            "The colour the object should be",
+            "How heavy the object is",
+            "How many parts are needed"
+          ],
+          "answer": "How the drawing size relates to the real-world size",
+          "explain": "A scale is a ratio that connects a measurement on the drawing to the matching real-world measurement.",
+          "difficulty": 1
+        },
+        {
+          "type": "numeric",
+          "prompt": "On a shed plan drawn at 1:100, one wall measures 6 cm with a ruler. How long is that wall in real life?",
+          "answer": 6,
+          "tolerance": 0.05,
+          "unit": "m",
+          "explain": "6 cm x 100 = 600 cm, and 600 cm = 6 m.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "A garden bed plan is drawn at 1:20. Measuring the plan with a ruler, the bed comes out to 15 cm. How long is the real garden bed?",
+          "answer": 300,
+          "tolerance": 0,
+          "unit": "cm",
+          "explain": "15 cm x 20 = 300 cm.",
+          "difficulty": 2
+        },
+        {
+          "type": "mc",
+          "prompt": "Someone needs to fit an entire house plan onto a single sheet of paper. Which scale would do that job?",
+          "choices": [
+            "1:100",
+            "1:1",
+            "1:2",
+            "100:1"
+          ],
+          "answer": "1:100",
+          "explain": "A whole house is far too big to draw full size on one page, so a large ratio like 1:100 shrinks it down to fit.",
+          "difficulty": 2
+        },
+        {
+          "type": "tf",
+          "prompt": "A furniture plan is labelled '1:1'. Does that mean the drawing is exactly the same size as the real furniture?",
+          "answer": true,
+          "explain": "A 1:1 scale means 1 unit on the drawing equals 1 unit in real life, so the drawing is full size.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "A deck plan is drawn at 1:50. You measure its width on paper with a ruler and get 9.4 cm. How wide is the real deck?",
+          "answer": 4.7,
+          "tolerance": 0.05,
+          "unit": "m",
+          "explain": "9.4 cm x 50 = 470 cm, and 470 cm = 4.7 m.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A plan shows a shelf as 4 cm long at a scale of 1:25. A second plan shows the exact same shelf as only 2 cm long. That second plan's scale is 1:X. What is X?",
+          "answer": 50,
+          "tolerance": 0,
+          "unit": "",
+          "explain": "The shelf's real length is 4 cm x 25 = 100 cm. On the second plan it's shown as 2 cm, and 100 cm divided by 2 cm = 50, so the scale is 1:50.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A rectangular deck measures 4 m long in real life. If you draw it on paper at a scale of 1:50, how long should the drawn line be, in cm?",
+          "answer": 8,
+          "tolerance": 0.1,
+          "unit": "cm",
+          "explain": "A scale of 1:50 means the real length is divided by 50 to get the plan length. 4 m = 400 cm, and 400 cm / 50 = 8 cm on the plan.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A garden plan is drawn at a scale of 1:20. On the plan, a rectangular garden bed measures 4 cm by 3 cm. What is the real area of the garden bed, in square metres?",
+          "answer": 0.48,
+          "tolerance": 0.02,
+          "unit": "m2",
+          "explain": "Real length = 4 cm x 20 = 80 cm = 0.8 m. Real width = 3 cm x 20 = 60 cm = 0.6 m. Real area = 0.8 m x 0.6 m = 0.48 m2. You can't just multiply the plan's area by 20 — each dimension is scaled up separately.",
+          "difficulty": 4
+        },
+        {
+          "type": "text",
+          "prompt": "A plan's area in cm2 cannot simply be multiplied by the scale number (like 20) to get the real area. What do you actually need to do to the scale factor to convert a plan area into a real area?",
+          "answer": [
+            "square it",
+            "square the scale factor",
+            "multiply it by itself",
+            "use it twice"
+          ],
+          "explain": "Because both length and width are each multiplied by the scale factor, the area ends up multiplied by the scale factor squared, not by the scale factor on its own.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "You want to draw your 4.2 m long bedroom on an A4 page, where the longest edge of the drawing must not be more than 20 cm. What is the smallest scale denominator (the X in 1:X) that will make the room fit, rounded up to the nearest whole number?",
+          "answer": 21,
+          "tolerance": 0,
+          "unit": "",
+          "explain": "420 cm divided by the plan length of 20 cm gives a scale factor of 21 exactly. A slightly bigger scale number shrinks the drawing more, so 21 is the smallest whole-number scale that still fits within 20 cm.",
+          "difficulty": 4
+        }
+      ],
+      "activity": {
+        "title": "Scale-drawing and area check of a real room",
+        "why": "Proves they can convert real measurements into a correctly scaled drawing in both directions, and calculate a real quantity (floor area) from their own tape-measure numbers.",
+        "est_minutes": 30,
+        "adult_help": "none",
+        "materials": [
+          "tape measure",
+          "paper",
+          "ruler",
+          "pencil"
+        ],
+        "steps": [
+          "Choose a room and measure its length and width with a tape measure, to the nearest centimetre.",
+          "Choose a scale (such as 1:20 or 1:50) that will make your drawing fit neatly on one page, and write down which scale you picked.",
+          "Calculate what the room's length and width should be on paper at your chosen scale.",
+          "Draw the room's outline on paper at those calculated measurements, using a ruler.",
+          "Measure a door or window in the room and add it to your plan, marking its real width and its correctly scaled width.",
+          "Calculate the real floor area of the room in square metres, using your tape-measure numbers (length x width).",
+          "Record your results below."
+        ],
+        "record": [
+          {
+            "id": "room_length_m",
+            "label": "Real length of the room, in metres",
+            "type": "number",
+            "unit": "m",
+            "hint": "measured with a tape measure",
+            "min": 1,
+            "max": 15
+          },
+          {
+            "id": "room_width_m",
+            "label": "Real width of the room, in metres",
+            "type": "number",
+            "unit": "m",
+            "hint": "measured with a tape measure",
+            "min": 1,
+            "max": 15
+          },
+          {
+            "id": "scale_used",
+            "label": "Which scale did you use?",
+            "type": "choice",
+            "options": [
+              "1:20",
+              "1:50",
+              "1:100",
+              "Other"
+            ]
+          },
+          {
+            "id": "floor_area_m2",
+            "label": "Calculated real floor area of the room, in square metres",
+            "type": "number",
+            "unit": "m2",
+            "hint": "length x width",
+            "min": 1,
+            "max": 200
+          },
+          {
+            "id": "reflection",
+            "label": "Did your scaled drawing end up the right shape for the room? What made converting the measurements tricky, if anything?",
+            "type": "text",
+            "hint": "two or three sentences",
+            "min_words": 15
+          }
+        ],
+        "check": "The floor area should equal room_length_m x room_width_m. The scaled drawing's dimensions should equal the real dimensions divided by the scale number, in the same units.",
+        "xp": 45
+      },
+      "kind": "lesson"
+    },
+    {
+      "slug": "y6-materials-and-cost",
+      "title": "Working out materials and cost for a small build (a garden bed, a shelf)",
+      "strand": "Home and tools",
+      "year_level": 6,
+      "curriculum_code": "",
+      "curriculum_text": "",
+      "position": 9,
+      "est_minutes": 14,
+      "intro": "Before anyone heads to the hardware store, a good builder works out exactly what's needed and roughly what it will cost. That way there's no second trip for a forgotten part.",
+      "sections": [
+        {
+          "heading": "Planning before you buy",
+          "body": "Working out your materials before you shop means you buy the right amount the first time — not too little, and not so much that you're carrying home stuff you'll never use."
+        },
+        {
+          "heading": "Working out how much timber you need",
+          "body": "For something like a garden bed edge, you often need to know the **perimeter** — the total distance around all the sides.",
+          "example": {
+            "prompt": "A garden bed is 2 m long and 1 m wide. How many metres of edge board do you need to go around all four sides?",
+            "working": [
+              "A rectangle's perimeter is 2 x (length + width)",
+              "2 x (2 m + 1 m) = 2 x 3 m"
+            ],
+            "answer": "6 m"
+          }
+        },
+        {
+          "heading": "Adding up the cost",
+          "body": "Once you know how much material you need, multiply the length by the price per metre (or the number of items by the price each) to work out the cost. Add up the cost of every material to get the total for the whole job.",
+          "example": {
+            "prompt": "Edge board costs $8.50 per metre. How much will 6 m of edge board cost?",
+            "working": [
+              "Cost = length x price per metre",
+              "6 m x $8.50 = $51.00"
+            ],
+            "answer": "$51.00"
+          }
+        },
+        {
+          "heading": "Buying a bit extra: allowing for waste",
+          "body": "Builders usually buy a little more material than the bare minimum — often around 10% extra — to allow for offcuts, mistakes, or timber that's only sold in fixed lengths. It's also worth checking what lengths the hardware store actually sells, since you often have to round up to the next full length available."
+        }
+      ],
+      "key_points": [
+        "Work out exactly what materials you need before shopping, so you buy the right amount the first time.",
+        "A rectangle's perimeter is 2 x (length + width).",
+        "Cost = amount of material x price per unit; add up every material for the total job cost.",
+        "Builders often buy about 10% extra to allow for offcuts and mistakes.",
+        "Timber is sold in fixed lengths, so you may need to round your order up."
+      ],
+      "try_this": "Pick a small project you could imagine building, like a garden bed or a shelf. Measure or estimate its size with a tape measure, work out the perimeter or total length of material needed, and (with an adult, using a hardware store website or catalogue) look up a real price per metre to estimate the total cost.",
+      "questions": [
+        {
+          "type": "tf",
+          "prompt": "It's a good idea to work out exactly what materials you need before going to the hardware store.",
+          "answer": true,
+          "explain": "Working it out first means you buy the right amount in one trip, instead of guessing and coming up short or with too much.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "Why do builders often buy a little extra material, like an extra 10%?",
+          "choices": [
+            "To allow for offcuts, mistakes, and cutting waste",
+            "Because hardware stores require it",
+            "To make the job cost more",
+            "Timber is always sold in unlimited lengths"
+          ],
+          "answer": "To allow for offcuts, mistakes, and cutting waste",
+          "explain": "A small buffer covers the material lost to cutting, mismeasuring, or the odd mistake, without needing another trip to the store.",
+          "difficulty": 1
+        },
+        {
+          "type": "numeric",
+          "prompt": "A rectangular garden bed measures 3 m by 1.5 m. How much edge board, in total, would go all the way around it?",
+          "answer": 9,
+          "tolerance": 0,
+          "unit": "m",
+          "explain": "Perimeter = 2 x (length + width) = 2 x (3 m + 1.5 m) = 2 x 4.5 m = 9 m.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "The hardware store sells edge board at $8.50 a metre. You need 6 metres for your garden bed. What will that cost?",
+          "answer": 51,
+          "tolerance": 0,
+          "unit": "$",
+          "explain": "6 m x $8.50 per metre = $51.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "A shelf build needs 4 brackets at $3.20 each and 12 screws at $0.15 each. What's the total cost of those parts?",
+          "answer": 14.6,
+          "tolerance": 0.05,
+          "unit": "$",
+          "explain": "4 brackets x $3.20 = $12.80. 12 screws x $0.15 = $1.80. $12.80 + $1.80 = $14.60.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "You work out you need 9 m of timber for a garden bed, but it's only sold in 2.4 m lengths. How many lengths do you need to buy?",
+          "answer": 4,
+          "tolerance": 0,
+          "unit": "lengths",
+          "explain": "9 m divided by 2.4 m is 3.75, and since you can't buy part of a length, you must round up to 4 lengths.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "You're edging a garden bed 2.4 m long and 1.2 m wide, and want to buy about 10% more edge board than the bare minimum to cover offcuts. How many metres should you buy, to one decimal place?",
+          "answer": 7.9,
+          "tolerance": 0.05,
+          "unit": "m",
+          "explain": "Perimeter = 2 x (2.4 m + 1.2 m) = 2 x 3.6 m = 7.2 m. Adding 10% extra: 7.2 m x 1.1 = 7.92 m, which rounds to 7.9 m.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A garden bed project's costs come to $51 for edge boards, $18 for screws and $22 for soil. What does the whole project add up to?",
+          "answer": 91,
+          "tolerance": 0,
+          "unit": "$",
+          "explain": "$51 + $18 + $22 = $91.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A rectangular garden bed is 3.6 m long and 1.8 m wide. Edge board is sold only in 2.4 m lengths, priced at $19.20 per length (not per metre). Work out the perimeter, add 10% for waste, work out how many 2.4 m lengths that requires, then work out the total cost, in dollars.",
+          "answer": 96,
+          "tolerance": 0.5,
+          "unit": "$",
+          "explain": "Perimeter = 2 x (3.6 m + 1.8 m) = 10.8 m. Adding 10% waste: 10.8 m x 1.1 = 11.88 m. That needs 11.88 / 2.4 = 4.95, rounded up to 5 lengths. Total cost = 5 x $19.20 = $96.00.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A hardware store has 15% off screws normally priced at $0.20 each. You need 40 screws. What is the total cost after the discount, in dollars?",
+          "answer": 6.8,
+          "tolerance": 0.05,
+          "unit": "$",
+          "explain": "40 screws at $0.20 each is 40 x $0.20 = $8.00. A 15% discount takes off 15% of $8.00 ($1.20), leaving $8.00 x 0.85 = $6.80.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A shelving unit needs 34 screws. Screws are sold in packets of 10. How many screws will be left over after the job, once you've bought enough packets to cover it?",
+          "answer": 6,
+          "tolerance": 0,
+          "unit": "screws",
+          "explain": "34 screws needs 4 packets (3 packets only give 30, which is short), so you buy 4 x 10 = 40 screws. Using 34 of them leaves 40 - 34 = 6 screws over.",
+          "difficulty": 4
+        },
+        {
+          "type": "text",
+          "prompt": "Your calculations show you need exactly 4.95 lengths of timber for a job. Why would a builder actually buy 5 full lengths instead of trying to buy 'just 4.95 lengths' worth' from the store?",
+          "answer": [
+            "can't buy part of a length",
+            "rounds up",
+            "the store doesn't sell partial lengths",
+            "must round up",
+            "you have to round up",
+            "stores don't sell part lengths"
+          ],
+          "explain": "Timber is only sold as whole fixed lengths, so any calculation that comes out as a fraction of a length has to be rounded up to the next whole length you can actually buy.",
+          "difficulty": 4
+        }
+      ],
+      "activity": {
+        "title": "Cost a real small build",
+        "why": "Proves they can turn a real measured build into an accurate materials and cost plan using genuine hardware prices, not made-up numbers.",
+        "est_minutes": 30,
+        "adult_help": "nearby",
+        "materials": [
+          "tape measure",
+          "paper and pencil",
+          "access to a hardware store website or catalogue (with an adult)",
+          "calculator (optional)"
+        ],
+        "steps": [
+          "Pick a small real project you could build — a garden bed, a shelf, or a plant stand — and decide its length and width, or measure a space it needs to fit.",
+          "Measure the real dimensions with a tape measure and calculate the perimeter (or total length of material) needed.",
+          "With an adult, look up a real price per metre or per length for a suitable timber or edge board on a hardware store website (like Bunnings) or from a printed catalogue.",
+          "Add 10% to your material length to allow for waste, then work out how many fixed-length pieces you'd need to buy to cover that.",
+          "Calculate the total materials cost using the real price you found.",
+          "Find a real price for a packet of fasteners (screws or brackets) and work out how many packets the job needs and what they'd cost.",
+          "Record your results below."
+        ],
+        "record": [
+          {
+            "id": "perimeter_m",
+            "label": "Perimeter or total length of material needed, in metres",
+            "type": "number",
+            "unit": "m",
+            "hint": "from your real measurements",
+            "min": 1,
+            "max": 30
+          },
+          {
+            "id": "lengths_needed",
+            "label": "How many fixed-length pieces did you need to buy (after adding 10% waste)?",
+            "type": "number",
+            "hint": "rounded up",
+            "min": 1,
+            "max": 20
+          },
+          {
+            "id": "price_per_length",
+            "label": "Real price per length you found, in dollars",
+            "type": "number",
+            "unit": "$",
+            "hint": "from a real hardware store",
+            "min": 1,
+            "max": 200
+          },
+          {
+            "id": "total_cost",
+            "label": "Total materials cost (timber plus fasteners), in dollars",
+            "type": "number",
+            "unit": "$",
+            "hint": "your own calculation",
+            "min": 5,
+            "max": 1000
+          },
+          {
+            "id": "notes",
+            "label": "Which store or price list did you use, and did anything about the real cost surprise you?",
+            "type": "text",
+            "hint": "two or three sentences",
+            "min_words": 15
+          }
+        ],
+        "check": "Total cost should roughly equal lengths_needed x price_per_length, plus a smaller amount for fasteners. Household hardware prices for a small project like this usually land somewhere between $30 and $300.",
+        "xp": 50
+      },
+      "kind": "lesson"
+    },
+    {
+      "slug": "y6-spotting-hazards-ppe",
+      "title": "Spotting hazards before you start: the stop-and-look habit, and what PPE is for",
+      "strand": "Home and tools",
+      "year_level": 6,
+      "curriculum_code": "",
+      "curriculum_text": "",
+      "position": 10,
+      "est_minutes": 13,
+      "intro": "Before a tradie starts any job, they take a minute to look around first. It's not about being nervous — it's a habit that catches the small stuff before it turns into a big problem.",
+      "sections": [
+        {
+          "heading": "The stop-and-look habit",
+          "body": "Before starting any practical task, pause for a moment and look around. Is the area tidy? Is there anything you could trip on? Is there an adult nearby if the job needs one? This quick habit, sometimes called a stop-and-look, only takes a few seconds but catches most problems before they happen."
+        },
+        {
+          "heading": "What counts as a hazard",
+          "body": "A **hazard** is anything that could cause harm. Around a home workspace, common ones include a power cord lying across a walkway, a wobbly stack of materials, an exposed nail sticking out of timber, sharp offcuts left lying around, or a tool that's been left switched on.\n\nNoticing a hazard is only half the job — the other half is doing something about it, like tidying the cord away or telling an adult about the loose nail."
+        },
+        {
+          "heading": "What PPE actually does",
+          "body": "**PPE** stands for **Personal Protective Equipment** — gear like safety glasses, ear muffs, gloves and closed shoes. Each piece protects a specific part of you: safety glasses stop dust and flying bits from reaching your eyes, ear muffs protect your hearing around loud tools, gloves protect your hands from splinters and sharp edges, and closed shoes protect your feet from dropped tools or stray nails.\n\nPPE is often called the **last layer** of protection — it doesn't stop a hazard from happening, it just softens the impact if something does go wrong. Spotting and removing hazards in the first place matters even more."
+        },
+        {
+          "heading": "When to stop and get an adult",
+          "body": "Some things are always an adult's call: anything involving a power tool, mains electricity, a ladder, cleaning chemicals, or anything that looks broken, frayed or unsafe. If something doesn't feel right, it's always fine to stop and ask, rather than push on and hope for the best."
+        }
+      ],
+      "key_points": [
+        "A quick stop-and-look before starting a task catches most hazards early.",
+        "A hazard is anything that could cause harm, like a trailing cord or a sharp offcut.",
+        "PPE stands for Personal Protective Equipment.",
+        "PPE is the last layer of protection — spotting and removing hazards matters more.",
+        "Power tools, ladders, electricity and chemicals are always an adult's job."
+      ],
+      "try_this": "With a family member, do a two-minute 'hazard hunt' around one room, the garage, or the shed. List five things you notice that could be tidied up or fixed to make the space safer, like a cord in a walkway or tools left out. Talk about which ones you could fix yourselves and which need an adult.",
+      "questions": [
+        {
+          "type": "tf",
+          "prompt": "PPE stands for Personal Protective Equipment.",
+          "answer": true,
+          "explain": "PPE is short for Personal Protective Equipment, gear worn to reduce harm from a hazard.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "What is the first thing you should do before starting any practical task?",
+          "choices": [
+            "Stop and look around for hazards",
+            "Start straight away to save time",
+            "Turn on every tool in the shed",
+            "Ignore the instructions"
+          ],
+          "answer": "Stop and look around for hazards",
+          "explain": "A quick look around before starting catches trip hazards, mess, or anything else worth sorting out first.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "Doing a stop-and-look before starting a job in the shed, which of these is a hazard you should deal with before you begin?",
+          "choices": [
+            "A power cord lying across the path where people walk",
+            "A tidy workbench",
+            "A clearly labelled tool",
+            "A tape measure in its case"
+          ],
+          "answer": "A power cord lying across the path where people walk",
+          "explain": "A cord across a walkway is a trip hazard and should be moved or taped down before work starts.",
+          "difficulty": 2
+        },
+        {
+          "type": "tf",
+          "prompt": "Before starting to cut timber, you put on safety glasses. Are they mainly there to protect your eyes from dust, splinters and flying bits of material?",
+          "answer": true,
+          "explain": "Safety glasses form a barrier that stops flying dust, chips and splinters from reaching your eyes.",
+          "difficulty": 2
+        },
+        {
+          "type": "mc",
+          "prompt": "You notice a tradie wearing ear muffs the whole time a loud saw is running nearby. Why?",
+          "choices": [
+            "To protect their hearing from loud, repeated noise",
+            "To keep dust out of their hair",
+            "Because it's a rule with no real reason",
+            "To make the tool quieter"
+          ],
+          "answer": "To protect their hearing from loud, repeated noise",
+          "explain": "Loud noise over time can damage hearing, so ear muffs or plugs reduce how much sound reaches the ears.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "Safety glasses, gloves and ear muffs are all examples of gear you wear to protect your body on a job. What's the general name for this kind of gear?",
+          "answer": [
+            "ppe",
+            "personal protective equipment"
+          ],
+          "explain": "This gear is known as PPE, short for Personal Protective Equipment.",
+          "difficulty": 2
+        },
+        {
+          "type": "mc",
+          "prompt": "While helping out, you notice the power tool's extension cord is lying straight through a puddle. What's the right response?",
+          "choices": [
+            "Stop, point it out to the adult in charge, and don't touch the cord or tool until it's fixed",
+            "Step over the puddle carefully and keep going",
+            "Move the cord yourself while the tool might be on",
+            "Ignore it, it's probably fine"
+          ],
+          "answer": "Stop, point it out to the adult in charge, and don't touch the cord or tool until it's fixed",
+          "explain": "Electricity and water together are dangerous, so this is exactly the kind of hazard to flag to an adult straight away rather than handle yourself.",
+          "difficulty": 3
+        },
+        {
+          "type": "mc",
+          "prompt": "PPE gets called the 'last layer' of protection, not the main way people stay safe on a job. Why?",
+          "choices": [
+            "Because spotting and removing hazards first matters more than relying on gear to protect you afterwards",
+            "Because PPE doesn't actually work",
+            "Because PPE should always be the very first thing you think about",
+            "Because hazards don't matter if you're wearing PPE"
+          ],
+          "answer": "Because spotting and removing hazards first matters more than relying on gear to protect you afterwards",
+          "explain": "PPE only softens the impact if something goes wrong. Removing the hazard in the first place is the more effective form of protection.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "During a walk-around you find 12 hazards in total. You're able to safely deal with 2 out of every 3 of them yourself (like moving a cord or picking up an offcut); the rest need an adult (anything electrical, chemical, or at height). How many of the 12 hazards need an adult?",
+          "answer": 4,
+          "tolerance": 0,
+          "unit": "hazards",
+          "explain": "If 2 out of 3 can be handled yourself, that leaves 1 out of 3 needing an adult. 1/3 of 12 is 12 / 3 = 4 hazards that need an adult.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "Using a simple risk score of Likelihood x Severity (each rated 1 to 3), a frayed power cord lying in a puddle scores Likelihood 3 (very likely to cause harm) and Severity 3 (could be very serious). What is its risk score?",
+          "answer": 9,
+          "tolerance": 0,
+          "unit": "",
+          "explain": "Risk score = Likelihood x Severity = 3 x 3 = 9, the highest possible score on this 1-to-3 scale, matching how serious and how likely this hazard really is.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "Using the same Likelihood x Severity scoring, a dusty offcut sitting neatly in a corner scores Likelihood 1, Severity 1. A wobbly stack of bricks near a walkway scores Likelihood 3, Severity 2. What is the higher of the two risk scores?",
+          "answer": 6,
+          "tolerance": 0,
+          "unit": "",
+          "explain": "The offcut scores 1 x 1 = 1. The wobbly bricks score 3 x 2 = 6. The higher score, 6, belongs to the wobbly stack of bricks, which needs attention first.",
+          "difficulty": 4
+        },
+        {
+          "type": "text",
+          "prompt": "Two hazards score the same total risk of 3: Hazard A (loose gravel on a path) is Likelihood 3, Severity 1. Hazard B (a rarely-touched exposed wire) is Likelihood 1, Severity 3. Even with equal scores, why might a safety-minded adult still choose to deal with Hazard B first?",
+          "answer": [
+            "could cause more serious harm",
+            "severity is worse",
+            "could be very serious even if rare",
+            "the consequences are worse",
+            "it could be much more serious",
+            "more serious if it happens"
+          ],
+          "explain": "Even though the overall score is equal, Hazard B could cause much more serious harm if it did happen. A rare-but-severe hazard is often prioritised over a common-but-minor one, because the worst-case outcome matters, not just the number.",
+          "difficulty": 4
+        }
+      ],
+      "activity": {
+        "title": "Real hazard hunt with a risk register",
+        "why": "Proves they can apply a genuine WHS-style risk score to real hazards they actually find, not just recognise hazards in the abstract.",
+        "est_minutes": 25,
+        "adult_help": "nearby",
+        "materials": [
+          "notebook or paper",
+          "pencil"
+        ],
+        "steps": [
+          "With an adult, walk around one area of the home, garage, shed or yard for a proper look — take at least 5 minutes.",
+          "Write down every hazard you notice, aiming for at least 5.",
+          "For each hazard, rate its Likelihood (1 = unlikely, 2 = possible, 3 = very likely) and Severity (1 = minor, 2 = moderate, 3 = serious), discussing your rating with the adult.",
+          "Multiply Likelihood x Severity for each hazard to get its risk score.",
+          "Sort your list from the highest risk score to the lowest.",
+          "Fix the ones you can safely deal with yourself right now, and mark the rest for the adult to handle.",
+          "Record your results below."
+        ],
+        "record": [
+          {
+            "id": "hazards_found",
+            "label": "How many hazards did you find in total?",
+            "type": "number",
+            "unit": "hazards",
+            "hint": "count your list",
+            "min": 5,
+            "max": 30
+          },
+          {
+            "id": "highest_risk_score",
+            "label": "What was the highest risk score (Likelihood x Severity) you calculated?",
+            "type": "number",
+            "hint": "1 to 9",
+            "min": 1,
+            "max": 9
+          },
+          {
+            "id": "fixed_yourself",
+            "label": "How many hazards did you fix yourself, safely?",
+            "type": "number",
+            "unit": "hazards",
+            "hint": "count them",
+            "min": 0,
+            "max": 30
+          },
+          {
+            "id": "writeup",
+            "label": "Describe the single highest-risk hazard you found and why it scored the way it did.",
+            "type": "text",
+            "hint": "two or three sentences",
+            "min_words": 15
+          }
+        ],
+        "check": "Risk scores should genuinely be Likelihood x Severity, each between 1 and 3, so the score itself should sit between 1 and 9. The number fixed yourself should be no more than the total hazards found.",
+        "xp": 45
+      },
+      "kind": "lesson"
+    },
+    {
+      "slug": "y6-basic-fixes",
+      "title": "Basic fixes: a dripping tap washer, a squeaky hinge, a blocked gutter, a flat bike tyre",
+      "strand": "Home and tools",
+      "year_level": 6,
+      "curriculum_code": "",
+      "curriculum_text": "",
+      "position": 11,
+      "est_minutes": 14,
+      "intro": "Not every fix around the house needs a tradie. A dripping tap, a squeaky hinge and a flat bike tyre are all things you can understand and often help fix yourself, alongside an adult.",
+      "sections": [
+        {
+          "heading": "Small fixes save the day",
+          "body": "Lots of everyday problems have a simple, well-known fix. Knowing what's actually wrong — and what usually solves it — means you're not stuck waiting around, and you can lend a genuinely useful hand."
+        },
+        {
+          "heading": "A dripping tap: the washer",
+          "body": "Inside most taps is a small rubber or plastic ring called a **washer**, which seals the tap shut when you turn it off. Over time it wears down and stops sealing properly, which is what causes that slow drip.\n\nFixing it means turning off the water supply to that tap first, then an adult removes the tap handle to replace the worn washer with a new one. Turning off the water first stops it spraying everywhere while the tap is apart."
+        },
+        {
+          "heading": "A squeaky hinge and a blocked gutter",
+          "body": "A squeaky door or gate hinge is usually fixed with a few drops of oil or lubricant worked into the hinge pin, then opening and closing it a few times to spread it through.\n\nA **gutter** is the metal channel along a roof edge that carries rainwater away. It can get blocked with leaves and debris, especially after a storm. Gutters should only ever be checked from the ground, from a step, or with an adult managing anything at height — never by climbing up high on your own."
+        },
+        {
+          "heading": "A flat bike tyre",
+          "body": "If a bike tyre goes flat, first pump it up and see if it holds air — sometimes it's just low. If it goes flat again, there's likely a puncture. A **tyre lever** helps lever the tyre off the rim to check the tube for a hole or find whatever sharp object caused it, before patching or replacing the tube and pumping it back up to the pressure marked on the tyre's sidewall."
+        }
+      ],
+      "key_points": [
+        "The rubber part inside a tap that wears out and causes dripping is called a washer.",
+        "Always turn off the water supply before a tap is taken apart.",
+        "A squeaky hinge is usually fixed with a little oil worked into the pin.",
+        "Gutters should only be checked from the ground, a step, or with an adult managing height safely.",
+        "A tyre lever helps remove a bike tyre from the rim to find and fix a puncture."
+      ],
+      "try_this": "With an adult, find a squeaky hinge somewhere in the house (a door, gate, or cupboard) and put a few drops of cooking oil or a household lubricant on the pin, then work it back and forth. If your bike has a pump at home, check the tyre pressure against the number printed on the tyre's sidewall.",
+      "questions": [
+        {
+          "type": "tf",
+          "prompt": "The rubber part inside a tap that wears out and causes dripping is called a washer.",
+          "answer": true,
+          "explain": "A tap washer seals the tap closed, and once it wears down it stops sealing properly, causing a drip.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "Before taking apart a dripping tap, what is the first safety step?",
+          "choices": [
+            "Turn off the water supply to that tap",
+            "Start unscrewing the handle straight away",
+            "Turn the tap on full",
+            "Call a friend over"
+          ],
+          "answer": "Turn off the water supply to that tap",
+          "explain": "Turning off the water supply first stops water spraying out once the tap is taken apart.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "A gate hinge squeaks every time it swings. What usually sorts that out?",
+          "choices": [
+            "A few drops of oil or lubricant worked into the hinge",
+            "Hitting the hinge with a hammer",
+            "Tightening every screw in the house",
+            "Painting the whole door"
+          ],
+          "answer": "A few drops of oil or lubricant worked into the hinge",
+          "explain": "Oil reduces the friction between the moving metal parts of the hinge, which is usually what's causing the squeak.",
+          "difficulty": 2
+        },
+        {
+          "type": "tf",
+          "prompt": "Gutters should only be checked from the ground, a step, or with an adult managing anything at height - never by climbing up alone. Is that the safe rule to follow?",
+          "answer": true,
+          "explain": "Working at height needs proper care and adult supervision, so gutter checks stick to ground level, a low step, or an adult handling anything higher.",
+          "difficulty": 2
+        },
+        {
+          "type": "mc",
+          "prompt": "To get a bike tyre off the rim so you can check the tube for a puncture, what tool actually helps prise it off?",
+          "choices": [
+            "A tyre lever",
+            "A shifter",
+            "A tape measure",
+            "A hammer"
+          ],
+          "answer": "A tyre lever",
+          "explain": "A tyre lever is shaped to slide between the tyre and rim, prying the tyre off without damaging the rim.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "After a storm, leaves pile up in the metal channel running along the edge of the roof, stopping rainwater draining away properly. What's that channel called?",
+          "answer": [
+            "gutter"
+          ],
+          "explain": "This channel is called a gutter, and it can become blocked with leaves and debris over time.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "A bike tyre keeps going flat even after you pump it up. What's the smartest thing to check next?",
+          "answer": [
+            "check for a puncture",
+            "look for a puncture",
+            "check the tube for a puncture",
+            "find what's causing the puncture"
+          ],
+          "explain": "A tyre that keeps deflating almost always has a puncture or something sharp still stuck in it, so that's the first thing to check.",
+          "difficulty": 3
+        },
+        {
+          "type": "mc",
+          "prompt": "Before an adult takes apart a dripping tap to replace the washer, the water supply gets turned off first. Why does that step matter?",
+          "choices": [
+            "So water doesn't spray out and make a mess (or cause a bigger problem) while the tap is apart",
+            "Because the washer is electric",
+            "It isn't actually necessary",
+            "To make the tap louder"
+          ],
+          "answer": "So water doesn't spray out and make a mess (or cause a bigger problem) while the tap is apart",
+          "explain": "With the water still on, taking the tap apart would let water spray out uncontrolled, so the supply is always turned off first.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A dripping tap loses about 1 drop every 3 seconds, and it takes roughly 20 drops to make 1 mL. About how many millilitres of water does the tap waste in one hour (3600 seconds)?",
+          "answer": 60,
+          "tolerance": 2,
+          "unit": "mL",
+          "explain": "In one hour there are 3600 / 3 = 1200 drops. At 20 drops per mL, that's 1200 / 20 = 60 mL wasted in an hour.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A bike tyre's sidewall says the recommended pressure is 65 PSI. A pressure gauge shows it's currently at 42 PSI. How many more PSI does it need to reach the recommended pressure?",
+          "answer": 23,
+          "tolerance": 0,
+          "unit": "PSI",
+          "explain": "The difference between the recommended pressure and the current pressure is 65 PSI - 42 PSI = 23 PSI.",
+          "difficulty": 4
+        },
+        {
+          "type": "text",
+          "prompt": "You added oil to a squeaky hinge and worked it back and forth, but it still squeaks, because the pin is caked in old rust and grime that the oil can't reach through. What should be done to the hinge before oiling it again?",
+          "answer": [
+            "clean it",
+            "clean the hinge",
+            "clean the pin",
+            "remove the rust first",
+            "wire brush it",
+            "clean it first"
+          ],
+          "explain": "Oil can't lubricate a pin it can't actually reach. Cleaning off the old rust and grime first means the oil can get to the metal surfaces that are actually rubbing together.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A section of gutter is 4 m long. Leaves and debris have built up to a depth of 3 cm along the full length, in a channel that's 10 cm wide. Roughly what volume of debris, in litres, needs to be cleared? (1 litre = 1000 cm3)",
+          "answer": 12,
+          "tolerance": 1,
+          "unit": "L",
+          "explain": "4 m = 400 cm. Volume = 400 cm x 3 cm x 10 cm = 12,000 cm3. Since 1 litre = 1000 cm3, that's 12,000 / 1000 = 12 litres.",
+          "difficulty": 4
+        }
+      ],
+      "activity": {
+        "title": "Oil a real squeak and check a real tyre",
+        "why": "Proves they can carry out two real fixes properly, and back up the improvement with an actual measured before-and-after reading rather than just saying it 'felt better'.",
+        "est_minutes": 20,
+        "adult_help": "nearby",
+        "materials": [
+          "household oil or lubricant",
+          "a squeaky hinge somewhere in the house",
+          "a bike (or wheelbarrow) tyre",
+          "a pump with a pressure gauge",
+          "cloth"
+        ],
+        "steps": [
+          "Find a real squeaky hinge somewhere in the house (door, gate, cupboard, or drawer).",
+          "Open and close it a few times and rate how loud the squeak is, out of 10.",
+          "Clean any visible dirt or rust off the hinge pin with a dry cloth, then add a few drops of oil and work it back and forth at least 10 times.",
+          "Open and close it again and re-rate the squeak out of 10.",
+          "Find a bike (or wheelbarrow) tyre and check the recommended pressure printed on its sidewall, in PSI.",
+          "Use a pump with a pressure gauge to check the current pressure, then pump it up to the recommended pressure, recording the before and after readings.",
+          "Record your results below."
+        ],
+        "record": [
+          {
+            "id": "squeak_before",
+            "label": "Squeak loudness before oiling, out of 10",
+            "type": "number",
+            "hint": "your own rating",
+            "min": 0,
+            "max": 10
+          },
+          {
+            "id": "squeak_after",
+            "label": "Squeak loudness after oiling, out of 10",
+            "type": "number",
+            "hint": "your own rating",
+            "min": 0,
+            "max": 10
+          },
+          {
+            "id": "tyre_psi_before",
+            "label": "Tyre pressure before pumping, in PSI",
+            "type": "number",
+            "unit": "PSI",
+            "hint": "from the gauge",
+            "min": 0,
+            "max": 100
+          },
+          {
+            "id": "tyre_psi_after",
+            "label": "Tyre pressure after pumping, in PSI",
+            "type": "number",
+            "unit": "PSI",
+            "hint": "from the gauge",
+            "min": 0,
+            "max": 100
+          },
+          {
+            "id": "writeup",
+            "label": "Which fix made the biggest difference, and how could you tell?",
+            "type": "text",
+            "hint": "two or three sentences",
+            "min_words": 15
+          }
+        ],
+        "check": "The squeak rating should drop after oiling (or stay the same if it was already quiet). The after-pressure should be closer to the tyre's recommended sidewall figure than the before-pressure was.",
+        "xp": 45
+      },
+      "kind": "lesson"
+    },
+    {
+      "slug": "y6-knots-lashing-load",
+      "title": "Knots, lashing and load: tying things down properly for a ute or a trailer",
+      "strand": "Home and tools",
+      "year_level": 6,
+      "curriculum_code": "",
+      "curriculum_text": "",
+      "position": 12,
+      "est_minutes": 14,
+      "intro": "Around Cooktown, you see loaded utes and trailers everywhere — firewood, mower, camping gear. A load that isn't tied down properly can shift, or worse, fall off on the road, so it's worth understanding how to secure one properly.",
+      "sections": [
+        {
+          "heading": "Why a proper knot matters",
+          "body": "A load on a ute tray or trailer needs to be secured so it can't shift or fall off while travelling. A weak or badly tied knot can work loose over a bumpy road, so it's worth learning a few reliable ones."
+        },
+        {
+          "heading": "Useful knots for securing a load",
+          "body": "A **reef knot** (also called a square knot) ties two ends of rope of similar thickness together securely, and is easy to undo again when you're finished. For tying a rope off to a rail or hook, a simple **clove hitch** grips firmly and can be adjusted before it's pulled tight.\n\nFor really tensioning a load down, tradies often use a **trucker's hitch** — a loop tied partway along the rope acts like a pulley, letting you pull the rope tight before locking it off. It looks tricky at first, but it's worth an adult showing you once you've got the basics down."
+        },
+        {
+          "heading": "Lashing: keeping a load spread and low",
+          "body": "**Lashing** means securing a load with ropes or straps so it can't move. Heavy items are best kept low and toward the front of the load, which keeps everything more stable while travelling. It's safer to use several straps or ropes spread across a load than to rely on just one, even if that one feels tight."
+        },
+        {
+          "heading": "Load limits and checking before you drive",
+          "body": "Every trailer has a maximum load capacity — the most weight it's rated to carry safely. Adding up the weight of everything you're loading against that limit is worth doing before you start.",
+          "example": {
+            "prompt": "A trailer has a maximum load capacity of 500 kg. You've loaded 3 bags of cement at 20 kg each and a mower at 35 kg. How much more can you load before reaching the limit?",
+            "working": [
+              "3 bags x 20 kg = 60 kg",
+              "60 kg + 35 kg (mower) = 95 kg loaded so far",
+              "500 kg - 95 kg = 405 kg remaining"
+            ],
+            "answer": "405 kg"
+          }
+        }
+      ],
+      "key_points": [
+        "A load on a trailer or ute tray should always be secured before driving.",
+        "A reef knot ties two similar rope ends together; a clove hitch secures a rope to a rail or hook.",
+        "Heavy items should sit low and toward the front of a load for stability.",
+        "Spread a load across several straps or ropes rather than relying on just one.",
+        "Always check total load weight against the trailer's maximum capacity before setting off."
+      ],
+      "try_this": "With an adult, practise tying a reef knot using two pieces of string or old shoelaces: right over left and tuck, then left over right and tuck. Pull it tight and check it holds, then see if you can undo it easily by pulling the loose ends.",
+      "questions": [
+        {
+          "type": "tf",
+          "prompt": "A load on a trailer or ute tray should always be secured before driving, so nothing can shift or fall off.",
+          "answer": true,
+          "explain": "An unsecured load can shift or fall off while travelling, which is why it always needs to be tied down properly first.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "What is the main reason to keep heavy items low and toward the front of a load?",
+          "choices": [
+            "It keeps the load more stable and balanced while travelling",
+            "It looks neater",
+            "It makes the trailer lighter",
+            "It's required only for camping trips"
+          ],
+          "answer": "It keeps the load more stable and balanced while travelling",
+          "explain": "Keeping weight low and forward helps balance the load and keeps the trailer more stable, especially over bumps or turns.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "You need to tie two ends of similar rope together securely for tying down a load, but still be able to undo it again once you get there. Which knot is built for exactly that?",
+          "choices": [
+            "Reef knot (square knot)",
+            "A knot that can't be undone",
+            "A single overhand knot only",
+            "There's no knot for this"
+          ],
+          "answer": "Reef knot (square knot)",
+          "explain": "A reef knot joins two rope ends of similar thickness firmly, while still being easy to undo when needed.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "A trailer is rated to carry 500 kg. You've loaded 3 bags at 20 kg each, plus one item weighing 35 kg. How much more could you still load before hitting the limit?",
+          "answer": 405,
+          "tolerance": 0,
+          "unit": "kg",
+          "explain": "3 bags x 20 kg = 60 kg, plus the 35 kg item = 95 kg loaded. 500 kg - 95 kg = 405 kg remaining.",
+          "difficulty": 2
+        },
+        {
+          "type": "tf",
+          "prompt": "Jarrah ties one single rope, pulled as tight as he can, over a big load of firewood on the trailer. Is one tight rope enough to keep it secure?",
+          "answer": false,
+          "explain": "Even a tight single rope can let a load shift or roll. Spreading the load across several straps or ropes is safer.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "Before setting off, the firewood on the trailer gets tied down with several ropes and straps so it can't shift. What's this called?",
+          "answer": [
+            "lashing"
+          ],
+          "explain": "This is called lashing, and it's what keeps a load from shifting while travelling.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "You load 18 bundles of firewood, 15 kg each, onto a trailer rated to carry 300 kg. How far under the limit does that leave you?",
+          "answer": 30,
+          "tolerance": 0,
+          "unit": "kg",
+          "explain": "18 bundles x 15 kg = 270 kg. 300 kg - 270 kg = 30 kg under the limit.",
+          "difficulty": 3
+        },
+        {
+          "type": "mc",
+          "prompt": "The trailer's loaded and strapped down, and you're about to drive off. What's the last thing worth doing first?",
+          "choices": [
+            "Do a final check that all straps and ropes are tight and nothing has shifted",
+            "Drive off quickly before the load can move",
+            "Remove all the straps for a smoother look",
+            "Only check the load once you're already on the highway"
+          ],
+          "answer": "Do a final check that all straps and ropes are tight and nothing has shifted",
+          "explain": "A quick final check before setting off catches any strap that's come loose while loading, before it becomes a problem on the road.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A trailer's maximum load capacity is 750 kg. You load 6 crates at 45 kg each, 3 bags of sand at 25 kg each, and a generator at 60 kg. How many kilograms of capacity remain?",
+          "answer": 345,
+          "tolerance": 0,
+          "unit": "kg",
+          "explain": "6 crates x 45 kg = 270 kg. 3 bags x 25 kg = 75 kg. Adding the generator: 270 + 75 + 60 = 405 kg loaded. Remaining capacity is 750 kg - 405 kg = 345 kg.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A trucker's hitch acts like a pulley, roughly doubling the pulling force you apply when tensioning a rope. If you can comfortably pull with 15 kg of force by hand, roughly how many kg of tension can you achieve on the rope using a trucker's hitch?",
+          "answer": 30,
+          "tolerance": 2,
+          "unit": "kg",
+          "explain": "A basic trucker's hitch gives roughly a 2:1 mechanical advantage, so 15 kg of pulling force translates to roughly 15 x 2 = 30 kg of tension in the rope.",
+          "difficulty": 4
+        },
+        {
+          "type": "text",
+          "prompt": "A reef knot is easy to tie and undo, but tradies never use a plain reef knot as the main tie-down for a heavy load, choosing a trucker's hitch instead for the main straps. What can a trucker's hitch do that a plain reef knot can't?",
+          "answer": [
+            "tension it",
+            "pull it tight",
+            "cinch it tight",
+            "tighten the load",
+            "get real tension on the rope",
+            "add tension"
+          ],
+          "explain": "A trucker's hitch works like a pulley, letting you pull real tension into the rope before locking it off. A reef knot just joins two rope ends together — it can't be used to cinch a load down tight in the first place.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "You're loading firewood bundles at 12 kg each onto a trailer, aiming to put roughly two-thirds of the total weight toward the front for stability. If you load 24 bundles in total, how many kilograms of firewood should end up toward the front?",
+          "answer": 192,
+          "tolerance": 0,
+          "unit": "kg",
+          "explain": "24 bundles x 12 kg = 288 kg total. Two-thirds of that is 288 kg x 2/3 = 192 kg, which should be positioned toward the front of the load.",
+          "difficulty": 4
+        }
+      ],
+      "activity": {
+        "title": "Tie down a real load properly",
+        "why": "Proves they can weigh a real load, position it sensibly, and actually tension and test a real tie-down rather than just describing how it should be done.",
+        "est_minutes": 25,
+        "adult_help": "required",
+        "materials": [
+          "a wheelbarrow, trailer, ute tray, or garden cart",
+          "4-6 real items to load (firewood, garden bags, boxes)",
+          "rope or ratchet straps",
+          "kitchen or bathroom scales"
+        ],
+        "steps": [
+          "With an adult, choose a real trailer, ute tray, wheelbarrow, or garden cart at home and 4-6 real items to load onto it.",
+          "Weigh each item using kitchen or bathroom scales (or a reasonable estimate from the packaging), and add up the total weight.",
+          "Load the heaviest items low and toward the front, as the lesson describes.",
+          "Practise tying a reef knot with a spare piece of rope or string first, checking it holds and can be undone.",
+          "With the adult, use rope or a strap to lash the actual load down, tensioning it as firmly as you safely can.",
+          "Give the load a firm push and shake test to check nothing shifts.",
+          "Record your results below."
+        ],
+        "record": [
+          {
+            "id": "total_load_kg",
+            "label": "Total weight of everything you loaded, in kg",
+            "type": "number",
+            "unit": "kg",
+            "hint": "added up from weighing each item",
+            "min": 1,
+            "max": 500
+          },
+          {
+            "id": "number_of_straps",
+            "label": "How many ropes or straps did you use to secure the load?",
+            "type": "number",
+            "hint": "count them",
+            "min": 1,
+            "max": 6
+          },
+          {
+            "id": "knot_used",
+            "label": "What did you use to secure the rope ends?",
+            "type": "choice",
+            "options": [
+              "Reef knot",
+              "Clove hitch",
+              "Ratchet strap",
+              "Other"
+            ]
+          },
+          {
+            "id": "writeup",
+            "label": "Describe the shake test — did anything move, and did you need to retighten anything?",
+            "type": "text",
+            "hint": "two or three sentences",
+            "min_words": 15
+          }
+        ],
+        "check": "The total weight should be a real sum of actually weighed or reasonably estimated items, not a round guess. A properly tensioned load should not shift noticeably during the shake test.",
+        "xp": 55
+      },
+      "kind": "lesson"
+    }
+  ]
+}

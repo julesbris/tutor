@@ -1,0 +1,83 @@
+{% extends "base.html" %}
+{% block title %}Question {{ index }} of {{ total }}{% endblock %}
+{% block content %}
+
+<div class="qhead">
+  <div>
+    <b>{{ attempt.label }}</b>
+    <div class="meta">Question {{ index }} of {{ total }}</div>
+  </div>
+  <span class="pill pill-{{ {1:'green', 2:'grey', 3:'amber', 4:'violet'}.get(question.difficulty, 'grey') }}">
+    {{ question.difficulty_label }}
+  </span>
+</div>
+
+<div class="dots" style="margin-bottom:18px">
+  {% for a in attempt.answers %}<i class="{{ 'ok' if a.correct else 'no' }}"></i>{% endfor %}
+  {% if not feedback %}<i class="now"></i>{% endif %}
+  {% for _ in range(total - attempt.answers|length - (0 if feedback else 1)) %}<i></i>{% endfor %}
+</div>
+
+<div class="card">
+  <div class="qprompt">{{ question.prompt }}</div>
+
+  {% if feedback %}
+    <div class="verdict {{ 'right' if feedback.correct else 'wrong' }}">
+      {% if feedback.correct %}
+        <b>Correct &mdash; +{{ feedback.xp }} XP</b>
+      {% else %}
+        <b>Not this time</b>
+        You answered <b style="display:inline">{{ feedback.given or '(nothing)' }}</b>.
+        The answer is <b style="display:inline">{{ question.answer_display }}</b>.
+      {% endif %}
+      {% if question.explanation %}<div style="margin-top:.5em">{{ question.explanation }}</div>{% endif %}
+    </div>
+
+    {% if last %}
+      <a class="btn btn-lg" href="{{ url_for('finish', attempt_id=attempt.id) }}">See how you went</a>
+    {% else %}
+      <a class="btn btn-lg" href="{{ url_for('quiz', attempt_id=attempt.id) }}">Next question</a>
+    {% endif %}
+
+  {% else %}
+    <form method="post" action="{{ url_for('answer', attempt_id=attempt.id) }}">
+      <input type="hidden" name="question_id" value="{{ question.id }}">
+
+      {% if question.qtype == 'mc' %}
+        <div class="choices">
+          {% for choice in question.choices %}
+            <label class="choice">
+              <input type="radio" name="response" value="{{ choice }}" required>
+              <span>{{ choice }}</span>
+            </label>
+          {% endfor %}
+        </div>
+
+      {% elif question.qtype == 'tf' %}
+        <div class="choices">
+          <label class="choice"><input type="radio" name="response" value="True" required><span>True</span></label>
+          <label class="choice"><input type="radio" name="response" value="False" required><span>False</span></label>
+        </div>
+
+      {% elif question.qtype == 'numeric' %}
+        <div class="inline">
+          <input class="numin" name="response" inputmode="decimal" autocomplete="off"
+                 placeholder="Your answer" autofocus required>
+          {% if question.unit %}<b>{{ question.unit }}</b>{% endif %}
+        </div>
+
+      {% else %}
+        <input class="numin" style="max-width:100%" name="response" autocomplete="off"
+               placeholder="Type your answer" autofocus required>
+      {% endif %}
+
+      <button class="btn btn-lg" style="margin-top:18px" type="submit">Check my answer</button>
+    </form>
+  {% endif %}
+</div>
+
+<p class="meta" style="margin-top:14px">
+  Score so far: {{ attempt.score }}/{{ attempt.answers|length }}
+</p>
+
+{% endblock %}

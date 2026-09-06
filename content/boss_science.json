@@ -1,0 +1,356 @@
+{
+  "pack": "boss_science",
+  "subject": "Science",
+  "lessons": [
+    {
+      "slug": "boss-science-y4",
+      "kind": "boss",
+      "title": "The Year 4 Science Boss",
+      "strand": "Boss challenge",
+      "year_level": 4,
+      "covers": [
+        "Biological sciences",
+        "Earth and space sciences",
+        "Physical sciences",
+        "Chemical sciences",
+        "Science inquiry skills",
+        "Science as a human endeavour"
+      ],
+      "curriculum_code": "",
+      "curriculum_text": "",
+      "position": 99,
+      "est_minutes": 30,
+      "intro": "This is the boss challenge for every Year 4 science lesson you've mastered so far - it mixes food webs, water and catchments, forces, materials, fair testing and real scientific data all in one go. It's built to be the hardest thing in this app, so take your time and expect to really think.",
+      "sections": [
+        {
+          "heading": "Before you start",
+          "body": "This challenge pulls together everything from food chains and food webs, through the water cycle and catchments, forces and materials, to fair testing and using data like a scientist. Read every scenario all the way through before answering, and for any question with numbers or a table, work out exactly what the data is showing you before you decide what it predicts. A few questions describe a flawed experiment - your job is to spot what wasn't kept fair, using the same reasoning you used for your own fair tests."
+        }
+      ],
+      "key_points": [
+        "Read the whole scenario before you touch an answer - the key detail is often in the middle, not the start.",
+        "When you're given a table of numbers, work out what it actually shows first, then use that to predict what happens next.",
+        "If an experiment sounds off, ask what was changed, what was measured, and what should have been kept the same."
+      ],
+      "try_this": "",
+      "questions": [
+        {
+          "type": "mc",
+          "prompt": "Heavy wet-season rain washes fertiliser off a paddock in a Cooktown-area catchment into a creek that flows down to the Endeavour River. The extra nutrients cause algae, a producer, to grow so thickly on the water's surface that it blocks sunlight from reaching the seagrass growing below. Which of these is the most likely next effect on the food web?",
+          "choices": [
+            "Seagrass grows even faster, because algae blocks harmful sunlight",
+            "Seagrass, another producer, may die back from lack of sunlight, leaving less food for the herbivores that eat it",
+            "Nothing changes, because algae and seagrass are not part of the same food web",
+            "Decomposers immediately disappear from the habitat"
+          ],
+          "answer": "Seagrass, another producer, may die back from lack of sunlight, leaving less food for the herbivores that eat it",
+          "explain": "Run-off carries nutrients from the catchment into the river, fuelling an algae bloom. Algae blocking sunlight then affects seagrass, another producer further down the food web - and because herbivores rely on seagrass for food, the effect ripples on to them too.",
+          "difficulty": 4
+        },
+        {
+          "type": "mc",
+          "prompt": "A student wants to find out if painting steel nails helps stop them rusting in salty sea air. She paints 3 nails and leaves 3 unpainted. Each day she sprays the painted nails twice with salty water but only sprays the unpainted nails once, then checks all 6 nails after a week in the same sunny spot. What is the main problem with this test?",
+          "choices": [
+            "The nails are all made of the same metal, which ruins the comparison",
+            "The painted and unpainted nails were not sprayed the same number of times, so any rust difference could be caused by that instead of the paint",
+            "A week is too short a time for any rust to ever appear",
+            "Checking all the nails in the same spot makes the test unfair"
+          ],
+          "answer": "The painted and unpainted nails were not sprayed the same number of times, so any rust difference could be caused by that instead of the paint",
+          "explain": "For a fair test, the amount of salty water spray should be a controlled variable, kept exactly the same for both groups. Spraying the painted nails more often adds a second changed variable, so you can no longer be sure whether the paint or the extra spray caused any difference in rusting.",
+          "difficulty": 3
+        },
+        {
+          "type": "mc",
+          "prompt": "A student is testing whether a magnet can attract a steel paperclip through different thicknesses of barrier. She uses the same magnet the same distance from the paperclip every time. She tests a 1 mm plastic barrier in the lounge room, but tests a 3 mm cardboard barrier right next to a sunny window where it's much warmer. What is the problem with this test?",
+          "choices": [
+            "Testing in two different spots means other conditions could differ too, so any change in the magnet's pull can't be confidently blamed on the barrier thickness alone",
+            "Magnets can never work through any barrier at all",
+            "Steel paperclips are not magnetic",
+            "Using the same magnet each time is what ruins the test"
+          ],
+          "answer": "Testing in two different spots means other conditions could differ too, so any change in the magnet's pull can't be confidently blamed on the barrier thickness alone",
+          "explain": "Magnetism can act through a thin barrier, but a fair test must change only the barrier thickness and keep everything else the same. Testing in two different locations lets other conditions, like temperature, vary too, so the comparison is no longer fair.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A rain gauge in a Cooktown catchment recorded these daily totals during one wet-season week (in mm): 40, 65, 10, 5, 90, 15, 20. What was the total rainfall for the whole week, in mm?",
+          "answer": 245,
+          "tolerance": 0,
+          "unit": "mm",
+          "explain": "Add all seven daily totals together: 40 + 65 + 10 + 5 + 90 + 15 + 20 = 245 mm for the week.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "Using that same week of rainfall (40, 65, 10, 5, 90, 15, 20 mm), a steel tool left outside gains visible new rust on any day with more than 30 mm of rain, because the surface stays wet all day. On how many days that week would you expect the tool to gain visible new rust?",
+          "answer": 3,
+          "tolerance": 0,
+          "unit": "",
+          "explain": "Only three days had more than 30 mm of rain: 40, 65 and 90 mm. Rust needs iron, oxygen and water, and the extra water on those heavy-rain days is enough to trigger new visible rust.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "Still using that week's rainfall, hard, sealed surfaces in the catchment send almost all the rain that falls on them straight into the river as run-off, but the river only rises noticeably on days with more than 30 mm of rain. Adding up only the days over 30 mm (40, 65 and 90 mm), how many mm of rain likely became fast run-off into the river that week?",
+          "answer": 195,
+          "tolerance": 0,
+          "unit": "mm",
+          "explain": "40 + 65 + 90 = 195 mm. On the days with more than 30 mm of rain, hard surfaces can't soak up that much water quickly, so most of it becomes run-off flowing straight into the river.",
+          "difficulty": 4
+        },
+        {
+          "type": "text",
+          "prompt": "Fungi and bacteria break down fallen mangrove leaves into nutrients as part of a food web. The same living things also slowly break down an untreated wooden fence post left in damp ground until it rots away. What one word describes the role these living things play in both cases?",
+          "answer": [
+            "decomposers",
+            "decomposer"
+          ],
+          "explain": "Fungi and bacteria are decomposers. Whether they're breaking down fallen leaves in a food web or rotting an untreated wooden post, they're doing the same job: breaking down dead material and recycling its nutrients.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A toy cart's axle pin used to be smooth, and the cart would coast 8 seconds down a test ramp before stopping. After a wet season, the steel pin developed a layer of rust, making its surface rougher. Now the same cart only coasts for 3 seconds before stopping, because of the extra friction. How many fewer seconds does the cart now coast for?",
+          "answer": 5,
+          "tolerance": 0,
+          "unit": "seconds",
+          "explain": "Rust is a rough, flaky coating, a chemical change from iron reacting with oxygen and water. A rougher surface creates more friction, which slows and stops motion sooner. The cart now coasts 8 minus 3 = 5 fewer seconds.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "Before cane toads arrived in an area, rangers counted about 18 goannas along a regular survey track each year. Three years after cane toads arrived and began poisoning goannas that tried to eat them, the count had dropped to 6. How many fewer goannas were counted, three years after the toads arrived, compared to before?",
+          "answer": 12,
+          "tolerance": 0,
+          "unit": "",
+          "explain": "18 minus 6 equals 12 fewer goannas. Repeating the same survey each year is what makes this comparison meaningful: a drop like this, seen consistently over several years, is strong data-based evidence that the invasive cane toads are affecting the food web.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "For 20 years, a coastal ranger has recorded the date a certain migratory bird first returns to a Cooktown-area beach. Its arrival date varies by only a few days each year, and it always shows up about 2 to 3 weeks before the first big wet-season downpour. This year the bird has just arrived on schedule. Based on this long-term pattern, roughly how many weeks would you predict until the first big downpour?",
+          "answer": 2.5,
+          "tolerance": 1,
+          "unit": "weeks",
+          "explain": "Twenty years of consistent, repeated data is strong evidence of a real pattern, not chance. Since the bird reliably arrives 2 to 3 weeks before the first big downpour, about 2.5 weeks is a reasonable prediction from here.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A creek's catchment includes a patch of rainforest, where thick leaf litter and soil soak up most rain, and an equal-sized patch of cleared paddock, where nutrient-rich run-off flows straight off. After a storm, the rainforest patch produces 8 mg of nutrient run-off into the creek. If the cleared paddock patch produces 3 times as much nutrient run-off as the equal-sized rainforest patch, how many mg of nutrient run-off does the paddock patch produce?",
+          "answer": 24,
+          "tolerance": 0,
+          "unit": "mg",
+          "explain": "3 times 8 mg equals 24 mg. Rainforest soil and leaf litter slow run-off and let a lot of the rain and nutrients soak in, while cleared land lets much more run-off, and the nutrients it carries, reach the creek quickly.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A plastic tackle box left in direct tropical sun for years becomes brittle from UV damage and cracks under just 2 kg of squeezing force. A stainless steel box of the same age, in the same spot, does not crack even under 20 kg of force. How many times more force can the steel box withstand before cracking, compared to the brittle plastic box?",
+          "answer": 10,
+          "tolerance": 0,
+          "unit": "",
+          "explain": "20 kg divided by 2 kg equals 10. UV rays break down the structure of many plastics over years in strong sun, making them brittle, while metals like stainless steel don't degrade from UV at all - exactly the kind of property difference that matters when choosing materials for the tropics.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "Instead of trusting a single test, a student repeats her paper-towel absorbency test 3 times for the same brand, soaking up 18 mL, 22 mL and 20 mL of water. What is the mean (average) amount absorbed across the 3 trials, in mL?",
+          "answer": 20,
+          "tolerance": 0.5,
+          "unit": "mL",
+          "explain": "Add the three results and divide by 3: (18 + 22 + 20) divided by 3 = 60 divided by 3 = 20 mL. Repeating a fair test like this, rather than trusting one lucky or unlucky trial, is exactly how scientists build data they can rely on.",
+          "difficulty": 3
+        },
+        {
+          "type": "text",
+          "prompt": "A long dry spell dries out a normally damp mangrove creek bed, leaving too little moisture for most fungi and bacteria (decomposers) to keep breaking down fallen leaves at their usual rate. Compared to a normal wet season, would you expect fallen leaf litter to build up more or less on the creek bed? Answer in one word.",
+          "answer": [
+            "more"
+          ],
+          "explain": "Decomposers need moisture to work efficiently, and a dry spell is a change in a physical condition, part of the water cycle, that slows them down. With decomposers working more slowly, dead leaves aren't broken down as fast, so leaf litter builds up more than usual.",
+          "difficulty": 4
+        }
+      ]
+    },
+    {
+      "slug": "boss-science-y6",
+      "kind": "boss",
+      "title": "The Year 6 Science Boss",
+      "strand": "Boss challenge",
+      "year_level": 6,
+      "covers": [
+        "Biological sciences",
+        "Earth and space",
+        "Physical sciences",
+        "Chemical sciences",
+        "Science inquiry",
+        "Science as a human endeavour"
+      ],
+      "curriculum_code": "",
+      "curriculum_text": "",
+      "position": 99,
+      "est_minutes": 30,
+      "intro": "This is the boss challenge covering every Year 6 science lesson you've mastered - habitats and adaptations, Earth's tilt and the Moon's tides, circuits and energy, reversible and irreversible change, fair testing and how science really gets done. It's designed to be the hardest thing in this app, so expect real multi-step thinking, not quick recall.",
+      "sections": [
+        {
+          "heading": "Before you start",
+          "body": "Nothing here tests just one lesson on its own - each question links at least two ideas together, like a physical condition changing a habitat, a flawed experiment you have to diagnose, or a table of real-world data you need to read correctly before you can predict anything from it. Read every scenario in full before you answer, work out exactly what any given data actually shows, and ask yourself what evidence would actually confirm your answer rather than just guessing which choice sounds right."
+        }
+      ],
+      "key_points": [
+        "Work out exactly what a data table shows before you try to predict anything from it - don't skip straight to a guess.",
+        "A hard question is usually two ideas from different lessons chained together, so identify each part before combining them.",
+        "When something is described as an experiment, ask what was changed, what was measured, and what should have stayed the same."
+      ],
+      "try_this": "",
+      "questions": [
+        {
+          "type": "mc",
+          "prompt": "A wildlife project proposes moving some saltwater crocodiles from the Cooktown region to a river near Hobart, to reduce local crocodile numbers. Using what you know about crocodile adaptations and how Earth's axial tilt affects seasons at different latitudes, which outcome is most likely?",
+          "choices": [
+            "The crocodiles would thrive equally well there, since crocodiles can live in any climate",
+            "The crocodiles would likely struggle or die, because Hobart's higher latitude means a much stronger seasonal swing into cold, and an ectothermic crocodile's body temperature would fall too low too often",
+            "The crocodiles would quickly evolve to generate their own body heat within a year",
+            "Hobart's tilt effect is too weak to make any real difference to crocodiles"
+          ],
+          "answer": "The crocodiles would likely struggle or die, because Hobart's higher latitude means a much stronger seasonal swing into cold, and an ectothermic crocodile's body temperature would fall too low too often",
+          "explain": "Crocodiles are ectothermic, relying on the environment for body heat - efficient in the stable tropics but a hard limit in cooler regions. Hobart sits at a much higher latitude, where axial tilt causes a far bigger seasonal swing into cold than Cooktown ever experiences, well outside a crocodile's tolerance range.",
+          "difficulty": 4
+        },
+        {
+          "type": "mc",
+          "prompt": "A torch that worked fine last dry season now barely lights, even with fresh batteries. Its metal battery contacts have grown a dull, flaky coating after months in humid, salty air. What is the most likely explanation?",
+          "choices": [
+            "The batteries are simply too heavy now",
+            "Corrosion has coated the contacts in a new substance that conducts poorly, adding resistance and weakening the circuit's connection",
+            "The plastic torch casing has turned into an insulator for the first time",
+            "The switch has been transformed into a second battery"
+          ],
+          "answer": "Corrosion has coated the contacts in a new substance that conducts poorly, adding resistance and weakening the circuit's connection",
+          "explain": "Corrosion is a chemical change: metal reacting with oxygen and moisture to form a new substance with different, and much poorer, conducting properties. A poorly-conducting coating on the contacts weakens the connection in the circuit, even with fresh batteries.",
+          "difficulty": 3
+        },
+        {
+          "type": "mc",
+          "prompt": "Two students test whether tilting a solar panel toward the sun increases its power output. They test the tilted panel at midday in full sun, then test the flat panel later that afternoon once clouds have rolled in. What is wrong with this test?",
+          "choices": [
+            "Nothing - solar panels perform the same regardless of weather or time of day",
+            "Sunlight conditions changed between the two tests (time of day and cloud cover), so any difference in power can't be confidently blamed on the tilt alone",
+            "Flat solar panels cannot generate any electricity at all",
+            "The panels need to be different sizes for the test to be fair"
+          ],
+          "answer": "Sunlight conditions changed between the two tests (time of day and cloud cover), so any difference in power can't be confidently blamed on the tilt alone",
+          "explain": "For a fair test, only the panel's tilt should change - sunlight conditions like time of day and cloud cover need to be controlled variables. Testing at different times under different sky conditions means the amount of available sunlight, not just the tilt, could explain any difference in power output.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "High tide heights at Cooktown were recorded for a week (metres above a reference point): Mon 3.1, Tue 3.4, Wed 3.6, Thu 3.5, Fri 3.0, Sat 2.4, Sun 2.1. What is the difference between the highest and lowest of these daily high-tide readings, in metres?",
+          "answer": 1.5,
+          "tolerance": 0.1,
+          "unit": "m",
+          "explain": "The highest reading is 3.6 m (Wednesday) and the lowest is 2.1 m (Sunday). 3.6 minus 2.1 equals 1.5 m.",
+          "difficulty": 3
+        },
+        {
+          "type": "text",
+          "prompt": "Using that same week of high-tide readings (3.1, 3.4, 3.6, 3.5, 3.0, 2.4, 2.1 m), the daily high tide clearly gets smaller through the second half of the week. Based on the Moon's spring-neap tide cycle, is this pattern heading toward spring tides or neap tides? Answer in one or two words.",
+          "answer": [
+            "neap tides",
+            "neap"
+          ],
+          "explain": "Spring tides (bigger) happen around new and full moon, when the Sun and Moon line up. Neap tides (smaller) happen around the Moon's quarter phases. A trend of shrinking daily high tides means the Moon is moving away from new or full moon and toward a quarter phase - heading into neap tides.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "The mangrove mudflat near the river floods at high tide whenever the tide reaches 3.0 m or higher. Using that same week of high-tide readings (3.1, 3.4, 3.6, 3.5, 3.0, 2.4, 2.1 m), on how many days that week would the mudflat flood at high tide?",
+          "answer": 5,
+          "tolerance": 0,
+          "unit": "",
+          "explain": "Five readings are 3.0 m or higher: 3.1, 3.4, 3.6, 3.5 and 3.0 m. Only Saturday (2.4 m) and Sunday (2.1 m) stay below the mudflat's flooding threshold that week.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A reef monitoring buoy recorded sea temperatures for a week (degrees Celsius): 28.9, 29.4, 30.1, 30.6, 30.8, 30.9, 31.0. The coral there has an upper safe limit of 29 degrees Celsius. On how many of these 7 days was the temperature above that limit?",
+          "answer": 6,
+          "tolerance": 0,
+          "unit": "",
+          "explain": "Every reading except the first (28.9 degrees Celsius) is above 29 degrees Celsius: 29.4, 30.1, 30.6, 30.8, 30.9 and 31.0 - six days in total.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "Using that same week of sea temperatures (28.9, 29.4, 30.1, 30.6, 30.8, 30.9, 31.0 degrees Celsius), what was the mean (average) temperature across the 7 days, to one decimal place?",
+          "answer": 30.2,
+          "tolerance": 0.2,
+          "unit": "°C",
+          "explain": "Add all seven readings (211.7) and divide by 7: 211.7 divided by 7 is approximately 30.2 degrees Celsius. That average sits well above the coral's 29-degree upper limit.",
+          "difficulty": 4
+        },
+        {
+          "type": "text",
+          "prompt": "Given that this reef's water stayed well above the coral's 29-degree upper limit for six days running, not just a single hot afternoon, what process would you expect to be happening to the coral?",
+          "answer": [
+            "bleaching",
+            "coral bleaching"
+          ],
+          "explain": "Sustained heat stress over multiple days to weeks, not a brief spike, is the known trigger for coral bleaching, where heat-stressed coral expels its algae and loses its colour and main energy source.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "During a cyclone blackout, a home battery earlier charged by solar panels (electrical energy stored as chemical energy) is used to run a fridge, releasing that energy back as electrical energy - a reversible energy cycle, unlike burning fuel in a generator. If the battery stores 5 kWh of energy and the fridge uses 0.5 kWh per hour, for about how many hours can the fridge run before the battery is empty?",
+          "answer": 10,
+          "tolerance": 0.5,
+          "unit": "hours",
+          "explain": "5 kWh divided by 0.5 kWh per hour equals 10 hours. Charging and discharging a battery converts energy back and forth without producing a new substance, which is why it counts as a reversible energy cycle.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A portable petrol generator burns fuel (an irreversible chemical change - the fuel can't be un-burned) to supply 3 kWh of electricity in one use. An equivalent-sized home battery can be recharged and used again and again, supplying another 3 kWh each time. After the battery has been used 4 times, how many more kWh has it supplied in total than the generator's single 3 kWh use?",
+          "answer": 9,
+          "tolerance": 0,
+          "unit": "kWh",
+          "explain": "4 uses of 3 kWh is 12 kWh in total. 12 minus the generator's one-off 3 kWh equals 9 kWh more. Because recharging a battery is reversible, it can supply that energy over and over, while burning fuel is a one-way, irreversible chemical change.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A boat's exposed metal switch terminal is checked every month for corrosion, rated from 0 (clean) to 5 (fully corroded, no longer conducting): Month 1: 0, Month 2: 1, Month 3: 2, Month 4: 2, Month 5: 3, Month 6: 4. By how much did the corrosion rating increase from Month 1 to Month 6?",
+          "answer": 4,
+          "tolerance": 0,
+          "unit": "",
+          "explain": "4 minus 0 equals 4. Corrosion is a chemical change that builds up over time as the metal reacts with oxygen and moisture, gradually turning a good conductor into a poor one.",
+          "difficulty": 3
+        },
+        {
+          "type": "text",
+          "prompt": "Diver surveys, satellite temperature data and citizen-science photos from tourists each independently suggest a reef section is under heat stress. Scientists trust this conclusion far more than if only one method had reported it. What is the term, used when describing reef monitoring, for combining independent sources like this to check whether they agree?",
+          "answer": [
+            "cross-checking",
+            "cross-check",
+            "cross checked",
+            "cross-checked"
+          ],
+          "explain": "No single method can survey a reef system alone. When several independent sources, such as underwater surveys, satellites and citizen science, are pooled together and cross-checked against each other, the resulting picture is far more reliable than any one source alone.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "Team A samples 5 coral colonies at one site and finds 4 of them bleached (80%). If the sample had instead included one extra, unusually resilient colony that hadn't bleached (6 colonies total, still 4 bleached), what would the new percentage bleached be, to the nearest whole percent?",
+          "answer": 67,
+          "tolerance": 1,
+          "unit": "%",
+          "explain": "4 bleached out of 6 total is 4 divided by 6, approximately 66.7%, which rounds to 67%. Adding just one unusual colony swung the result from 80% to 67% - showing exactly why a small sample size makes a result far less trustworthy than a large one.",
+          "difficulty": 4
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,2761 @@
+{
+  "pack": "practical_digital",
+  "subject": "Practical",
+  "lessons": [
+    {
+      "slug": "y4-reading-charts-graphs",
+      "title": "Reading a chart: bar graphs, picture graphs and what the axes are telling you",
+      "strand": "Digital and data literacy",
+      "year_level": 4,
+      "curriculum_code": "",
+      "curriculum_text": "",
+      "position": 1,
+      "est_minutes": 12,
+      "intro": "Charts turn a pile of numbers into a picture you can read at a glance. Once you know how to read the axes, you can pull real information out of any bar graph or picture graph you come across.",
+      "sections": [
+        {
+          "heading": "Why we use charts",
+          "body": "A chart takes a list of numbers and turns it into a picture, so you can compare them in a second instead of reading through a whole list.\n\nImagine trying to compare the rainfall in Cooktown across five different months just by reading a list of numbers. A **bar graph** of the same numbers lets you see straight away which month had the most rain, just by looking at which bar is tallest."
+        },
+        {
+          "heading": "Reading a bar graph's axes",
+          "body": "Every bar graph has two **axes** (that's the plural of axis). One axis lists the categories being compared, like the names of the months. The other axis is the **scale**, usually marked with numbers and gridlines going up in even steps.\n\nOur wet season rainfall graph for Cooktown has months along the bottom and millimetres of rain up the side, with gridlines every 50 mm from 0 up to 300: November sits at 50 mm, December at 150 mm, January at 250 mm, February at 300 mm, and March at 200 mm.",
+          "example": {
+            "prompt": "The bar for December in our rainfall graph reaches exactly the gridline marked 150. How much rain fell in December?",
+            "working": [
+              "Find December's bar",
+              "Read straight across to the gridline it reaches"
+            ],
+            "answer": "150 mm"
+          }
+        },
+        {
+          "heading": "Reading in between the gridlines",
+          "body": "Not every bar lands exactly on a gridline. Sometimes you have to estimate how far a bar sits between two marked lines.\n\nIf a bar sits exactly halfway between the 200 mm and 300 mm gridlines, it's showing about 250 mm - halfway between the two marked values.",
+          "example": {
+            "prompt": "January's bar sits exactly halfway between the 200 mm and 300 mm gridlines. About how much rain fell in January?",
+            "working": [
+              "Halfway between 200 and 300 is 250",
+              "The gap between the gridlines is 100 mm, so half of that is 50 mm added to 200"
+            ],
+            "answer": "About 250 mm"
+          }
+        },
+        {
+          "heading": "Picture graphs and the key",
+          "body": "A **picture graph** uses little pictures or symbols instead of bars. Every picture graph needs a **key**, which tells you how many real things each picture stands for.\n\nAt the school fete mango stall, the picture graph's key says each mango picture equals 4 mangoes. Monday shows 3 pictures, Tuesday shows 5 pictures, Wednesday shows 2 pictures and a half, and Thursday shows 4 pictures. You always have to check the key before you can read the real numbers - a picture graph with no key can't be read accurately at all.",
+          "example": {
+            "prompt": "At the mango stall, each mango picture stands for 4 mangoes. Wednesday shows 2 whole pictures and half a picture. How many mangoes sold on Wednesday?",
+            "working": [
+              "2 whole pictures = 2 x 4 = 8 mangoes",
+              "Half a picture = half of 4 = 2 mangoes",
+              "8 + 2 = 10"
+            ],
+            "answer": "10 mangoes"
+          }
+        }
+      ],
+      "key_points": [
+        "A bar graph has two axes: one for the categories and one for the numerical scale.",
+        "Gridlines on the scale axis show even steps, like every 50 mm.",
+        "A bar that sits between two gridlines can be estimated by how far along the gap it sits.",
+        "A picture graph needs a key that tells you how many real items each picture stands for.",
+        "Always check the key on a picture graph before working out the real totals."
+      ],
+      "try_this": "Pick a chart from a newspaper, a cereal box, or draw your own bar graph of how many pieces of fruit your family eats in a week. Write down what each axis is showing, and the key if it's a picture graph, before you try to read any of the numbers.",
+      "questions": [
+        {
+          "type": "tf",
+          "prompt": "The two lines along the bottom and side of a graph, which show the categories and the scale, are called the axes.",
+          "answer": true,
+          "explain": "Axes is the plural of axis. The horizontal axis usually shows categories and the vertical axis usually shows the numerical scale.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "On a bar graph, what does a taller bar usually mean?",
+          "choices": [
+            "A bigger number for that category",
+            "A smaller number for that category",
+            "The category name is longer",
+            "Nothing - bar height is random"
+          ],
+          "answer": "A bigger number for that category",
+          "explain": "The height of a bar is read against the scale axis, so a taller bar always means a bigger value for that category.",
+          "difficulty": 1
+        },
+        {
+          "type": "numeric",
+          "prompt": "On the Cooktown wet season rainfall graph, February's bar reaches exactly the top gridline. According to the chart, how many millimetres of rain fell in February?",
+          "answer": 300,
+          "tolerance": 0,
+          "unit": "mm",
+          "explain": "When a bar reaches exactly a gridline, that gridline's number is the value for that category - here, 300 mm.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "The mango stall's picture graph key says each picture is worth 4 mangoes. Tuesday's row shows 5 whole pictures. How many mangoes does that represent?",
+          "answer": 20,
+          "tolerance": 0,
+          "unit": "mangoes",
+          "explain": "5 pictures x 4 mangoes per picture = 20 mangoes.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "Wednesday's row on the mango picture graph shows 2 whole pictures and one half picture. Using the key (each picture = 4 mangoes), how many mangoes does that represent?",
+          "answer": 10,
+          "tolerance": 0,
+          "unit": "mangoes",
+          "explain": "2 whole pictures = 8 mangoes, and half a picture = 2 mangoes. 8 + 2 = 10.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "Looking at the rainfall graph (November 50 mm, December 150 mm, January 250 mm, February 300 mm, March 200 mm), which month actually had the least rain?",
+          "answer": [
+            "november"
+          ],
+          "explain": "November's bar is the lowest of these months at 50 mm.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "A picture graph of after-school snack choices shows 3 apple pictures next to 'Monday', but doesn't say anywhere how many snacks each picture equals. What's missing from this graph that you'd need before trusting any of its numbers?",
+          "answer": [
+            "key",
+            "legend"
+          ],
+          "explain": "The key (sometimes called a legend) tells you the value of one picture, which you need before you can count anything accurately.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "Monday's row on the mango stall graph shows 3 pictures, and Thursday's shows 4 pictures, with each picture worth 4 mangoes. Combined, how many mangoes sold across those two days?",
+          "answer": 28,
+          "tolerance": 0,
+          "unit": "mangoes",
+          "explain": "Monday = 3 x 4 = 12 mangoes. Thursday = 4 x 4 = 16 mangoes. 12 + 16 = 28.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "Wet season rainfall was Nov 50 mm, Dec 150 mm, Jan 250 mm, Feb 300 mm and Mar 200 mm. The rest of the year (the dry season) totalled 190 mm. Add up the wet season total, then work out how many times bigger it is than the dry season total.",
+          "answer": 5,
+          "tolerance": 0.1,
+          "unit": "times",
+          "explain": "The wet season total is 50+150+250+300+200 = 950 mm. Dividing by the dry season total, 950 divided by 190 = 5, so the wet season had 5 times as much rain.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "Using the mango picture graph (Monday 3 pictures, Tuesday 5 pictures, Wednesday 2 and a half pictures, Thursday 4 pictures; each picture = 4 mangoes), how many mangoes were sold in total across the four days?",
+          "answer": 58,
+          "tolerance": 0,
+          "unit": "mangoes",
+          "explain": "Adding the pictures first: 3+5+2.5+4 = 14.5 pictures. Then multiply by the key: 14.5 x 4 = 58 mangoes.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A picture graph's key is smudged and can't be read, but you know that Tuesday's row shows 5 pictures and that 20 mangoes were actually sold on Tuesday. How many mangoes does each picture in the key stand for?",
+          "answer": 4,
+          "tolerance": 0,
+          "unit": "mangoes",
+          "explain": "Working backwards from the real total: 20 mangoes shared across 5 pictures is 20 divided by 5 = 4 mangoes per picture. This is how you'd rebuild a missing key from one known row.",
+          "difficulty": 4
+        },
+        {
+          "type": "text",
+          "prompt": "A caption under the rainfall graph claims 'March had the least rain of the wet season months.' Looking at the real bars (Nov 50 mm, Dec 150 mm, Jan 250 mm, Feb 300 mm, Mar 200 mm), which month actually had the least rain, making the caption wrong?",
+          "answer": [
+            "november"
+          ],
+          "explain": "March had 200 mm, which is more than several other months. The lowest bar of all is November at 50 mm, so the caption doesn't match its own data.",
+          "difficulty": 4
+        }
+      ],
+      "activity": {
+        "title": "Track five days of temperature and graph it two honest ways",
+        "why": "Proves they can turn real measurements into a properly labelled bar graph, and see with their own hands how the choice of scale changes what a graph seems to say.",
+        "est_minutes": 30,
+        "adult_help": "nearby",
+        "materials": [
+          "an outdoor or car/fridge thermometer (or ask an adult to read one out loud each day)",
+          "paper and pencil",
+          "a ruler"
+        ],
+        "steps": [
+          "Each day, at the same time, read the temperature and write it down. Do this for 5 days in a row.",
+          "On one sheet of paper, draw a bar graph of your 5 readings with the vertical axis starting at 0 degrees, using evenly spaced gridlines.",
+          "On a second sheet, draw the exact same 5 numbers as bars, but this time start the vertical axis at 5 degrees below your lowest reading instead of 0.",
+          "Label both graphs clearly: days along the bottom, degrees up the side.",
+          "Work out the range of your 5 readings (highest minus lowest).",
+          "Compare the two graphs side by side and record your answers below."
+        ],
+        "record": [
+          {
+            "id": "highest_temp_c",
+            "label": "What was your highest reading over the 5 days, in degrees Celsius?",
+            "type": "number",
+            "unit": "°C",
+            "hint": "whole number",
+            "min": 0,
+            "max": 45
+          },
+          {
+            "id": "lowest_temp_c",
+            "label": "What was your lowest reading over the 5 days, in degrees Celsius?",
+            "type": "number",
+            "unit": "°C",
+            "hint": "whole number",
+            "min": 0,
+            "max": 45
+          },
+          {
+            "id": "range_c",
+            "label": "What is the range of your readings (highest minus lowest)?",
+            "type": "number",
+            "unit": "°C",
+            "hint": "whole number",
+            "min": 0,
+            "max": 20
+          },
+          {
+            "id": "graph_comparison",
+            "label": "Describe how different the two graphs look, even though they use the exact same five numbers. Which one makes the day-to-day changes look bigger, and why?",
+            "type": "text",
+            "hint": "two or three sentences",
+            "min_words": 15
+          },
+          {
+            "id": "thermometer_used",
+            "label": "How did you get your readings?",
+            "type": "choice",
+            "options": [
+              "Outdoor thermometer",
+              "Fridge or car thermometer",
+              "An adult read it out loud each day"
+            ]
+          }
+        ],
+        "check": "The range should equal the highest reading minus the lowest reading, and the two hand-drawn graphs should genuinely look different in how dramatic the day-to-day changes appear. Query it if both graphs look identical, or if the range doesn't match the two extreme readings given.",
+        "xp": 45
+      },
+      "kind": "lesson"
+    },
+    {
+      "slug": "y4-tables-tally-marks",
+      "title": "Tables and tally marks: collecting your own data and putting it in order",
+      "strand": "Digital and data literacy",
+      "year_level": 4,
+      "curriculum_code": "",
+      "curriculum_text": "",
+      "position": 2,
+      "est_minutes": 12,
+      "intro": "Before you can make a chart, someone has to count things and write them down. Tally marks are a fast, tidy way to keep count while you're watching something happen, like birds landing at a bird bath.",
+      "sections": [
+        {
+          "heading": "Why we tally as we go",
+          "body": "When you're watching something happen and need to count it, there's no time to write full numbers over and over. A **tally mark** is a quick single stroke that you add every time you see the thing you're counting, so you never lose your place."
+        },
+        {
+          "heading": "Grouping in fives",
+          "body": "Tally marks are grouped into bundles of five, with the fifth mark drawn across the first four. This makes a big pile of marks easy to count at the end, because you can count the bundles in fives and then add on any leftover single marks.\n\nFor example, |||| | is a group of five plus one more, which is 6.",
+          "example": {
+            "prompt": "How many does |||| || represent?",
+            "working": [
+              "The first four marks with a line across = a group of 5",
+              "Two extra single marks = 2 more",
+              "5 + 2 = 7"
+            ],
+            "answer": "7"
+          }
+        },
+        {
+          "heading": "Turning tallies into a table",
+          "body": "Once you've finished counting, the tallies for each category go into a **table**, with the total written next to each one. This makes it easy to compare categories side by side.\n\nOne afternoon at a bird bath near Cooktown, a family tallied: rainbow lorikeet |||| |||| | (11), magpie |||| ||| (8), sulphur-crested cockatoo |||| |||| |||| (15), and blue-faced honeyeater |||| (4).",
+          "example": {
+            "prompt": "The tally for the sulphur-crested cockatoo is |||| |||| ||||. How many cockatoos were counted?",
+            "working": [
+              "Three groups of five tally marks",
+              "3 x 5 = 15"
+            ],
+            "answer": "15"
+          }
+        },
+        {
+          "heading": "Comparing totals",
+          "body": "Once tallies are turned into totals in a table, you can compare them straight away: which category had the most, which had the least, and how much bigger one total is than another by subtracting."
+        }
+      ],
+      "key_points": [
+        "A tally mark is a quick stroke added every time you count something happening.",
+        "Tally marks are grouped in bundles of five, with the fifth mark crossing the other four.",
+        "Counting in fives, then adding leftover single marks, gives you the total quickly.",
+        "A tally chart lists each category with its tally and its total count.",
+        "Once totals are worked out, you can compare categories and find the difference between them."
+      ],
+      "try_this": "Choose something happening around your place for 10 minutes - cars going past, birds at a tree, or types of clouds in the sky - and keep a tally chart on paper, grouping every five marks. Add up your totals at the end and say which one you saw the most of.",
+      "questions": [
+        {
+          "type": "tf",
+          "prompt": "Tally marks are usually grouped into bundles of five, with the fifth mark drawn across the other four.",
+          "answer": true,
+          "explain": "Grouping in fives makes a big set of tally marks fast and easy to count at the end.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "What number does |||| | represent?",
+          "choices": [
+            "5",
+            "6",
+            "4",
+            "10"
+          ],
+          "answer": "6",
+          "explain": "A group of five plus one extra single mark is 6.",
+          "difficulty": 1
+        },
+        {
+          "type": "numeric",
+          "prompt": "At the bird bath, the sulphur-crested cockatoo's tally reads |||| |||| ||||. What total does that tally actually represent?",
+          "answer": 15,
+          "tolerance": 0,
+          "unit": "cockatoos",
+          "explain": "Three groups of five tally marks make 3 x 5 = 15.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "The finished bird bath tally chart reads: 11 rainbow lorikeets, 8 magpies, 15 sulphur-crested cockatoos, 4 blue-faced honeyeaters. Altogether, how many birds were counted?",
+          "answer": 38,
+          "tolerance": 0,
+          "unit": "birds",
+          "explain": "11 + 8 + 15 + 4 = 38.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "Looking at the finished tally chart (11 lorikeets, 8 magpies, 15 cockatoos, 4 honeyeaters), which bird turned up most often?",
+          "answer": [
+            "sulphur-crested cockatoo",
+            "cockatoo",
+            "sulphur crested cockatoo"
+          ],
+          "explain": "The cockatoo's total of 15 is higher than any of the other birds' totals.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "Looking at the same tally chart (11 lorikeets, 8 magpies, 15 cockatoos, 4 honeyeaters), which bird turned up least often?",
+          "answer": [
+            "blue-faced honeyeater",
+            "honeyeater"
+          ],
+          "explain": "The blue-faced honeyeater's total of 4 is the lowest of the four birds.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "Someone's written up the bird bath tallies into rows and columns, with a total number written beside each bird's name. What's this kind of table called?",
+          "answer": [
+            "tally chart",
+            "frequency table",
+            "tally table"
+          ],
+          "explain": "A tally chart (also called a frequency table) lists every category together with its tally marks and total.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "On the finished tally chart, sulphur-crested cockatoos total 15 and blue-faced honeyeaters total 4. How many more cockatoos were counted than honeyeaters?",
+          "answer": 11,
+          "tolerance": 0,
+          "unit": "birds",
+          "explain": "15 - 4 = 11.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "On a fishing trip, tallies for the family were: Dad |||| |||| ||| , Mum |||| |||| , older sibling |||| || , younger sibling |||| . Convert each tally to a number, then find the total fish caught by the whole family.",
+          "answer": 35,
+          "tolerance": 0,
+          "unit": "fish",
+          "explain": "Dad = 13, Mum = 10, older sibling = 7, younger sibling = 5. Adding all four: 13+10+7+5 = 35.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "The family's total catch of 35 fish is going to be shared out equally between the 4 family members. How many fish would each person get?",
+          "answer": 8.75,
+          "tolerance": 0.01,
+          "unit": "fish",
+          "explain": "Sharing the total evenly means dividing by how many people there are: 35 divided by 4 = 8.75.",
+          "difficulty": 4
+        },
+        {
+          "type": "text",
+          "prompt": "Whose tally, out of Dad (13), Mum (10), older sibling (7) and younger sibling (5), is made of exactly one group of five and two single marks?",
+          "answer": [
+            "older sibling",
+            "the older sibling"
+          ],
+          "explain": "One group of five plus two single marks is 5+2 = 7, which matches the older sibling's tally.",
+          "difficulty": 4
+        },
+        {
+          "type": "text",
+          "prompt": "A sign at the fishing competition claims 'the younger sibling caught the most fish of anyone in the family.' Looking at the real tallies (Dad 13, Mum 10, older sibling 7, younger sibling 5), who actually caught the most?",
+          "answer": [
+            "dad"
+          ],
+          "explain": "Dad's tally of 13 is higher than everyone else's, so the sign's claim doesn't match the real tallies.",
+          "difficulty": 4
+        }
+      ],
+      "activity": {
+        "title": "A 20-minute tally, then work out the total and the range",
+        "why": "Proves they can build a tally table from scratch over a longer stretch of time and use it to calculate real totals, not just copy a finished table from the lesson.",
+        "est_minutes": 30,
+        "adult_help": "none",
+        "materials": [
+          "paper and pencil",
+          "a clock or timer"
+        ],
+        "steps": [
+          "Choose something you can watch happen for 20 minutes with at least 4 categories (e.g. cars, motorbikes, utes and trucks passing your place, or 4 different bird types visiting a tree).",
+          "Draw your table with the 4 or more category names before you start.",
+          "Watch for 20 minutes straight, adding one tally mark to the right category each time, grouping every fifth mark across the other four.",
+          "When the time is up, convert every tally into a number and write the totals next to each category.",
+          "Add all the totals together to get a grand total, then work out the range (highest category total minus lowest).",
+          "Record your totals below."
+        ],
+        "record": [
+          {
+            "id": "grand_total",
+            "label": "What was the grand total across all your categories?",
+            "type": "number",
+            "unit": "",
+            "hint": "whole number",
+            "min": 1,
+            "max": 300
+          },
+          {
+            "id": "highest_category_count",
+            "label": "What was the count for your highest category?",
+            "type": "number",
+            "unit": "",
+            "hint": "whole number",
+            "min": 0,
+            "max": 200
+          },
+          {
+            "id": "range_value",
+            "label": "What is the range (highest count minus lowest count)?",
+            "type": "number",
+            "unit": "",
+            "hint": "whole number",
+            "min": 0,
+            "max": 200
+          },
+          {
+            "id": "surprise",
+            "label": "Was the category that won what you expected before you started, or were you surprised? Explain.",
+            "type": "text",
+            "hint": "two or three sentences",
+            "min_words": 15
+          },
+          {
+            "id": "what_tallied",
+            "label": "What did you tally?",
+            "type": "choice",
+            "options": [
+              "Vehicles",
+              "Birds",
+              "Something else"
+            ]
+          }
+        ],
+        "check": "The grand total should equal the sum of every category, and the range should equal the highest category minus the lowest. Query it if the range is bigger than the grand total itself, which isn't possible.",
+        "xp": 40
+      },
+      "kind": "lesson"
+    },
+    {
+      "slug": "y4-steps-sequences-algorithms",
+      "title": "Steps and sequences: thinking like a program, and what a bug is",
+      "strand": "Digital and data literacy",
+      "year_level": 4,
+      "curriculum_code": "",
+      "curriculum_text": "",
+      "position": 3,
+      "est_minutes": 12,
+      "intro": "Every app, game and website you use is really just a very long list of step-by-step instructions. Learning to think in clear steps - and to spot when a step is wrong - is the heart of coding.",
+      "sections": [
+        {
+          "heading": "What is an algorithm?",
+          "body": "An **algorithm** is a set of steps, done in a particular order, that completes a task. Making a jam sandwich is an algorithm: get two slices of bread, spread jam on one slice, put the slices together, cut the sandwich in half.\n\nA computer program is just a very detailed algorithm, written in a language a computer can follow exactly.",
+          "example": {
+            "prompt": "Put these jam sandwich steps in the correct order: Spread jam on one slice, Get two slices of bread, Put the slices together, Cut the sandwich in half.",
+            "working": [
+              "You need the bread out before you can spread anything on it",
+              "The slices need jam before they're put together",
+              "The sandwich needs to be assembled before it's cut"
+            ],
+            "answer": "Get two slices of bread, Spread jam on one slice, Put the slices together, Cut the sandwich in half"
+          }
+        },
+        {
+          "heading": "Sequence: why order matters",
+          "body": "The **sequence** of an algorithm is the order its steps happen in. Change the order, and the result can change too - sometimes in a way that stops the whole thing working.\n\nPutting your shoes on before your socks is a step done in the wrong sequence. The individual steps might all be correct on their own, but done in the wrong order, they don't work."
+        },
+        {
+          "heading": "What is a bug?",
+          "body": "A **bug** is a mistake in a set of steps that makes it do something the person didn't intend. It's not a trick or a joke - it's an accident, like a missed step, a step in the wrong order, or a step that isn't clear enough.\n\nIn a game, a bug might make a character walk straight through a wall it should have stopped at, because a step that was meant to check for the wall got left out or written incorrectly."
+        },
+        {
+          "heading": "Debugging: finding and fixing the problem",
+          "body": "**Debugging** means going back through the steps, one at a time, to find exactly where things went wrong, and then fixing just that step. It usually takes patience: testing after each fix to check whether the problem is actually solved, or whether it's moved somewhere else."
+        }
+      ],
+      "key_points": [
+        "An algorithm is a set of steps, done in order, that completes a task.",
+        "The sequence is the order the steps happen in - and changing it can change the result.",
+        "A bug is an accidental mistake in a set of steps that causes an unexpected result.",
+        "Debugging means finding and fixing the exact step that's causing a problem.",
+        "Testing after each fix helps check whether the problem is really solved."
+      ],
+      "try_this": "Write down, step by step, exactly how to make a cup of Milo or tie a shoelace - as if the person following your steps knows nothing. Give your steps to a family member and get them to follow them exactly. If something goes wrong, that's your bug - fix the step and try again.",
+      "questions": [
+        {
+          "type": "tf",
+          "prompt": "A computer program is a set of step-by-step instructions.",
+          "answer": true,
+          "explain": "A program is a very detailed algorithm - a sequence of instructions a computer follows exactly, in order.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "What is a 'bug' in a computer program?",
+          "choices": [
+            "An error that makes the program do something it wasn't meant to",
+            "A drawing of an insect inside the code",
+            "A new feature added on purpose",
+            "A password used to protect the program"
+          ],
+          "answer": "An error that makes the program do something it wasn't meant to",
+          "explain": "A bug is an accidental mistake in the steps that causes an unexpected or wrong result.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "Someone follows the jam sandwich steps in a mixed-up order and it goes wrong. Which of these reorderings would actually create a bug?",
+          "choices": [
+            "Spreading the jam before getting the bread out",
+            "Getting the bread out before spreading the jam",
+            "Cutting the sandwich after putting the slices together",
+            "Putting the slices together after spreading the jam"
+          ],
+          "answer": "Spreading the jam before getting the bread out",
+          "explain": "You can't spread jam on bread that isn't out yet - doing this step out of sequence breaks the algorithm.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "A tooth-brushing algorithm reads: 1) Wet the toothbrush 2) Put toothpaste on it 3) Brush for two minutes 4) Rinse your mouth. How many separate steps make up this algorithm?",
+          "answer": 4,
+          "tolerance": 0,
+          "unit": "",
+          "explain": "The algorithm lists four numbered steps.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "A game keeps letting a character walk through a wall it should stop at. A programmer goes through the steps one at a time to find and fix the broken one. What's this process called?",
+          "answer": [
+            "debugging"
+          ],
+          "explain": "Debugging means tracking down exactly which step is wrong, then fixing just that step.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "Putting your shoes on before your socks uses the exact same two steps as normal, just in a different order - and it goes wrong. What word describes 'the order steps happen in'?",
+          "answer": [
+            "sequence"
+          ],
+          "explain": "Sequence describes the order steps are carried out in - and getting it wrong can break an algorithm even if every individual step is correct.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "A robot vacuum's steps are: 1) Start 2) Drive forward 3) Turn if it hits a wall 4) Stop after 30 minutes. It keeps driving straight into the same wall without ever turning. Which numbered step is most likely broken?",
+          "answer": 3,
+          "tolerance": 0,
+          "unit": "",
+          "explain": "The symptom (driving into the wall without turning) points directly at step 3, the 'turn if it hits a wall' step, since that's the one responsible for turning.",
+          "difficulty": 3
+        },
+        {
+          "type": "tf",
+          "prompt": "A friend claims that changing the order of steps in an algorithm never changes what happens. The jam sandwich and getting-dressed examples both show the same steps done in a different order going wrong. Does this prove your friend wrong?",
+          "answer": true,
+          "explain": "Order often matters a great deal - the jam sandwich and getting-dressed examples both show that the same steps done in a different order can go wrong.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "An algorithm starts with 0 lollies. Step 1: add 3. Step 2: add 3. Step 3: take away 2. Step 4: add 3. How many lollies are there after step 4?",
+          "answer": 7,
+          "tolerance": 0,
+          "unit": "lollies",
+          "explain": "Tracing it through: 0+3=3, 3+3=6, 6-2=4, 4+3=7. Each step has to be carried out in order, using the result of the step before it.",
+          "difficulty": 4
+        },
+        {
+          "type": "text",
+          "prompt": "A getting-dressed algorithm says: 1) Put on shoes 2) Put on socks 3) Put on shirt 4) Put on pants. One numbered item is put on too early, causing a bug. Which item is it?",
+          "answer": [
+            "shoes"
+          ],
+          "explain": "Shoes go on last, after socks and pants, so putting them on in step 1 is a sequencing bug, even though the instruction itself ('put on shoes') is perfectly clear.",
+          "difficulty": 4
+        },
+        {
+          "type": "mc",
+          "prompt": "A vending machine's steps are: 1) Insert coin 2) Press the snack button 3) Machine drops the snack 4) Collect the snack. If steps 1 and 2 are swapped, what is most likely to happen?",
+          "choices": [
+            "The machine won't dispense anything, because no coin was detected yet",
+            "The machine gives two snacks instead of one",
+            "The coin slot breaks permanently",
+            "Nothing changes, order doesn't matter here"
+          ],
+          "answer": "The machine won't dispense anything, because no coin was detected yet",
+          "explain": "Pressing the button before paying breaks the sequence the machine depends on, so it has no reason to drop anything yet.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A tank starts with 20 litres. Step 1: pump adds 15 litres. Step 2: garden uses 8 litres. Step 3: pump adds 15 more litres. Step 4: washing uses 12 litres. How many litres are in the tank after step 4?",
+          "answer": 30,
+          "tolerance": 0,
+          "unit": "litres",
+          "explain": "Tracing it through in order: 20+15=35, 35-8=27, 27+15=42, 42-12=30.",
+          "difficulty": 4
+        }
+      ],
+      "activity": {
+        "title": "Trace a 10-step number machine by hand, then build your own",
+        "why": "Proves they can carry out someone else's exact instructions accurately and in order, the way a computer has to, without skipping or reordering a single step.",
+        "est_minutes": 25,
+        "adult_help": "none",
+        "materials": [
+          "paper and pencil"
+        ],
+        "steps": [
+          "Write down this starting number: 8.",
+          "Apply these 10 steps in order, writing the running number after each one: +5, -2, x2, +1, -3, x2, +4, -5, x2, -6.",
+          "Write down the final number you land on after step 10.",
+          "Now design your own 6-step number machine (a starting number plus 6 steps using +, - or x2) for a family member to trace on paper.",
+          "Work out your own machine's correct final answer yourself first, then watch your family member trace it without giving hints.",
+          "Record your results below."
+        ],
+        "record": [
+          {
+            "id": "final_number",
+            "label": "What was your final number after all 10 steps of the number machine we gave you?",
+            "type": "number",
+            "unit": "",
+            "hint": "should be a single whole number",
+            "min": 0,
+            "max": 200
+          },
+          {
+            "id": "own_start",
+            "label": "What starting number did you choose for your own number machine?",
+            "type": "number",
+            "unit": "",
+            "hint": "whole number",
+            "min": 0,
+            "max": 50
+          },
+          {
+            "id": "family_final",
+            "label": "What final number did your family member get on your machine?",
+            "type": "number",
+            "unit": "",
+            "hint": "whole number, can be negative",
+            "min": -500,
+            "max": 500
+          },
+          {
+            "id": "trace_result",
+            "label": "Did your family member get every step right on the first try, or did they slip up somewhere? What happened?",
+            "type": "text",
+            "hint": "two or three sentences",
+            "min_words": 15
+          },
+          {
+            "id": "checked_with",
+            "label": "Who traced your number machine?",
+            "type": "choice",
+            "options": [
+              "A parent",
+              "A sibling",
+              "Another family member"
+            ]
+          }
+        ],
+        "check": "The final number on the 10-step machine we gave them should be 72 (8, then +5,-2,x2,+1,-3,x2,+4,-5,x2,-6 in order). Query it if it's a long way off, since that usually means a step was skipped or done out of order.",
+        "xp": 45
+      },
+      "kind": "lesson"
+    },
+    {
+      "slug": "y4-if-then-decisions",
+      "title": "If / then: decisions in code and in real life",
+      "strand": "Digital and data literacy",
+      "year_level": 4,
+      "curriculum_code": "",
+      "curriculum_text": "",
+      "position": 4,
+      "est_minutes": 12,
+      "intro": "Programs make decisions the same way you do - by checking if something is true, and then doing something because of it. This is called an 'if/then' statement, and it's everywhere in code and in everyday life.",
+      "sections": [
+        {
+          "heading": "What is an if/then statement?",
+          "body": "An **if/then** statement has two parts: the **condition** (the \"if\" part - a question that's either true or false) and the **action** (the \"then\" part - what happens because of it).\n\n\"IF it is raining, THEN take an umbrella\" is an if/then statement you probably already use without thinking about it."
+        },
+        {
+          "heading": "Conditions can use numbers too",
+          "body": "Conditions often compare numbers, using words like more than, less than, or equal to.\n\n\"IF the temperature is above 35 degrees, THEN turn on the sprinkler\" is a condition that compares today's temperature to the number 35.",
+          "example": {
+            "prompt": "A garden sprinkler rule says: IF temperature is above 35 degrees THEN turn on. Today it's 38 degrees. Does the sprinkler turn on?",
+            "working": [
+              "Check the condition: is 38 above 35?",
+              "Yes, 38 is above 35, so the condition is true"
+            ],
+            "answer": "Yes, the sprinkler turns on"
+          }
+        },
+        {
+          "heading": "If/then/else: what happens when it's false",
+          "body": "Adding an **else** branch tells the program what to do when the condition is false, instead of true.\n\nA fishing rule might be: \"IF you catch 3 or more fish, THEN head home, ELSE keep fishing.\" If the condition is false (fewer than 3 fish caught), the else action happens instead."
+        },
+        {
+          "heading": "Chaining decisions together",
+          "body": "Sometimes a decision depends on more than one condition at once, joined with the word **AND**. Both conditions have to be true for the action to happen.\n\n\"IF it is hot AND it is humid, THEN stay in the shade\" only triggers the shade action when both things are true together."
+        }
+      ],
+      "key_points": [
+        "An if/then statement has a condition (the 'if' part) and an action (the 'then' part).",
+        "A condition is a question that is either true or false.",
+        "Conditions can compare numbers using words like above, below, or equal to.",
+        "An 'else' branch tells the program what to do when the condition is false.",
+        "Joining conditions with AND means every one of them has to be true for the action to happen."
+      ],
+      "try_this": "Write three of your own 'IF ... THEN ...' rules for things that happen at your place - like IF the school bus is late THEN wait at the shelter. Say them out loud to a family member and see if they can guess what condition you're checking.",
+      "questions": [
+        {
+          "type": "tf",
+          "prompt": "An if/then statement makes a decision based on whether something is true or false.",
+          "answer": true,
+          "explain": "The 'if' part is a condition that's either true or false, and the 'then' part is the action that happens because of it.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "Which of these is written as an if/then statement?",
+          "choices": [
+            "If it is raining, then take an umbrella",
+            "Take an umbrella every single day no matter what",
+            "Umbrellas are useful in the rain",
+            "Rain is wet"
+          ],
+          "answer": "If it is raining, then take an umbrella",
+          "explain": "This sentence has a clear condition ('it is raining') and an action that follows from it ('take an umbrella').",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "A garden's rule is: IF temperature is above 35 degrees THEN turn the sprinkler on. The thermometer reads 38 degrees today. What happens?",
+          "choices": [
+            "The sprinkler turns on",
+            "The sprinkler stays off",
+            "Nothing can be decided",
+            "The rule doesn't apply to 38 degrees"
+          ],
+          "answer": "The sprinkler turns on",
+          "explain": "38 is above 35, so the condition is true and the action (turning on) happens.",
+          "difficulty": 2
+        },
+        {
+          "type": "tf",
+          "prompt": "A family's fishing rule is: IF you've caught fewer than 3 fish THEN keep fishing. So far you've caught 2. Does the rule say to keep going?",
+          "answer": true,
+          "explain": "2 is fewer than 3, so the condition is true, which means the action (keep fishing) happens.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "In the rule 'IF the bus is late THEN wait under the shelter', which words make up the condition being checked?",
+          "answer": [
+            "the bus is late",
+            "bus is late"
+          ],
+          "explain": "The condition is the true-or-false part being checked - here, whether the bus is late.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "In 'IF it is raining THEN take an umbrella', the part right after 'IF' is a question that's either true or false. What's that part called?",
+          "answer": [
+            "condition"
+          ],
+          "explain": "The condition is the part of the statement that is checked to see whether it's true or false.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "A rule says: IF it is hot AND it is humid THEN stay in the shade. Today it's hot, but not humid. Under this rule, do you need to stay in the shade - yes or no?",
+          "answer": [
+            "no"
+          ],
+          "explain": "With AND, every condition has to be true for the action to trigger. Since it's not humid, the shade action doesn't happen.",
+          "difficulty": 3
+        },
+        {
+          "type": "tf",
+          "prompt": "A rule is written as IF/THEN/ELSE. The 'if' condition turns out to be false. Does the 'else' branch run instead?",
+          "answer": true,
+          "explain": "The else branch is exactly the backup action that runs when the original condition turns out to be false.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A watering robot checks two rules in order: RULE 1: IF soil moisture is below 20%, THEN water for 10 minutes. RULE 2: IF it rained in the last 6 hours, THEN skip watering, ignoring rule 1. Today the soil moisture is 15% and it rained 3 hours ago. How many minutes does the robot water for?",
+          "answer": 0,
+          "tolerance": 0,
+          "unit": "minutes",
+          "explain": "Rule 1's condition is true, but rule 2 is checked too and its condition (rained in the last 6 hours) is also true, and rule 2 overrides rule 1 by skipping watering completely. So the robot waters for 0 minutes.",
+          "difficulty": 4
+        },
+        {
+          "type": "text",
+          "prompt": "A rule says: IF it is a weekday AND the bus is more than 5 minutes late, THEN wait at the shelter, ELSE wait at the gate. Today is Saturday and the bus is 10 minutes late. Where should you wait?",
+          "answer": [
+            "gate",
+            "at the gate"
+          ],
+          "explain": "With AND, both parts must be true. It's Saturday, not a weekday, so the condition is false even though the bus is late, and the else action (wait at the gate) happens instead.",
+          "difficulty": 4
+        },
+        {
+          "type": "text",
+          "prompt": "A rule says: IF temperature is above 32 degrees AND humidity is above 70%, THEN stay indoors, ELSE play outside. It is 34 degrees and humidity is 65%. Should you stay indoors or play outside?",
+          "answer": [
+            "play outside",
+            "outside"
+          ],
+          "explain": "The temperature part is true, but the humidity part (above 70%) is false. Since AND needs both parts true, the condition is false, so the else action (play outside) happens.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A sprinkler rule is: IF temperature is above 35 degrees THEN turn on. Today's actual temperature is 34.9 degrees. By how many degrees is 34.9 short of the 35-degree threshold needed to turn the sprinkler on?",
+          "answer": 0.1,
+          "tolerance": 0.01,
+          "unit": "degrees",
+          "explain": "35 minus 34.9 is 0.1 degrees. Since 34.9 is not above 35, the condition is false and the sprinkler stays off, even though it's extremely close.",
+          "difficulty": 4
+        }
+      ],
+      "activity": {
+        "title": "Test five real household rules against what actually happened this week",
+        "why": "Proves they can apply an if/then rule to real situations and get the right answer, not just recognise one that's already written out for them.",
+        "est_minutes": 25,
+        "adult_help": "nearby",
+        "materials": [
+          "paper and pencil",
+          "a family member to ask about household rules"
+        ],
+        "steps": [
+          "With a family member, write down 5 real 'IF ... THEN ...' rules that already exist in your house (e.g. IF it's after 8pm THEN screens off, IF your room is messy THEN no dessert).",
+          "For each rule, think of one real day from the last week and note whether the condition was true or false that day.",
+          "Work out, using the rule, what should have happened on each of those 5 days.",
+          "Ask a family member whether that's actually what happened.",
+          "Count how many of your 5 rules were actually followed correctly.",
+          "Record your results below."
+        ],
+        "record": [
+          {
+            "id": "rules_written",
+            "label": "How many if/then rules did you write down in total?",
+            "type": "number",
+            "unit": "",
+            "hint": "whole number",
+            "min": 3,
+            "max": 10
+          },
+          {
+            "id": "correct_count",
+            "label": "Out of your 5 tested rules, how many were actually followed correctly on the day you checked?",
+            "type": "number",
+            "unit": "",
+            "hint": "whole number, 0 to 5",
+            "min": 0,
+            "max": 10
+          },
+          {
+            "id": "broken_rule",
+            "label": "Pick one rule that wasn't followed correctly. What was the rule, and what actually happened instead?",
+            "type": "text",
+            "hint": "two or three sentences",
+            "min_words": 15
+          },
+          {
+            "id": "discussed_with",
+            "label": "Who did you test the rules with?",
+            "type": "choice",
+            "options": [
+              "Parent",
+              "Sibling",
+              "Grandparent",
+              "Other family member"
+            ]
+          }
+        ],
+        "check": "The correct_count should be no higher than the number of rules actually tested (usually 5), and the broken-rule example should describe a real mismatch between what the rule says and what happened. Query a suspiciously perfect score of 5 out of 5 with no exceptions at all.",
+        "xp": 40
+      },
+      "kind": "lesson"
+    },
+    {
+      "slug": "y4-strong-passwords",
+      "title": "Strong passwords, and why you never share one",
+      "strand": "Digital and data literacy",
+      "year_level": 4,
+      "curriculum_code": "",
+      "curriculum_text": "",
+      "position": 5,
+      "est_minutes": 12,
+      "intro": "A password is like a key to your own front door online. A strong password, kept to yourself, is one of the easiest ways to keep your stuff safe.",
+      "sections": [
+        {
+          "heading": "What makes a password strong",
+          "body": "A strong password mixes upper-case letters, lower-case letters, numbers and symbols, and is reasonably long. It doesn't use information that people who know you could easily guess or find, like your name, your pet's name, or your birthday.\n\n\"password123\" and your own name plus your birth year are both easy for someone to guess, because so many people use exactly that kind of password."
+        },
+        {
+          "heading": "Passphrases: an easier way to be strong",
+          "body": "A **passphrase** strings together several random, unrelated words, like \"PurpleMangoJumpsFast7\". It's long, which makes it hard to guess, but it's easier for a real person to remember than a jumble of random letters."
+        },
+        {
+          "heading": "Never share it - not even with friends",
+          "body": "A password should stay private, even from friends. The moment someone else knows it, you no longer control who can get into your account - they might tell someone else, even by accident. If someone else ever does find out your password, the safest move is to change it."
+        },
+        {
+          "heading": "One password, many accounts, is risky",
+          "body": "Using the exact same password on every account might feel easier to remember, but it's risky. If just one of those sites has a problem and someone gets hold of that password, every other account using the same password is at risk too - no matter how long or clever the password was."
+        }
+      ],
+      "key_points": [
+        "A strong password mixes letters, numbers and symbols, and avoids guessable personal information.",
+        "A passphrase strings together several random words and is both strong and easier to remember.",
+        "Never share your password, even with a friend you trust.",
+        "If someone else finds out your password, change it.",
+        "Using the same password everywhere means one leak can put every account at risk."
+      ],
+      "try_this": "With a family member, make up a silly four-word passphrase together (like 'PurpleMangoJumpsFast7') and practice typing it a few times until you remember it, without writing it down anywhere someone else could find it.",
+      "questions": [
+        {
+          "type": "tf",
+          "prompt": "It's fine to share your password with a friend, as long as you trust them.",
+          "answer": false,
+          "explain": "Sharing a password means you no longer control who can get in - a friend could tell someone else, even by accident. A password should stay private.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "Which password would generally be considered strongest?",
+          "choices": [
+            "Tr0pical-Mango!River42",
+            "password123",
+            "yourname2015",
+            "1234"
+          ],
+          "answer": "Tr0pical-Mango!River42",
+          "explain": "It's long, mixes upper and lower case letters, numbers and a symbol, and doesn't use easily guessed personal information.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "Jayden makes his password his dog's name plus his birth year, because it's easy to remember. Why is that risky?",
+          "choices": [
+            "Because people who know you could guess or find that information easily",
+            "Because pets can't type",
+            "Because birthdays change every year",
+            "Because it makes the password too long"
+          ],
+          "answer": "Because people who know you could guess or find that information easily",
+          "explain": "Information that's easy for people who know you (or who can look you up) to find out makes a password much easier to guess.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "A password example reads 'Mg25'. Counting every letter and digit, how many characters is that?",
+          "answer": 4,
+          "tolerance": 0,
+          "unit": "characters",
+          "explain": "M, g, 2, 5 - that's four characters, counting each letter or number as one character.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "'PurpleMangoJumpsFast7' strings together several random words instead of random letters. What's this style of password called?",
+          "answer": [
+            "passphrase"
+          ],
+          "explain": "A passphrase is long and hard to guess, but easier for a person to remember than random characters.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "A friend asks to borrow your password 'just this once'. What should you never do with a password, even for a trusted friend?",
+          "answer": [
+            "share"
+          ],
+          "explain": "Keeping a password private, and never sharing it, keeps you in control of who can access your account.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "A friend at school asks for your password so they can 'just check something' on your account. What's the best response?",
+          "answer": [
+            "say no",
+            "refuse and offer to check it yourself",
+            "say no and check it yourself"
+          ],
+          "explain": "Keeping your password to yourself, and offering to do the checking yourself, protects your account without upsetting your friend.",
+          "difficulty": 3
+        },
+        {
+          "type": "tf",
+          "prompt": "Priya uses one long, complicated password for every single account she has, figuring the length alone makes it safe. Is she right?",
+          "answer": false,
+          "explain": "If just one account or site using that password has a problem, every other account with the same password is put at risk too, regardless of length.",
+          "difficulty": 3
+        },
+        {
+          "type": "mc",
+          "prompt": "A password checker says 'P@ssw0rd1' is strong because it has uppercase letters, lowercase letters, a number and a symbol. Why might it still be one of the first passwords a hacker tries?",
+          "choices": [
+            "Because it's just a common substitution of the ordinary word 'password', which hackers try first",
+            "Because it doesn't have enough characters",
+            "Because it uses too many numbers",
+            "Because symbols always make a password weaker"
+          ],
+          "answer": "Because it's just a common substitution of the ordinary word 'password', which hackers try first",
+          "explain": "Mixing in a symbol and a number doesn't help if the underlying word is one of the most guessed passwords in the world. Character variety alone doesn't guarantee real strength.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "How many letters are in the passphrase 'CrocodileKayakMangoSunset' (ignore any numbers that might be added on the end)?",
+          "answer": 25,
+          "tolerance": 0,
+          "unit": "letters",
+          "explain": "Counting each word: Crocodile (9) + Kayak (5) + Mango (5) + Sunset (6) = 25 letters in total.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "You use the exact same password on 6 different accounts: email, gaming, homework portal, streaming, chat app and cloud photos. The gaming site gets hacked and that password leaks. How many of your OTHER accounts are now at risk because they share that same password?",
+          "answer": 5,
+          "tolerance": 0,
+          "unit": "accounts",
+          "explain": "All 6 accounts share the same password, so once it leaks from one of them, the other 5 are all at risk too, regardless of how strong the password looked.",
+          "difficulty": 4
+        },
+        {
+          "type": "text",
+          "prompt": "A password was guessed in seconds because it was just the family dog's name plus the house's street number, both of which are visible on the letterbox and in a family photo. What do we call this kind of easily-found information used in a password?",
+          "answer": [
+            "personal information",
+            "personal info"
+          ],
+          "explain": "Information that people who know you, or who can look you up, could easily find out is exactly the kind of personal information a strong password should never rely on.",
+          "difficulty": 4
+        }
+      ],
+      "activity": {
+        "title": "Audit your family's passwords for strength and reuse, without writing any password down",
+        "why": "Proves they can judge real password strength and spot risky reuse patterns on real family accounts, without ever recording the actual secret.",
+        "est_minutes": 25,
+        "adult_help": "nearby",
+        "materials": [
+          "paper and pencil",
+          "a parent nearby to talk through real family accounts (never the passwords themselves)"
+        ],
+        "steps": [
+          "With a parent nearby, list up to 6 accounts used in your house (e.g. email, streaming service, gaming account, school portal) - just the account names, never the passwords.",
+          "For each account, ask the account owner (without saying the password out loud) to rate its length as short (under 8 characters), medium (8-11) or long (12+).",
+          "Ask the account owner to say, without revealing the actual password, how many of the 4 character types it uses: upper case, lower case, numbers, symbols.",
+          "Ask whether that same password is reused on any other account on your list.",
+          "For each account, work out a simple strength score: 1 point per character type used (max 4), plus 1 point if it's long.",
+          "Add up how many accounts scored 4 or more, and record your results below."
+        ],
+        "record": [
+          {
+            "id": "accounts_checked",
+            "label": "How many accounts did you check in total?",
+            "type": "number",
+            "unit": "",
+            "hint": "whole number",
+            "min": 2,
+            "max": 10
+          },
+          {
+            "id": "strong_count",
+            "label": "How many of them scored 4 or more on your strength scale?",
+            "type": "number",
+            "unit": "",
+            "hint": "whole number",
+            "min": 0,
+            "max": 10
+          },
+          {
+            "id": "reused_count",
+            "label": "How many passwords on your list are reused on more than one account?",
+            "type": "number",
+            "unit": "",
+            "hint": "whole number",
+            "min": 0,
+            "max": 10
+          },
+          {
+            "id": "weakest_fix",
+            "label": "Pick the weakest password on your list (don't write the password itself). What's one specific change that would make it stronger?",
+            "type": "text",
+            "hint": "two or three sentences",
+            "min_words": 15
+          },
+          {
+            "id": "checked_with",
+            "label": "Who did you do this audit with?",
+            "type": "choice",
+            "options": [
+              "A parent",
+              "Whole family together",
+              "A sibling helped"
+            ]
+          }
+        ],
+        "check": "The strong_count and reused_count should each be no higher than accounts_checked, and no actual password should appear anywhere in the answers. Query any answer that includes a real password.",
+        "xp": 45
+      },
+      "kind": "lesson"
+    },
+    {
+      "slug": "y4-online-privacy-safety",
+      "title": "What is private: what to post, what to keep off the internet, and who to tell if something feels wrong",
+      "strand": "Digital and data literacy",
+      "year_level": 4,
+      "curriculum_code": "",
+      "curriculum_text": "",
+      "position": 6,
+      "est_minutes": 12,
+      "intro": "Some things about you are fine to share, and some things are private and should stay that way online. Knowing the difference - and who to talk to if something feels wrong - keeps you in control.",
+      "sections": [
+        {
+          "heading": "Public vs private information",
+          "body": "Some information is generally fine to share, like your favourite colour or hobby. Other information is **private**, and should stay off the internet - things like your full name together with your home address, your school's name, your phone number, or passwords.\n\nA good rule of thumb: if the information could help a stranger find you or figure out exactly who you are, it's private."
+        },
+        {
+          "heading": "Why private information matters",
+          "body": "Small details can add up. A photo showing your school uniform, a post mentioning your street, and your first name might not seem like much on their own, but pieced together by someone you don't know, they can reveal where you are or who you are. It's safer to keep that kind of detail off public posts, profiles and chats with strangers."
+        },
+        {
+          "heading": "If something feels wrong",
+          "body": "If a message, image, or person online ever makes you feel uncomfortable, worried, confused or unsafe - even just a little - **tell a trusted adult straight away**.\n\nThis is never something you'll be in trouble for, no matter what happened or how it started. Adults would always rather know, even if it turns out to be nothing at all."
+        },
+        {
+          "heading": "Who counts as a trusted adult",
+          "body": "A trusted adult is simply someone in your life you can talk to face to face - a parent, a carer, a grandparent, a teacher, or another adult you know well and trust. It doesn't have to be a big, serious conversation. It can be as simple as \"something online made me feel weird, can I show you?\""
+        }
+      ],
+      "key_points": [
+        "Private information includes your full name with your address, your school, your phone number and your passwords.",
+        "Small details can add up to reveal who you are or where you are, so keep them off public posts.",
+        "If anything online makes you uncomfortable, worried or unsafe, tell a trusted adult straight away.",
+        "You will never be in trouble for telling a trusted adult something that happened online.",
+        "A trusted adult can be a parent, carer, teacher or any other adult you know well and trust."
+      ],
+      "try_this": "With a family member, make a short list together of two or three trusted adults you could go to if something online ever worried you. Stick it somewhere you'd remember, like on the fridge or in a notebook.",
+      "questions": [
+        {
+          "type": "tf",
+          "prompt": "Your home address is private information that shouldn't be posted publicly online.",
+          "answer": true,
+          "explain": "Your home address could help a stranger figure out exactly where to find you, which is why it's private information.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "Which of these is generally safe to share in a public online profile?",
+          "choices": [
+            "Your favourite colour",
+            "Your full name and home address together",
+            "Your school's name and your daily timetable",
+            "Your phone number"
+          ],
+          "answer": "Your favourite colour",
+          "explain": "A favourite colour doesn't reveal anything about who you are or where to find you, unlike the other options.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "A message pops up from someone you don't know, asking exactly where you live. What's the best thing to do?",
+          "choices": [
+            "Don't share it, and tell a trusted adult about the message",
+            "Give a made-up address so they leave you alone",
+            "Share your street name only, that's not the whole address",
+            "Ask a friend what they think you should do instead"
+          ],
+          "answer": "Don't share it, and tell a trusted adult about the message",
+          "explain": "Keeping the information private and letting a trusted adult know about the message is the safest response.",
+          "difficulty": 2
+        },
+        {
+          "type": "tf",
+          "prompt": "Ruby feels weird about a message she got in a game chat, but worries she'll get in trouble if she tells her mum about it. Is she right to worry?",
+          "answer": false,
+          "explain": "Telling a trusted adult is never something you get in trouble for, no matter what happened or how it started.",
+          "difficulty": 2
+        },
+        {
+          "type": "mc",
+          "prompt": "Something online has made you feel uneasy, and you want to talk to someone about it. Which of these counts as a genuine 'trusted adult'?",
+          "choices": [
+            "A parent, carer, teacher or other adult you know well in real life",
+            "Any stranger who seems friendly online",
+            "An account with lots of followers",
+            "A chatbot"
+          ],
+          "answer": "A parent, carer, teacher or other adult you know well in real life",
+          "explain": "A trusted adult is someone you actually know and can talk to face to face, not someone you've only met online.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "A parent, carer or teacher you know well and can talk to face to face about anything, including things online - what do we call this kind of person?",
+          "answer": [
+            "trusted adult",
+            "adult"
+          ],
+          "explain": "A trusted adult is a parent, carer, teacher or other adult you know well and can talk to about anything, including things that happen online.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "A message in a game chat makes you feel uneasy, but you're not sure if it's a 'big enough' problem to mention. What's the best move?",
+          "answer": [
+            "tell a trusted adult anyway",
+            "tell an adult anyway",
+            "tell a trusted adult"
+          ],
+          "explain": "It's always worth telling a trusted adult when something feels wrong - they'd rather know, even if it turns out to be nothing.",
+          "difficulty": 3
+        },
+        {
+          "type": "tf",
+          "prompt": "After something online leaves Max feeling uneasy, he decides the safest thing is to just keep it to himself and never mention it. Is that the best move?",
+          "answer": false,
+          "explain": "Keeping it to yourself means nobody who could help even knows there's a problem. Telling a trusted adult is always the better move, and you'll never be in trouble for it.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A public profile shows 4 details: first name, favourite colour, a photo in school uniform with the school crest visible, and the suburb name. Of these 4 details, how many could help a stranger piece together who this child is and roughly where, when combined together?",
+          "answer": 3,
+          "tolerance": 0,
+          "unit": "details",
+          "explain": "The first name, the visible school crest and the suburb name can all be pieced together to work out who someone is and where they likely go to school. A favourite colour adds nothing identifying on its own, so only 3 of the 4 details matter here.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "Over one week a public account posts: Monday - first name; Tuesday - suburb; Wednesday - a school photo with the uniform logo visible; Thursday - a picture of the family pet; Friday - the exact street the family walks to school on. By Friday, how many separate pieces of information have been shared that, combined, could help a stranger work out where this child goes to school and roughly where they live?",
+          "answer": 4,
+          "tolerance": 0,
+          "unit": "details",
+          "explain": "The first name, suburb, school logo and street are all identifying details that add up together. The pet photo doesn't help identify the child or the location, so it doesn't count.",
+          "difficulty": 4
+        },
+        {
+          "type": "text",
+          "prompt": "An online friend you've only ever spoken to online asks you to send a photo of your house number 'just to see what it looks like.' You feel unsure but don't want to be rude. Besides not sending it, what's the other most important thing to do?",
+          "answer": [
+            "tell a trusted adult",
+            "tell an adult",
+            "a trusted adult"
+          ],
+          "explain": "Not sending the photo protects your privacy, but telling a trusted adult means someone who can help is aware of the situation too - and you'll never be in trouble for telling them.",
+          "difficulty": 4
+        },
+        {
+          "type": "text",
+          "prompt": "A privacy guide claims 'sharing your favourite colour and a photo of your pet is always risky, on their own.' Based on how small details add up, is sharing just those two things alone especially risky?",
+          "answer": [
+            "no"
+          ],
+          "explain": "Neither a favourite colour nor a pet photo, on their own, gives a stranger anything that identifies who you are or where you are. Risk comes from identifying details (like your name, school or address) adding up together, not from harmless details on their own.",
+          "difficulty": 4
+        }
+      ],
+      "activity": {
+        "title": "Spot-the-clues: audit 5 real family photos for identifying details, without posting any of them",
+        "why": "Proves they can actually spot which real details would let a stranger identify or locate someone, using real photos, without ever sharing or posting anything.",
+        "est_minutes": 20,
+        "adult_help": "nearby",
+        "materials": [
+          "5 photos already saved on a family phone or in an album",
+          "paper and pencil"
+        ],
+        "steps": [
+          "With a parent, look at 5 real photos already saved on a family device or in an album (holiday, school or backyard photos are fine). You are not posting or sharing any of them anywhere.",
+          "For each photo, list out loud any details visible that could help identify who's in it or where it was taken (school logo, street sign, house number, name tag, sports team, etc).",
+          "Count how many of the 5 photos have at least one such identifying detail visible.",
+          "Pick the photo with the MOST identifying details and count exactly how many are in that one photo.",
+          "Talk with your parent about which of those details you'd want to crop, cover or avoid if that photo were ever shared publicly.",
+          "Record your results below."
+        ],
+        "record": [
+          {
+            "id": "photos_checked",
+            "label": "How many photos did you check?",
+            "type": "number",
+            "unit": "",
+            "hint": "whole number",
+            "min": 3,
+            "max": 10
+          },
+          {
+            "id": "photos_with_detail",
+            "label": "How many of them had at least one identifying detail visible?",
+            "type": "number",
+            "unit": "",
+            "hint": "whole number",
+            "min": 0,
+            "max": 10
+          },
+          {
+            "id": "most_details_count",
+            "label": "In the photo with the most identifying details, how many separate identifying details did you count?",
+            "type": "number",
+            "unit": "",
+            "hint": "whole number",
+            "min": 0,
+            "max": 10
+          },
+          {
+            "id": "biggest_risk",
+            "label": "Describe the single most identifying detail you found across all the photos, and what you'd do about it before sharing that photo publicly.",
+            "type": "text",
+            "hint": "two or three sentences",
+            "min_words": 15
+          },
+          {
+            "id": "reviewed_with",
+            "label": "Who did you review the photos with?",
+            "type": "choice",
+            "options": [
+              "A parent",
+              "A carer",
+              "Another trusted adult"
+            ]
+          }
+        ],
+        "check": "photos_with_detail and most_details_count should each be no higher than photos_checked, and no photo should actually be posted or shared anywhere as part of this activity. Query it if that happened.",
+        "xp": 40
+      },
+      "kind": "lesson"
+    },
+    {
+      "slug": "y6-averages-spread",
+      "title": "Averages and spread: mean, median, mode, range, and when the average misleads you",
+      "strand": "Digital and data literacy",
+      "year_level": 6,
+      "curriculum_code": "",
+      "curriculum_text": "",
+      "position": 7,
+      "est_minutes": 14,
+      "intro": "One number can never tell the whole story of a data set. Mean, median, mode and range each tell you something different - and knowing all four stops a single lucky (or unlucky) day from fooling you.",
+      "sections": [
+        {
+          "heading": "The mean: the 'share it out evenly' average",
+          "body": "The **mean** is what most people just call \"the average\": add up every value, then divide by how many values there are.\n\nOver an 8-day family fishing trip on the Endeavour River, the number of barramundi caught each day was: 2, 3, 3, 4, 5, 3, 2, 20 (that huge day was one lucky king tide).",
+          "example": {
+            "prompt": "Add up the 8 days' catches (2, 3, 3, 4, 5, 3, 2, 20) and divide by 8 to find the mean.",
+            "working": [
+              "2+3+3+4+5+3+2+20 = 42",
+              "42 divided by 8 = 5.25"
+            ],
+            "answer": "5.25 barramundi per day"
+          }
+        },
+        {
+          "heading": "The median: the middle value",
+          "body": "The **median** is the middle value once the data is sorted from smallest to largest. If there's an even number of values, the median is the average of the two middle ones. The median is much less affected by one extreme value than the mean is.\n\nSorted, the 8 days' catches are: 2, 2, 3, 3, 3, 4, 5, 20.",
+          "example": {
+            "prompt": "Sort the 8 catches in order: 2, 2, 3, 3, 3, 4, 5, 20. Since there are 8 values, the median is the average of the 4th and 5th. What is the median?",
+            "working": [
+              "4th value = 3, 5th value = 3",
+              "(3+3) divided by 2 = 3"
+            ],
+            "answer": "3 barramundi"
+          }
+        },
+        {
+          "heading": "The mode and the range",
+          "body": "The **mode** is the value that appears most often. In our fishing data, 3 appears three times, more than any other value, so the mode is 3.\n\nThe **range** is the highest value minus the lowest value. It tells you how spread out the data is: 20 - 2 = 18."
+        },
+        {
+          "heading": "Why the mean can mislead you",
+          "body": "In our fishing data, the mean (5.25) is noticeably higher than the median and mode (both 3). One huge outlier - the 20-fish day - has dragged the mean well above what most days actually looked like.\n\nWhen a data set has an unusual outlier like this, the median often gives a fairer picture of what's \"typical\" than the mean does."
+        }
+      ],
+      "key_points": [
+        "The mean is the sum of all values divided by how many values there are.",
+        "The median is the middle value once the data is sorted, and is less affected by outliers than the mean.",
+        "The mode is the value that appears most often in the data.",
+        "The range is the highest value minus the lowest value, and shows how spread out the data is.",
+        "A single outlier can pull the mean well away from what's typical for most of the data."
+      ],
+      "try_this": "Over the next week, tally how many text messages, phone calls, or something else easy to count happens each day in your house. At the end, work out the mean (total divided by number of days), the median (line the numbers up smallest to largest and find the middle), and the range (biggest minus smallest).",
+      "questions": [
+        {
+          "type": "tf",
+          "prompt": "The mean is found by adding up all the values and dividing by how many values there are.",
+          "answer": true,
+          "explain": "That's exactly the definition of the mean - it's what people usually mean by 'the average'.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "What is the 'range' of a data set?",
+          "choices": [
+            "The highest value minus the lowest value",
+            "The most common value",
+            "The middle value when sorted",
+            "The total of all the values added together"
+          ],
+          "answer": "The highest value minus the lowest value",
+          "explain": "The range measures how spread out the data is, by subtracting the smallest value from the largest.",
+          "difficulty": 1
+        },
+        {
+          "type": "numeric",
+          "prompt": "Over an 8-day fishing trip, the daily barramundi catches were: 2, 3, 3, 4, 5, 3, 2, 20. What's the mean number caught per day, to 2 decimal places?",
+          "answer": 5.25,
+          "tolerance": 0.01,
+          "unit": "barramundi",
+          "explain": "The total is 2+3+3+4+5+3+2+20 = 42. 42 divided by 8 = 5.25.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "Sorted from smallest to largest, the same 8 days' catches are: 2, 2, 3, 3, 3, 4, 5, 20. What's the median?",
+          "answer": 3,
+          "tolerance": 0.01,
+          "unit": "barramundi",
+          "explain": "With 8 values, the median is the average of the 4th and 5th values, which are both 3, so the median is 3.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "Across the same 8 days (2, 3, 3, 4, 5, 3, 2, 20), what's the range of the catches?",
+          "answer": 18,
+          "tolerance": 0,
+          "unit": "barramundi",
+          "explain": "The highest value is 20 and the lowest is 2. 20 - 2 = 18.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "Across the same 8 days' catches (2, 3, 3, 4, 5, 3, 2, 20), what value comes up more often than any other - the mode?",
+          "answer": 3,
+          "tolerance": 0,
+          "unit": "barramundi",
+          "explain": "3 appears three times in the data, more often than any other value, so it's the mode.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "The 8 days' catches have median 3, mode 3, but a mean of 5.25. Which single number - the mean, median or mode - best describes a 'typical' day here, given the one huge 20-fish outlier?",
+          "answer": [
+            "median",
+            "the median"
+          ],
+          "explain": "The median and mode both land on 3, showing what a typical day actually looked like, while the mean is dragged up by the single unusually large catch.",
+          "difficulty": 3
+        },
+        {
+          "type": "tf",
+          "prompt": "The 20-fish day on the fishing trip pulled the mean up to 5.25, well above the median and mode of 3. Does this show that a single outlier can drag the mean away from what's typical?",
+          "answer": true,
+          "explain": "Because the mean uses every value equally, one extreme value can shift it a long way, as the 20-fish day did in this data set.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "Over 6 days at a different fishing spot, the mean catch was 4 fish per day. Five of the days had catches of 3, 4, 2, 5 and 6. What was the catch on the sixth day?",
+          "answer": 4,
+          "tolerance": 0,
+          "unit": "fish",
+          "explain": "If the mean of 6 days is 4, the total for all 6 days must be 4 x 6 = 24. The 5 known days add up to 3+4+2+5+6 = 20, so the sixth day was 24-20 = 4.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "Bird counts across 9 different bird-watching sessions were: 4, 7, 3, 9, 4, 15, 5, 6, 4. What is the median?",
+          "answer": 5,
+          "tolerance": 0,
+          "unit": "birds",
+          "explain": "Sorted from smallest to largest: 3, 4, 4, 4, 5, 6, 7, 9, 15. With 9 values, the median is the middle (5th) value, which is 5.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "Barramundi catches over 8 days were 2, 3, 3, 4, 5, 3, 2, 20, giving a mean of 5.25. If the outlier 20-fish day is removed, what is the new mean for the remaining 7 days, to 2 decimal places?",
+          "answer": 3.14,
+          "tolerance": 0.01,
+          "unit": "barramundi",
+          "explain": "Removing the outlier: the remaining total is 42-20 = 22, across 7 days. 22 divided by 7 = 3.142857..., which rounds to 3.14 - much closer to what a typical day actually looked like.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A fishing charter advertises 'Average catch: 8 fish per trip!' Their last 5 trips actually caught 2, 3, 2, 3 and 30 fish. What is the median catch, which better reflects a typical trip?",
+          "answer": 3,
+          "tolerance": 0,
+          "unit": "fish",
+          "explain": "The mean (2+3+2+3+30=40, divided by 5 = 8) does match their advertised claim, but it's dragged up entirely by one huge 30-fish trip. Sorted (2,2,3,3,30), the median is the middle value, 3, which is what most trips actually caught.",
+          "difficulty": 4
+        }
+      ],
+      "activity": {
+        "title": "Survey five people, then work out the mean and median by hand",
+        "why": "Proves they can collect real numbers from real people and correctly calculate the mean and median themselves, not just recall the steps from a worked example.",
+        "est_minutes": 30,
+        "adult_help": "none",
+        "materials": [
+          "paper and pencil",
+          "at least 5 people to ask (family, neighbours, or people at home)"
+        ],
+        "steps": [
+          "Pick a question with a numeric answer to survey 5 or more people on, e.g. 'how many hours of sleep did you get last night?' or 'how many cups of tea or coffee do you drink a day?'",
+          "Ask at least 5 people and write down each answer as you get it.",
+          "Sort all your answers from smallest to largest on paper.",
+          "Add them all up and divide by how many people you asked, to find the mean, by hand.",
+          "Find the middle value (or average the two middle values if you have an even number of people) to find the median.",
+          "Compare your mean and median and record your results below."
+        ],
+        "record": [
+          {
+            "id": "people_surveyed",
+            "label": "How many people did you survey?",
+            "type": "number",
+            "unit": "",
+            "hint": "whole number, 5 or more",
+            "min": 5,
+            "max": 20
+          },
+          {
+            "id": "mean_value",
+            "label": "What mean did you calculate, to 1 decimal place?",
+            "type": "number",
+            "unit": "",
+            "hint": "one decimal place",
+            "min": 0,
+            "max": 1000
+          },
+          {
+            "id": "median_value",
+            "label": "What median did you calculate?",
+            "type": "number",
+            "unit": "",
+            "hint": "may include a half, e.g. 6.5",
+            "min": 0,
+            "max": 1000
+          },
+          {
+            "id": "outlier_reflection",
+            "label": "Was there an answer much higher or lower than the rest? Explain how it affected your mean compared to your median.",
+            "type": "text",
+            "hint": "three or four sentences",
+            "min_words": 20
+          },
+          {
+            "id": "topic_chosen",
+            "label": "What did you survey people about?",
+            "type": "choice",
+            "options": [
+              "Hours of sleep",
+              "Cups of tea or coffee per day",
+              "Minutes to get ready",
+              "Something else"
+            ]
+          }
+        ],
+        "check": "The median should sit between the lowest and highest answers reported, and if the mean is noticeably different from the median, an outlier should be described in the reflection. Query a mean or median that couldn't come from 5 real answers to the chosen question.",
+        "xp": 50
+      },
+      "kind": "lesson"
+    },
+    {
+      "slug": "y6-misleading-graphs",
+      "title": "Misleading graphs: chopped axes, dodgy scales and cherry-picked ranges",
+      "strand": "Digital and data literacy",
+      "year_level": 6,
+      "curriculum_code": "",
+      "curriculum_text": "",
+      "position": 8,
+      "est_minutes": 14,
+      "intro": "A graph can use completely real numbers and still trick your eye. Knowing the tricks - chopped axes, dodgy scales and cherry-picked ranges - means nobody can fool you with a chart again.",
+      "sections": [
+        {
+          "heading": "Chopped (truncated) axes",
+          "body": "When a graph's vertical axis doesn't start at zero, small real differences can look enormous. Imagine mango prices at the market going from $2.00 to $2.30 over four weeks. If the axis is drawn starting at $1.90 instead of $0, those small weekly bumps stretch to fill the whole graph and look dramatic, even though the real change is modest.",
+          "example": {
+            "prompt": "The price of mangoes at the market went from $2.00 to $2.30 over four weeks. What is the percentage increase?",
+            "working": [
+              "Increase = $2.30 minus $2.00 = $0.30",
+              "$0.30 divided by $2.00 = 0.15",
+              "0.15 = 15%"
+            ],
+            "answer": "15%"
+          }
+        },
+        {
+          "heading": "Dodgy scales",
+          "body": "A fair graph uses even steps between gridlines - each gap on the axis represents the same amount. A **dodgy scale** stretches or squashes parts of the axis unevenly, or uses tricks like 3-D bars, so that heights or sizes look more different than the real numbers actually are."
+        },
+        {
+          "heading": "Cherry-picked ranges",
+          "body": "**Cherry-picking** means choosing only the time period or data points that support the story you want to tell, and leaving the rest out. Picking the 3 hottest days from a 30-day month to claim \"it's getting hotter\", while ignoring the other 27 cooler days, is a classic example - the claim uses real numbers, but only a slice of them."
+        },
+        {
+          "heading": "Reading a graph like a detective",
+          "body": "Before trusting a graph, check it like a detective:\n\n- Does the vertical axis start at zero - and if not, is that clearly explained?\n- Are the steps between gridlines even and clearly labelled?\n- Does the graph show the full, fair range of dates or data, or just a convenient slice?\n- Is everything - the title, the axes, the units - clearly labelled?"
+        }
+      ],
+      "key_points": [
+        "A chopped (truncated) axis, which doesn't start at zero, can make small differences look huge.",
+        "A dodgy scale uses uneven steps or visual tricks to distort how big a difference looks.",
+        "Cherry-picking means choosing only the data that supports your point and leaving the rest out.",
+        "A graph can use completely accurate numbers and still be misleading because of how it's drawn.",
+        "Checking the axis, the scale and the range of data shown helps you read a graph fairly."
+      ],
+      "try_this": "Find a graph in a news app, a school newsletter, or a food packet, and check it against the detective checklist: does the axis start at zero, are the gridlines evenly spaced, and does it look like the full picture or just a slice of it?",
+      "questions": [
+        {
+          "type": "tf",
+          "prompt": "A graph's y-axis should usually start at zero, and if it doesn't, that should be made clear.",
+          "answer": true,
+          "explain": "Starting at zero (or clearly flagging when it doesn't) is what stops a graph from exaggerating how big a difference looks.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "What do we call it when a graph's vertical axis doesn't start at zero, making differences look bigger than they really are?",
+          "choices": [
+            "A chopped (or truncated) axis",
+            "A bar graph",
+            "A picture graph",
+            "A tally chart"
+          ],
+          "answer": "A chopped (or truncated) axis",
+          "explain": "A chopped or truncated axis starts partway up the scale, which stretches small real differences to look much bigger.",
+          "difficulty": 1
+        },
+        {
+          "type": "text",
+          "prompt": "A graph's vertical axis starts at $1.90 instead of $0, so small price bumps look much bigger than they really are. What's this trick called?",
+          "answer": [
+            "chopped axis",
+            "truncated axis",
+            "a chopped or truncated axis"
+          ],
+          "explain": "A chopped or truncated axis starts partway up the scale, which stretches small real differences to look much bigger.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "A market's mango price rose from $2.00 to $2.30 over four weeks. As a percentage, how big is that increase?",
+          "answer": 15,
+          "tolerance": 0.5,
+          "unit": "%",
+          "explain": "The increase is $0.30. $0.30 divided by the original $2.00 is 0.15, which is 15%.",
+          "difficulty": 2
+        },
+        {
+          "type": "mc",
+          "prompt": "A graph shows temperatures for only the 3 hottest days out of a 30-day month, under the headline 'this town is getting hotter'. What's actually wrong with that graph?",
+          "choices": [
+            "The data is cherry-picked, so it doesn't fairly represent the whole month",
+            "The graph uses too many colours",
+            "The temperatures shown are made up",
+            "The graph doesn't have a title"
+          ],
+          "answer": "The data is cherry-picked, so it doesn't fairly represent the whole month",
+          "explain": "Choosing only the 3 hottest days out of 30 ignores the other 27 days and gives a misleading impression of the whole month.",
+          "difficulty": 2
+        },
+        {
+          "type": "tf",
+          "prompt": "A graph's numbers are all completely accurate, yet it still leaves you with the wrong impression because of how the axis is drawn. Is that possible?",
+          "answer": true,
+          "explain": "The numbers can be entirely real while the choice of axis, scale, or range still creates a misleading impression.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "The mango price graph's axis starts at $1.90 instead of $0, exaggerating the weekly bumps. Which single change would make that graph fairer to read?",
+          "answer": [
+            "start the y-axis at zero",
+            "start the axis at $0",
+            "start the y-axis at $0 and label it clearly"
+          ],
+          "explain": "Starting at zero and labelling the scale clearly stops small differences from being stretched to look dramatic.",
+          "difficulty": 3
+        },
+        {
+          "type": "text",
+          "prompt": "A graph's y-axis starts at $8 instead of $0, making a $1 rise across the page look huge. What kind of axis is this an example of?",
+          "answer": [
+            "chopped",
+            "truncated"
+          ],
+          "explain": "A chopped or truncated axis doesn't start at zero, which exaggerates how big the differences on the graph look.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "Two bars show real values of 82 and 84. What is the real percentage increase from 82 to 84, to 2 decimal places?",
+          "answer": 2.44,
+          "tolerance": 0.1,
+          "unit": "%",
+          "explain": "The increase is 84-82 = 2. Dividing by the original value: 2 divided by 82 = 0.0244, which is 2.44%.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "The same two bars (82 and 84) are drawn on a graph whose vertical axis is chopped to start at 80. On this chopped axis, Bar A's height above the axis start is 2 units and Bar B's is 4 units. Using just those chopped-axis heights, what percentage BIGGER does Bar B appear to be than Bar A?",
+          "answer": 100,
+          "tolerance": 1,
+          "unit": "%",
+          "explain": "On the chopped axis, Bar B (4 units) looks twice the height of Bar A (2 units), which is a 100% increase - even though the real values only differ by 2.44%. This is exactly how a chopped axis can make a tiny real difference look like a doubling.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A headline uses only January (300 mm), February (280 mm) and December (250 mm) rainfall to claim 'the average month has 277 mm of rain!' The full 12 months were: 300, 280, 200, 60, 20, 10, 5, 5, 15, 40, 120, 250 mm. What is the TRUE mean across all 12 months?",
+          "answer": 108.75,
+          "tolerance": 0.5,
+          "unit": "mm",
+          "explain": "Adding all 12 months: 300+280+200+60+20+10+5+5+15+40+120+250 = 1305 mm. Dividing by 12 gives a true mean of 108.75 mm, far lower than the cherry-picked claim of 277 mm.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A graph's vertical axis has gridlines at 0, 20, 40, then jumps straight to 200 - but all four gridlines are drawn the exact same distance apart on the page. If the spacing had stayed even (each gap worth 20, like the first three), the fourth gridline should show 60. How many times bigger is the actual label of 200 than the honest even-scale value of 60, to 1 decimal place?",
+          "answer": 3.3,
+          "tolerance": 0.1,
+          "unit": "times",
+          "explain": "If spacing stayed even, the fourth gridline should read 0+20+20+20 = 60. The actual label of 200 is 200 divided by 60 = 3.33 times bigger than that honest value, showing how badly an uneven scale can distort a graph.",
+          "difficulty": 4
+        }
+      ],
+      "activity": {
+        "title": "Draw the same real data two ways: an honest graph and a deliberately misleading one",
+        "why": "Proves they understand exactly how a chopped axis distorts a graph, by constructing one themselves rather than just spotting one someone else made.",
+        "est_minutes": 30,
+        "adult_help": "none",
+        "materials": [
+          "paper and pencil",
+          "a ruler",
+          "5 real numbers that are fairly close together (e.g. a price checked at 5 shops, or 5 days of temperatures)"
+        ],
+        "steps": [
+          "Collect 5 real numbers that are all fairly close together, e.g. the price of the same item at 5 different shops or on 5 different days, or 5 days of afternoon temperatures.",
+          "On one sheet, draw an honest bar graph: vertical axis starting at 0, evenly spaced gridlines, clearly labelled.",
+          "On a second sheet, draw the exact same 5 numbers, but chop the vertical axis so it starts just below your lowest number, making the differences look much bigger.",
+          "Work out, by hand, the real percentage difference between your highest and lowest number.",
+          "Compare how different the two graphs look, even though every number on them is identical.",
+          "Record your results below."
+        ],
+        "record": [
+          {
+            "id": "lowest_value",
+            "label": "What was your lowest of the 5 real numbers?",
+            "type": "number",
+            "unit": "",
+            "hint": "one or two decimal places if needed",
+            "min": 0,
+            "max": 1000
+          },
+          {
+            "id": "highest_value",
+            "label": "What was your highest of the 5 real numbers?",
+            "type": "number",
+            "unit": "",
+            "hint": "one or two decimal places if needed",
+            "min": 0,
+            "max": 1000
+          },
+          {
+            "id": "percent_difference",
+            "label": "What is the real percentage difference between your highest and lowest number, to 1 decimal place?",
+            "type": "number",
+            "unit": "%",
+            "hint": "one decimal place",
+            "min": 0,
+            "max": 500
+          },
+          {
+            "id": "graph_comparison",
+            "label": "Describe how different your honest graph and your misleading graph look, even though they use the exact same 5 numbers.",
+            "type": "text",
+            "hint": "three or four sentences",
+            "min_words": 20
+          },
+          {
+            "id": "data_type",
+            "label": "What kind of data did you use?",
+            "type": "choice",
+            "options": [
+              "Prices",
+              "Temperatures",
+              "Something else I measured"
+            ]
+          }
+        ],
+        "check": "The percentage difference should equal (highest minus lowest) divided by the lowest value, expressed as a percentage, and the two hand-drawn graphs should look visibly different in how dramatic the changes appear. Query it if the two graphs look basically identical.",
+        "xp": 50
+      },
+      "kind": "lesson"
+    },
+    {
+      "slug": "y6-checking-claims-sources",
+      "title": "Where did this claim come from: sources, evidence and checking before you share",
+      "strand": "Digital and data literacy",
+      "year_level": 6,
+      "curriculum_code": "",
+      "curriculum_text": "",
+      "position": 9,
+      "est_minutes": 13,
+      "intro": "Anyone can post anything online, true or not. Before you believe a surprising claim - or share it - it's worth spending thirty seconds checking where it actually came from.",
+      "sections": [
+        {
+          "heading": "Why the source matters",
+          "body": "A claim is only as trustworthy as where it came from. Before believing something, it's worth asking: who actually said this, why did they say it, and how would they know?"
+        },
+        {
+          "heading": "Clickbait: headlines built to be clicked, not to inform",
+          "body": "**Clickbait** is a headline or thumbnail designed to grab your attention and get you to click, often using exaggeration or a mystery it doesn't answer. Sometimes what you actually find, once you click, doesn't match the promise of the headline at all."
+        },
+        {
+          "heading": "Checking a claim before you share it",
+          "body": "Before believing or sharing a surprising claim, run through a quick checklist: is there a real name, date or organisation attached to it? Can you find the same claim reported somewhere else you trust? Does it sound too dramatic, too perfect, or too neat to be true?",
+          "example": {
+            "prompt": "A post says 'Scientists say chocolate cures colds!' with no name, date or link. What should you do before believing or sharing it?",
+            "working": [
+              "Look for who the 'scientists' actually are",
+              "Search for the claim on a couple of other reliable sources",
+              "See if it's been reported anywhere with real detail"
+            ],
+            "answer": "Look for the original source and check it against other reliable sources before believing or sharing it"
+          }
+        },
+        {
+          "heading": "Popular doesn't mean true",
+          "body": "Likes, shares and views measure how much attention something got, not whether it's accurate. Something can be shared thousands of times and still be completely wrong, especially if it's dramatic, funny, or exactly what people wanted to hear."
+        }
+      ],
+      "key_points": [
+        "A claim is only as trustworthy as the source it actually came from.",
+        "Clickbait headlines are designed to get clicks, not to inform accurately.",
+        "Before sharing a claim, check whether it names a real source and matches other reliable reports.",
+        "Lots of likes or shares doesn't prove a claim is true.",
+        "A source can be well-meaning and still be wrong."
+      ],
+      "try_this": "Next time you see a surprising claim online or hear one from a friend, practice the checklist out loud with a family member: who said this, when, and can we find it reported somewhere else?",
+      "questions": [
+        {
+          "type": "tf",
+          "prompt": "Before sharing a surprising claim you saw online, it's a good idea to check where it actually came from.",
+          "answer": true,
+          "explain": "Checking the source before sharing helps stop false or exaggerated claims from spreading further.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "What do we call a headline written to grab attention and get clicks, rather than to inform accurately?",
+          "choices": [
+            "Clickbait",
+            "A byline",
+            "A citation",
+            "A caption"
+          ],
+          "answer": "Clickbait",
+          "explain": "Clickbait headlines are designed to be tempting to click, even when the actual content doesn't live up to the promise.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "You see a surprising claim shared online with no name attached to it. Which question actually helps you judge whether it's trustworthy?",
+          "choices": [
+            "Who said this, and how would they actually know?",
+            "How many exclamation marks are in the headline?",
+            "Is the picture attached interesting?",
+            "Is the text written in a big font?"
+          ],
+          "answer": "Who said this, and how would they actually know?",
+          "explain": "Knowing who is making a claim, and whether they'd actually have a reliable way of knowing it, is the key question for checking a source.",
+          "difficulty": 2
+        },
+        {
+          "type": "mc",
+          "prompt": "A post says 'Scientists say chocolate cures colds!' with no name, date or link attached anywhere. What's the best next step before believing it?",
+          "choices": [
+            "Look for the original source and check it against other reliable sources",
+            "Share it straight away, since it sounds exciting",
+            "Assume it's true because it mentions scientists",
+            "Ignore it completely without checking"
+          ],
+          "answer": "Look for the original source and check it against other reliable sources",
+          "explain": "Tracking down the real source and comparing it with other reliable reports is how you find out whether a claim like this holds up.",
+          "difficulty": 2
+        },
+        {
+          "type": "tf",
+          "prompt": "A post has been shared thousands of times, and someone says that proves it must be true. Are they right?",
+          "answer": false,
+          "explain": "Likes and shares measure attention, not accuracy - plenty of false claims get shared widely.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "Before believing a surprising claim, you compare it against a couple of other reliable sources to see if it holds up. What's this process called?",
+          "answer": [
+            "fact-check",
+            "fact check",
+            "verify"
+          ],
+          "explain": "Fact-checking (or verifying) means comparing a claim against other reliable sources before deciding whether to trust it.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "Two different articles report the same event but disagree on the details. What's the best next step?",
+          "answer": [
+            "check other reliable sources",
+            "compare with other reliable sources",
+            "check a couple of other sources"
+          ],
+          "explain": "Comparing multiple reliable sources is the best way to work out which details are accurate when reports disagree.",
+          "difficulty": 3
+        },
+        {
+          "type": "tf",
+          "prompt": "A well-meaning source shares something they genuinely believe is true, but it turns out to be wrong. Is that possible - can a source be well-meaning and still wrong?",
+          "answer": true,
+          "explain": "Even an honest source can make a mistake or be misinformed itself, which is why checking claims matters even when you trust who's saying it.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A headline says: 'This new schoolyard game is sweeping the nation - 9 out of 10 kids love it!' The article's own text says they surveyed 10 kids at one school in one afternoon. Based on the article's own numbers, how many of those 10 kids did NOT say they loved it?",
+          "answer": 1,
+          "tolerance": 0,
+          "unit": "kids",
+          "explain": "9 out of 10 loved it, so 10-9 = 1 didn't. The bigger issue the headline hides is that 10 kids at one school in one afternoon is nowhere near enough evidence to claim it's 'sweeping the nation'.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A post claims 'Views of our claim have tripled in a week - from 400 to 1,200!' That arithmetic is correct, but the post doesn't mention that of the 1,200 views, only 5 people actually liked it. What percentage of the 1,200 views does that 5 represent, to 2 decimal places?",
+          "answer": 0.42,
+          "tolerance": 0.05,
+          "unit": "%",
+          "explain": "5 divided by 1200 = 0.004167, which is 0.42%. A tripling in views sounds impressive, but it says nothing about whether people actually agreed with or liked the claim.",
+          "difficulty": 4
+        },
+        {
+          "type": "text",
+          "prompt": "Site B is a well-known news organisation with a named journalist and a link to the original study. Site C is a social media post with 50,000 likes but no author, date or link at all. Based only on the number of likes, would it be correct to say Site C is more trustworthy than Site B?",
+          "answer": [
+            "no"
+          ],
+          "explain": "Likes measure attention, not accuracy. Site B gives you an actual way to check where the information came from, which matters far more than how many people liked Site C's post.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "Imagine a viral post claims 'Local scientists confirm a reef area is now 90% dead.' The actual scientific report it's based on says a 9% bleaching rate was recorded in one small survey area. By how many times has the post exaggerated the real figure?",
+          "answer": 10,
+          "tolerance": 0,
+          "unit": "times",
+          "explain": "90 divided by 9 = 10, so the viral claim is exaggerating the real, narrower finding tenfold, on top of stretching a small survey area into a claim about the whole reef.",
+          "difficulty": 4
+        }
+      ],
+      "activity": {
+        "title": "Collect three real ads or headlines and pull apart exactly what each one claims",
+        "why": "Proves they can apply the source-checking checklist to real claims they find themselves, not just ones written into the lesson.",
+        "est_minutes": 30,
+        "adult_help": "nearby",
+        "materials": [
+          "paper and pencil",
+          "2-3 real newspapers, junk mail flyers, magazines, food packets, or a parent reading out a headline"
+        ],
+        "steps": [
+          "With a parent, find 3 real advertisements or headlines from around the house - a flyer, a cereal box, a newspaper, or a headline a parent shows or reads out to you.",
+          "For each one, write down the exact claim being made, in your own words.",
+          "For each claim, check: is there a name, date or organisation behind it? Does it give any actual numbers or evidence, or just a confident statement?",
+          "Rate each of the 3 claims out of 3 points: 1 point for naming a real source, 1 point for giving actual numbers or evidence, 1 point for not being overly dramatic or 'too good to be true'.",
+          "Add up your total score out of 9 across all three claims.",
+          "Record your results below."
+        ],
+        "record": [
+          {
+            "id": "claims_checked",
+            "label": "How many ads or headlines did you check?",
+            "type": "number",
+            "unit": "",
+            "hint": "should be 3",
+            "min": 3,
+            "max": 5
+          },
+          {
+            "id": "total_score",
+            "label": "What was your total score out of 9 across all three claims?",
+            "type": "number",
+            "unit": "",
+            "hint": "whole number, 0 to 9",
+            "min": 0,
+            "max": 9
+          },
+          {
+            "id": "weakest_claim",
+            "label": "Which claim scored the lowest, and why - what was missing: a source, evidence, or was it too dramatic?",
+            "type": "text",
+            "hint": "three or four sentences",
+            "min_words": 20
+          },
+          {
+            "id": "source_type",
+            "label": "Where did most of your claims come from?",
+            "type": "choice",
+            "options": [
+              "Newspaper or flyer",
+              "Food packet or product",
+              "A headline a parent showed me",
+              "Something else"
+            ]
+          }
+        ],
+        "check": "The total score should be no higher than 9 and should be consistent with the weakest_claim explanation given. Query a perfect score of 9 with no weaknesses found in any of the three real claims, which would be unusual.",
+        "xp": 45
+      },
+      "kind": "lesson"
+    },
+    {
+      "slug": "y6-loops-variables",
+      "title": "Loops and variables: repeating work without repeating yourself",
+      "strand": "Digital and data literacy",
+      "year_level": 6,
+      "curriculum_code": "",
+      "curriculum_text": "",
+      "position": 10,
+      "est_minutes": 14,
+      "intro": "Instead of writing the same instruction ten times, a programmer writes it once inside a loop and tells the computer how many times to repeat it. Variables are the labelled boxes that remember values while all that repeating happens.",
+      "sections": [
+        {
+          "heading": "What is a loop?",
+          "body": "A **loop** is a set of instructions that repeats, either a set number of times or for as long as a condition stays true. Watering 6 plants by saying \"for each of the 6 plants, give it one cup of water\" is a loop, rather than writing the watering instruction out 6 separate times."
+        },
+        {
+          "heading": "What is a variable?",
+          "body": "A **variable** is a named place in a program that stores a value - and that value can change while the program runs. A variable called *score* might start at 0 and change every time points are earned.",
+          "example": {
+            "prompt": "A variable called count starts at 0. A loop adds 3 to count, and repeats 5 times. What is count at the end?",
+            "working": [
+              "Start: count = 0",
+              "Add 3, five times: 3+3+3+3+3 = 15",
+              "0 + 15 = 15"
+            ],
+            "answer": "15"
+          }
+        },
+        {
+          "heading": "Why loops save work (and mistakes)",
+          "body": "Writing the same line of instructions 10 times means 10 separate places where a typo could creep in, or where you might forget to update something. A loop puts that instruction in one place, so it's easier to fix, and easier to change how many times it repeats."
+        },
+        {
+          "heading": "When a loop goes wrong",
+          "body": "A common loop bug is an **off-by-one error**, where the loop runs one time too many, or one time too few, because the starting number or the stopping point was set incorrectly. If a loop is meant to water 10 plants but the counting starts from the wrong number, it might only water 9."
+        }
+      ],
+      "key_points": [
+        "A loop repeats a set of instructions without writing them out again and again.",
+        "A variable is a named place that stores a value, and that value can change as the program runs.",
+        "Loops make code shorter, easier to read, and easier to fix in one place.",
+        "An off-by-one error happens when a loop starts or stops one step too early or too late.",
+        "Loops can repeat a set number of times, or for as long as a condition stays true."
+      ],
+      "try_this": "With a stopwatch or clock, act out a 'loop' with a family member: repeat a simple action (like a star jump) a set number of times while someone counts out loud. Then change 'the number of repeats' and do it again - that's exactly what a loop does in code.",
+      "questions": [
+        {
+          "type": "tf",
+          "prompt": "A loop lets a program repeat a set of steps without writing them out again and again.",
+          "answer": true,
+          "explain": "A loop stores the repeated instruction once and tells the computer how many times (or for how long) to repeat it.",
+          "difficulty": 1
+        },
+        {
+          "type": "text",
+          "prompt": "What do we call a named place in a program that stores a value which can change while the program runs?",
+          "answer": [
+            "variable"
+          ],
+          "explain": "A variable stores a value that can be updated as the program runs, unlike a fixed number written directly into the code.",
+          "difficulty": 1
+        },
+        {
+          "type": "numeric",
+          "prompt": "A variable called count starts at 0. A loop adds 3 to it, five times in a row. What does count equal by the end?",
+          "answer": 15,
+          "tolerance": 0,
+          "unit": "",
+          "explain": "Adding 3 five times is 3 x 5 = 15, so count ends at 0 + 15 = 15.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "A variable called total starts at 10. A loop subtracts 2 from it, four times in a row. What does total equal by the end?",
+          "answer": 2,
+          "tolerance": 0,
+          "unit": "",
+          "explain": "Subtracting 2 four times is 2 x 4 = 8, so total ends at 10 - 8 = 2.",
+          "difficulty": 2
+        },
+        {
+          "type": "mc",
+          "prompt": "Which everyday action below is actually an example of a loop - repeating the same step for each of several things?",
+          "choices": [
+            "Placing one fork at each of the 6 seats at the table, one after another",
+            "Turning the oven on once",
+            "Answering the phone one time",
+            "Locking the front door"
+          ],
+          "answer": "Placing one fork at each of the 6 seats at the table, one after another",
+          "explain": "Repeating the same action once for each of several items is exactly what a loop does.",
+          "difficulty": 2
+        },
+        {
+          "type": "mc",
+          "prompt": "Instead of writing the same instruction out 10 separate times, a programmer puts it inside a loop once. Why?",
+          "choices": [
+            "It's shorter, easier to read, and only needs fixing in one place if something changes",
+            "It makes the program run on more devices",
+            "It automatically fixes all bugs",
+            "It uses more electricity, which is more efficient"
+          ],
+          "answer": "It's shorter, easier to read, and only needs fixing in one place if something changes",
+          "explain": "A loop keeps the repeated instruction in one place, so changing or fixing it only has to happen once.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "A loop is supposed to water 10 plants, one cup each, but ends up watering only 9 because a variable started at the wrong number. What's this specific, well-known kind of bug called?",
+          "answer": [
+            "off-by-one error",
+            "off by one error",
+            "an off-by-one error"
+          ],
+          "explain": "Running one repeat too few (or too many) because the start or stop point is set incorrectly is the classic off-by-one error.",
+          "difficulty": 3
+        },
+        {
+          "type": "tf",
+          "prompt": "Someone claims a variable, once set, can never change for the rest of the program's life. Are they right?",
+          "answer": false,
+          "explain": "The whole point of a variable is that its value can change while the program runs - that's what makes it different from a fixed value.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A variable score starts at 0 and a variable lives starts at 3. A loop runs up to 4 times. Each time through: lives decreases by 1 and score increases by 5, UNLESS lives would go below 0, in which case lives stays at 0 and the loop stops immediately without adding more score that round. What is the final value of score once the loop finishes or stops?",
+          "answer": 15,
+          "tolerance": 0,
+          "unit": "",
+          "explain": "Round 1: lives 3-1=2, score 0+5=5. Round 2: lives 2-1=1, score 5+5=10. Round 3: lives 1-1=0, score 10+5=15. Round 4: lives would go to -1, which isn't allowed, so lives stays 0 and no more score is added. Final score is 15.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A loop runs once per day for 5 days. Each day, total_sales = total_sales + (items sold that day x $2), starting from total_sales = 0. Items sold each day: 3, 5, 2, 4, 6. What is total_sales after all 5 days?",
+          "answer": 40,
+          "tolerance": 0,
+          "unit": "$",
+          "explain": "Total items sold: 3+5+2+4+6 = 20. Multiplying by $2 per item: 20 x 2 = $40.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A robot is meant to water 15 plants, one cup each, by looping from plant 1 to plant 15. Because of an off-by-one bug, the loop actually starts counting from plant 2 and still stops at plant 15. How many plants actually get watered?",
+          "answer": 14,
+          "tolerance": 0,
+          "unit": "plants",
+          "explain": "Counting from plant 2 through to plant 15 inclusive is 14 plants (15-2+1=14), one fewer than the intended 15, because of the shifted starting point.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "An outer loop runs 3 times. Each time, it runs an inner loop that adds 1 to a variable called count, 4 times. If count starts at 0, what is count after the outer loop finishes all 3 rounds?",
+          "answer": 12,
+          "tolerance": 0,
+          "unit": "",
+          "explain": "Each outer round runs the inner loop 4 times, adding 4 to count. Over 3 outer rounds: 4 x 3 = 12.",
+          "difficulty": 4
+        }
+      ],
+      "activity": {
+        "title": "Run your own physical loop experiment: repeat, time and average",
+        "why": "Proves they can act as 'the computer' running a loop with a real counting variable, and use the looped results to calculate something real, not just recite the definition of a loop.",
+        "est_minutes": 25,
+        "adult_help": "none",
+        "materials": [
+          "stopwatch or phone timer",
+          "paper and pencil"
+        ],
+        "steps": [
+          "Choose a simple repeated action (e.g. star jumps, hopping on one foot, stacking 5 cups and knocking them down).",
+          "Start a loop counter at 0, either in your head or on paper.",
+          "Repeat the action exactly 8 times, timing each single repeat with a stopwatch, and write down each of the 8 times in seconds.",
+          "After each repeat, add 1 to your counter and say the count out loud, exactly like a loop would.",
+          "Once you have all 8 times, add them up and divide by 8 to find the mean time per repeat.",
+          "Record your total time, your mean, and your fastest repeat below."
+        ],
+        "record": [
+          {
+            "id": "total_time_s",
+            "label": "What was the total time, in seconds, for all 8 repeats added together?",
+            "type": "number",
+            "unit": "s",
+            "hint": "one decimal place",
+            "min": 1,
+            "max": 600
+          },
+          {
+            "id": "mean_time_s",
+            "label": "What was the mean time per repeat, to 1 decimal place, in seconds?",
+            "type": "number",
+            "unit": "s",
+            "hint": "one decimal place",
+            "min": 0.1,
+            "max": 100
+          },
+          {
+            "id": "fastest_time_s",
+            "label": "What was your fastest single repeat, in seconds?",
+            "type": "number",
+            "unit": "s",
+            "hint": "one decimal place",
+            "min": 0.1,
+            "max": 100
+          },
+          {
+            "id": "reflection",
+            "label": "Did your times get faster or slower as you repeated the loop more times? What do you think caused that?",
+            "type": "text",
+            "hint": "three or four sentences",
+            "min_words": 20
+          },
+          {
+            "id": "action_chosen",
+            "label": "What action did you repeat?",
+            "type": "choice",
+            "options": [
+              "Star jumps",
+              "Hopping on one foot",
+              "Stacking and knocking down cups",
+              "Something else"
+            ]
+          }
+        ],
+        "check": "The mean time should equal the total time divided by 8, and the fastest time should be less than or equal to the mean. Query it if the mean is smaller than the fastest single repeat, which isn't mathematically possible.",
+        "xp": 45
+      },
+      "kind": "lesson"
+    },
+    {
+      "slug": "y6-scams-phishing-clickbait",
+      "title": "Scams, phishing and clickbait: the pressure signals that give them away",
+      "strand": "Digital and data literacy",
+      "year_level": 6,
+      "curriculum_code": "",
+      "curriculum_text": "",
+      "position": 11,
+      "est_minutes": 13,
+      "intro": "Scammers don't need to trick a computer - they need to trick a person, fast, before you stop and think. Once you know the pressure signals, they get a lot easier to spot.",
+      "sections": [
+        {
+          "heading": "What is phishing?",
+          "body": "**Phishing** is a fake message - an email, text or chat - pretending to be from someone trustworthy, trying to trick you into giving up personal information, passwords, or money, or into clicking a dangerous link."
+        },
+        {
+          "heading": "The pressure signals",
+          "body": "Scam messages tend to use the same handful of tricks to stop you thinking too carefully:\n\n- **Urgency** - \"act in the next 10 minutes or lose your account\"\n- **Too good to be true** - \"you've won a prize you never entered\"\n- **Requests for secrecy or personal info** - asking you to keep it quiet, or to hand over a password\n- **A sender name that's slightly wrong** - close to a real one, but not quite\n- **Spelling and grammar mistakes** that a real organisation usually wouldn't make"
+        },
+        {
+          "heading": "Checking a link before you trust it",
+          "body": "The words a link shows and the real web address underneath don't always match. If a link's visible text says a familiar website, but the actual address looks different or slightly misspelled, that's a red flag. The safest move is not to click - instead, type the real address in yourself, or ask a trusted adult to check it with you."
+        },
+        {
+          "heading": "What real organisations don't do",
+          "body": "As a general rule, a genuine organisation won't ask you to send your password by message or email, and won't pressure you to act within the next few minutes. If a message is doing either of those things, treat it with suspicion."
+        }
+      ],
+      "key_points": [
+        "Phishing is a fake message trying to trick you into giving up information, money, or clicking a dangerous link.",
+        "Common pressure signals include urgency, too-good-to-be-true offers, and requests for secrecy.",
+        "A link's visible text and its real underlying address don't always match - check before clicking.",
+        "A genuine organisation won't ask you to send your password by message or email.",
+        "Several pressure signals appearing together is a strong sign a message is a scam."
+      ],
+      "try_this": "With a trusted adult, look together at an old email or message in the family inbox (a real one, or make up an example) and go through the pressure-signal checklist: is it urgent? too good to be true? asking for personal info? Does the sender look right?",
+      "questions": [
+        {
+          "type": "tf",
+          "prompt": "A message that says 'act now or lose your account in the next 10 minutes' is using urgency to pressure you.",
+          "answer": true,
+          "explain": "Creating a false sense of urgency is a classic scam tactic, meant to stop you from stopping to check whether the message is real.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "What is 'phishing'?",
+          "choices": [
+            "A fake message trying to trick you into giving up personal information or clicking a dangerous link",
+            "A type of computer virus that damages hardware",
+            "A legitimate way websites ask for your password",
+            "A way to catch real fish using an app"
+          ],
+          "answer": "A fake message trying to trick you into giving up personal information or clicking a dangerous link",
+          "explain": "Phishing messages pretend to be from someone trustworthy to trick you into handing over information or clicking something dangerous.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "A message lands in your inbox. Which detail below would actually be a warning sign that it's a scam?",
+          "choices": [
+            "It pressures you to act immediately or something bad will happen",
+            "It's from someone whose name you clearly recognise, with no rush and no requests",
+            "It arrived during normal daytime hours",
+            "It's written in plain, simple language"
+          ],
+          "answer": "It pressures you to act immediately or something bad will happen",
+          "explain": "Urgency is one of the main pressure signals scammers use to stop you from thinking it through.",
+          "difficulty": 2
+        },
+        {
+          "type": "mc",
+          "prompt": "A message says you've won a prize you never entered, and asks you to click a link and type in your password to claim it. What's the best response?",
+          "choices": [
+            "Don't click the link, and check with a trusted adult before doing anything",
+            "Click the link straight away to see what you've won",
+            "Reply asking for more details about the prize",
+            "Forward it to friends so they can check if it's real"
+          ],
+          "answer": "Don't click the link, and check with a trusted adult before doing anything",
+          "explain": "A prize you never entered, combined with a request for your password, is a classic phishing pattern - the safest move is not to click and to check with a trusted adult.",
+          "difficulty": 2
+        },
+        {
+          "type": "tf",
+          "prompt": "A message claims to be from your bank and asks you to reply with your password to 'verify your account'. Would a genuine, real bank ever actually ask for your password this way?",
+          "answer": false,
+          "explain": "Genuine organisations don't need your actual password sent to them - a request like this is a strong warning sign.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "A headline screams 'YOU WON'T BELIEVE WHAT HAPPENED NEXT!' but the article barely mentions it. What's this kind of headline called?",
+          "answer": [
+            "clickbait"
+          ],
+          "explain": "Clickbait headlines are designed to be tempting to click, even when the actual content doesn't live up to the promise.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "A message is urgent, asks for your personal details, and comes from a sender you don't recognise. What does this combination of signals suggest?",
+          "answer": [
+            "it's probably a scam",
+            "it's likely a scam",
+            "probably a scam"
+          ],
+          "explain": "The more pressure signals a message stacks together, the more likely it is to be a scam.",
+          "difficulty": 3
+        },
+        {
+          "type": "tf",
+          "prompt": "A link's visible text reads a familiar website's name, but the actual address underneath it looks different and slightly misspelled. Is that a reason to be suspicious?",
+          "answer": true,
+          "explain": "A mismatch between what a link says and where it actually leads is a common trick used in phishing messages.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A message reads: 'URGENT!! Act within 15 minutes or your account will be LOCKED forever. Congratulations - you have been chosen to recieve a $500 prize you never entered for! Just reply with your password to claim it now.' Counting from this list - urgency, too-good-to-be-true, a request for personal info, and a spelling mistake - how many separate types of pressure signal appear in this one message?",
+          "answer": 4,
+          "tolerance": 0,
+          "unit": "signals",
+          "explain": "This single message stacks urgency ('within 15 minutes'), a too-good-to-be-true prize, a direct request for a password, and a spelling mistake ('recieve') - all four signals at once, which is a very strong sign of a scam.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A link's visible text says 'www.commbank.com.au' but the real address underneath is 'www.comm-bank-secure-login.ru'. How many separate suspicious differences can you count between the visible text and the real address (extra inserted words, and a different domain ending)?",
+          "answer": 2,
+          "tolerance": 0,
+          "unit": "differences",
+          "explain": "There are two separate red flags: extra words have been inserted ('-secure-login'), and the domain ending is different ('.ru' instead of '.com.au'). Either one alone is worth checking; together they're a strong warning.",
+          "difficulty": 4
+        },
+        {
+          "type": "text",
+          "prompt": "In a scam message offering a $500 prize you never entered, which single pressure signal would be most alarming from a genuine organisation, because it directly asks for something a real organisation never requests?",
+          "answer": [
+            "password"
+          ],
+          "explain": "A genuine organisation will never ask you to send your actual password by message or email - that request alone is enough to treat the whole message as a scam.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A message claims to be from 'Telstra Suport Team' (note the misspelling), asks you to click a link to 'verify your account in the next 5 minutes', and shows link text of 'telstra.com.au' that actually leads to a jumble of random letters. How many of these 3 warning signs (misspelled sender name, urgency, mismatched link address) does this one message contain?",
+          "answer": 3,
+          "tolerance": 0,
+          "unit": "signals",
+          "explain": "All three signs are present at once: the misspelled sender name ('Suport'), the urgency ('next 5 minutes'), and the link text not matching the real destination. Multiple signals stacking together is a very strong indicator of a scam.",
+          "difficulty": 4
+        }
+      ],
+      "activity": {
+        "title": "Score three real messages from the family inbox against the pressure-signal checklist",
+        "why": "Proves they can spot and count real pressure signals in messages nobody wrote specially for this lesson, with a trusted adult checking their work.",
+        "est_minutes": 25,
+        "adult_help": "required",
+        "materials": [
+          "paper and pencil",
+          "a parent's email or message inbox, looked at together"
+        ],
+        "steps": [
+          "With a parent, open the family email or messages together and find 3 real messages - everyday ones (a receipt, a newsletter) or a genuine bit of spam if there is one. Never click any links or reply to anything.",
+          "For each message, check off which of these 5 signals appear: urgency, too-good-to-be-true, a request for personal info or a password, a sender name that looks slightly wrong, and spelling or grammar mistakes.",
+          "Count how many of the 5 signals each message has, and write a score from 0 to 5 next to each one.",
+          "Add up the total score across all 3 messages.",
+          "Pick the highest-scoring message and, with your parent, decide together what the safest response to it would have been.",
+          "Record your results below."
+        ],
+        "record": [
+          {
+            "id": "messages_checked",
+            "label": "How many messages did you check?",
+            "type": "number",
+            "unit": "",
+            "hint": "should be 3",
+            "min": 3,
+            "max": 6
+          },
+          {
+            "id": "total_signal_score",
+            "label": "What was the combined signal score across all 3 messages, out of 15?",
+            "type": "number",
+            "unit": "",
+            "hint": "whole number, 0 to 15",
+            "min": 0,
+            "max": 15
+          },
+          {
+            "id": "highest_score",
+            "label": "What was the score of your highest-scoring single message, out of 5?",
+            "type": "number",
+            "unit": "",
+            "hint": "whole number, 0 to 5",
+            "min": 0,
+            "max": 5
+          },
+          {
+            "id": "safest_response",
+            "label": "For your highest-scoring message, what did you and your parent decide the safest response would have been?",
+            "type": "text",
+            "hint": "two or three sentences",
+            "min_words": 15
+          },
+          {
+            "id": "checked_with",
+            "label": "Who did you check the inbox with?",
+            "type": "choice",
+            "options": [
+              "A parent",
+              "A carer",
+              "Another trusted adult"
+            ]
+          }
+        ],
+        "check": "The total_signal_score should equal the sum of individual scores across the 3 messages checked, and no link should have actually been clicked or replied to during this activity. Query it if it wasn't done with a parent present.",
+        "xp": 50
+      },
+      "kind": "lesson"
+    },
+    {
+      "slug": "y6-ai-chatbots-internet",
+      "title": "AI and the internet: what a chatbot actually does, why it can be confidently wrong, and how to check it",
+      "strand": "Digital and data literacy",
+      "year_level": 6,
+      "curriculum_code": "",
+      "curriculum_text": "",
+      "position": 12,
+      "est_minutes": 14,
+      "intro": "Chatbots can sound calm, confident and sure of themselves - even when they're completely wrong. Understanding roughly how they work is what lets you use them without being fooled by them.",
+      "sections": [
+        {
+          "heading": "What a chatbot is actually doing",
+          "body": "A chatbot has been trained on huge amounts of text, and it works by predicting the most likely next words to write, based on patterns it learned. It isn't looking facts up in real time the way a search engine does, and it doesn't \"know\" things the way a person does - it's generating text that fits the patterns it learned."
+        },
+        {
+          "heading": "Confident and wrong at the same time",
+          "body": "A **hallucination** is when an AI states something false as if it were completely true, with no obvious sign that it's unsure. This can include made-up facts, dates, quotes, or even sources that sound completely real but don't actually exist."
+        },
+        {
+          "heading": "Checking before you trust it",
+          "body": "Treat a chatbot's answer as a starting point, not a final answer - especially for facts, dates, numbers, or anything going into schoolwork. Check important claims against another reliable source before using them.",
+          "example": {
+            "prompt": "A chatbot tells you a historical event happened in a specific year, and you want to use that date in a school project. What should you do first?",
+            "working": [
+              "Don't assume the confident tone means it's correct",
+              "Look up the date in another reliable source, like a textbook or trusted website"
+            ],
+            "answer": "Check the date against another reliable source before using it"
+          }
+        },
+        {
+          "heading": "What chatbots are and aren't good for",
+          "body": "Chatbots can be genuinely useful for brainstorming ideas, explaining a concept in a different way, or drafting something you'll edit yourself. They're riskier for anything where getting an exact fact wrong actually matters - dates, statistics, quotes - unless you check it against another source."
+        }
+      ],
+      "key_points": [
+        "A chatbot predicts likely next words based on patterns it learned, rather than looking facts up or 'knowing' them.",
+        "A hallucination is when an AI confidently states something false as if it were true.",
+        "A confident tone is not proof that an answer is correct.",
+        "Always check important facts, dates or numbers against another reliable source.",
+        "Chatbots are useful for brainstorming and drafting, but riskier for exact facts unless you verify them."
+      ],
+      "try_this": "Ask a chatbot a question you already know the answer to (like a fact from a school topic or a family fact), and compare its answer word-for-word with what you know is true. Talk with a family member about anything it got wrong or made sound more certain than it should have.",
+      "questions": [
+        {
+          "type": "tf",
+          "prompt": "A chatbot can sometimes sound very confident while being completely wrong.",
+          "answer": true,
+          "explain": "A chatbot's tone doesn't change based on whether it's actually correct - it can state a wrong answer just as confidently as a right one.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "What should you do with an important fact a chatbot gives you before using it in schoolwork?",
+          "choices": [
+            "Check it against another reliable source",
+            "Trust it completely because it sounded confident",
+            "Assume it's wrong just because it came from a chatbot",
+            "Only use it if it's written in bold"
+          ],
+          "answer": "Check it against another reliable source",
+          "explain": "Checking important facts against another reliable source is the safest way to catch a chatbot mistake before it ends up in your work.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "A chatbot writes a reply almost instantly, without ever pausing to search the internet. Roughly how does it actually decide what to write?",
+          "choices": [
+            "It predicts likely next words based on patterns it learned from huge amounts of text",
+            "It looks every fact up on the internet in real time, like a search engine, before every reply",
+            "It phones a real person who checks each answer",
+            "It randomly guesses letters until they form real words"
+          ],
+          "answer": "It predicts likely next words based on patterns it learned from huge amounts of text",
+          "explain": "A chatbot generates text by predicting likely next words from patterns in what it was trained on, not by looking things up live.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "A chatbot states a made-up date as fact, sounding just as sure as when it's right. What's this specific behaviour called?",
+          "answer": [
+            "hallucination"
+          ],
+          "explain": "A hallucination is a confidently stated but false claim from an AI, with no obvious sign that it's unsure.",
+          "difficulty": 2
+        },
+        {
+          "type": "tf",
+          "prompt": "A chatbot answers a question in a calm, confident tone. Does that tone actually prove the answer is correct?",
+          "answer": false,
+          "explain": "Tone and accuracy aren't connected - a chatbot can sound just as confident when it's wrong as when it's right.",
+          "difficulty": 2
+        },
+        {
+          "type": "mc",
+          "prompt": "You're deciding whether to trust a chatbot's help without double-checking it. For which of these is that actually safer?",
+          "choices": [
+            "Brainstorming ideas for a story you'll write yourself",
+            "Giving you the exact date of a historical event for a school project",
+            "Telling you an exact statistic to quote as fact",
+            "Confirming a fact you plan to repeat without checking"
+          ],
+          "answer": "Brainstorming ideas for a story you'll write yourself",
+          "explain": "Brainstorming is low-stakes and creative, unlike exact facts, dates or statistics, which need checking before you rely on them.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "A chatbot gives you a specific historical date for a school project. What's the best approach before using it?",
+          "answer": [
+            "cross-check it with another source",
+            "check it against another reliable source",
+            "verify it with another source"
+          ],
+          "explain": "Checking against an independent, reliable source is the only reliable way to confirm a fact a chatbot gives you.",
+          "difficulty": 3
+        },
+        {
+          "type": "tf",
+          "prompt": "Because a chatbot is a computer program, someone argues everything it says must automatically be true. Are they right?",
+          "answer": false,
+          "explain": "Being a computer program doesn't make an output true - chatbots can and do generate confidently wrong information.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A chatbot claims: 'Population grew from 2,000 to 2,800, an increase of 50%.' Check the chatbot's own numbers: what is the ACTUAL percentage increase from 2,000 to 2,800?",
+          "answer": 40,
+          "tolerance": 0.5,
+          "unit": "%",
+          "explain": "The real increase is (2800-2000) divided by 2000 = 800/2000 = 0.4, which is 40%, not the 50% the chatbot confidently stated. Checking a claim's own arithmetic is one of the fastest ways to catch a hallucination.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A chatbot gives you 3 'facts' for a school project. You check them: fact 1 is correct, fact 2 is wrong, fact 3 is correct. What percentage of the 3 facts turned out to be accurate?",
+          "answer": 66.67,
+          "tolerance": 1,
+          "unit": "%",
+          "explain": "2 out of 3 facts checked out correctly. 2 divided by 3 = 0.6667, which is about 66.7%, meaning roughly a third of what sounded equally confident was actually wrong.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A chatbot says: 'This frog lays 100 eggs per clutch, and a female lays 4 clutches a year, giving her about 300 eggs annually.' Check the chatbot's own arithmetic: what should the annual total actually be (100 eggs x 4 clutches)?",
+          "answer": 400,
+          "tolerance": 0,
+          "unit": "eggs",
+          "explain": "100 x 4 = 400, not the 300 the chatbot stated. The individual numbers it gave (100 and 4) don't even match its own final claim, which is a clear internal inconsistency worth catching before repeating it.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "For a school project, a chatbot gave 6 total claims. 2 were brainstorming ideas (opinions, not facts), and the rest were treated as facts needing verification. Of those facts, only 3 were actually checked before the project was submitted. How many unverified 'facts' ended up in the final project?",
+          "answer": 1,
+          "tolerance": 0,
+          "unit": "facts",
+          "explain": "6 total claims minus 2 brainstorming ideas leaves 4 facts needing a check. Only 3 of those 4 were actually verified, so 1 unverified fact made it into the final project.",
+          "difficulty": 4
+        }
+      ],
+      "activity": {
+        "title": "Fact-check five chatbot claims against real books or trusted print sources",
+        "why": "Proves they can verify AI claims against independent sources and calculate real accuracy, rather than just trusting a confident-sounding answer.",
+        "est_minutes": 30,
+        "adult_help": "nearby",
+        "materials": [
+          "a chatbot, accessed briefly with a parent, just to generate 5 claims",
+          "a physical book, encyclopedia, atlas or other printed trusted source",
+          "paper and pencil"
+        ],
+        "steps": [
+          "With a parent, ask a chatbot for 5 specific factual claims about a topic you're both curious about (e.g. animal facts, historical dates, geography) and write all 5 down on paper.",
+          "Put the screen away, then check each of the 5 claims against a real book, atlas, encyclopedia or other printed trusted source at home.",
+          "Mark each claim as correct or incorrect based on what your printed source says.",
+          "Count how many of the 5 claims were correct, and work out that as a percentage.",
+          "For any claim that was wrong, write down what the printed source actually said instead.",
+          "Record your results below."
+        ],
+        "record": [
+          {
+            "id": "claims_checked",
+            "label": "How many chatbot claims did you check?",
+            "type": "number",
+            "unit": "",
+            "hint": "should be 5",
+            "min": 3,
+            "max": 8
+          },
+          {
+            "id": "correct_count",
+            "label": "How many of them were confirmed correct by your printed source?",
+            "type": "number",
+            "unit": "",
+            "hint": "whole number",
+            "min": 0,
+            "max": 8
+          },
+          {
+            "id": "accuracy_percent",
+            "label": "What percentage of the claims were correct, to the nearest whole number?",
+            "type": "number",
+            "unit": "%",
+            "hint": "whole number",
+            "min": 0,
+            "max": 100
+          },
+          {
+            "id": "wrong_claim_detail",
+            "label": "Describe one claim that turned out wrong (or say 'none were wrong' if all were correct), and what the real answer was.",
+            "type": "text",
+            "hint": "two or three sentences",
+            "min_words": 15
+          },
+          {
+            "id": "source_used",
+            "label": "What printed source did you check against?",
+            "type": "choice",
+            "options": [
+              "A book",
+              "An encyclopedia",
+              "An atlas",
+              "Another printed source"
+            ]
+          }
+        ],
+        "check": "correct_count should be no higher than claims_checked, and accuracy_percent should roughly equal correct_count divided by claims_checked as a percentage. Query it if the percentage doesn't match those two numbers.",
+        "xp": 50
+      },
+      "kind": "lesson"
+    }
+  ]
+}

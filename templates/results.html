@@ -1,0 +1,62 @@
+{% extends "base.html" %}
+{% block title %}Results{% endblock %}
+{% block content %}
+
+<h1>{{ attempt.label }}</h1>
+
+<div class="card">
+  <div class="stat-row" style="align-items:flex-end">
+    <div>
+      <div class="score">{{ attempt.score }}<span style="font-size:1.4rem;color:var(--ink-3)">/{{ attempt.total }}</span></div>
+      <div class="meta">{{ attempt.percent }}%</div>
+    </div>
+    <div><div class="stat">+{{ attempt.xp_earned }}</div><div class="meta">XP earned</div></div>
+    <div><div class="stat">{{ kid.streak }}</div><div class="meta">Day streak</div></div>
+  </div>
+  <div class="bar"><i style="width:{{ attempt.percent }}%"></i></div>
+  <p style="margin-bottom:0">
+    {% if attempt.percent == 100 %}Clean sweep. Every single one right &mdash; bonus XP added.
+    {% elif attempt.percent >= 80 %}Solid work. That counts as mastered.
+    {% elif attempt.percent >= 50 %}Good go. Read the ones you missed and have another crack.
+    {% else %}Tricky one. Go back over the lesson, then try again &mdash; nothing is lost by having another go.
+    {% endif %}
+  </p>
+</div>
+
+{% if new_badges %}
+<div class="card" style="margin-top:14px;background:var(--amber-soft);border-color:#f0d9b8">
+  <b>New badge{{ 's' if new_badges|length > 1 }}</b>
+  <div class="badgegrid" style="margin-top:10px">
+    {% for b in new_badges %}
+      <div class="badge"><span class="ic">{{ b.icon }}</span><span><b>{{ b.name }}</b><small>{{ b.description }}</small></span></div>
+    {% endfor %}
+  </div>
+</div>
+{% endif %}
+
+<h2>Every question</h2>
+{% for a in answers %}
+  <div class="card" style="margin-bottom:10px;border-left:4px solid {{ 'var(--green)' if a.correct else 'var(--red)' }}">
+    <div class="meta">{{ loop.index }} &middot; {{ a.question.lesson.title }}</div>
+    <div style="font-weight:600;margin:.35em 0">{{ a.question.prompt }}</div>
+    <div class="meta">
+      You said <b>{{ a.response or '(nothing)' }}</b>
+      {% if not a.correct %} &middot; answer: <b>{{ a.question.answer_display }}</b>{% endif %}
+    </div>
+    {% if not a.correct and a.question.explanation %}
+      <div style="margin-top:.5em">{{ a.question.explanation }}</div>
+    {% endif %}
+  </div>
+{% endfor %}
+
+<div class="inline" style="margin-top:18px">
+  {% if attempt.lesson %}
+    <form method="post" action="{{ url_for('start_quiz', slug=attempt.lesson.slug) }}">
+      <button class="btn" type="submit">Try this quiz again</button>
+    </form>
+    <a class="btn btn-ghost" href="{{ url_for('lesson', slug=attempt.lesson.slug) }}">Back to the lesson</a>
+  {% endif %}
+  <a class="btn btn-ghost" href="{{ url_for('home') }}">Home</a>
+</div>
+
+{% endblock %}

@@ -1,0 +1,661 @@
+{
+  "pack": "boss_maths",
+  "subject": "Maths",
+  "lessons": [
+    {
+      "slug": "boss-maths-y4-number",
+      "kind": "boss",
+      "title": "Boss Battle: The Mango Market Challenge",
+      "strand": "Boss challenge",
+      "year_level": 4,
+      "covers": [
+        "Number"
+      ],
+      "curriculum_code": "",
+      "curriculum_text": "",
+      "position": 99,
+      "est_minutes": 30,
+      "intro": "This is the Number boss for Year 4 - it pulls decimals, fractions, place value, rounding, patterns and mental strategies from every lesson in the strand into one tough set of problems. It's meant to be the hardest thing you've faced in Maths so far, so take your time.",
+      "sections": [
+        {
+          "heading": "Before you start",
+          "body": "This boss draws on every Number lesson in the strand: decimals and place value, odd and even numbers, equivalent fractions, counting by fractions, multiplying and dividing by 10, 100 and 1000, mental strategies, rounding and estimating, and number patterns.\n\nMany questions run a number through two or three stages - get the first stage wrong and every stage after it will be wrong too. Write your working down on paper instead of doing it all in your head.\n\nBefore you lock in an answer, check it against the story. Change from a $10 note should never be more than $10, and a rainfall total shouldn't come out negative."
+        }
+      ],
+      "key_points": [
+        "Work through a hard problem stage by stage, writing down each stage's answer before you use it in the next step.",
+        "Underline or circle the numbers in the story and what each one means, before you start calculating.",
+        "When you have a final answer, check it makes sense for the real situation - not just that the sum adds up."
+      ],
+      "try_this": "",
+      "questions": [
+        {
+          "type": "numeric",
+          "prompt": "During the wet season, the Cooktown rain gauge read 8 and 6 tenths mm on Monday. On Tuesday it read 3 and 45 hundredths mm more than Monday. Work out Tuesday's total rainfall, then round it to the nearest whole millimetre.",
+          "answer": 12,
+          "tolerance": 0,
+          "unit": "mm",
+          "explain": "Monday's reading is 8.6 mm. Adding Tuesday's extra 3.45 mm: 8.6 + 3.45 = 12.05 mm. To round to the nearest whole number, look at the tenths digit, which is 0. Since 0 is less than 5, it rounds down to 12 mm.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "At the Cooktown markets you buy 3 mangoes at $1.85 each and a bag of chillies for $1.28. You pay with a $10 note in cash, and cash payments are rounded to the nearest 5 cents. How much change do you actually receive?",
+          "answer": 3.15,
+          "tolerance": 0.001,
+          "unit": "$",
+          "explain": "3 mangoes cost 3 x $1.85 = $5.55. Adding the chillies: $5.55 + $1.28 = $6.83. Change from $10 is $10 - $6.83 = $3.17. Cash rounds to the nearest 5 cents: 17 cents is 2 cents from 15 cents but 3 cents from 20 cents, so it rounds down to $3.15.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A pattern of stacked mango crates at the roadside stall starts at 12 crates and adds 15 more crates at each new stall: 12, 27, 42 ... What is the 6th term in the pattern, rounded to the nearest 10?",
+          "answer": 90,
+          "tolerance": 0,
+          "unit": "crates",
+          "explain": "The rule is start at 12 and add 15 each time. Terms: 12, 27, 42, 57, 72, 87. The 6th term is 87. Rounding 87 to the nearest 10, the ones digit is 7, which is 5 or more, so it rounds up to 90.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A damper recipe needs 3/4 of a cup of sugar for one batch. Write 3/4 as a decimal. Then, using your knowledge of multiplying by 10, work out how many cups of sugar are needed for 10 batches for the QCWA stall.",
+          "answer": 7.5,
+          "tolerance": 0.001,
+          "unit": "cups",
+          "explain": "3/4 as a decimal is 0.75. Multiplying by 10 shifts every digit one place left: 0.75 x 10 = 7.5 cups.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "Markers along the Endeavour River walking track are placed every 1/2 km, starting at 0. Write the gap between markers as a decimal. How far from the start (as a decimal, in km) is the 7th marker?",
+          "answer": 3.5,
+          "tolerance": 0.001,
+          "unit": "km",
+          "explain": "1/2 km as a decimal is 0.5 km. The 7th marker is 7 gaps of 0.5 km from the start: 7 x 0.5 = 3.5 km, which is the mixed numeral 3 1/2 km.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "Three mango trucks arrive at the packing shed with 13, 9 and 7 crates. The packer wants to split all the crates evenly across 2 pallets, with any single leftover crate going on its own small pallet. How many crates end up on the small leftover pallet?",
+          "answer": 1,
+          "tolerance": 0,
+          "unit": "crates",
+          "explain": "13 + 9 = 22, and odd + odd = even, so 22 is even. Then 22 + 7 = 29, and even + odd = odd, so the total is odd. An odd total of crates can never be split evenly into 2 equal pallets - one crate is always left over. Checking: 29 divided into 2 groups of 14 uses 28 crates, leaving 1 crate over.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A road train carries 45 crates of mangoes, with 24 mangoes in each crate. First use an efficient strategy to find the total number of mangoes. Then, if the mangoes are repacked into bags of 100, how many mangoes are left over once you've filled as many bags of 100 as possible?",
+          "answer": 80,
+          "tolerance": 0,
+          "unit": "mangoes",
+          "explain": "Split 24 into 20 + 4: 45 x 24 = 45 x 20 + 45 x 4 = 900 + 180 = 1080 mangoes in total. Dividing by 100 shifts the digits two places right, so 1080 fills 10 full bags of 100 (1000 mangoes), leaving 80 mangoes over.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A fisho catches a barramundi weighing 3/4 kg and another weighing 1.35 kg. Write 3/4 as a decimal, then find the total weight of both fish as a decimal, in kg.",
+          "answer": 2.1,
+          "tolerance": 0.001,
+          "unit": "kg",
+          "explain": "3/4 as a decimal is 0.75. Lining up the decimal points to add: 0.75 + 1.35 = 2.10, which is the same as 2.1 kg.",
+          "difficulty": 4
+        },
+        {
+          "type": "mc",
+          "prompt": "Which of these amounts is NOT equal to $0.75?",
+          "choices": [
+            "3/4 of a dollar",
+            "75 hundredths of a dollar",
+            "7 tenths and 5 hundredths of a dollar",
+            "7/10 of a dollar"
+          ],
+          "answer": "7/10 of a dollar",
+          "explain": "3/4 of a dollar, 75 hundredths of a dollar, and 7 tenths and 5 hundredths (7 + 5 = 75 hundredths) are all equal to $0.75. But 7/10 of a dollar is $0.70, which is 5 cents less.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A wet-season rain gauge reads 6.35 mm, 9.8 mm and 4.05 mm on three separate days. Estimate the total by rounding each reading to the nearest whole millimetre and adding. Then find the exact total. What is the difference between your estimate and the exact total?",
+          "answer": 0.2,
+          "tolerance": 0.01,
+          "unit": "mm",
+          "explain": "Rounded readings: 6.35 rounds to 6, 9.8 rounds to 10, 4.05 rounds to 4. Estimate: 6 + 10 + 4 = 20 mm. Exact total: 6.35 + 9.8 + 4.05 = 20.2 mm. The difference between the estimate and the exact total is 20.2 - 20 = 0.2 mm.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "An algorithm says: start at 12. At each step, if the number is even, divide it by 2. If it's odd, add 5. Run the algorithm for 4 steps, starting from 12. What is the number after 4 steps?",
+          "answer": 4,
+          "tolerance": 0,
+          "unit": "",
+          "explain": "Step 1: 12 is even, so divide by 2: 6. Step 2: 6 is even, so divide by 2: 3. Step 3: 3 is odd, so add 5: 8. Step 4: 8 is even, so divide by 2: 4. After 4 steps, the number is 4.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "Fence posts along a mango orchard row are placed every 3/10 of a metre, starting at post 0. Write the gap between posts as a decimal. Using your knowledge of multiplying by 10, how far (as a decimal, in metres) is post number 10 from the start?",
+          "answer": 3.0,
+          "tolerance": 0.001,
+          "unit": "m",
+          "explain": "3/10 as a decimal is 0.3 m. Post 10 is 10 gaps from the start, and multiplying by 10 shifts the digit one place left: 0.3 x 10 = 3.0 m.",
+          "difficulty": 4
+        },
+        {
+          "type": "mc",
+          "prompt": "Which of these is NOT equivalent to 1 1/2?",
+          "choices": [
+            "3/2",
+            "1.5",
+            "6/4",
+            "2/2"
+          ],
+          "answer": "2/2",
+          "explain": "3/2 equals 1 1/2, 1.5 equals 1 1/2, and 6/4 simplifies to 3/2 which equals 1 1/2. But 2/2 equals exactly 1, with no extra half, so it is not equivalent.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A cane farm bundles cane stalks into groups of 1000. One paddock produces 37 bundles and another produces 24 bundles. Estimate the total number of stalks by rounding each bundle count to the nearest 10 first, then multiplying by 1000 and adding. Then work out the exact total number of stalks. What is the difference between your estimate and the exact total?",
+          "answer": 1000,
+          "tolerance": 0,
+          "unit": "stalks",
+          "explain": "Rounded bundle counts: 37 rounds to 40, 24 rounds to 20. Estimate: 40 x 1000 + 20 x 1000 = 40 000 + 20 000 = 60 000 stalks. Exact total: (37 + 24) x 1000 = 61 x 1000 = 61 000 stalks. The difference is 61 000 - 60 000 = 1000 stalks.",
+          "difficulty": 4
+        }
+      ]
+    },
+    {
+      "slug": "boss-maths-y4-measurement",
+      "kind": "boss",
+      "title": "Boss Battle: Build the Chook Pen",
+      "strand": "Boss challenge",
+      "year_level": 4,
+      "covers": [
+        "Algebra",
+        "Measurement"
+      ],
+      "curriculum_code": "",
+      "curriculum_text": "",
+      "position": 99,
+      "est_minutes": 30,
+      "intro": "This boss mixes everything you know about unknown numbers, times tables, units, perimeter, area, time and angles into tough, multi-step problems. It's built to be hard, so expect at least one step in every question that isn't spelled out for you.",
+      "sections": [
+        {
+          "heading": "Before you start",
+          "body": "This boss draws on both Algebra lessons (finding unknown values, and multiplication and division facts) and every Measurement lesson (length, mass, capacity, perimeter, area, duration and angles).\n\nSeveral questions ask you to set up a simple equation for a real measurement problem before you can solve it - write the equation down first, then work out the missing number using the inverse operation.\n\nAlways check your final answer against the picture in your head: a fence post length can't be negative, a duration can't be longer than the whole day, and an angle can't be bigger than a full turn."
+        }
+      ],
+      "key_points": [
+        "Set up the equation or conversion first, on paper, before you try to solve anything.",
+        "Do the units conversion in its own step - don't mix centimetres and metres in the same calculation.",
+        "Check your final answer is a sensible size for the real object or situation in the story."
+      ],
+      "try_this": "",
+      "questions": [
+        {
+          "type": "numeric",
+          "prompt": "A garden bed is 350 cm long and 2 m wide. Convert the length to metres, then find the total perimeter of the garden bed, in metres.",
+          "answer": 11,
+          "tolerance": 0,
+          "unit": "m",
+          "explain": "350 cm is 3.5 m, since 100 cm = 1 m. The perimeter is the sum of all four sides: 3.5 + 2 + 3.5 + 2 = 11 m.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A rectangular chook pen has two sides of 5 m each. The other two sides are equal to each other and unknown - call this length l. The total perimeter is 26 m. What is the length l, in metres?",
+          "answer": 8,
+          "tolerance": 0,
+          "unit": "m",
+          "explain": "All four sides add to the perimeter: 5 + 5 + l + l = 26. That's 10 + 2l = 26, so 2l = 16. Using the division fact 16 divided by 2, l = 8 m.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A fishing trip leaves the jetty at 6:15 am. The actual fishing lasts a certain number of minutes, followed by a 20-minute cool-down back at the jetty, and the boat arrives back at 9:35 am in total. How many minutes was the fishing part of the trip (not including the cool-down)?",
+          "answer": 180,
+          "tolerance": 0,
+          "unit": "minutes",
+          "explain": "From 6:15 am to 9:35 am is a total of 3 hours 20 minutes, which is 200 minutes. Subtracting the 20-minute cool-down leaves 200 - 20 = 180 minutes of actual fishing.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A rectangular vegie patch is 4 m long and 2.5 m wide. Every square metre needs 1.5 L of water. How many litres of water are needed to water the whole patch?",
+          "answer": 15,
+          "tolerance": 0.001,
+          "unit": "L",
+          "explain": "Area = length x width = 4 x 2.5 = 10 m². Each square metre needs 1.5 L, so the total water needed is 10 x 1.5 = 15 L.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A ceiling fan has 4 equal blades, spaced evenly around one full revolution (360°). Using multiplication or division facts, what is the angle between each blade?",
+          "answer": 90,
+          "tolerance": 0,
+          "unit": "degrees",
+          "explain": "A full revolution is 360°. Sharing it evenly between 4 blades: 360 divided by 4 = 90°.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "Dad wants exactly 1.2 L of marinade in a jug, but it currently holds 850 mL. Using the fact that 1000 mL = 1 L, how many more millilitres does he need to add?",
+          "answer": 350,
+          "tolerance": 0,
+          "unit": "mL",
+          "explain": "1.2 L is 1.2 x 1000 = 1200 mL. He needs 1200 - 850 = 350 mL more.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "Mango crates in the shed each weigh 1200 g. Convert this to kilograms. Then, using a division fact, work out how many crates make a total of 9.6 kg.",
+          "answer": 8,
+          "tolerance": 0,
+          "unit": "crates",
+          "explain": "1200 g is 1200 divided by 1000 = 1.2 kg per crate. Dividing the total by the weight of one crate: 9.6 divided by 1.2 = 8 crates.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A rectangular vegetable patch measures 5 m by 3.5 m. Fencing wire costs $6 per metre of perimeter, and topsoil costs $12 per square metre of area. What is the combined total cost of the fencing and the topsoil for this patch?",
+          "answer": 312,
+          "tolerance": 0.001,
+          "unit": "$",
+          "explain": "Perimeter = 5 + 3.5 + 5 + 3.5 = 17 m, so fencing costs 17 x $6 = $102. Area = 5 x 3.5 = 17.5 m², so topsoil costs 17.5 x $12 = $210. Total cost: $102 + $210 = $312.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A gate should open to a right angle (90°) for a wheelchair ramp. At the moment it only opens to an angle that is 35° less than a right angle. What size angle does the gate currently open to?",
+          "answer": 55,
+          "tolerance": 0,
+          "unit": "degrees",
+          "explain": "A right angle is 90°. An angle 35° less than that is 90 - 35 = 55°.",
+          "difficulty": 4
+        },
+        {
+          "type": "mc",
+          "prompt": "A rectangular dog run has a perimeter of 30 m. Its width is 6 m, and its unknown length is l. Which equation correctly matches this situation?",
+          "choices": [
+            "6 + 6 + l + l = 30",
+            "6 x l = 30",
+            "6 + l = 30",
+            "30 - 6 = l"
+          ],
+          "answer": "6 + 6 + l + l = 30",
+          "explain": "The perimeter is the total of all four sides: two widths of 6 m and two unknown lengths of l. Adding all four sides gives 6 + 6 + l + l = 30.",
+          "difficulty": 3
+        },
+        {
+          "type": "mc",
+          "prompt": "A square vegetable garden covers an area of 36 m². Which of these could be the length of one side?",
+          "choices": [
+            "36 m",
+            "6 m",
+            "18 m",
+            "4 m"
+          ],
+          "answer": "6 m",
+          "explain": "For a square, area = side x side. Testing 6 m: 6 x 6 = 36 m², which matches. None of the other options multiply by themselves to give 36.",
+          "difficulty": 3
+        },
+        {
+          "type": "text",
+          "prompt": "A ferry timetable shows departures every 45 minutes, starting at 6:00 am (the first departure counts as departure number 1). Using multiplication facts, what time does the 5th departure leave? Answer in am/pm form, like 9:00 am.",
+          "answer": [
+            "9:00 am",
+            "9:00am"
+          ],
+          "explain": "From the 1st to the 5th departure is 4 gaps of 45 minutes: 4 x 45 = 180 minutes, which is 3 hours. Adding 3 hours to 6:00 am gives 9:00 am.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A tarp is cut to exactly cover a rectangular garden bed. The bed's length is 500 cm. Its width, in metres, is unknown - call it w. The perimeter of the bed is 17 m. Convert the length to metres, then find w.",
+          "answer": 3.5,
+          "tolerance": 0.001,
+          "unit": "m",
+          "explain": "500 cm is 5 m. The perimeter equation is 5 + 5 + w + w = 17, so 10 + 2w = 17, meaning 2w = 7, so w = 3.5 m.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A gate needs to open to an angle that is double the size of a right angle, minus 15°. What size is this angle?",
+          "answer": 165,
+          "tolerance": 0,
+          "unit": "degrees",
+          "explain": "A right angle is 90°, so double a right angle is 2 x 90 = 180°. Taking away 15° gives 180 - 15 = 165°.",
+          "difficulty": 4
+        }
+      ]
+    },
+    {
+      "slug": "boss-maths-y6-number",
+      "kind": "boss",
+      "title": "Boss Battle: Dollars, Decimals and Discounts",
+      "strand": "Boss challenge",
+      "year_level": 6,
+      "covers": [
+        "Number"
+      ],
+      "curriculum_code": "",
+      "curriculum_text": "",
+      "position": 99,
+      "est_minutes": 30,
+      "intro": "This is the Year 6 Number boss - integers, fractions, decimals, percentages, primes and squares, all combined into real Far North Queensland problems. Expect several connected steps in every question, and remember that one wrong step early on throws off everything after it.",
+      "sections": [
+        {
+          "heading": "Before you start",
+          "body": "This boss pulls together every Number lesson in the Year 6 strand: integers, primes and squares, fraction equivalence, decimal addition and subtraction, adding and subtracting fractions, decimals and powers of ten, percentages and discounts, and mathematical modelling.\n\nSeveral questions carry a number through two or three stages - a discount, then a further discount, then a final price - so keep your working visible on paper rather than trying to hold it all in your head.\n\nAfter each stage, pause and check the number still makes sense before you use it in the next step. A sale price should never end up bigger than the original price."
+        }
+      ],
+      "key_points": [
+        "Break the problem into stages and write down the result of each stage before moving to the next.",
+        "Watch your signs carefully with integers - a debt or a drop in temperature is a negative number.",
+        "Check your final answer is a sensible size and sign for the real situation described."
+      ],
+      "try_this": "",
+      "questions": [
+        {
+          "type": "numeric",
+          "prompt": "Jack's fishing kit account starts at -$15 (he owes $15). He earns $40 selling mud crabs, then spends $12 on bait. What is his final balance?",
+          "answer": 13,
+          "tolerance": 0.001,
+          "unit": "$",
+          "explain": "Start at -15. Earning $40: -15 + 40 = 25. Spending $12 on bait: 25 - 12 = 13. His final balance is $13.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A dinghy motor costs $650. During the wet-season sale it's discounted 15%, and then the shop takes a further $20 off for paying cash. What is the final cash price?",
+          "answer": 532.5,
+          "tolerance": 0.001,
+          "unit": "$",
+          "explain": "10% of $650 is $65, and 5% is half of that, $32.50. So 15% = $65 + $32.50 = $97.50. The sale price is $650 - $97.50 = $552.50. Taking off the further $20 cash discount: $552.50 - $20 = $532.50.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "Fuel costs $1.92 per litre. During a promotion the price is reduced by 10%, then a further 5 cents per litre is taken off for paying cash. What is the final cash price per litre, to the nearest cent?",
+          "answer": 1.68,
+          "tolerance": 0.001,
+          "unit": "$",
+          "explain": "10% of $1.92 is $0.192. The reduced price is $1.92 - $0.192 = $1.728. Taking off a further 5 cents: $1.728 - $0.05 = $1.678, which rounds to $1.68 to the nearest cent.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "On a fishing trip, Sam eats 1/2 of the sandwiches and Priya eats 1/6 of the sandwiches. What fraction of the sandwiches is left? Give your answer as a decimal, rounded to 2 decimal places.",
+          "answer": 0.33,
+          "tolerance": 0.005,
+          "unit": "",
+          "explain": "Using a common denominator of 6: 1/2 = 3/6 and 1/6 stays as 1/6. Together they ate 3/6 + 1/6 = 4/6 = 2/3 of the sandwiches. That leaves 1/3, which as a decimal is 0.333..., rounding to 0.33.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "Diesel costs $1.85 per litre. A tank holds 1000 L. Using your knowledge of multiplying decimals by 1000, what is the cost to fill the tank? If the servo then adds a $25 delivery fee, what is the total cost?",
+          "answer": 1875,
+          "tolerance": 0.001,
+          "unit": "$",
+          "explain": "Multiplying by 1000 shifts every digit three places left: $1.85 x 1000 = $1850. Adding the $25 delivery fee: $1850 + $25 = $1875.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A mango grower has 150 seedlings. She plants as many as possible into a perfect square grid, and the rest go into pots. How many are left over for pots? Each potted seedling needs 20% more water per week than a grid seedling, which needs 300 mL per week. What is the total weekly water needed for all the potted seedlings, in mL?",
+          "answer": 2160,
+          "tolerance": 0.001,
+          "unit": "mL",
+          "explain": "The largest square number up to 150 is 144 (12 x 12), since the next square, 169 (13 x 13), is too big. That leaves 150 - 144 = 6 seedlings for pots. Each potted seedling needs 20% more than 300 mL: 10% of 300 is 30, so 20% is 60, giving 300 + 60 = 360 mL each. For all 6 potted seedlings: 6 x 360 = 2160 mL.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "At 6 am the temperature in the hills behind Cooktown was -2.5°C during a rare cold snap. By midday it had risen 14.8°C. What was the midday temperature?",
+          "answer": 12.3,
+          "tolerance": 0.001,
+          "unit": "°C",
+          "explain": "Starting at -2.5°C and rising 14.8°C: -2.5 + 14.8 = 12.3°C.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A barramundi fillet that feeds 3/4 of the family's dinner requirement costs $18. At the same rate, how much would the full requirement (all of it) cost?",
+          "answer": 24,
+          "tolerance": 0.001,
+          "unit": "$",
+          "explain": "3/4 of the requirement costs $18, so 1/4 costs 18 divided by 3 = $6. The full requirement (4/4) costs 4 x $6 = $24.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A number is prime, and it is greater than 90 and less than 100. As a percentage of 100, what is this number?",
+          "answer": 97,
+          "tolerance": 0,
+          "unit": "%",
+          "explain": "Checking the numbers between 90 and 100: 91 = 7x13, 92, 93 = 3x31, 94, 95, 96, 98, 99 = 9x11 are all composite, and 97 divides evenly only by 1 and 97. So 97 is the prime number, which as a percentage of 100 is 97%.",
+          "difficulty": 3
+        },
+        {
+          "type": "mc",
+          "prompt": "A $2400 tinny is discounted 15% during the wet-season sale, and then a further flat $50 loyalty discount is applied for paying by card. Which of these is the correct order of steps to find the final price?",
+          "choices": [
+            "Take $50 off first, then 15% off the reduced price",
+            "Take 15% off first, then $50 off the discounted price",
+            "Add 15% and $50 together, then subtract once",
+            "Take 15% off the $50 only"
+          ],
+          "answer": "Take 15% off first, then $50 off the discounted price",
+          "explain": "The 15% sale discount applies to the original price first, giving a sale price. The $50 loyalty discount is then taken off that already-discounted price, not off the original price.",
+          "difficulty": 3
+        },
+        {
+          "type": "mc",
+          "prompt": "A submarine drone starts at the surface (depth 0). It dives 45 m, then rises 18 m to check a coral shelf, then dives a further 30 m to record fish. Which integer expression matches its final depth?",
+          "choices": [
+            "-45 + 18 - 30",
+            "-45 - 18 + 30",
+            "45 + 18 - 30",
+            "-45 + 18 + 30"
+          ],
+          "answer": "-45 + 18 - 30",
+          "explain": "Diving is a negative change in depth and rising is a positive change. Starting at 0: dive 45 m is -45, rise 18 m is +18, dive a further 30 m is -30. The matching expression is -45 + 18 - 30.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "Diesel is $1.85 per litre. A ute's tank takes 68.2 L to fill from empty. First estimate the cost by rounding the price to $2 and the litres to 70, then multiplying. Then calculate the exact cost. What is the exact cost, to the nearest cent?",
+          "answer": 126.17,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "The rough estimate is 2 x 70 = $140, which tells you the exact answer should be somewhere near there. The exact cost is 68.2 x 1.85 = $126.17.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A fundraiser recipe needs 3/4 of a cup of flour plus 1/8 of a cup of sugar per batch. Combine these to find the total dry mix per batch, as a decimal. For 100 batches, using your knowledge of multiplying decimals by 100, how many cups of dry mix are needed in total?",
+          "answer": 87.5,
+          "tolerance": 0.001,
+          "unit": "cups",
+          "explain": "Using a common denominator of 8: 3/4 = 6/8, so 6/8 + 1/8 = 7/8 per batch, which is 0.875 as a decimal. Multiplying by 100 shifts the digits two places left: 0.875 x 100 = 87.5 cups.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A family's road-trip budget is $250. They spend 40% of it on fuel, and a further $35.50 on food. How much money do they have left?",
+          "answer": 114.5,
+          "tolerance": 0.001,
+          "unit": "$",
+          "explain": "40% of $250 is $100 (10% is $25, so 40% is 4 x $25 = $100). Total spent: $100 + $35.50 = $135.50. Money left: $250 - $135.50 = $114.50.",
+          "difficulty": 4
+        }
+      ]
+    },
+    {
+      "slug": "boss-maths-y6-measurement",
+      "kind": "boss",
+      "title": "Boss Battle: Master of Time, Angles and Area",
+      "strand": "Boss challenge",
+      "year_level": 6,
+      "covers": [
+        "Algebra",
+        "Measurement"
+      ],
+      "curriculum_code": "",
+      "curriculum_text": "",
+      "position": 99,
+      "est_minutes": 30,
+      "intro": "This boss combines growing patterns, equations, metric conversions, area, timetables and angles into the hardest problems in the app. Work through each stage on paper and check that your final answer actually makes sense for the situation.",
+      "sections": [
+        {
+          "heading": "Before you start",
+          "body": "This boss draws on both Algebra lessons (growing number patterns, and equations with brackets) and every Measurement lesson in Year 6: metric conversions, the area of a rectangle, timetables and durations, and angles on a line, at a point and vertically opposite.\n\nSome questions ask you to solve an equation to find a measurement, then convert it to a different unit - treat these as separate stages and don't rush between them. Others ask you to extend a growing pattern of times or angles.\n\nAlways sanity-check your final answer: a length shouldn't come out negative, and an angle shouldn't be bigger than a full turn (360°)."
+        }
+      ],
+      "key_points": [
+        "Write the equation down before you try to solve it, and solve it in stages using inverse operations.",
+        "Keep unit conversions as their own separate step, clearly labelled, rather than mixing units mid-calculation.",
+        "For a pattern of times or angles, list out each term rather than guessing ahead."
+      ],
+      "try_this": "",
+      "questions": [
+        {
+          "type": "numeric",
+          "prompt": "A rectangular chicken run is 350 cm long and 2.4 m wide. Convert the length to metres, then find the area, in square metres.",
+          "answer": 8.4,
+          "tolerance": 0.001,
+          "unit": "m²",
+          "explain": "350 cm converts to 3.5 m. Area = length x width = 3.5 x 2.4 = 8.4 m².",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A rectangular deck is being extended. Its width is 4 m. Its length is described by the expression (n + 3) metres, where n is unknown. If the total area of the deck is 40 m², find n.",
+          "answer": 7,
+          "tolerance": 0,
+          "unit": "",
+          "explain": "The area equation is 4 x (n + 3) = 40. Undoing the x4 first: (n + 3) = 10. Undoing the +3: n = 7.",
+          "difficulty": 4
+        },
+        {
+          "type": "text",
+          "prompt": "A ferry departs Cooktown at 07:00 (24-hour time), and every following departure is 50 minutes after the one before it - a growing pattern of departure times. What is the 5th departure time, in 24-hour time? (The 07:00 departure counts as the 1st.)",
+          "answer": [
+            "10:20"
+          ],
+          "explain": "From the 1st to the 5th departure is 4 gaps of 50 minutes: 4 x 50 = 200 minutes, which is 3 hours 20 minutes. Adding this to 07:00 gives 10:20.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "Two angles sit next to each other on a straight line. One angle is (2 x n)° and the other is 40°. Since angles on a straight line add to 180°, find n.",
+          "answer": 70,
+          "tolerance": 0,
+          "unit": "",
+          "explain": "Angles on a straight line add to 180°, so 2n + 40 = 180. Undoing the +40: 2n = 140. Undoing the x2: n = 70.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "At a point, three angles are arranged in a growing pattern: the first is 40°, and each following angle is 20° more than the one before it. A fourth angle completes a full turn around that point (360° total). What is the size of the fourth angle?",
+          "answer": 180,
+          "tolerance": 0,
+          "unit": "degrees",
+          "explain": "The pattern of the first three angles is 40°, 60°, 80° (each 20° more than the last). These three add to 40 + 60 + 80 = 180°. Since all the angles at a point add to 360°, the fourth angle is 360 - 180 = 180°.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A fuel drum holds v litres, where v satisfies the equation 4 x (v - 5) = 60. First solve for v to find how many litres the drum holds. Then convert that amount to millilitres.",
+          "answer": 20000,
+          "tolerance": 0,
+          "unit": "mL",
+          "explain": "Undoing the x4: (v - 5) = 15. Undoing the -5: v = 20 L. Converting to millilitres: 20 x 1000 = 20 000 mL.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A rectangular shed roof measures 420 cm by 3.6 m. Convert both measurements to metres, then calculate how many square metres of roofing iron are needed.",
+          "answer": 15.12,
+          "tolerance": 0.001,
+          "unit": "m²",
+          "explain": "420 cm converts to 4.2 m. Area = 4.2 x 3.6 = 15.12 m².",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A water tank's fill level follows a growing pattern: it starts at 120 L and gains 45 L for every hour it rains. After 6 hours of rain, how many litres are in the tank? Give your answer in kilolitres (1 kL = 1000 L).",
+          "answer": 0.39,
+          "tolerance": 0.001,
+          "unit": "kL",
+          "explain": "After 6 hours: 120 + 45 x 6 = 120 + 270 = 390 L. Converting to kilolitres: 390 divided by 1000 = 0.39 kL.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A road train travels 220 km in 2 hours 45 minutes. Convert the time to hours as a decimal, then calculate the average speed in km/h.",
+          "answer": 80,
+          "tolerance": 0.001,
+          "unit": "km/h",
+          "explain": "2 hours 45 minutes is 2 + 45/60 = 2.75 hours. Average speed = distance divided by time = 220 divided by 2.75 = 80 km/h.",
+          "difficulty": 4
+        },
+        {
+          "type": "mc",
+          "prompt": "Two straight roads cross, forming four angles. One angle is (3 x n)° and its vertically opposite angle is 60°. Which equation correctly represents this?",
+          "choices": [
+            "3n = 60",
+            "3n = 120",
+            "3n + 60 = 180",
+            "n = 60 - 3"
+          ],
+          "answer": "3n = 60",
+          "explain": "Vertically opposite angles, formed when two lines cross, are always equal. So (3 x n)° must equal 60°, giving the equation 3n = 60.",
+          "difficulty": 3
+        },
+        {
+          "type": "mc",
+          "prompt": "A bus timetable shows a growing pattern of departures: 06:00, 06:40, 07:20, 08:00 ... Which rule best describes this pattern?",
+          "choices": [
+            "Add 40 minutes each time",
+            "Add 45 minutes each time",
+            "Double the previous time",
+            "Add 1 hour each time"
+          ],
+          "answer": "Add 40 minutes each time",
+          "explain": "From 06:00 to 06:40 is 40 minutes, from 06:40 to 07:20 is 40 minutes, and from 07:20 to 08:00 is 40 minutes. The gap is always 40 minutes.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A garden path is being extended in a growing pattern: stage 1 uses 2 paving slabs, and each new stage adds 3 more slabs than the last. Each slab covers 0.5 m². What is the total area covered after 4 stages?",
+          "answer": 5.5,
+          "tolerance": 0.001,
+          "unit": "m²",
+          "explain": "The pattern of slabs is 2, 5, 8, 11 (adding 3 each time), so stage 4 uses 11 slabs. Each slab covers 0.5 m², so the total area is 11 x 0.5 = 5.5 m².",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A rectangular room's floor has a width of 2.5 m. Its length l, in metres, satisfies the equation 2.5 x l = 11.25 (the area in m²). Find l, then convert your answer to centimetres.",
+          "answer": 450,
+          "tolerance": 0,
+          "unit": "cm",
+          "explain": "Undoing the x2.5: l = 11.25 divided by 2.5 = 4.5 m. Converting to centimetres: 4.5 x 100 = 450 cm.",
+          "difficulty": 4
+        },
+        {
+          "type": "text",
+          "prompt": "A ferry does one full round trip (cross the river, wait, cross back) starting at 14:20 (24-hour time). Each crossing takes 55 minutes, with a 20-minute wait in between before heading back. Each new round trip starts 30 minutes after the previous round trip finishes. What time does the 3rd round trip finish? Answer in 24-hour time, like 16:30.",
+          "answer": [
+            "21:50"
+          ],
+          "explain": "One round trip takes 55 + 20 + 55 = 130 minutes (2 hours 10 minutes). Trip 1: 14:20 + 2:10 = 16:30 finish. Trip 2 starts 30 minutes later at 17:00, finishing at 17:00 + 2:10 = 19:10. Trip 3 starts 30 minutes later at 19:40, finishing at 19:40 + 2:10 = 21:50.",
+          "difficulty": 4
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{% extends "base.html" %}
+{% block title %}{{ kid.name }}'s Quest Lab{% endblock %}
+{% block content %}
+
+<h1>Gidday {{ kid.name }}</h1>
+<p class="sub">Year {{ kid.year_level }} &middot; keep the streak going.</p>
+
+<div class="card">
+  <div class="stat-row">
+    <div><div class="stat">{{ kid.level }}</div><div class="meta">Level</div></div>
+    <div><div class="stat">{{ kid.xp }}</div><div class="meta">XP</div></div>
+    <div><div class="stat">{{ kid.streak }}</div><div class="meta">Day streak</div></div>
+    <div><div class="stat">{{ badges|length }}</div><div class="meta">Badges</div></div>
+  </div>
+  <div class="bar"><i style="width:{{ (kid.xp_into_level / 250 * 100)|round }}%"></i></div>
+  <div class="meta">{{ 250 - kid.xp_into_level }} XP to level {{ kid.level + 1 }}</div>
+</div>
+
+<h2>Your subjects</h2>
+<div class="grid grid-3">
+  {% for c in cards %}
+  <div class="card">
+    <div class="inline" style="justify-content:space-between">
+      <b>{{ c.subject }}</b>
+      <span class="pill pill-grey">{{ c.done }}/{{ c.total }}</span>
+    </div>
+    <div class="bar {{ 'amber' if c.subject == 'Science' else ('violet' if c.subject == 'Practical' else '') }}">
+      <i style="width:{{ c.percent }}%"></i>
+    </div>
+    <div class="meta">{{ c.percent }}% mastered</div>
+    <div class="inline" style="margin-top:12px">
+      <a class="btn" href="{{ url_for('learn', subject=c.subject) }}">Lessons</a>
+      <form method="post" action="{{ url_for('start_mix') }}">
+        <input type="hidden" name="subject" value="{{ c.subject }}">
+        <button class="btn btn-ghost" type="submit">Quick mix</button>
+      </form>
+    </div>
+  </div>
+  {% endfor %}
+</div>
+
+{% if waiting %}
+<h2>Jobs to do</h2>
+<p class="sub">Quiz done on these — the activity is what's left.</p>
+{% for w in waiting %}
+  <a class="lessonrow practising" href="{{ url_for('activity', slug=w.lesson.slug) }}">
+    <span class="n">{{ w.lesson.activity.est_minutes }}'</span>
+    <span class="t">
+      <b>{{ w.lesson.activity.title }}</b>
+      <span class="meta">{{ w.lesson.title }} &middot; {{ w.lesson.activity.xp }} XP</span>
+    </span>
+    {% if w.status == 'submitted' %}<span class="pill pill-violet">Being checked</span>
+    {% elif w.status == 'returned' %}<span class="pill pill-amber">Sent back</span>
+    {% else %}<span class="pill pill-grey">To do</span>{% endif %}
+  </a>
+{% endfor %}
+{% endif %}
+
+{% if bosses_open %}
+<h2>Boss challenge unlocked</h2>
+{% for row in boss_rows if row.unlocked and not row.beaten %}
+  <a class="lessonrow" href="{{ url_for('bosses') }}">
+    <span class="n">!</span>
+    <span class="t"><b>{{ row.boss.title }}</b><span class="meta">{{ row.boss.subject }} &middot; {{ row.boss.questions|length }} hard questions</span></span>
+    <span class="meta">Take it on &rarr;</span>
+  </a>
+{% endfor %}
+{% endif %}
+
+{% if up_next %}
+<h2>Up next</h2>
+{% for lesson in up_next %}
+  <a class="lessonrow" href="{{ url_for('lesson', slug=lesson.slug) }}">
+    <span class="n">{{ lesson.subject[0] }}</span>
+    <span class="t"><b>{{ lesson.title }}</b><span class="meta">{{ lesson.strand }} &middot; about {{ lesson.est_minutes }} min</span></span>
+    <span class="meta">Start &rarr;</span>
+  </a>
+{% endfor %}
+{% endif %}
+
+{% if recent %}
+<h2>Recently finished</h2>
+<div class="card">
+  <table>
+    <tr><th>Quiz</th><th>Score</th><th>XP</th></tr>
+    {% for a in recent %}
+    <tr>
+      <td>{{ a.label or 'Quiz' }}</td>
+      <td>
+        {% if a.total %}<b>{{ a.score }}/{{ a.total }}</b> <span class="meta">({{ a.percent }}%)</span>
+        {% else %}<span class="pill pill-green">Signed off</span>{% endif %}
+      </td>
+      <td>+{{ a.xp_earned }}</td>
+    </tr>
+    {% endfor %}
+  </table>
+</div>
+{% endif %}
+
+<h2>Badges</h2>
+{% set earned = badges|map(attribute='badge_id')|list %}
+<div class="badgegrid">
+  {% for b in all_badges %}
+  <div class="badge {{ '' if b.id in earned else 'locked' }}">
+    <span class="ic">{{ b.icon }}</span>
+    <span><b>{{ b.name }}</b><small>{{ b.description }}</small></span>
+  </div>
+  {% endfor %}
+</div>
+
+{% endblock %}

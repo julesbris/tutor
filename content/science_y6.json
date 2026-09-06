@@ -1,0 +1,2387 @@
+{
+  "pack": "science_y6",
+  "subject": "Science",
+  "lessons": [
+    {
+      "slug": "y6-habitat-physical-conditions",
+      "title": "Habitats: the physical conditions that decide who survives",
+      "strand": "Biological sciences",
+      "year_level": 6,
+      "curriculum_code": "AC9S6U01",
+      "curriculum_text": "investigate the physical conditions of a habitat and analyse how the growth and survival of living things is affected by changing physical conditions",
+      "position": 1,
+      "est_minutes": 14,
+      "intro": "A habitat is more than a place on a map - it's a set of physical conditions an organism needs to stay alive. Change those conditions enough, and even a healthy population can crash. You live somewhere those conditions are dramatic, so you've already seen this happen.",
+      "sections": [
+        {
+          "heading": "A habitat is a set of conditions, not just a spot",
+          "body": "When scientists describe a habitat, they're really describing a list of measurable physical conditions: temperature range, how much water is available, how much light reaches in, how salty the water is, how much oxygen is dissolved in it, and what the soil or seabed is made of.\n\nEvery living thing has a range it can cope with for each of these conditions. Inside that range it grows and reproduces normally. Near the edges of the range it survives but struggles. Outside the range, it dies. This is true for a mango tree in your backyard just as much as it is for a fish on the reef."
+        },
+        {
+          "heading": "The reef: a habitat with a narrow temperature window",
+          "body": "The Great Barrier Reef sits offshore from Cooktown, and reef-building corals are a good example of how narrow a tolerance range can be. Corals grow well in a fairly tight band of water temperature - warm enough to be tropical, but not much warmer than the normal summer maximum for that reef.\n\nWhen sea surface temperature stays even 1-2 degrees above the usual summer high for several weeks, corals come under heat stress. Prolonged marine heatwaves are the direct cause of mass coral bleaching events on the Great Barrier Reef, including several since 2016. The temperature itself didn't change the coral's genetics - it pushed the physical condition outside the range the coral can handle.",
+          "example": {
+            "prompt": "A coral species grows well between 23 and 29 degrees Celsius. One February, the water near the reef sits at 31 degrees Celsius for three weeks straight. What would you expect to happen to the coral, and why?",
+            "working": [
+              "31 degrees is above the coral's normal range of 23-29 degrees",
+              "the change lasted weeks, not just a hot afternoon, so it's sustained stress",
+              "sustained heat stress is the known trigger for coral bleaching"
+            ],
+            "answer": "The coral is likely to bleach because the water has been outside its tolerance range for a sustained period."
+          }
+        },
+        {
+          "heading": "Mangroves and mudflats: conditions that change every six hours",
+          "body": "Walk along the Endeavour River at low tide and you'll see mangroves standing in exposed, salty mud. Come back six hours later and that same mud is underwater. Mangrove habitats have physical conditions that swing hard, twice a day: salinity, water depth and oxygen in the mud all change with the tide.\n\nMost plants would die in waterlogged, salty mud - roots need oxygen, and salt draws water out of plant cells. Mangroves survive because their whole habitat is built around tolerating that swing, not because the swing doesn't affect them. A king tide, a prolonged drought that raises mud salinity, or dumped fill that blocks tidal flow can still push conditions past what even a mangrove can cope with."
+        },
+        {
+          "heading": "Wet season, dry season, and the rainforest",
+          "body": "Far North Queensland doesn't really have four seasons - it has a wet season and a dry season, and that single physical condition (how much water is available) drives almost everything about growth and survival here.\n\nCassowaries need rainforest that fruits reliably through the year. A severe cyclone can strip fruiting trees bare in a single night, and it can take those trees months or years to fruit again. That's not a change in the cassowary - it's a sudden change in a physical condition (food availability, itself driven by the storm) that the population then has to survive through."
+        },
+        {
+          "heading": "Humans change physical conditions too",
+          "body": "Clearing rainforest, damming a creek, or paving over a wetland all change physical conditions directly - less shade means higher temperatures, less water flow means lower oxygen in a creek, less canopy means more light hitting the forest floor. None of these change an animal's biology. They change the environment the animal's biology has to cope with.\n\nThis is why scientists monitoring a habitat measure the physical conditions themselves - temperature loggers on the reef, rain gauges, salinity meters - rather than just counting animals. The count tells you the result. The conditions tell you the cause."
+        }
+      ],
+      "key_points": [
+        "A habitat is defined by physical conditions - temperature, water, light, salinity, oxygen, soil - not just a location.",
+        "Every species has a tolerance range for each condition: fine inside it, struggling near the edges, dying outside it.",
+        "Coral bleaching is triggered by sea temperature staying above the coral's normal range for a sustained period.",
+        "Mangrove habitats swing in salinity and water level every tide cycle, and mangroves are adapted to survive that swing.",
+        "Rapid change to a physical condition - a marine heatwave, a cyclone stripping food trees - can outpace what a population can survive."
+      ],
+      "try_this": "Set up a simple test with cress or bean seeds. Put damp cotton wool or paper towel in three small containers (yoghurt cups work). Keep one on a sunny windowsill, one in a dim cupboard, and one in the fridge. Water them the same amount each day. After five days, compare how much each has grown. You've just changed one physical condition (light or temperature) and watched it affect growth - exactly what scientists do on the reef, just slower.",
+      "questions": [
+        {
+          "type": "tf",
+          "prompt": "A habitat is really just the location where an animal lives, and its physical conditions don't matter much to survival.",
+          "answer": false,
+          "explain": "A habitat is defined by its physical conditions - temperature, water, light, salinity and more. Those conditions decide whether a species can survive there at all, so they matter enormously.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "Which of these is a physical condition of a habitat, as scientists use the term?",
+          "choices": [
+            "The number of other animals of the same species nearby",
+            "The water temperature",
+            "How friendly the local community is",
+            "The name given to the area on a map"
+          ],
+          "answer": "The water temperature",
+          "explain": "Physical conditions are measurable features of the environment - temperature, water availability, light, salinity, oxygen and soil type. A place's name or its population size are not physical conditions.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "A coral species grows best between 23 and 29 degrees Celsius. Sea temperature near the reef sits at 30.5 degrees Celsius for six weeks straight during a marine heatwave. What is the most likely outcome for this coral?",
+          "choices": [
+            "Nothing changes, because 30.5 is close enough to 29",
+            "It grows faster, because warmer water always helps corals",
+            "It comes under heat stress and may bleach",
+            "It changes its own tolerance range to match the new temperature"
+          ],
+          "answer": "It comes under heat stress and may bleach",
+          "explain": "30.5 degrees is above the coral's upper limit of 29, and six weeks counts as sustained stress rather than a brief spike - exactly what triggers bleaching.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "Sustained heat stress causes coral to expel the algae living in its tissue, losing its colour and its main energy source. What is this process called?",
+          "answer": [
+            "bleaching",
+            "coral bleaching"
+          ],
+          "explain": "This is called bleaching. The coral isn't dead yet, but it has lost its main food supply and is at serious risk if the heat stress continues.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "A mangrove mudflat is exposed at low tide and covered by water at high tide, with two high tides and two low tides in roughly a 24-hour period. Roughly how many hours pass between one low tide and the next?",
+          "answer": 12,
+          "tolerance": 1,
+          "unit": "hours",
+          "explain": "With two high and two low tides in about 24 hours, each full cycle from low to low (or high to high) takes roughly 12 hours.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "Most garden plants can only tolerate mud with a salinity reading up to about 5 units. Mangrove mudflat mud measures a salinity reading of about 30 units. Roughly how many times saltier is the mangrove mud than the limit most garden plants can survive?",
+          "answer": 6,
+          "tolerance": 1,
+          "unit": "times",
+          "explain": "30 divided by 5 is 6 - the mangrove mud is roughly six times saltier than most garden plants can tolerate, which is why ordinary plants can't survive there even though mangroves can.",
+          "difficulty": 3
+        },
+        {
+          "type": "tf",
+          "prompt": "A severe cyclone that strips fruit from rainforest trees can hurt cassowary survival even though the storm never touches a single cassowary directly.",
+          "answer": true,
+          "explain": "The cyclone changes a physical condition of the habitat - available food - and cassowaries then have to survive that change, even though the storm didn't touch them physically.",
+          "difficulty": 2
+        },
+        {
+          "type": "mc",
+          "prompt": "A team studying a river's health carefully measures water temperature, salinity and rainfall with instruments every week, rather than just counting fish once a year. What is the main advantage of measuring the physical conditions as well?",
+          "choices": [
+            "Counting fish is illegal in national parks",
+            "Measuring conditions is easier than counting animals",
+            "The conditions can reveal the cause of a change, while a fish count only shows the result",
+            "Animal counts are always inaccurate"
+          ],
+          "answer": "The conditions can reveal the cause of a change, while a fish count only shows the result",
+          "explain": "A falling fish count tells you something changed, but measuring conditions - like a drought lowering water flow - tells you what actually caused the change.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A reef monitoring buoy near a coral colony that tolerates up to 29 degrees Celsius records this year's summer sea-temperature maximum at 27.8 degrees Celsius. Scientists say the summer maximum at that site has been rising by about 0.2 degrees Celsius per year. If that trend continues unchanged, in how many years from now would the summer maximum first reach the coral's 29 degree upper limit?",
+          "answer": 6,
+          "tolerance": 0.5,
+          "unit": "years",
+          "explain": "The gap to close is 29 - 27.8 = 1.2 degrees. Rising at 0.2 degrees per year, that takes 1.2 ÷ 0.2 = 6 years. This is the same kind of reasoning marine scientists use to project when a reef's temperature will regularly cross a coral's tolerance limit.",
+          "difficulty": 4
+        },
+        {
+          "type": "text",
+          "prompt": "A tourism operator says a patch of coral only bleached because a boat anchor scraped it, and insists temperature had nothing to do with it. A scientist checks the buoy logs and finds the water sat at 31 degrees Celsius, well above that coral's 23-29 degree range, for four weeks before the bleaching was reported. Based on this evidence, which physical condition should the scientist point to as the real driver of the bleaching?",
+          "answer": [
+            "temperature",
+            "sea temperature",
+            "water temperature",
+            "ocean temperature"
+          ],
+          "explain": "Physical evidence - four weeks of sustained heat above the coral's known tolerance range - is a far stronger explanation than an unrelated one-off anchor strike. This is exactly why scientists check measured conditions before accepting a claimed cause.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A mangrove species can tolerate soil-water salinity up to 55 parts per thousand (normal seawater is about 35 parts per thousand). During a prolonged drought, evaporation concentrates the mud water so its salinity rises by about 4 parts per thousand every month, starting from the normal 35. After how many months of drought would the salinity first pass the mangrove's 55 parts-per-thousand tolerance limit?",
+          "answer": 5,
+          "tolerance": 0.5,
+          "unit": "months",
+          "explain": "The gap to close is 55 - 35 = 20 parts per thousand. Rising at 4 parts per thousand a month, that takes 20 ÷ 4 = 5 months. A drought that drags on this long can push even a salt-tolerant mangrove past the physical condition it's adapted for.",
+          "difficulty": 4
+        },
+        {
+          "type": "mc",
+          "prompt": "A severe cyclone strips fruiting trees bare across a cassowary's rainforest territory in March. Fruiting trees typically take about eight months to fruit heavily again. Rangers monitor the cassowary population's body condition every month. Which outcome is the best prediction, and why might it not show up straight away in March?",
+          "choices": [
+            "Body condition crashes immediately in March, because the cyclone directly injures the birds",
+            "Body condition stays roughly normal for a while, then drops later as stored reserves and remaining food run low before the trees fruit again",
+            "Body condition improves immediately, because storms bring more food",
+            "Nothing changes at all, because cassowaries don't rely on fruiting trees"
+          ],
+          "answer": "Body condition stays roughly normal for a while, then drops later as stored reserves and remaining food run low before the trees fruit again",
+          "explain": "The cyclone doesn't harm the birds directly - it removes a physical/food condition (fruit availability) they depend on. Body condition often only worsens weeks or months later, once existing food supplies and body reserves are used up, well before the trees can fruit again.",
+          "difficulty": 4
+        }
+      ],
+      "activity": {
+        "title": "Race the evaporation: sun vs shade water loss",
+        "why": "Shows they can measure a real physical condition (water availability) changing over days, rather than just reading about it - the same kind of monitoring reef and mangrove scientists actually do.",
+        "est_minutes": 25,
+        "adult_help": "none",
+        "materials": [
+          "2 identical shallow containers (e.g. takeaway containers or saucers)",
+          "water",
+          "a ruler or a permanent marker",
+          "a sunny spot outside",
+          "a shaded spot outside"
+        ],
+        "steps": [
+          "Fill both containers with water to exactly the same depth, and mark the starting water level on the inside of each with a marker or by measuring with a ruler.",
+          "Place one container in a sunny, exposed spot and the other in a shady spot, at the same time of day.",
+          "Leave both undisturbed for 24 hours, then measure how many millimetres the water level dropped in each.",
+          "Top both back up to the original mark and repeat the 24-hour measurement for two more days, so you have 3 days of readings for each container.",
+          "Work out the average daily drop in millimetres for the sunny container and for the shaded container.",
+          "Record your averages and how you measured them below."
+        ],
+        "record": [
+          {
+            "id": "sun_evap_mm",
+            "label": "Average daily water-level drop in the sunny container, in millimetres (average of 3 days)",
+            "type": "number",
+            "unit": "mm",
+            "min": 0.5,
+            "max": 30
+          },
+          {
+            "id": "shade_evap_mm",
+            "label": "Average daily water-level drop in the shaded container, in millimetres (average of 3 days)",
+            "type": "number",
+            "unit": "mm",
+            "min": 0,
+            "max": 20
+          },
+          {
+            "id": "days_run",
+            "label": "How many days did you actually run the test for?",
+            "type": "number",
+            "min": 3,
+            "max": 7
+          },
+          {
+            "id": "method",
+            "label": "How did you measure the water-level drop?",
+            "type": "choice",
+            "options": [
+              "Ruler against the side",
+              "Marked line with a permanent marker",
+              "Measuring cup poured back in",
+              "Something else"
+            ]
+          },
+          {
+            "id": "prediction",
+            "label": "If the dry season this year ran a whole extra month longer than usual, what do you think would happen to a small waterhole's depth and how salty or muddy it gets, based on what you saw in your test? Explain your reasoning.",
+            "type": "text",
+            "min_words": 20
+          }
+        ],
+        "check": "A good result shows the sunny container losing noticeably more water per day than the shaded one - if they're close to equal, check the sunny spot really was in direct sun all day. The written prediction should connect the test to a real waterhole drying out, not just restate the numbers.",
+        "xp": 45
+      },
+      "kind": "lesson"
+    },
+    {
+      "slug": "y6-adaptations-and-tolerance-ranges",
+      "title": "Adaptations and tolerance ranges: why here, not there",
+      "strand": "Biological sciences",
+      "year_level": 6,
+      "curriculum_code": "AC9S6U01",
+      "curriculum_text": "investigate the physical conditions of a habitat and analyse how the growth and survival of living things is affected by changing physical conditions",
+      "position": 2,
+      "est_minutes": 14,
+      "intro": "Two closely related animals can live a few hundred kilometres apart and never swap places - one thrives where the other would die within days. That's not random. It comes down to adaptations that set each species' tolerance range.",
+      "sections": [
+        {
+          "heading": "Optimum, struggling, and dead: three zones of a tolerance range",
+          "body": "For any physical condition - temperature is the easiest to picture - a species has an optimum zone where it grows and breeds best, wider zones on either side where it survives but is stressed, and hard limits beyond which it cannot survive at all.\n\nAn adaptation is a feature, shaped by natural selection over many generations, that widens or shifts that tolerance range in a way that suits where the species actually lives. Adaptations don't make an animal tougher in general - they make it specifically better suited to a particular set of conditions, often at the cost of being worse suited to others."
+        },
+        {
+          "heading": "Saltwater crocodiles: built for the tropics, not the cold",
+          "body": "Saltwater crocodiles range along the coasts and rivers of far northern Australia, including the estuaries around Cooktown, but they don't extend much further south than the central Queensland coast. Crocodiles are ectothermic - they don't generate their own body heat internally the way you do, so their body temperature tracks the environment. That's an adaptation that saves huge amounts of energy compared to being warm-blooded, which is why crocodiles can go long stretches between meals.\n\nThe trade-off is a tolerance range with a hard lower limit. In cooler southern waters, a crocodile's body temperature would drop too low too often for it to digest food, move quickly, or breed successfully. The adaptation that makes crocodiles so efficient in the tropics is the same one that locks them out of cooler regions."
+        },
+        {
+          "heading": "Coral and its algae: a tight optimum, not a tough one",
+          "body": "Reef corals host microscopic algae, called zooxanthellae, living inside their tissue. The algae photosynthesise and pass most of that energy to the coral - it's how corals get the bulk of their food. This partnership is a powerful adaptation, but it comes with a narrow, finely tuned temperature optimum, because the algae's chemistry is sensitive to heat.\n\nThat's why corals aren't simply \"weak\" - their adaptation is a trade for efficiency in stable, warm, clear tropical water, not for toughness against change. A species built for a narrow, reliable optimum will always struggle more when conditions shift than a species built for a wide, forgiving range."
+        },
+        {
+          "heading": "Cassowaries: locked to the rainforest",
+          "body": "Southern cassowaries live in the wet tropical rainforests of far north Queensland and nowhere else in Australia. Their diet depends heavily on rainforest fruit that isn't available in cleared paddocks or open woodland, and their large bodies overheat without dense forest shade. Put a cassowary in open savanna and every one of those adaptations becomes a liability instead of an advantage - which is exactly why land clearing is such a direct threat to the species."
+        },
+        {
+          "heading": "Cultural fire and the tolerance ranges of a whole landscape",
+          "body": "Traditional Owners across northern Australia, including the Guugu Yimithirr people whose Country takes in Cooktown, have long managed the seasonal timing of fire on Country - burning patches of grass and woodland early in the dry season, when conditions are cooler and fires stay low and patchy, rather than letting fuel build up until the late dry season when fires burn hot and uncontrolled.\n\nThis matters directly to tolerance ranges. A cool, patchy early burn stays within the range many plants and animals can survive - some eucalypts even need periodic fire to release their seeds. A hot, late-season wildfire pushes temperature and fuel intensity well past what the same ecosystem can tolerate, killing plants that a cool burn would have left standing. Managing fire is, in effect, managing which physical conditions a landscape experiences."
+        }
+      ],
+      "key_points": [
+        "A tolerance range has an optimum zone, stressed zones either side, and hard limits beyond which survival is impossible.",
+        "An adaptation shifts or narrows a tolerance range to suit a species' usual conditions - it's a trade-off, not general toughness.",
+        "Saltwater crocodiles are ectothermic, which is efficient in the tropics but sets a hard lower temperature limit further south.",
+        "Coral's algae partnership gives it huge energy efficiency but only within a narrow temperature optimum.",
+        "Traditional Owner cultural burning manages the intensity of fire so it stays within what a landscape can tolerate, rather than building up fuel for an uncontrolled late-season fire."
+      ],
+      "try_this": "Test a tolerance range yourself. Put a few dried beans or chickpeas on damp paper towel in three snap-lock bags or containers: one in the fridge, one on a warm windowsill, and one in a hot spot like near (not on) a sunny car dashboard tray or hot windowsill. Check each day for five days. Which conditions sit inside the beans' tolerance range for germinating, and which are outside it?",
+      "questions": [
+        {
+          "type": "mc",
+          "prompt": "What does an adaptation actually do to a species' tolerance range?",
+          "choices": [
+            "It makes the species tolerant of every possible condition",
+            "It shifts or narrows the range to suit the conditions the species usually lives in",
+            "It has no effect on tolerance range at all",
+            "It only affects tolerance range for one generation"
+          ],
+          "answer": "It shifts or narrows the range to suit the conditions the species usually lives in",
+          "explain": "Adaptations are shaped by natural selection to fit a species to its usual environment. That often means a narrower, more specific range rather than a wider one - a trade-off, not a universal toughness upgrade.",
+          "difficulty": 1
+        },
+        {
+          "type": "tf",
+          "prompt": "Being ectothermic (not generating your own body heat) is a disadvantage in every environment.",
+          "answer": false,
+          "explain": "Ectothermy is a real advantage in warm, stable environments like the tropics - it saves huge amounts of energy. It only becomes a disadvantage where temperatures regularly drop too low, which is why saltwater crocodiles aren't found much further south.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "Saltwater crocodiles don't range much further south than central Queensland. As ectotherms, why does cooler southern water set this limit?",
+          "choices": [
+            "There isn't enough water for them further south",
+            "Their body temperature drops too low in cooler water to digest food or move efficiently",
+            "They are hunted more heavily in the south",
+            "Crocodiles cannot swim in cooler water at all"
+          ],
+          "answer": "Their body temperature drops too low in cooler water to digest food or move efficiently",
+          "explain": "Crocodiles rely on the environment for body heat. South of the tropics, water temperatures regularly fall below what lets a crocodile function well, so their tolerance range runs out.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "Reef corals host microscopic algae in their tissue that photosynthesise and pass most of that energy to the coral, giving it most of its food. What is this algae called?",
+          "answer": [
+            "zooxanthellae"
+          ],
+          "explain": "Zooxanthellae are the photosynthetic algae partnered with coral - this partnership is also why coral has such a narrow, heat-sensitive temperature optimum.",
+          "difficulty": 2
+        },
+        {
+          "type": "mc",
+          "prompt": "A cassowary is moved from dense rainforest into open, cleared farmland. Which is the most accurate prediction of what happens?",
+          "choices": [
+            "It will do equally well, because cassowaries can eat any plant",
+            "It will likely struggle, since its diet and heat tolerance are adapted to rainforest fruit and shade",
+            "It will instantly adapt to grassland within days",
+            "Cleared farmland is actually a better habitat for cassowaries"
+          ],
+          "answer": "It will likely struggle, since its diet and heat tolerance are adapted to rainforest fruit and shade",
+          "explain": "A cassowary's adaptations - a fruit-heavy diet and reliance on forest shade to avoid overheating - are specific to rainforest. Removing the rainforest removes the conditions those adaptations depend on.",
+          "difficulty": 2
+        },
+        {
+          "type": "tf",
+          "prompt": "A cool, patchy fire lit early in the dry season generally stays within the fire tolerance range of more plants and animals than a hot, late-season wildfire.",
+          "answer": true,
+          "explain": "Early dry-season conditions are cooler and less fuel has built up, so fires stay lower-intensity and patchy. A late-season fire burns hotter, pushing intensity past what many species can survive.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "Traditional Owners across northern Australia deliberately burn grass and woodland early in the dry season, while conditions are cool, so fire stays low and patchy instead of building up fuel for a hot late-season blaze. What is this seasonally-timed practice called?",
+          "answer": [
+            "cultural burning",
+            "cultural fire",
+            "traditional burning"
+          ],
+          "explain": "This deliberate, seasonally-timed practice is called cultural burning - it keeps fire intensity within what the landscape and its plants and animals can tolerate.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A plant grows best between 20 and 28 degrees Celsius, survives but is stressed between 14-20 and 28-34 degrees, and dies outside 14-34 degrees. At 32 degrees Celsius, how many degrees above the top of its optimum zone is it?",
+          "answer": 4,
+          "tolerance": 0.5,
+          "unit": "degrees Celsius",
+          "explain": "The optimum zone tops out at 28 degrees. 32 minus 28 is 4 degrees above the optimum - inside the stressed-but-surviving zone, since the hard upper limit is 34.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A saltwater crocodile's body temperature is 24 degrees Celsius at dawn. Basking in the sun raises its body temperature by about 1.5 degrees Celsius every 10 minutes. It needs to reach 28 degrees Celsius before it can digest food efficiently. About how many minutes of basking would it need, to the nearest minute?",
+          "answer": 27,
+          "tolerance": 3,
+          "unit": "minutes",
+          "explain": "It needs to rise 28 - 24 = 4 degrees. At 1.5 degrees per 10 minutes, that's 4 ÷ 1.5 = 2.67 lots of 10 minutes, or about 27 minutes. This is the everyday cost of being ectothermic: warming up takes active behaviour (basking), not just existing.",
+          "difficulty": 4
+        },
+        {
+          "type": "text",
+          "prompt": "A patch of woodland hasn't been deliberately burned in 15 years, so dry leaf litter and fallen branches have built up heavily on the ground. Fire managers warn that when this patch eventually burns - by lightning or accident - it will burn far hotter and less patchily than a typical early dry-season cultural burn would. What is the general term for this built-up dry plant material that fuels an intense fire?",
+          "answer": [
+            "fuel load",
+            "fuel",
+            "fine fuel",
+            "ground fuel"
+          ],
+          "explain": "Fuel load is the amount of burnable material available. Regular cool burns keep fuel load low and patchy; letting it build up for years is exactly what turns an eventual fire into one hot and intense enough to push past what many plants and animals can tolerate.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A healthy coral colony gets about 500 energy units per day in total, with 90% coming from its zooxanthellae algae and the rest from catching tiny prey directly. If the coral bleaches and expels all its algae, how many energy units per day can it still get from catching prey alone?",
+          "answer": 50,
+          "tolerance": 5,
+          "unit": "energy units",
+          "explain": "90% of 500 units comes from the algae, leaving 10%, or 50 units, from direct feeding. That's why bleached coral isn't dead immediately but is in serious trouble - it has lost the vast majority of its usual energy supply.",
+          "difficulty": 4
+        },
+        {
+          "type": "mc",
+          "prompt": "Saltwater crocodiles don't currently range much further south than central Queensland because their ectothermic bodies can't function well once water gets consistently too cool. If average river temperatures in southern Queensland slowly rise over coming decades, which is the best-supported prediction?",
+          "choices": [
+            "No change at all, because crocodile range is permanently fixed regardless of temperature",
+            "Crocodiles could potentially extend further south, as the cool-temperature limit that currently blocks them shifts southward too",
+            "Crocodiles would move further north instead, away from any warming",
+            "Crocodiles would stop being ectothermic in response to warmer water"
+          ],
+          "answer": "Crocodiles could potentially extend further south, as the cool-temperature limit that currently blocks them shifts southward too",
+          "explain": "The current southern limit exists because water gets too cool there for an ectotherm to function well. If warming shifts that cool-limit line further south, the range a crocodile can tolerate would be expected to shift with it - the same tolerance-range logic used throughout this lesson, just applied to a change over time.",
+          "difficulty": 4
+        }
+      ],
+      "activity": {
+        "title": "Test a mangrove-style salt tolerance range with seedlings",
+        "why": "Shows they can actually measure a tolerance range (not just describe one) by comparing germination and growth across different salt concentrations, the same physical condition that shapes mangrove habitats.",
+        "est_minutes": 25,
+        "adult_help": "none",
+        "materials": [
+          "15 cress, mustard or bean seeds",
+          "3 small cups or containers",
+          "cotton wool or paper towel",
+          "table salt",
+          "water",
+          "a ruler",
+          "labels or a marker"
+        ],
+        "steps": [
+          "Label three cups: Plain, Low salt, High salt.",
+          "Line each cup with damp cotton wool or paper towel. For Low salt, mix a quarter teaspoon of salt into the water before dampening it; for High salt, use a full teaspoon of salt in the same amount of water; for Plain, use no salt.",
+          "Place 5 seeds in each cup, spaced apart, and keep all three cups in the same warm, lit spot.",
+          "Check every day for 5 days, keeping the cotton wool damp with the same salt mixture used at the start for each cup.",
+          "On day 5, count how many seeds germinated in each cup and measure the height of the tallest seedling in each cup, in millimetres.",
+          "Record your counts and measurements below."
+        ],
+        "record": [
+          {
+            "id": "germinated_plain",
+            "label": "Number of seeds germinated out of 5, in the Plain cup",
+            "type": "number",
+            "min": 0,
+            "max": 5
+          },
+          {
+            "id": "germinated_high_salt",
+            "label": "Number of seeds germinated out of 5, in the High salt cup",
+            "type": "number",
+            "min": 0,
+            "max": 5
+          },
+          {
+            "id": "tallest_seedling_mm",
+            "label": "Height of the tallest seedling you measured, across any cup, in millimetres",
+            "type": "number",
+            "unit": "mm",
+            "min": 0,
+            "max": 120
+          },
+          {
+            "id": "seed_type",
+            "label": "What seeds did you use?",
+            "type": "choice",
+            "options": [
+              "Cress",
+              "Mustard",
+              "Bean",
+              "Something else"
+            ]
+          },
+          {
+            "id": "tolerance_conclusion",
+            "label": "Which salt level came closest to stopping germination completely, and does that match the idea that mangroves are adapted to tolerate salt levels most ordinary plants can't? Explain in 2-3 sentences.",
+            "type": "text",
+            "min_words": 20
+          }
+        ],
+        "check": "A good result shows germination and seedling height dropping as salt increases - the High salt cup should do clearly worse than Plain. If High salt did just as well as Plain, check the salt was actually mixed evenly into the water each time.",
+        "xp": 45
+      },
+      "kind": "lesson"
+    },
+    {
+      "slug": "y6-earth-rotation-tilt-seasons",
+      "title": "Spin, tilt and orbit: why the seasons work the way they do",
+      "strand": "Earth and space",
+      "year_level": 6,
+      "curriculum_code": "AC9S6U02",
+      "curriculum_text": "explain how the relative positions of the Earth, sun and moon affect phenomena on Earth",
+      "position": 3,
+      "est_minutes": 15,
+      "intro": "A lot of people get seasons wrong - they think Earth is closer to the Sun in summer. It isn't. The real explanation is about angles and tilt, and it's also the reason your wet and dry seasons in Cooktown look nothing like the four seasons you read about in books written for southern states.",
+      "sections": [
+        {
+          "heading": "Rotation gives you day and night",
+          "body": "Earth spins on its axis once roughly every 24 hours. The half facing the Sun has daytime; the half facing away has night. That's it - rotation alone explains the daily cycle, and it has nothing to do with the seasons."
+        },
+        {
+          "heading": "It's the tilt, not the distance",
+          "body": "Earth's axis is tilted at about 23.4 degrees relative to its orbit around the Sun. As Earth travels its year-long orbit, that tilt stays pointing the same direction in space - so for half the year the Northern Hemisphere leans toward the Sun, and for the other half the Southern Hemisphere leans toward the Sun.\n\nEarth's orbit is very close to circular, so the distance to the Sun barely changes across the year - it is not the reason for seasons. What changes is the angle sunlight hits a given latitude, and how many daylight hours that latitude gets. When your hemisphere leans toward the Sun, sunlight lands more directly and days are longer, so more energy arrives - that's summer. When your hemisphere leans away, sunlight lands at a shallower angle spread over more ground, and days are shorter - that's winter."
+        },
+        {
+          "heading": "Why Cooktown barely notices the tilt, and Hobart really does",
+          "body": "The strength of that tilt effect depends on latitude. Near the equator, the Sun stays close to overhead all year, so day length and sunlight angle barely change - which is why Cooktown, at around 15 degrees south, has only a small swing in temperature and daylight hours across the year. Further south, at higher latitudes like Hobart, the tilt effect is much stronger: day length swings from short winter days to long summer days, and temperatures swing with it.\n\nThis is exactly why the \"four seasons\" model - a cold winter, a hot summer, and two mild seasons between - describes southern Australia reasonably well, but doesn't fit the tropics. In the tropics, temperature stays fairly steady year-round, and the dominant seasonal change is rainfall, not temperature."
+        },
+        {
+          "heading": "The wet season is a tilt effect too",
+          "body": "As Earth orbits, the point where the Sun sits directly overhead at noon shifts back and forth between the Tropic of Cancer and the Tropic of Capricorn over the year - a direct result of the axial tilt. That shifting overhead sun drags a band of intense heating, rising air and heavy rain (the monsoon trough) north and south with it.\n\nWhen the overhead sun point moves south towards the Tropic of Capricorn in the Southern Hemisphere summer, that rain band moves over far north Queensland, bringing the wet season - hot, humid, and the peak of cyclone risk, roughly December to March. When the overhead point sits well north in the middle of the year, the rain band follows it away, and Cooktown gets its dry season. So the wet and dry seasons you experience trace back to the same axial tilt that gives Hobart its warm and cold seasons - it just shows up as a rainfall swing near the equator instead of a temperature swing."
+        },
+        {
+          "heading": "Reading the year without a calendar",
+          "body": "Long before printed calendars, Aboriginal peoples across Australia - including Traditional Owners in the Cooktown region - tracked the year through careful, repeated observation: which plants were flowering or fruiting, how animals were behaving, which winds were blowing, and how the weather was shifting. Many Aboriginal seasonal calendars recognise more than the four seasons taught in most textbooks, because they're built from real local indicators rather than fixed dates - a genuinely scientific approach, refined over an enormous span of time and still actively used today."
+        }
+      ],
+      "key_points": [
+        "Earth's rotation (about 24 hours) causes day and night; it has nothing to do with the seasons.",
+        "Seasons are caused by Earth's axial tilt (about 23.4 degrees), not by changing distance from the Sun - Earth's orbit is nearly circular.",
+        "Tilt changes the angle of sunlight and the length of daylight at a given latitude across the year.",
+        "Near the equator the tilt effect is weak, so temperature barely changes; further from the equator it's strong, giving four clear seasons.",
+        "The tropical wet and dry seasons happen because the same axial tilt shifts the monsoon rain band north and south with the overhead Sun, and Aboriginal seasonal calendars are built from direct, long-term observation of local plants, animals, wind and weather, often recognising more than four seasons."
+      ],
+      "try_this": "Use a torch and a ball (an orange or a soccer ball works) in a dark room. Mark a small dot near the ball's \"equator\" for Cooktown and another dot much higher up for Hobart. Tilt the ball slightly and shine the torch flat across it, then slowly turn it. Watch how the light hits the Hobart dot at a much more sloped angle at different points in the turn, while the Cooktown dot stays lit almost the same each time. That's the seasonal tilt effect in miniature.",
+      "questions": [
+        {
+          "type": "mc",
+          "prompt": "What actually causes day and night on Earth?",
+          "choices": [
+            "Earth's tilt",
+            "Earth's rotation on its axis",
+            "Earth's distance from the Sun changing",
+            "The Moon blocking the Sun"
+          ],
+          "answer": "Earth's rotation on its axis",
+          "explain": "Rotation - Earth spinning once roughly every 24 hours - is what causes day and night. Tilt and orbit are involved in seasons, not the daily cycle.",
+          "difficulty": 1
+        },
+        {
+          "type": "tf",
+          "prompt": "Earth has seasons because it is closer to the Sun in summer and further away in winter.",
+          "answer": false,
+          "explain": "This is a very common misconception. Earth's orbit is nearly circular, so distance from the Sun barely changes across the year. Seasons are caused by Earth's axial tilt changing the angle of sunlight and day length.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "Which measurement best explains why Earth has seasons?",
+          "choices": [
+            "Earth's distance from the Sun",
+            "Earth's axial tilt of about 23.4 degrees",
+            "The Moon's distance from Earth",
+            "How fast Earth spins"
+          ],
+          "answer": "Earth's axial tilt of about 23.4 degrees",
+          "explain": "The consistent tilt of Earth's axis, combined with its yearly orbit, means each hemisphere leans toward the Sun for part of the year and away for the other part - that's what drives the seasons.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "A band of rising air and heavy rain shifts north and south each year, following the point where the Sun sits directly overhead, bringing far north Queensland its wet season when it moves south. What is this rain band called?",
+          "answer": [
+            "monsoon trough",
+            "monsoon"
+          ],
+          "explain": "This is the monsoon trough. It's dragged south toward the tropics during the Southern Hemisphere summer, bringing the wet season and cyclone risk to places like Cooktown.",
+          "difficulty": 2
+        },
+        {
+          "type": "mc",
+          "prompt": "Why does Cooktown experience a much smaller temperature swing across the year than a city like Hobart?",
+          "choices": [
+            "Cooktown has no seasons at all",
+            "Cooktown is closer to the Sun in winter",
+            "Near the equator, sunlight angle and day length change far less across the year than at higher latitudes",
+            "Hobart spins faster than Cooktown"
+          ],
+          "answer": "Near the equator, sunlight angle and day length change far less across the year than at higher latitudes",
+          "explain": "The tilt effect is weakest near the equator and strongest towards the poles, which is why Cooktown's year is dominated by a rainfall swing rather than the big temperature swing Hobart experiences.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "Earth's axial tilt is approximately 23.4 degrees. A diagram shows Hobart's noon sun angle shifting by close to double that amount between mid-winter and mid-summer. Roughly how many degrees would that shift be?",
+          "answer": 46.8,
+          "tolerance": 3,
+          "unit": "degrees",
+          "explain": "The noon sun angle at a given latitude swings by roughly twice the axial tilt between the two solstices, since the hemisphere goes from leaning fully away to leaning fully toward the Sun - about 46.8 degrees for a 23.4 degree tilt.",
+          "difficulty": 3
+        },
+        {
+          "type": "tf",
+          "prompt": "Cooktown's wet season, roughly December to March, is linked to the same axial tilt that gives Hobart its summer and winter.",
+          "answer": true,
+          "explain": "The tilt shifts the point where the Sun sits overhead between the tropics, dragging the monsoon rain band with it. That same underlying tilt effect shows up as a rainfall swing in the tropics and a temperature swing further south.",
+          "difficulty": 2
+        },
+        {
+          "type": "mc",
+          "prompt": "Many Aboriginal seasonal calendars describe the year very differently from the standard four-season model taught in most textbooks. What makes them different?",
+          "choices": [
+            "They are based on guesswork rather than observation",
+            "They are built from direct, long-term observation of local plants, animals, wind and weather, and often include more than four seasons",
+            "They only apply to one single fixed date range every year",
+            "They were invented recently to replace scientific weather forecasting"
+          ],
+          "answer": "They are built from direct, long-term observation of local plants, animals, wind and weather, and often include more than four seasons",
+          "explain": "Aboriginal seasonal calendars come from careful, repeated observation of real local indicators over a long span of time, rather than fixed calendar dates, which is why they often describe more than four seasons.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "At the December solstice, Hobart (about 43°S) gets roughly 15 hours of daylight while Cooktown (about 15°S) gets roughly 13 hours. By the June solstice, Hobart's daylight drops to about 9 hours, while Cooktown's only drops to about 11 hours. How many times bigger is Hobart's swing in daylight hours across the year compared to Cooktown's swing?",
+          "answer": 3,
+          "tolerance": 0.3,
+          "explain": "Hobart's swing is 15 - 9 = 6 hours. Cooktown's swing is 13 - 11 = 2 hours. 6 ÷ 2 = 3, so Hobart's daylight swings three times as much across the year - a direct result of the tilt effect being much stronger away from the equator.",
+          "difficulty": 4
+        },
+        {
+          "type": "text",
+          "prompt": "Earth's axial tilt is about 23.4 degrees. To the nearest whole degree, this is also the latitude of a named line where the Sun sits directly overhead at midday on the December solstice - the Southern Hemisphere's summer solstice. What is the name of that line of latitude?",
+          "answer": [
+            "Tropic of Capricorn",
+            "tropic of capricorn"
+          ],
+          "explain": "The overhead sun point can only ever swing as far as the axial tilt allows - about 23.4 degrees either side of the equator. On the December solstice it reaches its southernmost point, the Tropic of Capricorn, which is also roughly the latitude of towns like Rockhampton.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "The overhead sun point shifts from the Tropic of Cancer to the Tropic of Capricorn (a swing of about 46.8 degrees of latitude) over roughly 182 days, half of the year. On average, about how many degrees of latitude does the overhead point shift per day, to two decimal places?",
+          "answer": 0.26,
+          "tolerance": 0.03,
+          "unit": "degrees per day",
+          "explain": "46.8 degrees spread over 182 days is 46.8 ÷ 182 ≈ 0.26 degrees per day. That slow daily drift is what drags the monsoon trough - and the wet season - north and south with it over the year.",
+          "difficulty": 4
+        },
+        {
+          "type": "mc",
+          "prompt": "Cooktown's wet season typically peaks in February-March, about two months after the December solstice when the overhead sun reaches its southernmost point. Which explanation best accounts for this lag, rather than the wet season peaking right on the solstice itself?",
+          "choices": [
+            "The ocean and atmosphere take time to fully heat up and build the monsoon pattern, similar to how the hottest part of the day comes hours after solar noon, not right at it",
+            "The wet season lag proves the tilt explanation for seasons must be wrong",
+            "The axial tilt temporarily reverses direction in January",
+            "There is actually no lag, and rainfall peaks exactly on the solstice every year"
+          ],
+          "answer": "The ocean and atmosphere take time to fully heat up and build the monsoon pattern, similar to how the hottest part of the day comes hours after solar noon, not right at it",
+          "explain": "Systems with thermal mass - oceans, the atmosphere, even a room heated by the sun - respond to peak input with a delay, because they take time to absorb and build up energy. That's the same reason the hottest time of day is mid-afternoon, hours after the sun is highest at solar noon, not at noon itself.",
+          "difficulty": 4
+        }
+      ],
+      "activity": {
+        "title": "Track your shadow through the day",
+        "why": "Shows they can collect real, repeated measurements that demonstrate how the sun's height in the sky changes through a single day - the daily version of the tilt effect they've been learning about.",
+        "est_minutes": 30,
+        "adult_help": "nearby",
+        "materials": [
+          "a straight stick or broom handle",
+          "a sunny, flat outdoor spot",
+          "a tape measure or ruler",
+          "chalk or a stone to mark the base",
+          "paper and pencil"
+        ],
+        "steps": [
+          "Choose a flat, open spot in full sun and stand the stick upright in the ground, marking its base with chalk or a stone so you return to the exact same spot each time.",
+          "At about 9am, measure the length of the stick's shadow in centimetres and note the time.",
+          "At about midday (12-1pm), measure the shadow length again from the same stick in the same spot.",
+          "At about 3pm, measure the shadow length a third time.",
+          "Note which direction the midday shadow pointed.",
+          "Compare your three measurements and work out which time of day had the shortest shadow."
+        ],
+        "record": [
+          {
+            "id": "shadow_morning_cm",
+            "label": "Shadow length at your morning measurement (about 9am), in centimetres",
+            "type": "number",
+            "unit": "cm",
+            "min": 5,
+            "max": 300
+          },
+          {
+            "id": "shadow_midday_cm",
+            "label": "Shadow length at your midday measurement, in centimetres",
+            "type": "number",
+            "unit": "cm",
+            "min": 0,
+            "max": 250
+          },
+          {
+            "id": "shadow_afternoon_cm",
+            "label": "Shadow length at your afternoon measurement (about 3pm), in centimetres",
+            "type": "number",
+            "unit": "cm",
+            "min": 5,
+            "max": 300
+          },
+          {
+            "id": "midday_direction",
+            "label": "Which direction did the midday shadow point?",
+            "type": "choice",
+            "options": [
+              "North",
+              "South",
+              "East",
+              "West"
+            ]
+          },
+          {
+            "id": "explain_pattern",
+            "label": "Which measurement had the shortest shadow, and what does that tell you about how high the sun was in the sky at that time compared to morning and afternoon?",
+            "type": "text",
+            "min_words": 15
+          }
+        ],
+        "check": "The midday shadow should usually be the shortest of the three, showing the sun was highest in the sky around then. If the morning or afternoon shadow was shortest instead, check the stick was actually vertical and the measurements were taken close to the stated times.",
+        "xp": 45
+      },
+      "kind": "lesson"
+    },
+    {
+      "slug": "y6-moon-phases-eclipses-tides",
+      "title": "The Moon: phases, eclipses and the tides outside your door",
+      "strand": "Earth and space",
+      "year_level": 6,
+      "curriculum_code": "AC9S6U02",
+      "curriculum_text": "explain how the relative positions of the Earth, sun and moon affect phenomena on Earth",
+      "position": 4,
+      "est_minutes": 15,
+      "intro": "The Moon does three things that reach right into daily life in Cooktown: it changes shape in the sky over about a month, it occasionally lines up for an eclipse, and it drags the ocean up and down the Endeavour River twice a day. All three come from the same simple fact - the Moon is orbiting Earth.",
+      "sections": [
+        {
+          "heading": "Phases: it's about angle, not shadow",
+          "body": "The Moon doesn't produce its own light - we see it because sunlight reflects off it. Half of the Moon is always lit by the Sun, just like half of Earth always has daytime. As the Moon orbits Earth roughly every 27.3 days, we see different amounts of that sunlit half depending on the angle between the Sun, the Moon and us.\n\nAt new moon, the sunlit half faces away from us. At full moon, we're looking almost straight at the sunlit half. In between, we see a growing or shrinking sliver - the phases. It takes about 29.5 days to go from one new moon to the next (slightly longer than the orbit itself, because Earth has also moved along its own orbit in that time). A common mistake is thinking phases are Earth's shadow on the Moon - that's actually what causes an eclipse, a completely different and much rarer event."
+        },
+        {
+          "heading": "Eclipses: a precise, rare alignment",
+          "body": "A solar eclipse happens when the Moon passes directly between the Sun and Earth, so the Moon's shadow falls on part of Earth - this can only happen at new moon. A lunar eclipse happens when Earth passes directly between the Sun and the Moon, so Earth's shadow falls on the Moon - this can only happen at full moon.\n\nEclipses don't happen every single new moon and full moon, though, because the Moon's orbit is tilted about 5 degrees compared to Earth's orbit around the Sun. Most months, the Moon passes slightly above or below the direct line, so no shadow falls where it needs to. Only when a new or full moon coincides with the Moon crossing that tilted plane do you get an eclipse."
+        },
+        {
+          "heading": "Tides: the Moon pulling on the ocean",
+          "body": "The Moon's gravity pulls on Earth, and it pulls a little harder on the ocean water facing the Moon than on the solid Earth beneath it - stretching the ocean into a bulge on the near side, with a second bulge forming on the far side for related reasons. As Earth rotates underneath these two bulges roughly once a day, a fixed point like Cooktown Harbour passes through a bulge (high tide) and a trough (low tide) twice each day - a semi-diurnal tide pattern.\n\nThe Sun also pulls on the ocean, with a smaller but still real effect. When the Sun and Moon line up (at new and full moon), their pulls add together for extra-high and extra-low tides called spring tides. When they're at right angles (at the Moon's quarter phases), their pulls partly cancel, giving smaller neap tides."
+        },
+        {
+          "heading": "Tides that shape the coast around Cooktown",
+          "body": "The Endeavour River and the mangrove coastline near Cooktown have a large tidal range, meaning the difference between high and low water is substantial. That range exposes wide mudflats at low tide and floods mangrove roots at high tide - which is exactly the swinging habitat you looked at in an earlier lesson. It also matters directly for people: boat ramps that are usable at high tide can be mudflats at low tide, and saltwater crocodiles often move with the tide, using high water to access new areas."
+        },
+        {
+          "heading": "Reading tides without a tide table",
+          "body": "Long before printed tide tables, Aboriginal and Torres Strait Islander peoples living along the northern Australian coast tracked the link between the Moon's phase and the size of the tides, using that knowledge to time fishing and travel by water. That's the same spring-tide and neap-tide pattern you just learned - worked out through generations of careful observation, and still a genuinely reliable way to predict roughly how big a tide will be on a given day."
+        }
+      ],
+      "key_points": [
+        "Moon phases happen because we see different amounts of its sunlit half as it orbits Earth - not because of Earth's shadow.",
+        "A solar eclipse (Moon blocks the Sun) can only happen at new moon; a lunar eclipse (Earth's shadow on the Moon) can only happen at full moon.",
+        "Eclipses are rare because the Moon's orbit is tilted about 5 degrees relative to Earth's orbit around the Sun.",
+        "The Moon's gravity raises two tidal bulges in the ocean; Earth rotating through them gives most coasts two high and two low tides a day.",
+        "Spring tides (bigger) happen at new and full moon when Sun and Moon align; neap tides (smaller) happen at the Moon's quarter phases, and Aboriginal and Torres Strait Islander coastal peoples have long used this pattern to predict tide size for fishing and travel."
+      ],
+      "try_this": "Track the Moon's phase for a week using an app or the newspaper, alongside the tide times for the nearest coastal town (many weather apps show both). Note whether the tides are getting bigger or smaller as the Moon moves toward or away from new/full moon. You're testing the spring-neap pattern with real local data.",
+      "questions": [
+        {
+          "type": "tf",
+          "prompt": "The changing phases of the Moon are caused by Earth's shadow falling on it.",
+          "answer": false,
+          "explain": "That's what causes an eclipse, not phases. Phases happen because we see different amounts of the Moon's sunlit half as its angle relative to the Sun and Earth changes during its orbit.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "About how long does it take the Moon to go through a full cycle of phases, from new moon back to new moon?",
+          "choices": [
+            "About 1 day",
+            "About 7 days",
+            "About 29.5 days",
+            "About 365 days"
+          ],
+          "answer": "About 29.5 days",
+          "explain": "The Moon's phase cycle takes about 29.5 days - slightly longer than its roughly 27.3-day orbit, because Earth also moves along its own orbit during that time, changing the angle slightly further.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "A solar eclipse can only happen at which Moon phase?",
+          "choices": [
+            "Full moon",
+            "New moon",
+            "First quarter",
+            "Last quarter"
+          ],
+          "answer": "New moon",
+          "explain": "A solar eclipse needs the Moon directly between the Sun and Earth, which is only possible at new moon, when the Moon and Sun are on the same side of Earth.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "Around the Moon's quarter phases, the Sun's and Moon's pulls on the ocean partly cancel out, giving smaller tides than usual. What are these smaller tides called?",
+          "answer": [
+            "neap tides",
+            "neap tide",
+            "neap"
+          ],
+          "explain": "Neap tides are the smaller tides, because the Sun's and Moon's pulls partly cancel each other out at that point in the cycle, rather than adding together.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "Eclipses don't happen at every new moon and full moon because the Moon's orbit is tilted compared with Earth's orbit around the Sun, so it usually passes above or below the exact line needed for a shadow to fall right. By roughly how many degrees is the Moon's orbit tilted?",
+          "answer": 5,
+          "tolerance": 1,
+          "unit": "degrees",
+          "explain": "The Moon's orbit is tilted about 5 degrees relative to Earth's orbit. That small tilt means most new and full moons pass slightly above or below the line needed for an eclipse.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A stretch of the Endeavour River near Cooktown has a tidal range of about 3 metres (the difference between high and low tide). If high tide today is 3.6 metres above a reference point, roughly what height would low tide be at, above that same reference point?",
+          "answer": 0.6,
+          "tolerance": 0.3,
+          "unit": "m",
+          "explain": "If the tidal range is about 3 metres and high tide is 3.6 metres, low tide is roughly 3.6 minus 3, or about 0.6 metres above the reference point.",
+          "difficulty": 3
+        },
+        {
+          "type": "tf",
+          "prompt": "Most coastlines, including the coast near Cooktown, experience two high tides and two low tides in roughly a 24-hour period.",
+          "answer": true,
+          "explain": "This semi-diurnal pattern happens because Earth rotates once a day underneath two tidal bulges raised by the Moon's (and Sun's) gravity, so a fixed point passes through high water twice and low water twice each day.",
+          "difficulty": 2
+        },
+        {
+          "type": "mc",
+          "prompt": "Which best describes how coastal Aboriginal and Torres Strait Islander peoples traditionally predicted the size of an upcoming tide?",
+          "choices": [
+            "By measuring water temperature",
+            "By observing the Moon's phase, since bigger tides reliably occur around new and full moon",
+            "Tide size cannot be predicted without modern instruments",
+            "By counting the days since the last cyclone"
+          ],
+          "answer": "By observing the Moon's phase, since bigger tides reliably occur around new and full moon",
+          "explain": "This tracks the spring-tide pattern: tides are largest around new and full moon, and coastal peoples used that link, built from long-term observation, to plan fishing and travel.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "A lunar eclipse happens at a full moon. The next full moon capable of another eclipse doesn't occur for 6 full-moon cycles, because the right alignment with the Moon's tilted orbit doesn't repeat every month. If each full-moon cycle takes about 29.5 days and the first eclipse fell on day 0, on approximately what day number would the next eclipse-capable full moon fall?",
+          "answer": 177,
+          "tolerance": 3,
+          "unit": "days",
+          "explain": "Six cycles of 29.5 days is 6 × 29.5 = 177 days. This is why lunar eclipses don't happen every month even though full moons do - the right alignment with the Moon's tilted orbital plane only recurs every several cycles.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A cyclone's storm surge adds 1.2 metres of extra sea level on top of the normal tide. It arrives during a spring tide with a predicted high tide of 3.6 metres above a reference point. What would the total sea level reach, in metres, above that reference point?",
+          "answer": 4.8,
+          "tolerance": 0.1,
+          "unit": "m",
+          "explain": "3.6 + 1.2 = 4.8 metres. A storm surge that hits during a spring tide (rather than a smaller neap tide) adds on top of an already-higher tide, which is exactly why cyclone warnings pay close attention to whether a surge will coincide with spring tides.",
+          "difficulty": 4
+        },
+        {
+          "type": "text",
+          "prompt": "A friend says they watched a 'solar eclipse' happen at night, during a full moon, and it was easy to see with the naked eye without any special glasses. Based on what actually causes each type of eclipse, what is the real name of the event they must have seen?",
+          "answer": [
+            "lunar eclipse"
+          ],
+          "explain": "A solar eclipse can only happen at new moon and needs the Moon between the Sun and Earth - it's never visible at night. An event visible at night during a full moon, without eye protection, must have been a lunar eclipse, where Earth's shadow falls on the Moon.",
+          "difficulty": 4
+        },
+        {
+          "type": "mc",
+          "prompt": "A mudflat pool near the coast fills and empties with a tidal range that grows noticeably bigger around new and full moon. If you visited during a third-quarter Moon, which is the best prediction compared to visiting during a full Moon?",
+          "choices": [
+            "A bigger tidal range, because third quarter is also a spring tide",
+            "A smaller tidal range, because third quarter (like first quarter) is a neap tide, when the Sun and Moon pull at right angles to each other",
+            "No difference at all, because tides don't depend on Moon phase",
+            "The pool would be completely dry, because third quarter means no tide occurs"
+          ],
+          "answer": "A smaller tidal range, because third quarter (like first quarter) is a neap tide, when the Sun and Moon pull at right angles to each other",
+          "explain": "Neap tides happen at both quarter phases, not just the first quarter - whenever the Sun and Moon are at right angles to Earth, their pulls partly cancel. Third quarter is just as much a neap tide as first quarter, giving a smaller-than-average tidal range.",
+          "difficulty": 4
+        }
+      ],
+      "activity": {
+        "title": "Track the Moon's nightly slip with fist-widths",
+        "why": "Shows they can take real, repeated sky measurements that reveal the Moon visibly falling behind each night - direct evidence of its roughly 27.3-day orbit, not just something read off an app.",
+        "est_minutes": 20,
+        "adult_help": "nearby",
+        "materials": [
+          "a clear view of the evening sky",
+          "a clock or phone",
+          "your own hand/fist",
+          "paper and pencil",
+          "a moon-phase app or calendar, to check the Moon will be visible that week (optional)"
+        ],
+        "steps": [
+          "Pick a spot outside with a clear view of the sky where the Moon should be visible in the early evening this week.",
+          "On the first evening, at exactly the same clock time each night (for example 7:00pm), find the Moon.",
+          "Hold your arm straight out and make a fist; count how many fist-widths above the horizon the Moon sits (each fist is roughly 10 degrees), and note a landmark it's near (like above a particular roofline or tree).",
+          "Record that night's fist-width height.",
+          "Repeat the exact same measurement, at the exact same clock time, for three more evenings in a row (4 nights total).",
+          "Work out how much the Moon's height changed, in fist-widths, between night 1 and night 4."
+        ],
+        "record": [
+          {
+            "id": "height_night1_fists",
+            "label": "Moon's height above the horizon on night 1, in fist-widths",
+            "type": "number",
+            "unit": "fists",
+            "min": 0,
+            "max": 15
+          },
+          {
+            "id": "height_night4_fists",
+            "label": "Moon's height above the horizon on night 4, at the same clock time, in fist-widths",
+            "type": "number",
+            "unit": "fists",
+            "min": 0,
+            "max": 15
+          },
+          {
+            "id": "nights_clear",
+            "label": "How many of the 4 nights had a clear enough sky to actually see the Moon?",
+            "type": "number",
+            "min": 1,
+            "max": 4
+          },
+          {
+            "id": "visibility",
+            "label": "Was the Moon visible every night, or did cloud get in the way?",
+            "type": "choice",
+            "options": [
+              "Visible all 4 nights",
+              "Missed 1 night due to cloud",
+              "Missed 2 or more nights due to cloud"
+            ]
+          },
+          {
+            "id": "explain_shift",
+            "label": "Why does the Moon appear in a different position at the same clock time each night? Connect your answer to how long the Moon takes to orbit Earth.",
+            "type": "text",
+            "min_words": 15
+          }
+        ],
+        "check": "The Moon's position at a fixed clock time should shift noticeably (often several fist-widths) over four nights, usually appearing lower or higher and in a different spot than the night before, because it moves along its orbit roughly 13 degrees per day. If it looked identical every night, the clock time may not have been kept exactly consistent.",
+        "xp": 40
+      },
+      "kind": "lesson"
+    },
+    {
+      "slug": "y6-circuits-conductors-insulators",
+      "title": "Circuits: how energy travels and transforms",
+      "strand": "Physical sciences",
+      "year_level": 6,
+      "curriculum_code": "AC9S6U03",
+      "curriculum_text": "investigate the transfer and transformation of energy in electrical circuits, including the role of circuit components, insulators and conductors",
+      "position": 5,
+      "est_minutes": 14,
+      "intro": "Every torch, phone charger and ceiling fan in your house relies on the same basic idea: a complete loop that lets electrical energy move, and components that transform it into something useful - light, heat, sound or movement.",
+      "sections": [
+        {
+          "heading": "Transfer vs transformation - two different jobs",
+          "body": "In a circuit, energy is transferred (moved from place to place) through the wires, and transformed (converted into a different type) at the components. A battery stores chemical energy. When a circuit is complete, that energy is transferred as electrical energy along the wire, and then transformed into light and heat at a globe, or sound and movement at a small motor and speaker.\n\nBoth things are happening at once in a working circuit: energy is being carried along the wire (transfer) and changed into a different form at each component (transformation). Neither one works without the other."
+        },
+        {
+          "heading": "Why a circuit has to be a complete loop",
+          "body": "Electrical current only flows around a closed loop, from one battery terminal, through the components and wires, and back to the other terminal. Break the loop anywhere - a loose wire, an open switch, a flat spot in the connection - and current stops everywhere in that loop at once, not just at the break.\n\nA switch works by deliberately opening or closing a gap in the loop. Open the gap and the loop is broken, so nothing lights up. Close it and the loop is complete again.",
+          "example": {
+            "prompt": "A torch has a battery, a bulb, and a slide switch, all connected by two wires in a single loop. The slide switch is pushed to \"off\", opening a small gap in the wire. Will the torch bulb light up?",
+            "working": [
+              "current can only flow around a fully closed loop",
+              "the switch being off means there is a gap in that loop",
+              "a gap anywhere stops current everywhere in the loop"
+            ],
+            "answer": "No - the open switch breaks the loop, so no current flows and the bulb stays dark."
+          }
+        },
+        {
+          "heading": "Conductors and insulators",
+          "body": "A conductor is a material that lets electric current flow through it easily - metals like copper, aluminium and steel are good conductors, and that's why wires are made of metal, usually with a coating around them. An insulator is a material that current essentially cannot flow through - rubber, most plastics, glass and dry wood are all good insulators.\n\nThat's why wires are metal on the inside for conducting, wrapped in plastic on the outside for insulating - the plastic stops the current from escaping the wire and stops you from being part of the circuit if you touch it. Water with dissolved minerals or salt in it also conducts reasonably well, which is one reason electricity and water are a dangerous mix - and one reason floodwater near fallen power lines after a cyclone is treated as extremely dangerous."
+        },
+        {
+          "heading": "The role of each component",
+          "body": "A battery is the energy source - it doesn't create energy from nothing, it stores chemical energy and releases it as electrical energy while its chemicals last. A globe or LED transforms electrical energy mostly into light, with some heat as well. A buzzer transforms it into sound. A small motor transforms it into movement (kinetic energy). A switch doesn't transform energy at all - its only job is opening and closing the loop.\n\nWires themselves aren't perfect conductors - a little bit of electrical energy is always transformed into heat as current pushes through the resistance in the wire, which is part of why long, thin wires and overloaded circuits can get hot."
+        },
+        {
+          "heading": "Generators after a cyclone",
+          "body": "When a cyclone knocks out mains power in far north Queensland, many households switch to a portable generator, which burns fuel to transform chemical energy into electrical energy, wired safely to specific appliances through heavy-duty insulated cords. Downed power lines, on the other hand, are a genuine hazard after storms - wet ground and floodwater both conduct, so a fallen live wire can send current through the ground around it. That's exactly why authorities warn people to stay well clear of any fallen line rather than treating it as a household circuit."
+        }
+      ],
+      "key_points": [
+        "A circuit must form a complete, unbroken loop for current to flow anywhere in it.",
+        "Energy is transferred (moved) along wires and transformed (converted to another type) at components.",
+        "A battery stores chemical energy and releases it as electrical energy; it doesn't create energy from nothing.",
+        "Conductors (metals) let current flow easily; insulators (plastic, rubber, dry wood, glass) essentially block it.",
+        "Water with dissolved salts or minerals conducts, which is why water and electricity - and floodwater near power lines - are dangerous together."
+      ],
+      "try_this": "With an adult's help, connect a AA or AAA battery, a short length of wire, and a small torch bulb (or an LED with the wire taped carefully to the correct legs) into a simple loop so the bulb lights up. Once it works, test which household objects complete the circuit when placed in the gap: a metal paperclip, a coin, a plastic spoon, a pencil (the wood, not the graphite core), a rubber band, and a piece of aluminium foil. Sort them into conductors and insulators based on whether the bulb lights up. Only use battery power for this - never test anything with mains power or a power point.",
+      "questions": [
+        {
+          "type": "mc",
+          "prompt": "In a working torch circuit, what does the battery do?",
+          "choices": [
+            "It creates electrical energy from nothing",
+            "It stores chemical energy and releases it as electrical energy",
+            "It transforms light into electrical energy",
+            "It only conducts current without providing energy"
+          ],
+          "answer": "It stores chemical energy and releases it as electrical energy",
+          "explain": "A battery doesn't create energy - it stores chemical energy in its internal chemicals and releases that as electrical energy while a complete circuit lets current flow.",
+          "difficulty": 1
+        },
+        {
+          "type": "tf",
+          "prompt": "For current to flow in a circuit, the circuit must form a complete, unbroken loop.",
+          "answer": true,
+          "explain": "Current only flows around a fully closed loop. A break anywhere - an open switch, a loose wire - stops current everywhere in that loop, not just at the break point.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "Which of these best describes what a globe (light bulb) does in a circuit?",
+          "choices": [
+            "It stores electrical energy for later use",
+            "It transforms electrical energy mainly into light, with some heat",
+            "It only transfers energy without transforming it",
+            "It transforms light into electrical energy"
+          ],
+          "answer": "It transforms electrical energy mainly into light, with some heat",
+          "explain": "A globe is a transformation point in the circuit - it converts electrical energy into light energy (its main job) and a bit of heat as a side effect.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "Copper and aluminium both let electric current pass through them easily, which is why wires are made from them. What general name describes a material like this?",
+          "answer": [
+            "conductor"
+          ],
+          "explain": "A conductor allows current to flow easily. Metals are good conductors, which is why the inner core of an electrical wire is always metal.",
+          "difficulty": 2
+        },
+        {
+          "type": "mc",
+          "prompt": "A wire's metal core is wrapped in a layer of plastic. What is the plastic layer's job?",
+          "choices": [
+            "To help the wire conduct electricity better",
+            "To act as an insulator, stopping current escaping the wire",
+            "To make the wire heavier",
+            "To transform electrical energy into light"
+          ],
+          "answer": "To act as an insulator, stopping current escaping the wire",
+          "explain": "Plastic is an insulator - current essentially can't flow through it. Wrapping it around the conducting metal core keeps the current inside the wire and protects anyone who touches it.",
+          "difficulty": 2
+        },
+        {
+          "type": "tf",
+          "prompt": "A switch in a circuit transforms electrical energy into another form of energy, the same way a globe or buzzer does.",
+          "answer": false,
+          "explain": "A switch doesn't transform energy at all - its only job is to open or close the gap in the loop, allowing or stopping current flow. Globes, buzzers and motors are the components that transform energy.",
+          "difficulty": 2
+        },
+        {
+          "type": "mc",
+          "prompt": "After a cyclone brings down mains power lines near a Cooktown street, why do authorities warn people to stay well away from the fallen wires, especially where there's floodwater?",
+          "choices": [
+            "Fallen wires are never actually live after a storm",
+            "Water with dissolved salts and minerals conducts electricity, so a live wire can send current through nearby wet ground or floodwater",
+            "Floodwater is always a perfect insulator",
+            "Power lines only become dangerous if you touch them directly with bare metal"
+          ],
+          "answer": "Water with dissolved salts and minerals conducts electricity, so a live wire can send current through nearby wet ground or floodwater",
+          "explain": "Water containing dissolved minerals or salt conducts reasonably well. A live fallen wire can energise surrounding wet ground or floodwater, so the danger extends well beyond the wire itself.",
+          "difficulty": 3
+        },
+        {
+          "type": "text",
+          "prompt": "A portable petrol generator burns fuel to keep the lights on during a blackout. What type of energy does it transform the fuel's stored chemical energy into?",
+          "answer": [
+            "electrical energy",
+            "electrical"
+          ],
+          "explain": "A generator burns fuel, transforming the chemical energy stored in it into electrical energy that can then be transferred through cords to power appliances.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A single torch bulb connected to one battery shines at a brightness you'd rate 4 out of 5. A second, identical bulb is added in series into the same loop, so the two bulbs share the same battery's energy roughly equally. What brightness rating (out of 5, to one decimal place) would you expect each bulb to show now?",
+          "answer": 2.0,
+          "tolerance": 0.4,
+          "explain": "Two identical bulbs in series share the same battery's output roughly equally, so each one gets about half the energy a single bulb would have had: 4 ÷ 2 = 2.0. This is why adding more components in series to the same battery usually makes each one dimmer, not brighter.",
+          "difficulty": 4
+        },
+        {
+          "type": "text",
+          "prompt": "A torch that worked yesterday won't light today. Testing it: the battery reads full voltage on a multimeter, and the bulb lights when touched directly to the battery terminals. But when everything is reassembled in the torch, nothing happens - until a paperclip is used to bridge across the two exposed ends of wire at the slide switch, at which point the bulb lights up. Which single part of the torch is most likely faulty?",
+          "answer": [
+            "the switch",
+            "switch",
+            "slide switch"
+          ],
+          "explain": "The battery and bulb were both tested separately and work fine. Bridging across the switch with a paperclip completed the loop and fixed the problem, which points squarely at the switch itself - probably a broken or dirty contact that isn't closing the gap properly.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A torch bulb transforms 100 units of electrical energy every minute, with 80 units going to light and the rest to heat. After the torch has been switched on for 3 minutes, how many total energy units have been transformed into heat?",
+          "answer": 60,
+          "tolerance": 5,
+          "unit": "energy units",
+          "explain": "Over 3 minutes, the bulb transforms 100 × 3 = 300 units in total. 80 units per minute go to light, or 240 units over 3 minutes, leaving 300 - 240 = 60 units transformed into heat instead.",
+          "difficulty": 4
+        },
+        {
+          "type": "mc",
+          "prompt": "A battery, a switch and a motor are wired in one series loop, and with the switch closed the motor spins normally. A new wire is then connected directly between the motor's two terminals, while everything else stays wired the same. What is the most likely outcome?",
+          "choices": [
+            "The motor spins faster, because the new wire supplies it with extra power",
+            "The motor slows dramatically or stops, because most current now flows through the new low-resistance wire instead of through the motor",
+            "Nothing changes at all",
+            "The battery permanently stops working"
+          ],
+          "answer": "The motor slows dramatically or stops, because most current now flows through the new low-resistance wire instead of through the motor",
+          "explain": "Current strongly prefers the path of least resistance. A plain wire has far less resistance than a motor's coils, so once that direct path exists, most current flows through the wire instead of the motor, and the motor slows or stops - this is the basic idea behind a short circuit.",
+          "difficulty": 4
+        }
+      ],
+      "activity": {
+        "title": "Wire it three ways: compare series brightness",
+        "why": "Shows they can actually build and test different circuit arrangements, and connect what they see to how energy is shared or added - not just sort conductors from insulators.",
+        "est_minutes": 25,
+        "adult_help": "none",
+        "materials": [
+          "2 AA batteries",
+          "battery holder(s) or tape",
+          "2 identical torch bulbs (or LEDs) in holders",
+          "3-4 lengths of wire",
+          "a coin or metal washer"
+        ],
+        "steps": [
+          "Build a simple loop with 1 battery and 1 bulb. Confirm it lights, then rate its brightness on a scale of 1 (dim) to 5 (brightest).",
+          "Keeping the same single bulb, add a second identical battery in series (end to end, same direction) into the loop. Rate the new brightness.",
+          "Remove the second battery so you're back to 1 battery, then add a second identical bulb in series into the loop instead (so it's 1 battery, 2 bulbs). Rate the brightness of the bulbs now.",
+          "Go back to the original 1-battery, 1-bulb loop. Cut the loop at one point and bridge the gap with a coin instead of wire, and check whether it still lights and how bright it is.",
+          "Record your four brightness ratings and compare them.",
+          "Explain which arrangement was brightest and which was dimmest, in terms of the battery's energy being shared or added."
+        ],
+        "record": [
+          {
+            "id": "brightness_1batt_1bulb",
+            "label": "Brightness rating with 1 battery, 1 bulb (1-5 scale)",
+            "type": "number",
+            "min": 0,
+            "max": 5
+          },
+          {
+            "id": "brightness_2batt_1bulb",
+            "label": "Brightness rating with 2 batteries in series, 1 bulb (1-5 scale)",
+            "type": "number",
+            "min": 0,
+            "max": 5
+          },
+          {
+            "id": "brightness_1batt_2bulbs",
+            "label": "Brightness rating of each bulb, with 1 battery and 2 bulbs in series (1-5 scale)",
+            "type": "number",
+            "min": 0,
+            "max": 5
+          },
+          {
+            "id": "coin_test",
+            "label": "Did the circuit still light up with a coin bridging the gap instead of a wire?",
+            "type": "choice",
+            "options": [
+              "Yes, about the same brightness",
+              "Yes, but dimmer",
+              "No, it didn't light"
+            ]
+          },
+          {
+            "id": "explain",
+            "label": "Which arrangement was brightest and which was dimmest? Explain why, in terms of the battery's energy being shared between components or added together.",
+            "type": "text",
+            "min_words": 20
+          }
+        ],
+        "check": "2 batteries with 1 bulb should be brighter than 1 battery with 1 bulb, and 1 battery with 2 bulbs should make each bulb dimmer than a single bulb alone. The coin should work exactly like a wire, since it's a good conductor - if it didn't light, check the coin is making firm contact at both ends.",
+        "xp": 45
+      },
+      "kind": "lesson"
+    },
+    {
+      "slug": "y6-energy-generation-solar-power",
+      "title": "From power station to power point: generating electricity",
+      "strand": "Physical sciences",
+      "year_level": 6,
+      "curriculum_code": "AC9S6U03",
+      "curriculum_text": "investigate the transfer and transformation of energy in electrical circuits, including the role of circuit components, insulators and conductors",
+      "position": 6,
+      "est_minutes": 14,
+      "intro": "Flick a switch and a light comes on instantly - but the electrical energy behind it has already gone through at least one, sometimes two, energy transformations before it reached your house. Solar panels do it in a completely different way to almost everything else that makes electricity.",
+      "sections": [
+        {
+          "heading": "Energy transformation chains in an ordinary kitchen",
+          "body": "Almost every appliance in your home is a chain of energy transformations, not just one. An electric kettle transforms electrical energy into heat energy in the water. A blender transforms electrical energy into kinetic energy (the spinning blade) and some sound and heat as well. A fridge uses electrical energy to run a motor that transforms it into kinetic energy in a pump, which moves heat out of the fridge's interior and into the room behind it - which is why the back of a fridge always feels warm."
+        },
+        {
+          "heading": "Most power stations: spinning a magnet near a coil",
+          "body": "Most electricity generation, whether it burns coal or gas, or uses moving water in a hydroelectric dam, works on the same core idea: something spins a turbine, and the turbine spins a magnet inside a coil of wire, which generates an electric current - a process called electromagnetic induction. \n\nSo a coal or gas power station is really a chain: chemical energy in the fuel is transformed into heat, the heat turns water into high-pressure steam, the steam's kinetic energy spins a turbine, and the turbine's motion is transformed into electrical energy in the generator. Several transformations, several places where some energy is inevitably lost as unwanted heat along the way."
+        },
+        {
+          "heading": "Solar panels: a shortcut, not a turbine",
+          "body": "A solar (photovoltaic) panel works completely differently. Sunlight hitting the panel's semiconductor material knocks electrons loose and pushes them to flow - transforming light energy directly into electrical energy in a single step, with no turbine, no spinning magnet and no burning fuel involved at all.\n\nFar north Queensland gets strong, reliable sunlight for most of the year, which is exactly why solar power has become so common on roofs and remote properties across the region - the input energy (sunlight) is abundant and free, even though the panels themselves take energy and resources to manufacture."
+        },
+        {
+          "heading": "No transformation is perfect",
+          "body": "Energy itself is never lost or destroyed in these transformations - that's the law of conservation of energy - but useful energy is. At every transformation step, some energy spreads out as heat that isn't doing anything useful, which is why a coal power station's overall efficiency (useful electricity out, compared with fuel energy in) is well under half, with the rest dispersed as waste heat. Fewer transformation steps generally means less energy wasted along the way, which is part of why a solar panel's single direct step from light to electricity is relatively efficient for the steps involved, even though the panel itself only converts a modest fraction of the sunlight hitting it."
+        },
+        {
+          "heading": "Solar and batteries during cyclone season",
+          "body": "A grid-connected solar system alone usually switches off during a mains blackout, for safety reasons - it isn't designed to keep working when the wider grid is down. That's why households in cyclone-prone areas increasingly pair solar panels with home battery storage: the panels transform sunlight into electrical energy during the day, the battery stores some of that as chemical energy, and it can then be released again as electrical energy to keep essential appliances running through a blackout, without needing a generator or fuel at all."
+        }
+      ],
+      "key_points": [
+        "Home appliances are usually a chain of energy transformations, not a single one - a kettle, blender and fridge each transform electrical energy differently.",
+        "Most power stations spin a turbine, which spins a magnet near a coil of wire (electromagnetic induction) to generate electricity.",
+        "Solar (photovoltaic) panels transform light directly into electrical energy in a single step, with no turbine involved.",
+        "Energy is never destroyed, but useful energy is lost as waste heat at every transformation step - so fewer steps generally means less waste.",
+        "Pairing solar panels with home battery storage lets a household keep some power during a blackout, since grid-connected solar alone usually switches off when the mains fails."
+      ],
+      "try_this": "Pick three appliances or devices in your home (for example a kettle, a torch, a phone charger, a fan or a blender). For each one, write down the energy transformation chain from the wall or battery to the final useful energy type (for example: kettle - electrical energy to heat energy). Then note anything you can feel or hear that shows wasted energy, like warmth on a charger or the hum of a fan motor.",
+      "questions": [
+        {
+          "type": "mc",
+          "prompt": "A running blender mainly transforms electrical energy into which type of energy?",
+          "choices": [
+            "Chemical energy",
+            "Kinetic energy (movement) of the blade",
+            "Light energy",
+            "Nuclear energy"
+          ],
+          "answer": "Kinetic energy (movement) of the blade",
+          "explain": "A blender's motor transforms electrical energy mainly into kinetic energy - the spinning blade - with some sound and heat produced as well.",
+          "difficulty": 1
+        },
+        {
+          "type": "tf",
+          "prompt": "In most coal and gas power stations, spinning a turbine is used to generate electricity.",
+          "answer": true,
+          "explain": "Coal and gas power stations heat water into steam, and the steam's motion spins a turbine, which spins a magnet inside a coil of wire to generate electric current - a process called electromagnetic induction.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "What makes solar (photovoltaic) panels different from a coal power station in how they generate electricity?",
+          "choices": [
+            "Solar panels burn fuel just like a coal station",
+            "Solar panels transform light energy directly into electrical energy, with no turbine involved",
+            "Solar panels use a turbine spun by wind",
+            "Solar panels store electrical energy but never generate it"
+          ],
+          "answer": "Solar panels transform light energy directly into electrical energy, with no turbine involved",
+          "explain": "A solar panel's semiconductor material converts light energy straight into electrical energy in one step. There's no burning fuel, no steam and no spinning turbine involved.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "In most coal, gas and hydroelectric power stations, a spinning magnet moves near a coil of wire to generate electric current. What is this process called?",
+          "answer": [
+            "electromagnetic induction",
+            "induction"
+          ],
+          "explain": "Electromagnetic induction is the process: moving a magnet near a coil of wire (or a coil near a magnet) generates an electric current in the wire.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A coal power station's fuel contains 900 units of chemical energy. After heating water, spinning a turbine and running the generator, only 350 units come out as usable electricity. How many units of energy end up wasted as heat along the way?",
+          "answer": 550,
+          "tolerance": 0,
+          "unit": "",
+          "explain": "Subtract the useful energy from the total: 900 minus 350 equals 550 units lost as waste heat at the various transformation steps. Energy isn't destroyed, but a lot of it ends up as heat that isn't doing anything useful.",
+          "difficulty": 3
+        },
+        {
+          "type": "tf",
+          "prompt": "A grid-connected solar system will normally keep powering a house's appliances even during a mains blackout, without any battery.",
+          "answer": false,
+          "explain": "For safety reasons, a standard grid-connected solar system switches off during a blackout. A home battery is needed to store and release power so appliances can keep running when the mains is down.",
+          "difficulty": 2
+        },
+        {
+          "type": "mc",
+          "prompt": "Why has solar power become especially common on roofs and remote properties in far north Queensland?",
+          "choices": [
+            "Because sunlight is weak but very steady there",
+            "Because the region gets strong, reliable sunlight for most of the year, giving abundant input energy for panels",
+            "Because coal power stations cannot legally operate in the region",
+            "Because solar panels work better in cooler climates"
+          ],
+          "answer": "Because the region gets strong, reliable sunlight for most of the year, giving abundant input energy for panels",
+          "explain": "Far north Queensland's strong, consistent sunlight means the input energy for photovoltaic panels is abundant, which is a major reason solar uptake is high in the region.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "A solar panel receives 250 watts of sunlight energy and converts 50 watts of that into usable electrical energy. What percentage of the incoming light energy is converted into electricity?",
+          "answer": 20,
+          "tolerance": 1,
+          "unit": "%",
+          "explain": "50 watts out of 250 watts is 50/250 = 0.2, or 20%. The rest of the incoming light energy is reflected or converted to heat rather than electricity.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "A home battery stores 10 kilowatt-hours (kWh) of energy. A fridge draws 150 watts continuously. During a blackout, roughly how many hours could the battery power the fridge alone, assuming nothing else draws from it?",
+          "answer": 66.7,
+          "tolerance": 4,
+          "unit": "hours",
+          "explain": "10 kWh is 10,000 watt-hours. Dividing by the fridge's 150-watt draw gives 10,000 ÷ 150 ≈ 66.7 hours - showing why a home battery is usually sized to cover only the most essential appliances during an extended outage, not the whole house.",
+          "difficulty": 4
+        },
+        {
+          "type": "text",
+          "prompt": "A household's solar panels only generate electricity while the sun is up, but the fridge, security lights and internet modem all need power through the night as well. What is the name of the device that stores the day's extra solar electricity as chemical energy so it can be released again after dark?",
+          "answer": [
+            "battery",
+            "home battery",
+            "battery storage"
+          ],
+          "explain": "A battery bridges the mismatch between when solar energy is generated (daytime) and when it's needed (including night). It stores surplus daytime electrical energy as chemical energy, then converts it back to electrical energy on demand.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A coal power station converts 100 units of fuel energy into 38 units of usable electricity, losing the rest as heat across several transformation steps. A solar panel converts 100 units of sunlight into 20 units of usable electricity in a single step. By how many percentage points higher is the coal station's overall efficiency, despite having more transformation steps?",
+          "answer": 18,
+          "tolerance": 2,
+          "unit": "percentage points",
+          "explain": "38% minus 20% is 18 percentage points. This shows that 'fewer steps generally means less waste' is a useful rule of thumb, not a guarantee - the coal station's efficiency at each of its steps happens to be high enough that, overall, it still converts a larger share of its input energy than a typical solar panel, even with more transformation steps involved.",
+          "difficulty": 4
+        },
+        {
+          "type": "mc",
+          "prompt": "A house with rooftop solar panels but no battery loses mains power during a daytime storm, after a power line comes down nearby. Even though the panels are still generating electricity from daylight, a safety system automatically switches them off. What is the main safety reason for this?",
+          "choices": [
+            "To stop the panels overheating in direct sunlight",
+            "To stop solar-generated electricity flowing backward into the grid, which could electrify lines that repair workers believe are switched off and safe",
+            "Because solar panels physically cannot generate electricity during a storm",
+            "To protect the (non-existent) battery from overcharging"
+          ],
+          "answer": "To stop solar-generated electricity flowing backward into the grid, which could electrify lines that repair workers believe are switched off and safe",
+          "explain": "This safety feature exists specifically to protect people working on the grid. Without it, a solar system could keep a 'dead' line dangerously live from the house end, even while repair crews treat it as switched off - a serious risk after storm damage.",
+          "difficulty": 4
+        }
+      ],
+      "activity": {
+        "title": "Home energy audit: find the hidden wattage",
+        "why": "Shows they can use real specifications from the world around them, not the lesson, to reason about energy use - genuine data collection rather than description from memory.",
+        "est_minutes": 25,
+        "adult_help": "nearby",
+        "materials": [
+          "notebook and pencil",
+          "a torch or phone flashlight to read small print on labels",
+          "access to two rooms of the house with an adult"
+        ],
+        "steps": [
+          "With an adult, choose two rooms of the house (for example the kitchen and the lounge room).",
+          "In each room, find four electrical devices or appliances and look at their rating label or sticker (usually on the back, base or plug) for the wattage (W). If a label shows volts and amps instead of watts, note that separately.",
+          "Write down each device's name and its wattage - 8 devices in total.",
+          "Add up the total wattage for each room separately.",
+          "Note which single device across your whole list had the highest wattage, and what energy transformation it mainly performs (for example, electrical to heat, or electrical to light).",
+          "Count how many devices you found showing a standby light (a small light on even when the device seems 'off') across both rooms.",
+          "Record your totals and findings below."
+        ],
+        "record": [
+          {
+            "id": "total_watts_room1",
+            "label": "Total wattage added up for room 1's four devices",
+            "type": "number",
+            "unit": "W",
+            "min": 10,
+            "max": 15000
+          },
+          {
+            "id": "total_watts_room2",
+            "label": "Total wattage added up for room 2's four devices",
+            "type": "number",
+            "unit": "W",
+            "min": 10,
+            "max": 15000
+          },
+          {
+            "id": "standby_count",
+            "label": "How many standby lights did you count across both rooms?",
+            "type": "number",
+            "min": 0,
+            "max": 20
+          },
+          {
+            "id": "label_type",
+            "label": "Did most labels show watts (W) directly, or volts and amps you had to note separately?",
+            "type": "choice",
+            "options": [
+              "Mostly watts (W) directly",
+              "Mostly volts/amps only",
+              "A mix of both"
+            ]
+          },
+          {
+            "id": "highest_device",
+            "label": "Which single device had the highest wattage, and what energy transformation is it mainly doing? Explain in 2-3 sentences.",
+            "type": "text",
+            "min_words": 20
+          }
+        ],
+        "check": "Watch for a heating or cooling appliance (kettle, toaster, air conditioner, hair dryer) turning up as the highest-wattage device - heating elements typically use far more power than lights or electronics. If both room totals seem suspiciously identical, check the labels were actually read rather than guessed.",
+        "xp": 45
+      },
+      "kind": "lesson"
+    },
+    {
+      "slug": "y6-reversible-irreversible-changes",
+      "title": "Reversible or irreversible: can you get the original back?",
+      "strand": "Chemical sciences",
+      "year_level": 6,
+      "curriculum_code": "AC9S6U04",
+      "curriculum_text": "compare reversible changes, including dissolving and changes of state, and irreversible changes, including cooking and rusting that produce new substances",
+      "position": 7,
+      "est_minutes": 13,
+      "intro": "Melt an ice cube and you can freeze the water back into ice. Fry an egg and there is no way to un-fry it. The difference between those two changes is one of the most useful ideas in chemistry, and you can test it in your own kitchen.",
+      "sections": [
+        {
+          "heading": "The real test: can you get the original substance back by physical means?",
+          "body": "A reversible change doesn't create a new substance - it just changes the substance's state, shape or arrangement, and it can usually be undone by an ordinary physical process like heating, cooling, or evaporating. An irreversible change produces at least one genuinely new substance with different properties, and there's no simple physical way back to what you started with."
+        },
+        {
+          "heading": "Changes of state: same substance, different arrangement",
+          "body": "Melting, freezing, evaporating and condensing are all changes of state. Ice, liquid water and water vapour are chemically the same substance - H2O - just with its particles arranged and moving differently. Freeze water into ice, then melt it back into liquid water, and you have exactly the same water you started with. That's a textbook reversible change."
+        },
+        {
+          "heading": "Dissolving: reversible, even though it looks final",
+          "body": "Stir salt into warm water and it seems to vanish - but the salt hasn't turned into a new substance. It has broken into particles too small to see, spread evenly through the water. Leave that salty water somewhere warm until the water evaporates away, and the salt crystals reappear, unchanged. That's why dissolving counts as reversible: you can recover the original substance by a purely physical process (evaporation), without any new substance being created.",
+          "example": {
+            "prompt": "A spoonful of sugar is stirred into a glass of warm water until it disappears. Is this change reversible or irreversible, and how could you show it?",
+            "working": [
+              "the sugar hasn't reacted to form a new substance - it has just dissolved into tiny particles spread through the water",
+              "evaporating the water (a physical process) would leave the sugar behind",
+              "recovering the original substance by a physical process is the definition of reversible"
+            ],
+            "answer": "Reversible - evaporating the water would leave the original sugar behind."
+          }
+        },
+        {
+          "heading": "Cooking: heat that builds new substances",
+          "body": "Cooking an egg looks like a simple state change, but it isn't. Heat makes the egg's proteins unfold and link together in new, permanent ways - a chemical change. The clear, runny egg white becomes a white, solid substance with completely different properties, and there is no physical process that will turn a cooked egg white back into raw egg white. The same idea applies to baking banana bread: heat drives chemical reactions between the ingredients (including browning reactions in the crust) that produce new substances and new flavours, none of which can be undone by cooling the loaf back down."
+        },
+        {
+          "heading": "Rusting: a slow chemical change with a very familiar product",
+          "body": "Rust forms when iron reacts with oxygen and water over time, producing a new substance - hydrated iron oxide - with completely different properties from the shiny iron it came from: it's flaky, reddish-brown, and structurally weak. That new substance won't turn back into solid iron no matter how you heat, cool or dry it, which is what makes rusting irreversible, in the same category as cooking rather than melting or dissolving."
+        }
+      ],
+      "key_points": [
+        "A reversible change doesn't create a new substance, and the original can usually be recovered by a physical process like heating, cooling or evaporating.",
+        "An irreversible change produces at least one genuinely new substance with different properties, with no simple way back.",
+        "Melting, freezing, evaporating and condensing are changes of state - reversible, because the substance itself doesn't change.",
+        "Dissolving is reversible: evaporating the liquid recovers the original dissolved substance unchanged.",
+        "Cooking and rusting are irreversible chemical changes - heat, oxygen and water combine with the original substances to permanently produce new ones."
+      ],
+      "try_this": "Dissolve two teaspoons of salt into a small cup of warm water, stirring until it disappears completely. Pour a thin layer into a shallow dish and leave it on a sunny windowsill for a few days, checking each day. Watch the salt crystals reappear as the water evaporates - proof that dissolving didn't destroy the salt, just spread it out. Compare this with what happens if you fry or hard-boil an egg with an adult: no amount of waiting brings the raw egg back.",
+      "questions": [
+        {
+          "type": "mc",
+          "prompt": "What is the key test for whether a change is reversible?",
+          "choices": [
+            "Whether it happens quickly or slowly",
+            "Whether the original substance can be recovered by a physical process, with no new substance formed",
+            "Whether it involves heat",
+            "Whether it happens in a kitchen"
+          ],
+          "answer": "Whether the original substance can be recovered by a physical process, with no new substance formed",
+          "explain": "Reversibility is about substances, not speed or location: if no new substance was formed and the original can be recovered by an ordinary physical process, the change is reversible.",
+          "difficulty": 1
+        },
+        {
+          "type": "tf",
+          "prompt": "Melting an ice cube and then freezing the water back into ice is a reversible change.",
+          "answer": true,
+          "explain": "Ice and liquid water are the same substance, H2O, just arranged differently. Melting and freezing don't create a new substance, so the change is reversible.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "Salt is stirred into water until it seems to disappear. What has actually happened to the salt?",
+          "choices": [
+            "It has turned into a completely new substance",
+            "It has broken into tiny particles spread evenly through the water, but is still salt",
+            "It has been destroyed",
+            "It has evaporated into the air"
+          ],
+          "answer": "It has broken into tiny particles spread evenly through the water, but is still salt",
+          "explain": "Dissolving spreads the salt's particles through the water - it doesn't change what the substance is. Evaporating the water would leave the same salt behind.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "Salty water is left on a warm windowsill for several days until only dry salt crystals remain in the dish. What process removed the water and left the salt behind?",
+          "answer": [
+            "evaporation",
+            "evaporating"
+          ],
+          "explain": "Evaporation turns the liquid water into water vapour, leaving the dissolved salt behind as solid crystals - the physical process that makes dissolving reversible.",
+          "difficulty": 2
+        },
+        {
+          "type": "mc",
+          "prompt": "Why is cooking an egg classified as an irreversible change rather than a change of state?",
+          "choices": [
+            "Because it happens slowly",
+            "Because heat permanently rearranges the egg's proteins into a new substance that cannot be reversed",
+            "Because eggs are always classified as irreversible by definition, regardless of what happens",
+            "Because cooking doesn't involve heat"
+          ],
+          "answer": "Because heat permanently rearranges the egg's proteins into a new substance that cannot be reversed",
+          "explain": "Heat causes the egg's proteins to unfold and link together in new, permanent structures - a genuine chemical change producing a new substance, unlike a simple change of state such as melting.",
+          "difficulty": 2
+        },
+        {
+          "type": "tf",
+          "prompt": "Rusting produces a genuinely new substance (hydrated iron oxide) that cannot be turned back into the original iron by physical means.",
+          "answer": true,
+          "explain": "Rust is a different substance from iron, formed by a chemical reaction with oxygen and water. Its different structure and properties mean it can't simply be reversed back into solid iron by heating, cooling or drying.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "Freezing water into ice and rusting a steel nail are both changes, but only one of them produces a genuinely new substance with different properties. Which one produces a new substance?",
+          "answer": [
+            "rusting",
+            "rust"
+          ],
+          "explain": "Freezing just rearranges the same substance, H2O, so it's reversible. Rusting reacts iron with oxygen and water to form a genuinely new substance, iron oxide, so it's irreversible.",
+          "difficulty": 3
+        },
+        {
+          "type": "text",
+          "prompt": "Banana bread batter goes into the oven runny and pale, and comes out firm, browned and smelling completely different - and cooling the loaf back down doesn't undo any of that. Was this change reversible or irreversible?",
+          "answer": [
+            "irreversible"
+          ],
+          "explain": "Baking drives real chemical reactions between ingredients, including browning reactions in the crust, building new substances with different structures and flavours. Cooling doesn't undo a chemical reaction, so the change is irreversible.",
+          "difficulty": 3
+        },
+        {
+          "type": "text",
+          "prompt": "Someone dissolves salt into water, then leaves the bowl in a closed, dark, airtight cupboard for a week. A week later, the water level and dissolved salt look completely unchanged, so they conclude 'dissolving must actually be irreversible for this salt, since nothing came back.' What process, needed to recover the salt, has effectively been blocked by sealing the bowl away from air and warmth?",
+          "answer": [
+            "evaporation",
+            "evaporating"
+          ],
+          "explain": "Dissolving is only reversible if the water is allowed to evaporate, which needs airflow, warmth or light. A sealed, dark cupboard blocks evaporation almost completely, so of course nothing changed - that doesn't mean the process is irreversible, it means the right conditions for reversing it were never provided.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "Banana bread batter starts at 22 degrees Celsius and needs its centre to reach 180 degrees Celsius to finish baking. If the centre heats up at an average rate of 8 degrees Celsius per minute once it starts cooking through, roughly how many minutes would that take?",
+          "answer": 19.75,
+          "tolerance": 2,
+          "unit": "minutes",
+          "explain": "The temperature needs to rise 180 - 22 = 158 degrees. At 8 degrees per minute, that takes 158 ÷ 8 ≈ 19.75 minutes - close to a typical loaf's baking time, during which the chemical reactions that make baking irreversible are taking place.",
+          "difficulty": 4
+        },
+        {
+          "type": "mc",
+          "prompt": "Rock candy is made by dissolving as much sugar as possible into hot water, then letting the solution cool slowly and undisturbed over several days, so sugar crystals grow on a string. Once large, hard crystals have formed, is this change reversible, irreversible, or does it depend on something else?",
+          "choices": [
+            "Irreversible, because a genuinely new substance called 'rock candy' has been created",
+            "Reversible, because the crystals are still just sugar and could be dissolved back into water without any new substance being formed",
+            "It depends entirely on the colour of the crystals",
+            "Irreversible, because cooling can never be undone once it happens"
+          ],
+          "answer": "Reversible, because the crystals are still just sugar and could be dissolved back into water without any new substance being formed",
+          "explain": "Growing crystals just rearranges sugar particles into a more ordered solid form - it's still sugar, chemically identical to what you started with. Dissolving the crystals back into water would recover the original sugar solution, which is exactly the test for a reversible change.",
+          "difficulty": 4
+        },
+        {
+          "type": "text",
+          "prompt": "A steel garden tool left outside during a Cooktown wet-season storm starts rusting within days, while an identical tool kept in a dry, air-conditioned shed shows almost no rust after months. Both tools are exposed to ordinary air with the same oxygen content the whole time. What is the one physical condition that differs between the two locations, and best explains the different rusting speed?",
+          "answer": [
+            "moisture",
+            "water",
+            "humidity",
+            "dampness"
+          ],
+          "explain": "Since both tools get the same oxygen, oxygen can't explain the difference. The wet-season storm supplies far more moisture, and rust needs both oxygen and water together - isolating the one condition that actually varies is exactly how you find the real cause.",
+          "difficulty": 4
+        }
+      ],
+      "activity": {
+        "title": "Race the dissolve: does temperature change dissolving speed?",
+        "why": "Shows they can run a genuine fair test with repeated, timed trials, not just watch one reversible change happen once.",
+        "est_minutes": 30,
+        "adult_help": "nearby",
+        "materials": [
+          "3 cups or glasses",
+          "salt or sugar",
+          "a teaspoon",
+          "a stopwatch or phone timer",
+          "cold water (from the fridge)",
+          "warm tap water (not boiling - check with an adult)"
+        ],
+        "steps": [
+          "Prepare three cups with the same amount of water (about 150 mL each): one cold from the fridge, one room temperature, and one warm tap water that an adult confirms is warm, not hot or boiling.",
+          "Measure out 1 level teaspoon of salt or sugar to add for each trial.",
+          "For the cold cup, stir at a steady speed and start the timer the moment you drop the teaspoon in; stop the instant no solid grains are visible.",
+          "Rinse and refill the cup with fresh cold water, and repeat that timed trial 2 more times (3 trials total for cold).",
+          "Repeat the same process for room-temperature water, then for warm water, 3 trials each, always refilling with fresh water between trials.",
+          "Work out the average dissolving time for each temperature, and note your single fastest trial overall.",
+          "Compare the three average times."
+        ],
+        "record": [
+          {
+            "id": "avg_time_cold_s",
+            "label": "Average dissolving time for cold water, across 3 trials, in seconds",
+            "type": "number",
+            "unit": "s",
+            "min": 5,
+            "max": 600
+          },
+          {
+            "id": "avg_time_warm_s",
+            "label": "Average dissolving time for warm water, across 3 trials, in seconds",
+            "type": "number",
+            "unit": "s",
+            "min": 2,
+            "max": 300
+          },
+          {
+            "id": "fastest_trial_s",
+            "label": "Your single fastest trial time overall, in seconds",
+            "type": "number",
+            "unit": "s",
+            "min": 1,
+            "max": 600
+          },
+          {
+            "id": "substance_used",
+            "label": "What did you dissolve?",
+            "type": "choice",
+            "options": [
+              "Salt",
+              "Sugar",
+              "Both (different trials)"
+            ]
+          },
+          {
+            "id": "explain_pattern",
+            "label": "Did warmer water dissolve the substance faster, slower, or about the same as cold water? Explain why you think that happened, and whether it changes whether dissolving is a reversible change.",
+            "type": "text",
+            "min_words": 20
+          }
+        ],
+        "check": "Warm water should dissolve the substance noticeably faster than cold on average, even though individual trials will vary a bit. Dissolving should still count as reversible regardless of speed - if the write-up says otherwise, that's worth a follow-up conversation.",
+        "xp": 50
+      },
+      "kind": "lesson"
+    },
+    {
+      "slug": "y6-evidence-chemical-change-rust",
+      "title": "Spotting a chemical change - and why the coast eats metal",
+      "strand": "Chemical sciences",
+      "year_level": 6,
+      "curriculum_code": "AC9S6U04",
+      "curriculum_text": "compare reversible changes, including dissolving and changes of state, and irreversible changes, including cooking and rusting that produce new substances",
+      "position": 8,
+      "est_minutes": 13,
+      "intro": "You don't need a lab to tell a chemical change from a physical one - there are clues you can spot with your own eyes, nose and hands. And if you live near the coast in the tropics, you're living in one of the fastest places on Earth to watch a chemical change happen to metal.",
+      "sections": [
+        {
+          "heading": "Clues that a chemical change has happened",
+          "body": "A few reliable signs point to a chemical change rather than a physical one: a colour change that isn't just fading, bubbles or gas being produced, a noticeable temperature change without anything being heated or cooled from outside, a new smell appearing, a solid forming out of two liquids, or the fact that the change simply can't be undone by physical means.\n\nNone of these signs alone is a perfect guarantee - ice melting changes state without any chemical reaction, for instance - but seeing several of them together, especially an irreversible result, is strong evidence a new substance has formed."
+        },
+        {
+          "heading": "The chemistry of rust, briefly",
+          "body": "Rust is what forms when iron reacts with both oxygen and water at the same time - not oxygen alone, and not water alone. Perfectly dry iron in dry air barely rusts at all, and iron fully submerged with no oxygen present rusts far more slowly too. It's the combination that drives the reaction, producing hydrated iron oxide - the flaky reddish-brown rust you recognise - which is a genuinely new substance with much weaker structure than the metal it replaced."
+        },
+        {
+          "heading": "Why the tropical coast is especially rough on metal",
+          "body": "Cooktown and the surrounding coast combine three conditions that all accelerate rusting at once: constant high humidity (so there's almost always some moisture in the air), a long wet season (extending the time surfaces stay actually wet, not just humid), and salt carried in sea air, which settles on metal surfaces and speeds up the reaction significantly by helping current flow through the moisture film on the metal.\n\nThat's why boats, tinnies, roller doors, playground equipment, car underbodies, and cyclone shutters near the FNQ coast typically need far more anti-rust maintenance than the same items would in a dry inland town, even though the underlying chemistry - iron plus oxygen plus water - is exactly the same everywhere."
+        },
+        {
+          "heading": "Protecting metal from that chemistry",
+          "body": "Every common rust-prevention method works by blocking one of the three ingredients (iron, oxygen or water) from meeting: paint and oil form a physical barrier that keeps water and oxygen off the iron surface; galvanising coats steel in a thin layer of zinc, which reacts with oxygen and moisture instead of the iron underneath, sacrificing itself to protect the steel; and stainless steel is an alloy that forms its own thin, stable, invisible oxide layer on its surface that stops oxygen and water reaching the metal beneath it."
+        },
+        {
+          "heading": "A kitchen example of a fast chemical change",
+          "body": "Mix bicarbonate of soda with vinegar and you get immediate fizzing, a rush of bubbles, and the mixture cools slightly - three signs of chemical change in a few seconds, as the reaction produces carbon dioxide gas along with water and a dissolved salt. It's a useful, safe way to see the same category of change that rusting represents, just sped up from months to moments."
+        }
+      ],
+      "key_points": [
+        "Signs of a chemical change include colour change, gas/bubbles, temperature change, new smell, a solid forming, or the change being irreversible.",
+        "Rust needs both oxygen and water together reacting with iron - remove either one and rusting slows drastically.",
+        "Rust (hydrated iron oxide) is a new substance, structurally weaker than the iron it forms from.",
+        "High humidity, a long wet season and salty sea air combine to make tropical coastal areas especially fast at rusting metal.",
+        "Rust prevention methods (paint, oil, galvanising, stainless steel) all work by blocking iron from meeting oxygen and water."
+      ],
+      "try_this": "With an adult's permission, place one clean iron nail in a dry container, one in a container of plain water (fully submerged, no air gap), and one on a damp paper towel exposed to the air, ideally with a pinch of salt dissolved into its water. Check them every day for a week without disturbing them. Which nail rusts fastest? This tests the same three ingredients - iron, oxygen and water - that make the coastal climate here so hard on metal.",
+      "questions": [
+        {
+          "type": "mc",
+          "prompt": "Which of these is the strongest evidence that a chemical change has occurred, rather than a physical one?",
+          "choices": [
+            "The substance became slightly warmer or cooler",
+            "The change cannot be undone and has produced a substance with clearly different properties",
+            "The substance changed shape",
+            "The substance moved to a different container"
+          ],
+          "answer": "The change cannot be undone and has produced a substance with clearly different properties",
+          "explain": "While gas, colour change and temperature change are useful clues, an irreversible change producing a substance with genuinely different properties is the strongest evidence a new substance has formed.",
+          "difficulty": 3
+        },
+        {
+          "type": "tf",
+          "prompt": "Iron will rust just as fast in dry air as it does in humid, salty coastal air.",
+          "answer": false,
+          "explain": "Rusting needs both oxygen and water to react with iron. Dry air lacks enough moisture to drive the reaction quickly, while humid, salty coastal air provides plenty of both, plus salt that speeds the reaction further.",
+          "difficulty": 2
+        },
+        {
+          "type": "mc",
+          "prompt": "What two things does iron need to react with, at the same time, to form rust?",
+          "choices": [
+            "Heat and light",
+            "Oxygen and water",
+            "Salt and sand",
+            "Carbon dioxide and heat"
+          ],
+          "answer": "Oxygen and water",
+          "explain": "Rust forms from a reaction between iron, oxygen and water together. Iron kept either fully dry or with no oxygen present rusts far more slowly, because one of the two needed ingredients is missing.",
+          "difficulty": 1
+        },
+        {
+          "type": "text",
+          "prompt": "What is the general name for the flaky reddish-brown substance formed when iron reacts with oxygen and water?",
+          "answer": [
+            "rust",
+            "iron oxide",
+            "hydrated iron oxide"
+          ],
+          "explain": "Rust (hydrated iron oxide) is the new substance formed by this reaction - structurally much weaker than the original iron.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "Why does metal equipment near the Cooktown coast typically rust faster than similar equipment in a dry inland town?",
+          "choices": [
+            "Coastal iron is a different, weaker type of metal",
+            "High humidity, a long wet season and salty sea air all combine to speed up the same rusting reaction",
+            "Rust cannot form in inland towns at all",
+            "Coastal air contains less oxygen than inland air"
+          ],
+          "answer": "High humidity, a long wet season and salty sea air all combine to speed up the same rusting reaction",
+          "explain": "The chemistry of rust is identical everywhere, but coastal FNQ combines constant moisture, extended wet periods and salt in the air, all of which accelerate the same iron-oxygen-water reaction.",
+          "difficulty": 3
+        },
+        {
+          "type": "mc",
+          "prompt": "Galvanising coats steel in a layer of zinc. How does this protect the steel from rusting?",
+          "choices": [
+            "Zinc makes the steel completely waterproof forever",
+            "The zinc reacts with oxygen and moisture instead of the steel, protecting the steel underneath",
+            "Zinc removes all oxygen from the surrounding air",
+            "Zinc turns the steel into stainless steel"
+          ],
+          "answer": "The zinc reacts with oxygen and moisture instead of the steel, protecting the steel underneath",
+          "explain": "Zinc corrodes in preference to the steel it coats - it reacts with oxygen and water first, sacrificing itself so the steel underneath is protected for as long as the zinc layer lasts.",
+          "difficulty": 2
+        },
+        {
+          "type": "mc",
+          "prompt": "Vinegar and bicarbonate of soda are mixed and immediately fizz vigorously, releasing gas and cooling slightly. What kind of change is this?",
+          "choices": [
+            "A physical change of state, like melting",
+            "Dissolving, similar to salt in water",
+            "A chemical change, evidenced by gas production and temperature change",
+            "No change has actually occurred"
+          ],
+          "answer": "A chemical change, evidenced by gas production and temperature change",
+          "explain": "Gas production (bubbles) and a noticeable temperature change without external heating or cooling are classic signs of a chemical change - here, the reaction produces carbon dioxide gas.",
+          "difficulty": 2
+        },
+        {
+          "type": "tf",
+          "prompt": "Painting an iron gate prevents rust mainly by making the iron a stronger metal underneath.",
+          "answer": false,
+          "explain": "Paint doesn't change the iron itself - it works as a physical barrier, keeping oxygen and water away from the iron's surface so the rusting reaction can't get started.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "An unpainted steel gate bar loses about 0.4 millimetres of thickness to rust every year in Cooktown's coastal climate. The bar started at 6 millimetres thick and becomes dangerously weak once it drops below 3 millimetres. In about how many years would the bar reach that dangerous thickness?",
+          "answer": 7.5,
+          "tolerance": 0.5,
+          "unit": "years",
+          "explain": "The bar can lose 6 - 3 = 3 millimetres before becoming dangerous. Losing 0.4 millimetres a year, that takes 3 ÷ 0.4 = 7.5 years - the kind of calculation behind real maintenance schedules for coastal steel structures.",
+          "difficulty": 4
+        },
+        {
+          "type": "text",
+          "prompt": "A student paints one side of a single iron nail and leaves the other side bare, then leaves it in a humid spot for one week. The bare side rusts heavily; the painted side shows none. They conclude 'paint completely stops rust forever, on any surface.' Besides only running the test for one week, what is the other main weakness of this test, related to how many nails were used?",
+          "answer": [
+            "sample size",
+            "small sample size",
+            "only one nail",
+            "one nail"
+          ],
+          "explain": "Testing with just one nail means there's no way to know if the result would hold up with different nails, paint thicknesses, or conditions. A trustworthy conclusion needs a bigger sample size, not just a single example, however clear that one example looks.",
+          "difficulty": 4
+        },
+        {
+          "type": "mc",
+          "prompt": "Two identical unpainted steel brackets are installed at the same time: one on a boat used daily in Cooktown's coastal saltwater, one in a dry inland shed 200 kilometres away. After one year, the boat bracket is heavily rusted and the shed bracket shows almost none. Which explanation best fits the chemistry of rust covered in this lesson?",
+          "choices": [
+            "The boat bracket must be made from a different, weaker metal",
+            "Both locations provide the same oxygen, but the boat bracket also gets constant moisture and salt, which speeds up the same reaction dramatically",
+            "Rust forms at exactly the same rate everywhere, regardless of moisture",
+            "The shed bracket didn't rust because shed air contains no oxygen at all"
+          ],
+          "answer": "Both locations provide the same oxygen, but the boat bracket also gets constant moisture and salt, which speeds up the same reaction dramatically",
+          "explain": "Oxygen is available in both places, so it can't explain the difference. The boat's constant moisture and salt spray are the physical conditions that differ, and they're exactly what accelerates the iron-oxygen-water reaction on the coast.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "Galvanised steel has a zinc coating about 0.05 millimetres thick. In a coastal environment, that zinc corrodes away at roughly 0.004 millimetres per year before the steel underneath starts rusting. About how many years of protection would you expect from the coating before it's used up?",
+          "answer": 12.5,
+          "tolerance": 1,
+          "unit": "years",
+          "explain": "0.05 ÷ 0.004 = 12.5 years. This is why galvanised coastal fittings - roofing, fencing, boat trailers - typically need re-coating or replacing after a decade or so, even though the underlying steel is otherwise still sound.",
+          "difficulty": 4
+        }
+      ],
+      "activity": {
+        "title": "Measure the fizz: how much bicarb makes the most gas?",
+        "why": "Shows they can quantify evidence of a chemical change (gas volume) with a real fair test, rather than just noticing that fizzing happens.",
+        "est_minutes": 30,
+        "adult_help": "nearby",
+        "materials": [
+          "a small plastic bottle",
+          "3 balloons",
+          "vinegar",
+          "bicarbonate of soda",
+          "a teaspoon",
+          "a funnel (optional)",
+          "string and a ruler, or a tape measure"
+        ],
+        "steps": [
+          "Measure 100 mL of vinegar into the bottle.",
+          "Using a funnel, add 1 level teaspoon of bicarb into a balloon without letting it fall in yet, then stretch the balloon's neck carefully over the bottle's mouth.",
+          "Lift the balloon so the bicarb drops into the vinegar, and let the reaction fizz until it stops completely.",
+          "Measure the balloon's circumference around its widest point using string wrapped around it, then measuring the string's length with a ruler or tape measure, in centimetres.",
+          "Empty and rinse the bottle, then repeat the whole process with 2 level teaspoons of bicarb, keeping the vinegar amount exactly the same.",
+          "Repeat once more with 3 level teaspoons of bicarb.",
+          "Record the balloon circumference for each amount of bicarb and compare."
+        ],
+        "record": [
+          {
+            "id": "circ_1tsp_cm",
+            "label": "Balloon circumference with 1 teaspoon of bicarb, in centimetres",
+            "type": "number",
+            "unit": "cm",
+            "min": 5,
+            "max": 80
+          },
+          {
+            "id": "circ_2tsp_cm",
+            "label": "Balloon circumference with 2 teaspoons of bicarb, in centimetres",
+            "type": "number",
+            "unit": "cm",
+            "min": 5,
+            "max": 80
+          },
+          {
+            "id": "circ_3tsp_cm",
+            "label": "Balloon circumference with 3 teaspoons of bicarb, in centimetres",
+            "type": "number",
+            "unit": "cm",
+            "min": 5,
+            "max": 80
+          },
+          {
+            "id": "vinegar_controlled",
+            "label": "Did you keep the vinegar amount exactly the same for all three trials?",
+            "type": "choice",
+            "options": [
+              "Yes, exactly the same each time",
+              "No, it varied a bit"
+            ]
+          },
+          {
+            "id": "explain",
+            "label": "What evidence in this experiment shows a chemical change happened, and how did the balloon size relate to the amount of bicarb used? Explain in 2-3 sentences.",
+            "type": "text",
+            "min_words": 20
+          }
+        ],
+        "check": "The balloon should get bigger as more bicarb is added, since more gas is produced, up until the vinegar itself runs out of capacity to react. Gas production and a temperature change in the bottle are the two chemical-change signs to look for.",
+        "xp": 45
+      },
+      "kind": "lesson"
+    },
+    {
+      "slug": "y6-fair-tests-variables-sample-size",
+      "title": "Fair tests: variables, repeats and why one plant proves nothing",
+      "strand": "Science inquiry",
+      "year_level": 6,
+      "curriculum_code": "AC9S6I03",
+      "curriculum_text": "with guidance, plan and conduct scientific investigations to answer identified questions or explore identified problems, including making predictions, and identifying variables and controlling them where appropriate",
+      "position": 9,
+      "est_minutes": 13,
+      "intro": "A test can look scientific and still tell you nothing useful, if it isn't fair. Fair tests come down to a small set of habits - change one thing at a time, keep everything else the same, and don't trust a result from just one try.",
+      "sections": [
+        {
+          "heading": "Three kinds of variable",
+          "body": "In a fair test, the independent variable is the one thing you deliberately change. The dependent variable is what you measure, to see if it was affected. The controlled variables are everything else you deliberately keep the same, so they can't be the real reason for any difference you see.\n\nIf you change more than one thing at once - say, both the amount of water and the amount of sunlight a plant gets - and it grows differently, you have no way to know which change actually caused the result. That's not a fair test, no matter how carefully you measured."
+        },
+        {
+          "heading": "Why one trial isn't enough",
+          "body": "Living things and real-world conditions have natural variation - two seeds from the same packet won't grow at exactly the same rate, even under identical conditions. A single trial can be thrown off by something random: a slightly stronger seed, an unnoticed draft, a measuring mistake. Repeating a test several times and looking at the overall pattern, rather than trusting any one result, is what lets you tell a real effect apart from ordinary random variation."
+        },
+        {
+          "heading": "Sample size: why testing 3 plants is riskier than testing 30",
+          "body": "The same idea applies to how many individuals you test, not just how many times. If you test whether a fertiliser works using 3 plants, one unusually strong or weak plant can swing your whole result. Test 30 plants and one unusual plant barely shifts the overall pattern - the natural variation between individuals gets averaged out, and you can trust the result far more.\n\nThis is exactly why real studies of coral bleaching, for instance, survey many reef sites rather than checking a single patch of coral, and why sunscreen effectiveness trials test the product on many people rather than one.",
+          "example": {
+            "prompt": "A student tests whether shade cloth helps seedlings survive the wet season by growing 3 seedlings under shade cloth and 3 in the open, for one week only. Name two ways to make this a more trustworthy test.",
+            "working": [
+              "3 seedlings per group is a small sample, so one unusual seedling could swing the result",
+              "one week is a short time and only one trial, so a lucky or unlucky run of weather could distort it"
+            ],
+            "answer": "Use a larger sample size (more seedlings per group) and repeat the test over more time or run it again, rather than relying on one small, short trial."
+          }
+        },
+        {
+          "heading": "Fair tests around FNQ topics",
+          "body": "Imagine testing which of three coatings best protects a steel nail from rusting in salty, humid coastal air - the kind of question that matters directly here. A fair test would use identical nails, identical salty-water spray, identical exposure conditions and identical measurement method (checking on the same day, using the same rust rating) for every coating, changing only the coating itself. Testing each coating on just one nail, or letting one sit in a sunnier spot than the others, would make any difference in rust impossible to trust."
+        },
+        {
+          "heading": "Common ways a test stops being fair",
+          "body": "The most common mistakes are: changing two variables at once, using too small a sample, running only one trial, measuring inconsistently between groups, or letting an uncontrolled variable sneak in without noticing - like testing seedling growth in two different rooms that happen to get different amounts of light. Planning what you'll keep the same, before you start, is the best defence against all of these."
+        }
+      ],
+      "key_points": [
+        "The independent variable is what you change; the dependent variable is what you measure; controlled variables are what you keep the same.",
+        "Changing more than one variable at once makes it impossible to know which change caused the result.",
+        "Repeating a trial several times helps separate a real effect from random, one-off variation.",
+        "A larger sample size (more individuals tested) makes a result more trustworthy, because natural variation between individuals gets averaged out.",
+        "Careful planning of what to control, before starting, is the best way to avoid an unfair test."
+      ],
+      "try_this": "Design and run a fair test at home: which of two or three paper towel brands (or kitchen sponges) absorbs the most water? Decide your independent variable (the brand), your dependent variable (how you'll measure absorption - for example, how many teaspoons of water a fixed-size piece can soak up before dripping), and your controlled variables (piece size, water temperature, how you pour). Repeat each brand three times and compare the results, rather than trusting a single trial.",
+      "questions": [
+        {
+          "type": "mc",
+          "prompt": "In a fair test on plant growth, what is the independent variable?",
+          "choices": [
+            "Whatever you measure at the end",
+            "The one thing you deliberately change",
+            "Everything you keep the same",
+            "The plant species used"
+          ],
+          "answer": "The one thing you deliberately change",
+          "explain": "The independent variable is the single factor the experimenter deliberately changes, such as the amount of water given. What's measured is the dependent variable, and everything else kept constant is a controlled variable.",
+          "difficulty": 1
+        },
+        {
+          "type": "tf",
+          "prompt": "A fair test can change two variables at once, as long as you measure carefully.",
+          "answer": false,
+          "explain": "Changing more than one variable at once makes it impossible to know which change actually caused any difference you observe, no matter how carefully you measure. A fair test changes only one variable at a time.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "Why is it risky to trust a science result based on just one trial?",
+          "choices": [
+            "Repeating an experiment is against the rules of science",
+            "Random, natural variation could make a single result misleading, unlike a repeated pattern",
+            "One trial always gives the exact opposite of the true result",
+            "Trials never need repeating if the equipment is expensive"
+          ],
+          "answer": "Random, natural variation could make a single result misleading, unlike a repeated pattern",
+          "explain": "A single trial can be thrown off by one-off random factors. Repeating a test and looking at the overall pattern helps separate a genuine effect from ordinary chance variation.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "A study tests a new fertiliser on 40 tomato plants instead of just 2, so one unusually strong or weak plant won't swing the whole result. What term describes the number of individuals tested in a study like this?",
+          "answer": [
+            "sample size"
+          ],
+          "explain": "Sample size is the number of individuals tested. A larger sample size generally gives a more trustworthy result, because it averages out natural variation between individuals.",
+          "difficulty": 2
+        },
+        {
+          "type": "mc",
+          "prompt": "A student tests fertiliser effectiveness using only 3 plants per group. What is the main risk with this sample size?",
+          "choices": [
+            "3 plants always grow at identical rates, so the test is automatically fair",
+            "One unusually strong or weak plant could swing the whole result",
+            "Small sample sizes always overestimate an effect",
+            "There is no risk - sample size doesn't matter for plants"
+          ],
+          "answer": "One unusually strong or weak plant could swing the whole result",
+          "explain": "With only 3 plants, a single unusual individual has a large effect on the average result. A bigger sample averages out that kind of natural individual variation, giving a more reliable result.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "Testing three rust-prevention coatings, a student sprays each nail with salt water a different number of times and checks them on different days, instead of keeping those the same for every coating. What is the general term for a factor like this that should have been controlled but wasn't?",
+          "answer": [
+            "uncontrolled variable",
+            "confounding variable"
+          ],
+          "explain": "Salt water exposure and checking time should have been controlled variables, identical for every coating. Letting an uncontrolled variable vary means any rust difference can't be confidently blamed on the coating alone.",
+          "difficulty": 3
+        },
+        {
+          "type": "tf",
+          "prompt": "Real studies of coral bleaching typically survey many reef sites rather than relying on observations from a single small patch of coral.",
+          "answer": true,
+          "explain": "This mirrors the sample size principle: surveying many sites averages out natural site-to-site variation, giving a far more trustworthy picture of overall reef condition than a single patch could.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "A test compares seedling growth under shade cloth versus in the open, but the shaded group also happens to get watered more often by whoever is caring for it. Besides shade, what has now become a second variable affecting the result?",
+          "answer": [
+            "watering",
+            "water amount",
+            "watering amount"
+          ],
+          "explain": "For the test to isolate the effect of shade cloth, watering must be kept identical between groups. Letting it vary introduces a second, uncontrolled variable that muddies the result.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "In a fertiliser trial using only 3 plants per group, individual plants can naturally vary in height by as much as 6 centimetres just by chance, while the average difference researchers are trying to detect between fertilised and unfertilised groups is only 4 centimetres. As a multiple of the real effect being measured, how big is that random variation (random variation ÷ real effect)?",
+          "answer": 1.5,
+          "tolerance": 0.2,
+          "explain": "6 ÷ 4 = 1.5. The random noise here is one and a half times bigger than the actual effect being measured, which means a small sample like this could easily show a 'result' that's really just chance variation between plants, not a genuine fertiliser effect.",
+          "difficulty": 4
+        },
+        {
+          "type": "text",
+          "prompt": "A single tomato plant given a new fertiliser grows 10 centimetres taller over a month than a single un-fertilised tomato plant. The gardener declares, 'this fertiliser definitely works.' What is the single biggest weakness in this claim, in a short phrase, related to how many plants were tested in each group?",
+          "answer": [
+            "sample size",
+            "small sample size",
+            "only one plant",
+            "one plant per group"
+          ],
+          "explain": "With just one plant in each group, there's no way to tell a real fertiliser effect apart from ordinary chance variation between individual plants. A trustworthy test needs a reasonable sample size in each group, not a single pair of plants.",
+          "difficulty": 4
+        },
+        {
+          "type": "mc",
+          "prompt": "A student tests whether rainwater or tap water helps seedlings grow better. They plant 10 seedlings, water 5 with tap water and 5 with rainwater, keep all 10 on the same windowsill, give them the same amount of water each day, and measure height after 3 weeks. Is this a well-designed fair test?",
+          "choices": [
+            "No, because they should have used only one seedling per group",
+            "Yes - it has a reasonable sample size (5 per group), one clear independent variable (water type), and the other conditions are controlled",
+            "No, because rainwater can never be used in a real experiment",
+            "No, because 3 weeks is far too short a time to grow anything"
+          ],
+          "answer": "Yes - it has a reasonable sample size (5 per group), one clear independent variable (water type), and the other conditions are controlled",
+          "explain": "This test changes only one variable (water type), keeps light, watering amount and timing the same for every seedling, and uses a sample size big enough (5 per group) to average out normal plant-to-plant variation - all the hallmarks of a well-designed fair test.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A reef survey team knows that surveying just 2 sites gives very unreliable results, but accuracy improves a lot up to about 20 sites. If the team can survey 4 sites per day, how many days would they need to reach that 20-site benchmark?",
+          "answer": 5,
+          "tolerance": 0.5,
+          "unit": "days",
+          "explain": "20 sites ÷ 4 sites per day = 5 days. Reaching a big enough sample size to trust the result, rather than stopping after just 1 or 2 sites, is exactly the sample-size principle covered in this lesson, applied to real reef monitoring.",
+          "difficulty": 4
+        }
+      ],
+      "activity": {
+        "title": "Fair-test two paper plane designs, and name your variables",
+        "why": "Shows they can design and run their own fair test with real repeat trials, and correctly identify their own independent, dependent and controlled variables - not just spot mistakes in someone else's test.",
+        "est_minutes": 25,
+        "adult_help": "none",
+        "materials": [
+          "2 sheets of paper",
+          "a tape measure or a long piece of string plus a ruler",
+          "an open hallway or yard space",
+          "paper and pencil for recording"
+        ],
+        "steps": [
+          "Fold two different paper plane designs (for example a narrow dart and a wide-winged glider), using the same size and type of paper for both.",
+          "Decide on one person to do all the throwing, from a fixed launch line, so the thrower isn't a variable that changes between designs.",
+          "Throw plane 1 three times from the same spot with a similar throw each time, measuring the distance travelled to the nearest 0.1 metre each time.",
+          "Repeat the same process for plane 2 (three throws, same thrower, same launch line).",
+          "Work out the average distance for each plane design across its 3 throws, and the difference between your longest and shortest throw for plane 1.",
+          "Write down what your independent variable, dependent variable, and at least one controlled variable were in this test."
+        ],
+        "record": [
+          {
+            "id": "avg_dist_plane1_m",
+            "label": "Average distance for plane design 1, across 3 throws, in metres",
+            "type": "number",
+            "unit": "m",
+            "min": 0.2,
+            "max": 30
+          },
+          {
+            "id": "avg_dist_plane2_m",
+            "label": "Average distance for plane design 2, across 3 throws, in metres",
+            "type": "number",
+            "unit": "m",
+            "min": 0.2,
+            "max": 30
+          },
+          {
+            "id": "range_plane1_m",
+            "label": "Difference between your longest and shortest throw for plane design 1, in metres",
+            "type": "number",
+            "unit": "m",
+            "min": 0,
+            "max": 15
+          },
+          {
+            "id": "which_flew_further",
+            "label": "Which design flew further on average?",
+            "type": "choice",
+            "options": [
+              "Design 1 (dart)",
+              "Design 2 (glider)",
+              "About the same"
+            ]
+          },
+          {
+            "id": "variables",
+            "label": "Name your independent variable, your dependent variable, and one variable you controlled in this test.",
+            "type": "text",
+            "min_words": 15
+          }
+        ],
+        "check": "The written variables should correctly name plane design as independent, distance as dependent, and something like thrower, launch spot or paper size as controlled. If the two designs' average distances are close, check the throws were genuinely similar each time - an inconsistent throw is itself an uncontrolled variable.",
+        "xp": 45
+      },
+      "kind": "lesson"
+    },
+    {
+      "slug": "y6-science-collaboration-building-on-others",
+      "title": "No lone genius: how science really moves forward",
+      "strand": "Science as a human endeavour",
+      "year_level": 6,
+      "curriculum_code": "AC9S6H01",
+      "curriculum_text": "examine why advances in science are often the result of collaboration or build on the work of others",
+      "position": 10,
+      "est_minutes": 13,
+      "intro": "Textbooks sometimes make discoveries sound like one person's flash of brilliance. Almost none of them really work that way. Nearly every advance in science leans on evidence, tools and ideas that other people built first - and on teams of people checking each other's work.",
+      "sections": [
+        {
+          "heading": "\"Standing on the shoulders of giants\"",
+          "body": "The physicist Isaac Newton once wrote that if he had seen further than others, it was by standing on the shoulders of giants - meaning his own famous discoveries depended on centuries of earlier work by other scientists and mathematicians. That idea holds for almost all of science: a new discovery nearly always reuses evidence, equipment, methods or theories that other people spent years developing first. Nobody starts from zero."
+        },
+        {
+          "heading": "Watching the reef: thousands of eyes, not one",
+          "body": "Tracking the health of the Great Barrier Reef - including detecting bleaching events - relies on combining information from many different sources: marine scientists doing detailed underwater surveys, satellites measuring sea surface temperature from space, and citizen science programs where trained volunteers and tourism operators record what they see on regular reef visits. No single person or team could survey a reef system that size alone; the picture only becomes reliable when many independent observations are pooled together and cross-checked."
+        },
+        {
+          "heading": "Traditional knowledge and modern science, working together",
+          "body": "Indigenous ranger programs, run by Traditional Owner groups across northern Australia, increasingly combine land and sea management knowledge - built up and passed down over an extremely long time - with modern scientific tools like satellite tracking, water testing and population surveys. Neither source of knowledge replaces the other; specific, long-term local knowledge of Country and rigorous modern measurement tools genuinely strengthen each other when the people holding them work together."
+        },
+        {
+          "heading": "Big problems need big collaborations",
+          "body": "Some scientific challenges are simply too large for any single lab or country. Tracking a cyclone's path and intensity as it approaches the Queensland coast draws on satellite data, weather models and observations shared between meteorological agencies in multiple countries, feeding into the forecasts your family checks before a storm. Vaccine development is another example - large, complex problems typically get solved faster, and more reliably, when many researchers around the world share data and results rather than working in isolation."
+        },
+        {
+          "heading": "Why scientists check each other's work",
+          "body": "Before most scientific results are accepted, other scientists who weren't involved in the original study review the methods and evidence - a process called peer review - and other labs often try to reproduce the result independently. This isn't scientists doubting each other for no reason: it's a system built to catch mistakes, spot problems with a method, and confirm a result is solid before it becomes something other scientists build further work on. Science advances fastest when results are shared openly enough for this checking to happen."
+        }
+      ],
+      "key_points": [
+        "Scientific discoveries almost always build on evidence, tools and theories developed by earlier researchers, not from a single flash of insight.",
+        "Reef monitoring combines underwater surveys, satellite data and citizen science, because no one source can cover a system that large alone.",
+        "Traditional Owner ranger programs increasingly combine long-held knowledge of Country with modern scientific tools, strengthening both.",
+        "Large problems - like cyclone forecasting or vaccine development - are typically solved faster through international collaboration and shared data.",
+        "Peer review and independent replication let other scientists check a result before it's trusted and built upon."
+      ],
+      "try_this": "Run a two-person data check, like scientists do with peer review. Pick something easy to count for two minutes - ants near a snack, cars passing the house, birds in a tree - and have two people count it separately, without comparing notes while counting. Then compare your two tallies. Are they the same? If not, discuss why (missed one, miscounted, defined \"counts\" differently) - this is exactly the kind of checking that happens when a second scientist reviews someone else's results.",
+      "questions": [
+        {
+          "type": "tf",
+          "prompt": "Most major scientific discoveries happen because one person works entirely alone, without relying on any previous research.",
+          "answer": false,
+          "explain": "Almost all scientific advances build on evidence, tools and theories developed by earlier researchers. Even famous individual discoveries typically depend on a large body of earlier collaborative work.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "What did Isaac Newton mean by saying he saw further by \"standing on the shoulders of giants\"?",
+          "choices": [
+            "That he was taller than most other scientists",
+            "That his discoveries depended on centuries of earlier work by other scientists and mathematicians",
+            "That science is best done by working completely alone",
+            "That he literally stood on other people's shoulders to see"
+          ],
+          "answer": "That his discoveries depended on centuries of earlier work by other scientists and mathematicians",
+          "explain": "It's a metaphor: Newton was acknowledging that his own famous discoveries were only possible because of the huge amount of earlier work by other researchers that he was able to build on.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "Why does tracking the health of the Great Barrier Reef rely on combining underwater surveys, satellite data and citizen science, rather than just one of these?",
+          "choices": [
+            "Because satellites alone give a perfectly complete picture",
+            "Because the reef system is too large for any single source to monitor alone, and combining independent sources gives a more reliable picture",
+            "Because citizen science is more accurate than professional surveys",
+            "Because underwater surveys are no longer allowed"
+          ],
+          "answer": "Because the reef system is too large for any single source to monitor alone, and combining independent sources gives a more reliable picture",
+          "explain": "The Great Barrier Reef is far too large for any one method to cover completely. Combining and cross-checking multiple independent sources gives a much more complete and trustworthy picture.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "Before a surprising new result is widely accepted, other scientists who weren't involved in the study check its methods and evidence. What is this checking process called?",
+          "answer": [
+            "peer review"
+          ],
+          "explain": "Peer review is this checking process, designed to catch mistakes and confirm a result is solid before other scientists start building further work on top of it.",
+          "difficulty": 2
+        },
+        {
+          "type": "mc",
+          "prompt": "How do Indigenous ranger programs across northern Australia often combine traditional knowledge with modern science?",
+          "choices": [
+            "They replace traditional knowledge entirely with satellite data",
+            "They combine long-held knowledge of Country with modern tools like satellite tracking and water testing, strengthening both",
+            "They keep traditional knowledge and modern science completely separate",
+            "They only use methods that existed before modern technology"
+          ],
+          "answer": "They combine long-held knowledge of Country with modern tools like satellite tracking and water testing, strengthening both",
+          "explain": "These programs typically bring long-term, detailed knowledge of Country together with modern scientific tools - neither replaces the other, and combining them gives a stronger result than either alone.",
+          "difficulty": 3
+        },
+        {
+          "type": "tf",
+          "prompt": "International collaboration, such as sharing satellite data and weather models between countries, plays a major role in forecasting a cyclone's path toward the Queensland coast.",
+          "answer": true,
+          "explain": "Cyclone forecasting draws on data and models shared between meteorological agencies in multiple countries. No single country's data alone would produce as reliable a forecast.",
+          "difficulty": 2
+        },
+        {
+          "type": "mc",
+          "prompt": "A researcher publishes surprising results but refuses to share their data or methods with other scientists. Why would this concern the scientific community?",
+          "choices": [
+            "It would not concern anyone, since results only need to be announced",
+            "It prevents peer review and independent replication, which are how results normally get checked before being trusted",
+            "Sharing data is only required for very small studies",
+            "Scientists are legally required to keep their data private"
+          ],
+          "answer": "It prevents peer review and independent replication, which are how results normally get checked before being trusted",
+          "explain": "Without shared data and methods, other scientists can't properly review or attempt to reproduce the result. That checking process is central to how science builds reliable, trusted knowledge.",
+          "difficulty": 2
+        },
+        {
+          "type": "mc",
+          "prompt": "Which of these best explains why large problems, like developing a new vaccine, are usually tackled by big international collaborations rather than a single lab?",
+          "choices": [
+            "Because a single lab is not allowed to do this kind of research",
+            "Because such problems require huge amounts of data, testing and expertise that no single lab could gather alone, so pooling effort speeds up reliable progress",
+            "Because collaboration is required by law for all scientific research",
+            "Because a single lab would solve it just as fast, but collaboration is done out of tradition"
+          ],
+          "answer": "Because such problems require huge amounts of data, testing and expertise that no single lab could gather alone, so pooling effort speeds up reliable progress",
+          "explain": "Problems of this scale need more data, more testing capacity and more specialised expertise than any one lab has. Sharing the work across many researchers and institutions gets to a reliable answer faster.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A single small lab tests a new vaccine on 40 volunteers and estimates it's 70% effective. A large international collaboration pools data from 12 countries and tests 40,000 volunteers, estimating 65% effective. Roughly how many times bigger is the international collaboration's sample size than the single lab's?",
+          "answer": 1000,
+          "tolerance": 20,
+          "explain": "40,000 ÷ 40 = 1,000. A sample a thousand times bigger, pooled across many countries, gives a far more trustworthy estimate than one small lab's result, even though the two percentages look fairly close - this is exactly why large collaborations are trusted more than isolated small studies.",
+          "difficulty": 4
+        },
+        {
+          "type": "text",
+          "prompt": "A research group claims to have found a new marker of coral resilience to heat stress but declines to share their raw data or exact methods with other scientists, so other labs can't check it. What is the name of the specific process being blocked here - independent labs trying to get the same result themselves, using their own attempt at the same method?",
+          "answer": [
+            "replication",
+            "independent replication",
+            "reproducing the result"
+          ],
+          "explain": "Replication is when other, independent researchers repeat a study to see if they get the same result. Without shared data and methods, replication becomes impossible, which is exactly why refusing to share raises concern in the scientific community.",
+          "difficulty": 4
+        },
+        {
+          "type": "mc",
+          "prompt": "Traditional Owner rangers notice mangrove dieback in one area and want to know if it's linked to a marine heatwave. They combine their long-term on-Country observations with satellite sea-surface-temperature data and a marine scientist's water testing. Why does combining these three sources give a stronger conclusion than any one of them alone?",
+          "choices": [
+            "Because satellite data is always more accurate than any other kind of evidence",
+            "Each source can confirm or challenge the others, and together they cover things - long-term local change, broad temperature patterns, precise water chemistry - that no single method captures alone",
+            "Because using exactly three methods is a legal requirement for environmental research",
+            "Because rangers' direct observations should be set aside in favour of satellite data"
+          ],
+          "answer": "Each source can confirm or challenge the others, and together they cover things - long-term local change, broad temperature patterns, precise water chemistry - that no single method captures alone",
+          "explain": "Combining independent sources lets each one check the others and fill in gaps the others miss. Long-term local knowledge, wide-area satellite data and precise on-site testing each capture something the others can't, which is why using all three together is more convincing than relying on just one.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A cyclone forecast using only one country's satellite data has historically been accurate to within about 150 kilometres of the actual landfall location, 3 days ahead. When several countries' data and models are combined, that same 3-day forecast improves to within about 60 kilometres. By how many kilometres does combining data reduce the average forecast error?",
+          "answer": 90,
+          "tolerance": 5,
+          "unit": "km",
+          "explain": "150 - 60 = 90 kilometres of improvement. Pooling satellite data and models from multiple countries genuinely sharpens cyclone forecasts, which is exactly the kind of international collaboration that gets built into the warnings families along the Queensland coast rely on.",
+          "difficulty": 4
+        }
+      ],
+      "activity": {
+        "title": "Run your own three-trial replication study",
+        "why": "Shows they can quantify how reliable independent observations really are when repeated - the actual practice of scientific replication, not just a one-off demonstration of checking.",
+        "est_minutes": 25,
+        "adult_help": "none",
+        "materials": [
+          "2 people",
+          "a clock or phone timer",
+          "something countable outside (cars passing, birds in a tree, ants at a food scrap, moths at a light)",
+          "paper and pencil"
+        ],
+        "steps": [
+          "Choose something you and a partner can both observe and count for exactly 2 minutes.",
+          "Set a timer for 2 minutes. Both people count independently, without saying numbers out loud or looking at each other's tally, until the timer stops.",
+          "Compare your two counts, record both, and work out the percentage difference between them: (difference ÷ average of the two counts) × 100.",
+          "Repeat this for two more separate 2-minute trials, either counting the same thing at a different time or a different thing each time, always counting independently.",
+          "Work out the percentage difference for each of the three trials.",
+          "Discuss with your co-counter why any differences happened (missed one, double-counted, disagreed on what counts) - this is exactly the kind of discussion that happens in real peer review and replication."
+        ],
+        "record": [
+          {
+            "id": "trial1_pct_diff",
+            "label": "Percentage difference between the two counts in trial 1",
+            "type": "number",
+            "unit": "%",
+            "min": 0,
+            "max": 100
+          },
+          {
+            "id": "trial2_pct_diff",
+            "label": "Percentage difference between the two counts in trial 2",
+            "type": "number",
+            "unit": "%",
+            "min": 0,
+            "max": 100
+          },
+          {
+            "id": "trial3_pct_diff",
+            "label": "Percentage difference between the two counts in trial 3",
+            "type": "number",
+            "unit": "%",
+            "min": 0,
+            "max": 100
+          },
+          {
+            "id": "what_counted",
+            "label": "What did you count across your three trials?",
+            "type": "choice",
+            "options": [
+              "Same thing every trial",
+              "A different thing each trial",
+              "A mix"
+            ]
+          },
+          {
+            "id": "discuss_reasons",
+            "label": "What caused the biggest disagreement between counters, and what would you change to make your counting method more reliable next time?",
+            "type": "text",
+            "min_words": 20
+          }
+        ],
+        "check": "Some disagreement between counters is normal and expected - a percentage difference of zero every single trial is actually a little suspicious. The written discussion should name a real, specific reason for any mismatch (missed count, different starting moment, disagreement on what counted), not just restate that they disagreed.",
+        "xp": 40
+      },
+      "kind": "lesson"
+    }
+  ]
+}

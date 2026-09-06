@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% block title %}Quest Lab{% endblock %}
+{% block content %}
+
+<div style="max-width:400px;margin:6vh auto 0">
+  <h1>Quest Lab</h1>
+  <p class="sub">Type the house password to get in. You'll only need to do this once on this device.</p>
+
+  <div class="card">
+    <form method="post">
+      <label class="meta" for="password">House password</label>
+      <input class="numin" style="max-width:100%" id="password" name="password" type="password"
+             autocomplete="current-password" autofocus required>
+      {% if wrong %}<p style="color:var(--red);margin:.6em 0 0">That's not it. Try again.</p>{% endif %}
+      <button class="btn btn-lg" style="margin-top:14px" type="submit">Let me in</button>
+    </form>
+  </div>
+</div>
+
+{% endblock %}

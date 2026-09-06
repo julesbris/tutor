@@ -1,0 +1,97 @@
+{% extends "base.html" %}
+{% block title %}{{ activity.title }}{% endblock %}
+{% block content %}
+
+<p class="meta">
+  <a href="{{ url_for('lesson', slug=lesson.slug) }}">{{ lesson.title }}</a> &rsaquo; Activity
+</p>
+<h1>{{ activity.title }}</h1>
+<p class="sub">{{ activity.why }}</p>
+
+<div class="inline" style="gap:8px;margin-bottom:16px">
+  <span class="pill pill-violet">About {{ activity.est_minutes }} min</span>
+  <span class="pill pill-{{ 'amber' if activity.adult_help == 'required' else 'grey' }}">{{ activity.help_label }}</span>
+  <span class="pill pill-green">{{ activity.xp }} XP when it's signed off</span>
+</div>
+
+{% if log and log.status == 'approved' %}
+  <div class="verdict right">
+    <b>Signed off</b>
+    Done and dusted &mdash; {{ log.xp_awarded }} XP.
+    {% if log.parent_note %}<div style="margin-top:.4em">"{{ log.parent_note }}"</div>{% endif %}
+  </div>
+{% elif log and log.status == 'submitted' %}
+  <div class="verdict" style="background:var(--violet-soft);border:1px solid #d5cbf5">
+    <b>Waiting to be checked</b>
+    You've sent this off. Once it's signed off, the lesson counts as done.
+  </div>
+{% elif log and log.status == 'returned' %}
+  <div class="verdict wrong">
+    <b>Sent back for another go</b>
+    {% if log.parent_note %}"{{ log.parent_note }}"{% else %}Have another look at it and send it again.{% endif %}
+  </div>
+{% endif %}
+
+<div class="card">
+  <h3 style="margin-top:0">What you'll need</h3>
+  <ul>{% for m in activity.materials %}<li>{{ m }}</li>{% endfor %}</ul>
+
+  <h3>What to do</h3>
+  <ol class="steps">{% for s in activity.steps %}<li>{{ s }}</li>{% endfor %}</ol>
+</div>
+
+<h2>Write down what happened</h2>
+{% if log and log.status == 'approved' %}
+  <div class="card">
+    <table>
+      {% for label, value in log.display_pairs() %}
+        <tr><th style="width:45%">{{ label }}</th><td>{{ value }}</td></tr>
+      {% endfor %}
+    </table>
+  </div>
+{% else %}
+<div class="card">
+  <p class="meta">Real numbers from what you actually did. Made-up answers get sent straight back.</p>
+  <form method="post">
+    {% for field in activity.record_fields %}
+      <div style="margin-bottom:18px">
+        <label class="fieldlabel" for="f-{{ field.id }}">{{ field.label }}</label>
+        {% if field.hint %}<div class="meta">{{ field.hint }}</div>{% endif %}
+
+        {% if field.type == 'number' %}
+          <div class="inline">
+            <input class="numin" id="f-{{ field.id }}" name="{{ field.id }}" inputmode="decimal"
+                   autocomplete="off" value="{{ values.get(field.id, '') }}">
+            {% if field.unit %}<b>{{ field.unit }}</b>{% endif %}
+          </div>
+        {% elif field.type == 'choice' %}
+          <div class="choices" style="margin-top:6px">
+            {% for opt in field.options %}
+              <label class="choice">
+                <input type="radio" name="{{ field.id }}" value="{{ opt }}"
+                       {{ 'checked' if values.get(field.id) == opt }}>
+                <span>{{ opt }}</span>
+              </label>
+            {% endfor %}
+          </div>
+        {% else %}
+          <textarea class="numin" style="max-width:100%;font-size:1rem;font-weight:400;min-height:110px"
+                    id="f-{{ field.id }}" name="{{ field.id }}">{{ values.get(field.id, '') }}</textarea>
+        {% endif %}
+
+        {% if errors.get(field.id) %}<p class="fielderr">{{ errors[field.id] }}</p>{% endif %}
+      </div>
+    {% endfor %}
+
+    <button class="btn btn-lg" type="submit">
+      {{ 'Send it off again' if log else 'Send it off to be checked' }}
+    </button>
+  </form>
+</div>
+{% endif %}
+
+<p class="meta" style="margin-top:16px">
+  Checking this off: {{ activity.check_note }}
+</p>
+
+{% endblock %}

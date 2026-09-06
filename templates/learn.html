@@ -1,0 +1,55 @@
+{% extends "base.html" %}
+{% block title %}{{ subject }} lessons{% endblock %}
+{% block content %}
+
+<h1>{{ subject }}</h1>
+<p class="sub">{{ count }} lessons at Year {{ year }} level.</p>
+
+<div class="tabs">
+  {% for s in subjects %}
+    <a class="{{ 'on' if s == subject }}" href="{{ url_for('learn', subject=s, year=year) }}">{{ s }}</a>
+  {% endfor %}
+  <span style="flex:1"></span>
+  {% for y in [4, 6] %}
+    <a class="{{ 'on' if y == year }}" href="{{ url_for('learn', subject=subject, year=y) }}">Year {{ y }}</a>
+  {% endfor %}
+</div>
+
+{% for strand, items in grouped.items() %}
+  <h2>{{ strand }}</h2>
+  {% for lesson, row in items %}
+    {% set state = row.state if row else 'new' %}
+    <a class="lessonrow {{ state }}" href="{{ url_for('lesson', slug=lesson.slug) }}">
+      <span class="n">{{ loop.index }}</span>
+      <span class="t">
+        <b>{{ lesson.title }}</b>
+        <span class="meta">
+          {{ lesson.questions|length }} questions + activity &middot; about {{ lesson.est_minutes }} min
+          {% if lesson.curriculum_code %} &middot; {{ lesson.curriculum_code }}{% endif %}
+        </span>
+      </span>
+      {% if state == 'mastered' %}
+        <span class="pill pill-green">Mastered</span>
+      {% elif state == 'quiz-passed' %}
+        <span class="pill pill-violet">Activity to go</span>
+      {% elif state == 'practising' %}
+        <span class="pill pill-amber">{{ row.best_percent }}%</span>
+      {% elif state == 'read' %}
+        <span class="pill pill-grey">Read</span>
+      {% endif %}
+    </a>
+  {% endfor %}
+{% else %}
+  <div class="card">No lessons here yet.</div>
+{% endfor %}
+
+<div class="card" style="margin-top:22px">
+  <b>Feeling sharp?</b>
+  <p class="meta">A 10-question mix from this subject, weighted to the ones you've missed before.</p>
+  <form method="post" action="{{ url_for('start_mix') }}">
+    <input type="hidden" name="subject" value="{{ subject }}">
+    <button class="btn btn-amber" type="submit">Start a {{ subject }} mix</button>
+  </form>
+</div>
+
+{% endblock %}

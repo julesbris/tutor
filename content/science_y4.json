@@ -1,0 +1,2366 @@
+{
+  "pack": "science_y4",
+  "subject": "Science",
+  "lessons": [
+    {
+      "slug": "y4-food-chains-roles",
+      "title": "Producers, consumers and decomposers: who eats who",
+      "strand": "Biological sciences",
+      "year_level": 4,
+      "curriculum_code": "AC9S4U01",
+      "curriculum_text": "explain the roles and interactions of consumers, producers and decomposers within a habitat and how food chains represent feeding relationships",
+      "position": 1,
+      "est_minutes": 14,
+      "intro": "Every mangrove, riverbank and backyard around Cooktown is full of living things with a job to do. Let's find out what those jobs are, and how a food chain shows who eats who.",
+      "sections": [
+        {
+          "heading": "Producers: the food makers",
+          "body": "A **producer** is a living thing that makes its own food. Plants are producers. They use sunlight, water and air to make food inside their leaves. This is called **photosynthesis**.\n\nAround Cooktown, mango trees, seagrass meadows and mangrove trees are all producers. They don't need to eat anything else to survive. Every food chain starts with a producer, because producers are the only living things that can turn sunlight into food energy."
+        },
+        {
+          "heading": "Consumers: the eaters",
+          "body": "A **consumer** is a living thing that eats other living things for energy, because it cannot make its own food.\n\n- A **herbivore** eats only plants. A cassowary eating fallen rainforest fruit is a herbivore.\n- A **carnivore** eats only other animals. A saltwater crocodile ambushing a fish is a carnivore.\n- An **omnivore** eats both plants and animals. Humans are usually omnivores.\n\nConsumers get their energy second-hand, by eating something that already has energy stored in it.",
+          "example": {
+            "prompt": "A goanna eats a small lizard. Is the goanna a producer or a consumer, and why?",
+            "working": [
+              "The goanna cannot make its own food from sunlight",
+              "It gets energy by eating another animal"
+            ],
+            "answer": "A consumer, because it eats other living things for energy"
+          }
+        },
+        {
+          "heading": "Decomposers: nature's recyclers",
+          "body": "A **decomposer** breaks down dead plants and animals into simpler nutrients. Fungi, bacteria and some crabs and worms are decomposers.\n\nIn the mangroves along the Endeavour River, fallen leaves pile up in the mud every day. Fungi, bacteria and mud crabs slowly break that leaf litter down. This releases nutrients back into the mud, which mangrove trees then use to grow. Without decomposers, dead material would just pile up forever and nutrients would never get recycled."
+        },
+        {
+          "heading": "Reading a food chain",
+          "body": "A **food chain** is drawn as a line of living things joined by arrows. The arrow means \"energy flows to\", so it points from what gets eaten to what eats it.\n\nA simple Endeavour River food chain looks like this: algae → small fish → barramundi → crocodile. Algae is the producer at the start. Each arrow after that points to a consumer that gets its energy by eating the thing before it.",
+          "example": {
+            "prompt": "Put these into a correct food chain, starting with the producer: crocodile, algae, small fish, barramundi.",
+            "working": [
+              "A food chain always starts with a producer",
+              "Each next link eats the one before it"
+            ],
+            "answer": "algae → small fish → barramundi → crocodile"
+          }
+        }
+      ],
+      "key_points": [
+        "Producers, like mango trees and seagrass, make their own food using sunlight.",
+        "Herbivores eat plants, carnivores eat animals, and omnivores eat both.",
+        "Decomposers like fungi and bacteria break down dead material and recycle nutrients.",
+        "A food chain's arrows show the direction energy flows, from producer to consumer.",
+        "Every food chain starts with a producer."
+      ],
+      "try_this": "Grab some paper and draw or write out a food chain from your own backyard or a place you know well, such as: grass → grasshopper → gecko → cat. Cut the words into cards, mix them up, then race a family member to put them back in the correct order with the producer first.",
+      "questions": [
+        {
+          "type": "tf",
+          "prompt": "Producers make their own food using sunlight.",
+          "answer": true,
+          "explain": "Producers, like plants, use sunlight, water and air to make their own food through photosynthesis. That's what makes them producers rather than consumers.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "Which of these is a decomposer?",
+          "choices": [
+            "Fungi growing on a fallen log",
+            "A mango tree",
+            "A cassowary",
+            "A saltwater crocodile"
+          ],
+          "answer": "Fungi growing on a fallen log",
+          "explain": "Fungi break down dead plants and animals into nutrients, which makes them decomposers. The mango tree is a producer, and the cassowary and crocodile are consumers.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "In the chain algae → small fish → barramundi, a bad wet season kills off most of the small fish. What would you expect to happen to the barramundi soon after, and why?",
+          "choices": [
+            "They would likely struggle, because their main food source has dropped",
+            "They would be fine, because barramundi make their own food like a producer",
+            "They would turn into decomposers to survive",
+            "The algae would start eating the barramundi instead"
+          ],
+          "answer": "They would likely struggle, because their main food source has dropped",
+          "explain": "Barramundi are consumers - they get energy by eating other living things, so losing the small fish they eat removes their main energy source, which can hurt their numbers.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "A cassowary spends its whole day eating fallen rainforest fruit and never eats meat. What one word describes this kind of diet?",
+          "answer": [
+            "herbivore"
+          ],
+          "explain": "An animal that eats only plants, like a cassowary eating fruit, is called a herbivore.",
+          "difficulty": 2
+        },
+        {
+          "type": "mc",
+          "prompt": "Fallen mango leaves pile up under a backyard tree for months, yet the pile never grows as tall as you'd expect from a whole wet season of leaf drop. What is most likely happening to the missing leaf litter?",
+          "choices": [
+            "Fungi, bacteria and other decomposers are breaking it down and returning nutrients to the soil",
+            "The leaves are evaporating into water vapour",
+            "Herbivores are eating all of the fallen leaves whole",
+            "The leaves are turning directly into new mango trees"
+          ],
+          "answer": "Fungi, bacteria and other decomposers are breaking it down and returning nutrients to the soil",
+          "explain": "Decomposers constantly break down dead plant material, recycling its nutrients into the soil, which is why leaf litter doesn't just keep piling up forever.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "A food chain diagram lists these: mangrove leaves, fungus, mud crab, egret, python. How many of these are consumers (not counting the producer or the decomposer)?",
+          "answer": 3,
+          "tolerance": 0,
+          "unit": "",
+          "explain": "Mangrove leaves are the producer and fungus is a decomposer. Mud crab, egret and python all get energy by eating other living things, so those three are the consumers.",
+          "difficulty": 2
+        },
+        {
+          "type": "tf",
+          "prompt": "If every decomposer disappeared from a habitat, dead leaves and animals would stop breaking down, but the nutrients trapped inside them would still find their own way back into the soil for plants to use.",
+          "answer": false,
+          "explain": "Without decomposers, nutrients stay locked inside dead material - they don't get back into the soil by themselves. Decomposers are the only living things that release those nutrients so producers can use them again.",
+          "difficulty": 3
+        },
+        {
+          "type": "mc",
+          "prompt": "Small fish eat algae, and crocodiles eat small fish. Which food chain below correctly shows this, with each arrow meaning 'is eaten by'?",
+          "choices": [
+            "Crocodile → small fish → algae",
+            "Algae → small fish → crocodile",
+            "Small fish → algae → crocodile",
+            "Algae → crocodile → small fish"
+          ],
+          "answer": "Algae → small fish → crocodile",
+          "explain": "A food chain starts with the producer (algae) and each arrow points to whatever eats the thing before it, ending with the small fish being eaten by the crocodile.",
+          "difficulty": 3
+        },
+        {
+          "type": "text",
+          "prompt": "A drought kills most of the grass in a paddock. Grasshoppers eat the grass, and lizards eat the grasshoppers. If the grasshopper population drops sharply because of the drought, what is most likely to happen to the lizard population?",
+          "answer": [
+            "decrease",
+            "decline",
+            "drop"
+          ],
+          "explain": "Lizards get their energy from grasshoppers. Fewer grasshoppers means less food for lizards, so the lizard population is likely to decrease as well, not stay the same.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "In a pond food chain, algae feed tadpoles, tadpoles are eaten by fish, and fish are eaten by a heron. A biologist counts 40 tadpoles, and each fish needs to eat 8 tadpoles to survive to adulthood. If every tadpole gets eaten, how many fish could this tadpole population support?",
+          "answer": 5,
+          "tolerance": 0,
+          "unit": "",
+          "explain": "Divide the total tadpoles by how many each fish needs: 40 tadpoles divided by 8 per fish equals 5 fish supported by this food source.",
+          "difficulty": 4
+        },
+        {
+          "type": "text",
+          "prompt": "Mud crabs help decompose fallen mangrove leaves, but overharvesting removes almost all the mud crabs from one stretch of river. Predict what would happen to the leaf litter on the mangrove floor there.",
+          "answer": [
+            "build up",
+            "pile up",
+            "increase",
+            "accumulate"
+          ],
+          "explain": "Mud crabs are one of the decomposers breaking down leaf litter. With far fewer crabs doing that job, dead leaves would build up faster than they're broken down.",
+          "difficulty": 4
+        },
+        {
+          "type": "mc",
+          "prompt": "A hawk mainly eats snakes, snakes mainly eat rats, and rats mainly eat grain. A disease wipes out most of the rats. Which best describes the most likely knock-on effect two steps away from the rats?",
+          "choices": [
+            "Grain increases and hawks may struggle to find enough food",
+            "Hawks increase in number immediately",
+            "Grain decreases sharply",
+            "Snakes increase in number"
+          ],
+          "answer": "Grain increases and hawks may struggle to find enough food",
+          "explain": "With fewer rats, less grain gets eaten, so grain increases. Snakes also lose their main food source, so their numbers can fall, which then leaves hawks with less to eat too. Both effects ripple two steps from the rats.",
+          "difficulty": 4
+        }
+      ],
+      "activity": {
+        "title": "Habitat survey: find every link in a food chain",
+        "why": "Finding real evidence of producers, consumers and decomposers outside proves they can spot food chain roles in real life, not just name them on a worksheet.",
+        "est_minutes": 25,
+        "adult_help": "nearby",
+        "materials": [
+          "notebook and pencil",
+          "a magnifying glass if you have one",
+          "a small stick for gently checking leaf litter"
+        ],
+        "steps": [
+          "Choose an outdoor spot to explore for 15 minutes, such as your yard, a park or a nature strip. Stay well away from any water's edge.",
+          "Walk slowly and count how many different KINDS of plants (producers) you can see, such as trees, grasses or weeds.",
+          "Look for evidence of consumers: chewed leaves, insect bites, feathers, droppings, spider webs, or the animals themselves. Count how many separate pieces of evidence you find.",
+          "Look for evidence of decomposers: fungi, mould, or rotting wood or leaves. Count how many separate signs you find.",
+          "Pick the single most interesting piece of evidence you found and note what role (producer, consumer or decomposer) it shows.",
+          "Record your counts and write a few sentences describing that best piece of evidence and which role it plays in a food chain."
+        ],
+        "record": [
+          {
+            "id": "producers_spotted",
+            "label": "How many different kinds of plants (producers) did you spot?",
+            "type": "number",
+            "unit": "",
+            "hint": "count the different kinds, not every single plant",
+            "min": 1,
+            "max": 25
+          },
+          {
+            "id": "decomposer_signs",
+            "label": "How many separate signs of decomposers (fungi, mould, rotting wood) did you find?",
+            "type": "number",
+            "unit": "",
+            "hint": "",
+            "min": 0,
+            "max": 15
+          },
+          {
+            "id": "best_evidence",
+            "label": "Describe the single most interesting piece of evidence you found, and which food chain role it shows.",
+            "type": "text",
+            "hint": "two or three sentences",
+            "min_words": 15
+          },
+          {
+            "id": "location",
+            "label": "Where did you do your survey?",
+            "type": "choice",
+            "options": [
+              "Backyard",
+              "Park",
+              "Bush or nature strip",
+              "Other"
+            ]
+          }
+        ],
+        "check": "A believable result is usually 3 to 15 kinds of plants and at least a couple of decomposer signs like fungi or rotting leaves. The written description should name one specific real thing they saw, not a generic answer copied from the lesson.",
+        "xp": 35
+      },
+      "kind": "lesson"
+    },
+    {
+      "slug": "y4-food-webs-connections",
+      "title": "Food webs: what happens when one link disappears",
+      "strand": "Biological sciences",
+      "year_level": 4,
+      "curriculum_code": "AC9S4U01",
+      "curriculum_text": "explain the roles and interactions of consumers, producers and decomposers within a habitat and how food chains represent feeding relationships",
+      "position": 2,
+      "est_minutes": 14,
+      "intro": "Real habitats are messier than one neat food chain. Most animals eat more than one thing, which links chains together into a food web. Let's see what happens when one link in that web disappears.",
+      "sections": [
+        {
+          "heading": "From chains to webs",
+          "body": "A single food chain only shows one path of energy, like algae → fish → crocodile. But in real life, a crocodile doesn't only eat one kind of fish, and that fish doesn't only eat one kind of insect.\n\nWhen you connect all the overlapping food chains in one habitat together, you get a **food web**. A food web is a much more realistic picture of how energy actually moves through a place, because it shows every feeding connection at once."
+        },
+        {
+          "heading": "A Cooktown food web",
+          "body": "Imagine a food web around the Endeavour River and nearby mangroves. Producers like seagrass, algae and mangrove leaves are eaten by mud crabs, small fish and insects. Those are eaten by bigger fish, birds like egrets, goannas and pythons. Crocodiles sit near the top, eating fish, birds and sometimes other animals.\n\nMany of these animals share the same food, and many predators eat more than one kind of prey. That's what makes it a web instead of a single line."
+        },
+        {
+          "heading": "What happens when a link is removed",
+          "body": "Every living thing in a food web is connected to several others. If one species disappears or its numbers drop sharply, the effects usually spread outward.\n\n- Animals that used to eat it may struggle to find enough food.\n- Animals it used to eat may suddenly increase, because nothing is controlling their numbers.\n- These changes can then affect other species further along the web, even ones that never directly interacted with the missing species.",
+          "example": {
+            "prompt": "If mud crabs almost disappeared from a mangrove food web, what would most likely happen to the fish, birds and crocodiles that eat them?",
+            "working": [
+              "Mud crabs are a food source for several predators",
+              "Removing that food source doesn't add a new one"
+            ],
+            "answer": "They would have less food available and their numbers could drop"
+          }
+        },
+        {
+          "heading": "Cane toads: a real Far North Queensland example",
+          "body": "Cane toads are an **invasive species** in Far North Queensland, meaning they were introduced and are not naturally part of the local food web. Cane toads carry a poison strong enough to kill many native predators, such as goannas, quolls and some snakes, when the predators try to eat them.\n\nWhen these predators die from eating toxic toads, they are removed from the food web. That can allow the animals those predators used to hunt, such as insects or small reptiles, to increase, because one of their natural controls is gone."
+        }
+      ],
+      "key_points": [
+        "A food web is made up of many overlapping, connected food chains.",
+        "Most animals eat more than one kind of food, which links chains together.",
+        "Removing one species from a food web affects the animals connected to it, and can ripple further outward.",
+        "Cane toads are an invasive species whose poison kills native predators like goannas, disrupting local food webs.",
+        "A change to one part of a food web rarely stays isolated to just that one part."
+      ],
+      "try_this": "On paper, draw 6 to 8 animals and plants from a habitat you know, such as a garden or the bush near home. Draw arrows connecting what eats what. Then pick one animal and cover it with your hand. Talk through with a family member what might happen to the other animals connected to it.",
+      "questions": [
+        {
+          "type": "tf",
+          "prompt": "A food web shows only one path of energy through a habitat.",
+          "answer": false,
+          "explain": "A food web shows many overlapping food chains connected together, not just one path. A single path is a food chain, not a food web.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "What is a food web made of?",
+          "choices": [
+            "Many connected food chains",
+            "A single food chain",
+            "Only decomposers",
+            "Only producers"
+          ],
+          "answer": "Many connected food chains",
+          "explain": "A food web forms when several overlapping food chains in a habitat are connected together, because most animals eat more than one kind of food.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "Cane toads spread into a goanna's habitat for the first time. Some goannas try eating the toads, which are poisonous to them. What is the most likely effect on the goanna population over the next few years?",
+          "choices": [
+            "It can shrink, because some goannas are poisoned when they eat toxic toads",
+            "It grows quickly, because toads make an excellent new food source",
+            "It stays exactly the same, because goannas avoid all new species",
+            "It shifts entirely to eating mangrove leaves instead"
+          ],
+          "answer": "It can shrink, because some goannas are poisoned when they eat toxic toads",
+          "explain": "Cane toads carry a poison strong enough to kill goannas that try to eat them, so a population can decline sharply after toads arrive.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "Cane toads were brought to Australia from overseas and are not naturally part of any local food web here. What term describes a species like this?",
+          "answer": [
+            "invasive species",
+            "invasive"
+          ],
+          "explain": "A species introduced to a place it doesn't naturally belong, which can disrupt the existing food web, is called an invasive species.",
+          "difficulty": 2
+        },
+        {
+          "type": "mc",
+          "prompt": "Mud crabs in a mangrove food web are eaten by fish, birds and crocodiles. One year, overfishing sharply reduces the mud crab population. What is the most likely knock-on effect?",
+          "choices": [
+            "The predators that ate crabs now have less food available",
+            "The mangrove trees stop producing leaves entirely",
+            "Nothing changes for any other species in the food web",
+            "Decomposers stop breaking down dead material"
+          ],
+          "answer": "The predators that ate crabs now have less food available",
+          "explain": "Mud crabs are a food source for several predators. Removing that food source means those predators must find other food or their numbers may drop too.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "A food web diagram shows 5 producers and 11 consumers connected to them, plus 2 decomposers. How many living things are shown in total, not counting the decomposers?",
+          "answer": 16,
+          "tolerance": 0,
+          "unit": "",
+          "explain": "Add the producers and consumers only: 5 producers plus 11 consumers equals 16 living things, since the question asks to exclude decomposers.",
+          "difficulty": 2
+        },
+        {
+          "type": "tf",
+          "prompt": "In a food web, an animal can be affected by the disappearance of a species it never directly ate or was eaten by.",
+          "answer": true,
+          "explain": "Effects can spread indirectly through connected links in a web. Even species with no direct feeding connection to what's missing can be affected as changes ripple outward.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A pond has 3 kinds of producers. Each producer is eaten by 4 different kinds of consumer, and no consumer eats more than one kind of producer. How many separate feeding connections does this make in total?",
+          "answer": 12,
+          "tolerance": 0,
+          "unit": "",
+          "explain": "3 producers times 4 consumers each gives 12 separate feeding connections. A real food web has many overlapping connections like this, which is what makes it a web rather than a single chain.",
+          "difficulty": 3
+        },
+        {
+          "type": "text",
+          "prompt": "Cane toads killed off most of the goannas in an area. Goannas used to hunt many small skinks. Predict what is likely to happen to the skink population now that far fewer goannas are hunting them.",
+          "answer": [
+            "increase",
+            "grow",
+            "rise"
+          ],
+          "explain": "Goannas were a predator controlling skink numbers. With most goannas gone, one of the skinks' main threats has been removed, so their population is likely to increase.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "Six different predators in a food web each rely on mud crabs for about a quarter (25%) of their diet. If mud crabs completely disappeared, roughly what percentage of these predators' total diet would they now need to replace from other prey?",
+          "answer": 25,
+          "tolerance": 2,
+          "unit": "%",
+          "explain": "If mud crabs make up 25% of a predator's diet, losing mud crabs entirely means that predator needs to find another food source to replace that same 25% share.",
+          "difficulty": 4
+        },
+        {
+          "type": "text",
+          "prompt": "Two bird species both eat the same insect, and frogs also eat that insect. A pesticide wipes out that one insect species. Even though the pesticide never touched the frogs directly, they would have less ____ available.",
+          "answer": [
+            "food",
+            "prey",
+            "insects"
+          ],
+          "explain": "The frogs are connected to the pesticide's effect indirectly, through the food web. Losing the shared insect removes one of the frogs' food sources, even though nothing touched the frogs themselves.",
+          "difficulty": 4
+        },
+        {
+          "type": "mc",
+          "prompt": "A cyclone destroys most of the seagrass in a bay. Dugongs eat seagrass directly, and tiger sharks sometimes eat dugongs. Which best describes the most likely ripple effect through this food web?",
+          "choices": [
+            "Dugongs would have less food, and this could eventually reduce food available to tiger sharks",
+            "Tiger sharks would disappear immediately",
+            "Seagrass loss would have no effect on any animal in the bay",
+            "Dugong numbers would increase because of the cyclone"
+          ],
+          "answer": "Dugongs would have less food, and this could eventually reduce food available to tiger sharks",
+          "explain": "Losing seagrass removes the dugongs' main food source, so dugong numbers could fall over time. Since tiger sharks sometimes eat dugongs, that effect can ripple one step further along the web.",
+          "difficulty": 4
+        }
+      ],
+      "activity": {
+        "title": "Compare two habitats: which supports more feeding connections?",
+        "why": "Counting how many different small creatures live in two different spots shows, with real numbers, how habitat complexity relates to how connected a food web can be.",
+        "est_minutes": 30,
+        "adult_help": "nearby",
+        "materials": [
+          "notebook and pencil",
+          "a timer or phone timer",
+          "a magnifying glass if you have one",
+          "a small stick for gently checking under leaves"
+        ],
+        "steps": [
+          "With an adult nearby, choose two different outdoor spots to compare, such as a mulched garden bed and an open lawn or paved area.",
+          "At the first spot, set a timer for 8 minutes. Gently search the ground, under leaves and around plants for small creatures like insects, spiders and worms. Leave every creature exactly where you found it.",
+          "Count the number of different KINDS of creatures you see at that spot, not the total number of individuals.",
+          "Move to the second spot and repeat the same 8-minute search, counting the different kinds you find there too.",
+          "Compare your two counts and think about which habitat could support a more complicated food web.",
+          "Record both counts and write a few sentences about which spot had more variety and why that habitat might support more feeding connections."
+        ],
+        "record": [
+          {
+            "id": "habitat1_kinds",
+            "label": "How many different kinds of small creatures did you find at Spot 1?",
+            "type": "number",
+            "unit": "",
+            "hint": "different kinds, not total individuals",
+            "min": 0,
+            "max": 20
+          },
+          {
+            "id": "habitat2_kinds",
+            "label": "How many different kinds of small creatures did you find at Spot 2?",
+            "type": "number",
+            "unit": "",
+            "hint": "different kinds, not total individuals",
+            "min": 0,
+            "max": 20
+          },
+          {
+            "id": "explanation",
+            "label": "Which spot had more variety, and why do you think that habitat can support more feeding connections in a food web?",
+            "type": "text",
+            "hint": "three or four sentences",
+            "min_words": 20
+          },
+          {
+            "id": "spots_compared",
+            "label": "Which two spots did you compare?",
+            "type": "choice",
+            "options": [
+              "Garden bed vs lawn",
+              "Under a tree vs paved area",
+              "Mulch/compost vs bare dirt",
+              "Other two spots"
+            ]
+          }
+        ],
+        "check": "Real counts are usually low, somewhere between 2 and 10 kinds per spot in a suburban yard. A mulched or garden spot should usually beat a bare lawn or paved area — if it doesn't, ask them to explain what was different about their two spots.",
+        "xp": 40
+      },
+      "kind": "lesson"
+    },
+    {
+      "slug": "y4-water-cycle",
+      "title": "The water cycle: how water moves around Earth",
+      "strand": "Earth and space sciences",
+      "year_level": 4,
+      "curriculum_code": "AC9S4U02",
+      "curriculum_text": "identify sources of water and describe key processes in the water cycle, including movement of water through the sky, landscape and ocean; precipitation; evaporation; and condensation",
+      "position": 3,
+      "est_minutes": 14,
+      "intro": "The water in a puddle outside your house could once have been part of a cloud over the Coral Sea, or rain that fell on the rainforest weeks ago. Let's follow water on its endless journey.",
+      "sections": [
+        {
+          "heading": "Where water comes from",
+          "body": "Water on Earth is found in oceans, rivers, lakes, underground and in the air as vapour. The Coral Sea, the Endeavour River and the rain clouds over Cooktown are all **sources of water**.\n\nMost of Earth's water is salty ocean water. Only a small share is fresh water, and most of that is locked up as ice at the poles or stored underground. Rivers, lakes and rain make up a tiny share of all the water on Earth, but they matter enormously for living things."
+        },
+        {
+          "heading": "Evaporation: water turns to vapour",
+          "body": "**Evaporation** happens when the sun heats water on the surface of the ocean, a river or even a puddle, and turns it into an invisible gas called water vapour. The vapour rises up into the sky.\n\nOn a hot, humid Cooktown day, evaporation happens fast. That's part of why the air can feel so sticky. Warm air can hold a lot of water vapour."
+        },
+        {
+          "heading": "Condensation: vapour turns to cloud",
+          "body": "As water vapour rises higher into the sky, it cools down. Cooler air can't hold as much vapour, so the vapour turns back into tiny liquid water droplets. This is called **condensation**.\n\nMillions of these tiny droplets clumped together form the clouds you see in the sky.",
+          "example": {
+            "prompt": "You take a cold drink bottle out of the fridge on a hot day and it quickly gets covered in water droplets on the outside. What water cycle process caused this?",
+            "working": [
+              "Warm air around the bottle holds water vapour",
+              "The cold bottle cools that air suddenly"
+            ],
+            "answer": "Condensation"
+          }
+        },
+        {
+          "heading": "Precipitation: falling back down",
+          "body": "When clouds hold so many water droplets that they get heavy, the water falls back to Earth as **precipitation**. This is usually rain, but can also be hail.\n\nCooktown's wet season, roughly December to March, brings huge monsoonal downpours as warm, moist air rises, cools and dumps heavy rain. The dry season, by contrast, has far less precipitation."
+        },
+        {
+          "heading": "The whole cycle, connected",
+          "body": "Put the stages together and you get the **water cycle**: evaporation lifts water into the sky, condensation turns it into clouds, and precipitation brings it back down as rain. That rain then flows across the landscape into creeks and rivers, or soaks into the ground, before eventually reaching the ocean again.\n\nThe water cycle has no true beginning or end. The same water keeps moving between the sky, the landscape and the ocean, over and over."
+        }
+      ],
+      "key_points": [
+        "Oceans, rivers, groundwater and rain are all sources of water.",
+        "Evaporation: the sun heats water and turns it into invisible water vapour.",
+        "Condensation: rising water vapour cools and turns into tiny droplets that form clouds.",
+        "Precipitation: heavy clouds release water back to Earth, usually as rain.",
+        "The water cycle repeats endlessly, moving the same water through the sky, land and ocean."
+      ],
+      "try_this": "Put a cup of water in a clear zip-lock bag, seal it, and tape it to a sunny window. Check it after a few hours. Look for droplets forming on the inside of the bag near the top. Talk through with a family member which stage of the water cycle you can see happening in miniature.",
+      "questions": [
+        {
+          "type": "tf",
+          "prompt": "Evaporation happens when the sun heats water and turns it into water vapour.",
+          "answer": true,
+          "explain": "The sun's heat gives water molecules enough energy to turn from a liquid into an invisible gas called water vapour, which then rises into the air.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "Which of these is NOT normally described as a stage of the water cycle?",
+          "choices": [
+            "Evaporation",
+            "Condensation",
+            "Precipitation",
+            "Photosynthesis"
+          ],
+          "answer": "Photosynthesis",
+          "explain": "Photosynthesis is how plants make food using sunlight. It is not one of the three key water cycle processes: evaporation, condensation and precipitation.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "After a hot shower, the bathroom mirror is covered in tiny water droplets, even though nobody splashed it. What caused this?",
+          "choices": [
+            "Condensation - water vapour in the warm, humid air cooled on the mirror and turned back into liquid",
+            "Evaporation - liquid water on the mirror turned into vapour",
+            "Precipitation - water fell from the ceiling like rain",
+            "The mirror is leaking water from inside"
+          ],
+          "answer": "Condensation - water vapour in the warm, humid air cooled on the mirror and turned back into liquid",
+          "explain": "Hot showers fill the air with water vapour. When that vapour touches the cooler mirror surface, it cools down and condenses back into liquid droplets.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "Heavy clouds over Cooktown release so much water that it falls to the ground as rain for an hour straight. What is this falling water called?",
+          "answer": [
+            "precipitation"
+          ],
+          "explain": "Water returning to Earth's surface from clouds, most often as rain, is called precipitation.",
+          "difficulty": 2
+        },
+        {
+          "type": "mc",
+          "prompt": "During Cooktown's wet season, warm moist air rises, cools into towering clouds, and then dumps heavy rain. Which two water cycle stages does this sentence describe, in order?",
+          "choices": [
+            "Evaporation, then precipitation",
+            "Condensation, then precipitation",
+            "Precipitation, then evaporation",
+            "Evaporation, then condensation"
+          ],
+          "answer": "Condensation, then precipitation",
+          "explain": "Air cooling into clouds is condensation, and the heavy rain falling from those clouds is precipitation - evaporation already happened earlier to put the moisture into the air.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "Roughly what percentage of Earth's surface is covered by water, mostly the salty oceans?",
+          "answer": 71,
+          "tolerance": 4,
+          "unit": "%",
+          "explain": "About 71% of Earth's surface is covered by water, which is why Earth is sometimes called the blue planet.",
+          "difficulty": 2
+        },
+        {
+          "type": "tf",
+          "prompt": "Even though water keeps moving between the ocean, sky and land, no new water is being created and none is being destroyed in the process.",
+          "answer": true,
+          "explain": "The water cycle just moves the same water around the planet again and again - it doesn't make new water or destroy any.",
+          "difficulty": 3
+        },
+        {
+          "type": "mc",
+          "prompt": "A raindrop that falls on Cooktown today could once have evaporated from the Coral Sea, floated as vapour, fallen somewhere else as rain, and eventually returned to the ocean, over and over. What justifies calling this a 'cycle' rather than a one-way journey?",
+          "choices": [
+            "Because the same water repeats the same stages again and again, with no fixed starting point",
+            "Because new water is created fresh each time it rains",
+            "Because it only happens once a year, in the wet season",
+            "Because water disappears permanently once it evaporates"
+          ],
+          "answer": "Because the same water repeats the same stages again and again, with no fixed starting point",
+          "explain": "A cycle is something that repeats. Water endlessly moves through evaporation, condensation and precipitation, with no single starting or ending point.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A shallow dish with 200 mL of water sits in full sun and fully evaporates in 4 days. An identical dish with 200 mL sits in the shade and takes 10 days to fully evaporate. On average, how many more millilitres per day evaporated from the sunny dish than the shady one?",
+          "answer": 30,
+          "tolerance": 1,
+          "unit": "mL/day",
+          "explain": "The sunny dish loses 200 divided by 4, which is 50 mL a day. The shady dish loses 200 divided by 10, which is 20 mL a day. 50 minus 20 equals 30 mL a day more from the sunny dish.",
+          "difficulty": 4
+        },
+        {
+          "type": "text",
+          "prompt": "A puddle dries up much faster on a windy day than on a still day, even when the temperature is exactly the same. Which water cycle process is the wind speeding up?",
+          "answer": [
+            "evaporation"
+          ],
+          "explain": "Wind carries water vapour away from just above the puddle's surface, which lets more water keep turning into vapour. This speeds up evaporation, even without extra heat.",
+          "difficulty": 4
+        },
+        {
+          "type": "text",
+          "prompt": "A cold drink bottle from the fridge barely fogs up on a dry, cool day, but the same bottle fogs up heavily within a minute on a hot, humid day. What does this tell you about the amount of water vapour in humid air compared to dry air?",
+          "answer": [
+            "more",
+            "greater",
+            "higher"
+          ],
+          "explain": "Heavier fogging means more water vapour condensed onto the cold bottle. That happens because humid air holds far more water vapour than dry air does.",
+          "difficulty": 4
+        },
+        {
+          "type": "mc",
+          "prompt": "Evaporation from the Coral Sea happens all year round, yet Cooktown's dry season gets far less rain than the wet season. Which best explains this?",
+          "choices": [
+            "Seasonal wind and air-pressure patterns change when and where moist air rises, cools and condenses into rain-bearing clouds",
+            "The ocean stops evaporating completely during the dry season",
+            "Gravity becomes weaker during the dry season",
+            "Condensation cannot happen at all when the air is dry"
+          ],
+          "answer": "Seasonal wind and air-pressure patterns change when and where moist air rises, cools and condenses into rain-bearing clouds",
+          "explain": "Evaporation keeps supplying water vapour year-round, but rain also needs that vapour to rise, cool and condense into heavy clouds. Seasonal wind and pressure patterns control when and where that actually happens, which is why rainfall changes so much between seasons even though evaporation doesn't stop.",
+          "difficulty": 4
+        }
+      ],
+      "activity": {
+        "title": "Evaporation race: sun versus shade",
+        "why": "Measuring real water loss over several days proves they understand evaporation as a rate that changes with conditions, not just a definition to recite.",
+        "est_minutes": 20,
+        "adult_help": "nearby",
+        "materials": [
+          "two identical shallow bowls or plates",
+          "a measuring cup or jug",
+          "a ruler",
+          "a marker or piece of tape"
+        ],
+        "steps": [
+          "Pour exactly the same amount of water into two identical shallow bowls, for example 250 mL each, using a measuring cup.",
+          "Mark the starting water level on the outside of each bowl with tape, or measure the starting depth with a ruler and write it down.",
+          "Put one bowl in a sunny, open spot outside and the other in a shady, still spot, such as under a table or inside a cupboard.",
+          "Check both bowls at the same time each day for 3 days. Each time, measure the water depth in millimetres with a ruler.",
+          "On the third day, compare the two final depths and work out how many millimetres of depth each bowl lost.",
+          "Record your results and write a few sentences explaining which bowl evaporated faster and why you think that happened."
+        ],
+        "record": [
+          {
+            "id": "sun_depth_lost_mm",
+            "label": "How many millimetres of depth did the SUNNY bowl lose over 3 days?",
+            "type": "number",
+            "unit": "mm",
+            "hint": "",
+            "min": 0,
+            "max": 60
+          },
+          {
+            "id": "shade_depth_lost_mm",
+            "label": "How many millimetres of depth did the SHADY bowl lose over 3 days?",
+            "type": "number",
+            "unit": "mm",
+            "hint": "",
+            "min": 0,
+            "max": 60
+          },
+          {
+            "id": "explanation",
+            "label": "Which bowl evaporated faster, and why do you think that happened?",
+            "type": "text",
+            "hint": "two or three sentences",
+            "min_words": 15
+          },
+          {
+            "id": "conditions",
+            "label": "What were the conditions like where the sunny bowl sat?",
+            "type": "choice",
+            "options": [
+              "Very hot and sunny",
+              "Mild and sunny",
+              "Windy",
+              "Hot but mostly shaded by cloud"
+            ]
+          }
+        ],
+        "check": "The sunny bowl should lose noticeably more depth than the shady one, often 2 to 5 times as much over 3 days, though exact numbers depend on the weather. If the shady bowl lost more, check the right bowl was measured each time with a consistent ruler position.",
+        "xp": 40
+      },
+      "kind": "lesson"
+    },
+    {
+      "slug": "y4-catchments-runoff",
+      "title": "Catchments and where our water comes from",
+      "strand": "Earth and space sciences",
+      "year_level": 4,
+      "curriculum_code": "AC9S4U02",
+      "curriculum_text": "identify sources of water and describe key processes in the water cycle, including movement of water through the sky, landscape and ocean; precipitation; evaporation; and condensation",
+      "position": 4,
+      "est_minutes": 14,
+      "intro": "Turn on a tap in Cooktown and water comes out, but where was that water an hour, a day or a month ago? Let's trace it back through the landscape.",
+      "sections": [
+        {
+          "heading": "What is a catchment?",
+          "body": "A **catchment** is the whole area of land where rain drains into one particular river or creek system. Picture the hills and slopes around the Endeavour River. Rain that falls anywhere in that area eventually makes its way, one way or another, into the river.\n\nEvery river has its own catchment. Catchments can be small, covering just one creek, or huge, covering thousands of square kilometres."
+        },
+        {
+          "heading": "Run-off: water on the move",
+          "body": "After rain falls, some of it soaks straight into the soil. The rest flows across the surface of the land, downhill, into gutters, creeks and eventually rivers. This flowing water is called **run-off**.\n\nHow much run-off you get depends a lot on the surface. Rainforest soil covered in leaf litter soaks up a lot of water, slowing run-off down. Hard surfaces like roads, roofs and car parks don't soak up water at all, so rain runs off them fast."
+        },
+        {
+          "heading": "From catchment to tap",
+          "body": "Many Far North Queensland towns get their drinking water from a dam or weir built on a river, or by pumping groundwater up through a bore. Some rural homes also collect rain in a tank straight off the roof.\n\nBefore river or bore water reaches household taps, it usually goes through a water treatment plant, where it is filtered and cleaned to make it safe to drink. Even rainwater collected in a tank has travelled through part of the water cycle, falling as precipitation before being caught and stored.",
+          "example": {
+            "prompt": "A town's water supply comes from a bore that pumps up groundwater. According to the water cycle, how did that water first get underground?",
+            "working": [
+              "Groundwater comes from rain that soaked into the soil and rock",
+              "It slowly moved down and collected below the surface"
+            ],
+            "answer": "As rain that fell on the land and soaked down through the soil"
+          }
+        },
+        {
+          "heading": "Keeping catchments healthy",
+          "body": "Because rain and run-off flow downhill, anything that lands in a creek upstream, such as soil, fertiliser or rubbish, can travel a long way. Run-off from paddocks and towns can carry sediment and chemicals right down rivers and out to the Coral Sea, where it can affect the coral reef.\n\nLooking after a catchment, even parts far from town, protects drinking water supplies and the health of rivers and reefs downstream."
+        }
+      ],
+      "key_points": [
+        "A catchment is the land area where rain drains into one particular river or creek system.",
+        "Run-off is rain water that flows across the surface of the land instead of soaking in.",
+        "Hard surfaces like roads and roofs produce much more run-off than rainforest soil.",
+        "Household water often comes from a river, dam, bore or rainwater tank, and is usually treated before it reaches the tap.",
+        "Pollution entering a creek anywhere in a catchment can travel downstream, eventually reaching towns, farms or the reef."
+      ],
+      "try_this": "Build a mini catchment in a baking tray. Scrunch up some foil or pile up sand to make hills, with a low spot at one end as the 'river'. Use a spray bottle or cup of water to make 'rain' fall on the hills and watch where the run-off flows. Try it again with a folded towel laid over part of the hills to see how a soft surface changes the run-off.",
+      "questions": [
+        {
+          "type": "tf",
+          "prompt": "A catchment is the area of land where rain drains into one particular river or creek system.",
+          "answer": true,
+          "explain": "A catchment is defined by which river system the rain falling on it eventually flows into, whether that rain soaks in first or runs off the surface.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "What is run-off?",
+          "choices": [
+            "Rain water that flows over the land's surface into streams and rivers",
+            "Water that evaporates straight into the sky",
+            "Water stored deep underground in rock",
+            "Water used only inside factories"
+          ],
+          "answer": "Rain water that flows over the land's surface into streams and rivers",
+          "explain": "Run-off is the part of rainfall that doesn't soak into the ground. Instead it flows downhill across the surface, often ending up in creeks and rivers.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "After a heavy downpour, which surface would you expect to have the fastest, heaviest run-off?",
+          "choices": [
+            "A sealed road or roof",
+            "A thick rainforest floor covered in leaf litter",
+            "A sandy beach dune",
+            "A grassy paddock"
+          ],
+          "answer": "A sealed road or roof",
+          "explain": "Sealed surfaces don't absorb water at all, so almost all the rain that lands on them runs off quickly, unlike soil, sand or grass, which soak some water up first.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "A farmer pumps water up from deep underground through a bore to water cattle. What is this underground water called?",
+          "answer": [
+            "groundwater"
+          ],
+          "explain": "Water that has soaked down through soil and rock and collected below the surface is called groundwater.",
+          "difficulty": 2
+        },
+        {
+          "type": "mc",
+          "prompt": "A town pumps its drinking water from a weir on a river. Straight from the river, that water isn't safe to drink. What usually happens to it before it reaches household taps?",
+          "choices": [
+            "It goes through a water treatment plant to be filtered and cleaned",
+            "It is piped straight to taps with no treatment at all",
+            "It is left in the sun to evaporate first",
+            "It is only used for watering gardens, never for drinking"
+          ],
+          "answer": "It goes through a water treatment plant to be filtered and cleaned",
+          "explain": "River water usually carries dirt, germs and other impurities, so it needs filtering and treatment at a water treatment plant before it's safe to drink from a tap.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "A roof catches 240 litres of rain in a storm, and 180 litres flows into the rainwater tank while the rest splashes off the gutter. How many litres were lost?",
+          "answer": 60,
+          "tolerance": 0,
+          "unit": "L",
+          "explain": "Subtract what was collected from the total: 240 litres minus 180 litres collected equals 60 litres lost.",
+          "difficulty": 2
+        },
+        {
+          "type": "tf",
+          "prompt": "Fertiliser washed into a creek far upstream, nowhere near the coast, can still end up affecting the Coral Sea and the reef.",
+          "answer": true,
+          "explain": "Water flows downhill from creek to river to sea, so anything carried by run-off far upstream can travel a long way, eventually reaching the reef.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A chemical spill enters a creek 40 km upstream from a popular fishing spot. That fishing spot is a further 15 km upstream from the river mouth, where it flows into the Coral Sea. If the spill travels the full distance downstream to the sea, how many kilometres does it travel in total?",
+          "answer": 55,
+          "tolerance": 0,
+          "unit": "km",
+          "explain": "Add the two distances together: 40 km to the fishing spot plus 15 km on to the river mouth equals 55 km. Because a catchment's water all flows downhill to the same river, pollution entering anywhere in it can travel the whole way to the coast.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A concrete car park and a grassy park of the same size both receive 30 mm of rain. The car park sends 27 mm of that rain into the drain as run-off, while the grassy park sends only 6 mm into the drain. How many more millimetres of rain soaked into the ground at the grassy park than at the car park?",
+          "answer": 21,
+          "tolerance": 0,
+          "unit": "mm",
+          "explain": "The car park absorbed 30 minus 27, which is 3 mm. The grassy park absorbed 30 minus 6, which is 24 mm. 24 minus 3 equals 21 mm more soaked in at the grassy park.",
+          "difficulty": 4
+        },
+        {
+          "type": "text",
+          "prompt": "Town A is upstream in a catchment and accidentally spills chemicals into a creek. Town B is downstream and gets its drinking water from the same river. Even though Town B did nothing wrong, its water could become unsafe because the chemicals flow ____ through the catchment.",
+          "answer": [
+            "downstream",
+            "downhill"
+          ],
+          "explain": "Every part of a catchment is connected by flowing water. Because water flows downhill and downstream, pollution entering the creek at Town A can travel all the way to Town B's water supply.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A catchment covers 450 square kilometres of land, all draining into one river. A new housing estate paves over 18 square kilometres of that catchment with roads and roofs. What percentage of the catchment's total area is now paved?",
+          "answer": 4,
+          "tolerance": 0.5,
+          "unit": "%",
+          "explain": "Divide the paved area by the total area: 18 divided by 450 equals 0.04, which is 4%.",
+          "difficulty": 4
+        },
+        {
+          "type": "mc",
+          "prompt": "A bore pumps groundwater out faster than rain can soak down and refill it underground. What is most likely to happen over time if this continues?",
+          "choices": [
+            "The groundwater level will drop because it's being used faster than it's replaced",
+            "The groundwater level will rise",
+            "Nothing will change because groundwater never runs out",
+            "The bore will instantly start producing salt water"
+          ],
+          "answer": "The groundwater level will drop because it's being used faster than it's replaced",
+          "explain": "Groundwater is refilled, or recharged, by rain soaking down through the soil. If it's pumped out faster than that recharge happens, the underground water level will gradually fall.",
+          "difficulty": 4
+        }
+      ],
+      "activity": {
+        "title": "Build a rain gauge and track real rainfall",
+        "why": "A homemade rain gauge, checked over several days, proves they can take a genuine repeated measurement, not just model run-off with a diagram.",
+        "est_minutes": 15,
+        "adult_help": "required",
+        "materials": [
+          "a straight-sided plastic bottle or jar",
+          "scissors or a craft knife (adult use)",
+          "a ruler",
+          "a permanent marker",
+          "a notebook"
+        ],
+        "steps": [
+          "Ask an adult to cut the top off a plastic bottle so it has a straight-sided, open top, or use a straight-sided jar instead.",
+          "Use a ruler and permanent marker to mark millimetre lines up the outside, starting at zero at the bottom.",
+          "Place the gauge outside in an open spot away from trees, gutters or the roof, where rain can fall straight into it.",
+          "Check the gauge at the same time every day for 4 days. Each day, read and record the millimetres collected, then empty it out.",
+          "Add up your daily readings to find the total rainfall over the 4 days.",
+          "Record your total and biggest single-day reading, and write a few sentences about which day had the most rain and whether that matches the weather you remember."
+        ],
+        "record": [
+          {
+            "id": "total_rain_mm",
+            "label": "What was the total rainfall you measured over the 4 days, in millimetres?",
+            "type": "number",
+            "unit": "mm",
+            "hint": "0 is a valid, honest answer in the dry season",
+            "min": 0,
+            "max": 200
+          },
+          {
+            "id": "wettest_day_mm",
+            "label": "What was your biggest single day's reading, in millimetres?",
+            "type": "number",
+            "unit": "mm",
+            "hint": "",
+            "min": 0,
+            "max": 150
+          },
+          {
+            "id": "explanation",
+            "label": "Which day had the most rain, and does that match the weather you remember from that day?",
+            "type": "text",
+            "hint": "two or three sentences",
+            "min_words": 15
+          },
+          {
+            "id": "gauge_location",
+            "label": "Where did you place your rain gauge?",
+            "type": "choice",
+            "options": [
+              "Open lawn or yard",
+              "Balcony",
+              "Near a wall but open above",
+              "Other open spot"
+            ]
+          }
+        ],
+        "check": "A run of 0 mm every day is a completely valid, honest result outside the wet season. A single day's reading over roughly 100 mm would be unusual outside a major storm, so double-check readings that high.",
+        "xp": 40
+      },
+      "kind": "lesson"
+    },
+    {
+      "slug": "y4-contact-forces-friction",
+      "title": "Forces and friction: pushes, pulls and rubbing",
+      "strand": "Physical sciences",
+      "year_level": 4,
+      "curriculum_code": "AC9S4U03",
+      "curriculum_text": "identify how forces can be exerted by one object on another and investigate the effect of frictional, gravitational and magnetic forces on the motion of objects",
+      "position": 5,
+      "est_minutes": 14,
+      "intro": "Push a shopping trolley, drag a tinny up the beach, or skid to a stop on a bike, and you're using forces every time. Let's look closely at forces that need one object to touch another.",
+      "sections": [
+        {
+          "heading": "What is a force?",
+          "body": "A **force** is a push or a pull that one object exerts on another. A force can start something moving, stop it, speed it up, slow it down, or change the direction it's travelling in.\n\nSome forces need the objects to be touching, called **contact forces**. Pushing a door open and kicking a football are both contact forces."
+        },
+        {
+          "heading": "Friction: the rubbing force",
+          "body": "**Friction** is a contact force between two surfaces that are touching and moving, or trying to move, against each other. Friction acts to slow motion down or resist it starting.\n\nWalk barefoot across hot sand and you'll feel friction slowing your feet with every step. Squeeze a bike's brakes and friction between the brake pads and the wheel is what slows the bike down."
+        },
+        {
+          "heading": "More friction or less friction",
+          "body": "Rough surfaces generally create more friction than smooth ones. A gravel road creates more friction on tyres than a sealed, smooth road does.\n\nWater can also change friction a lot. After wet-season rain, mud and wet tiles have much less friction than dry versions of the same surface, which is exactly why they can feel so slippery.",
+          "example": {
+            "prompt": "Would it be easier to slide a heavy esky across smooth kitchen tiles, or across a grassy lawn? Explain using friction.",
+            "working": [
+              "Smooth tiles have less rough contact between surfaces",
+              "A grassy lawn is much rougher and uneven"
+            ],
+            "answer": "Across smooth tiles, because there is less friction than on grass"
+          }
+        },
+        {
+          "heading": "Using friction on purpose",
+          "body": "Friction isn't only a nuisance to overcome. We rely on it constantly. Shoe treads, bike tyres and brake pads are all designed with friction in mind, giving enough grip to walk, ride and stop safely.\n\nWithout enough friction, tyres would spin uselessly on the road and shoes would slide out from under you."
+        }
+      ],
+      "key_points": [
+        "A force is a push or a pull that one object exerts on another.",
+        "Contact forces, like friction, need the objects to be touching.",
+        "Friction is a force between two touching surfaces that slows or resists motion.",
+        "Rough, dry surfaces usually create more friction than smooth or wet ones.",
+        "Friction is useful on purpose too, like the grip from shoe treads, tyres and brakes."
+      ],
+      "try_this": "Prop a cutting board or a book up on some books to make a ramp. Let a toy car or a marble roll down it onto different surfaces laid at the bottom, like a towel, foil, and the bare floor. Measure how far it rolls on each surface with a tape measure or ruler, and compare which surface has the most friction.",
+      "questions": [
+        {
+          "type": "tf",
+          "prompt": "Friction is a force that happens when two surfaces rub against each other.",
+          "answer": true,
+          "explain": "Friction is a contact force that occurs between two touching surfaces, and it acts to resist or slow their movement against each other.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "Which of these forces needs two objects to be touching each other?",
+          "choices": [
+            "Friction",
+            "Gravity",
+            "Magnetism",
+            "None of these"
+          ],
+          "answer": "Friction",
+          "explain": "Friction is a contact force, meaning it only happens between surfaces that are actually touching. Gravity and magnetism can act across a distance without touching.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "A cyclist squeezes the brakes hard on a wet road, but the wet brake pads grip the wheel less than dry ones would. What effect does this have on stopping?",
+          "choices": [
+            "Less friction between pad and wheel, so it takes longer to stop",
+            "More friction, so the bike stops instantly",
+            "No effect at all on stopping distance",
+            "The bike speeds up instead of slowing down"
+          ],
+          "answer": "Less friction between pad and wheel, so it takes longer to stop",
+          "explain": "Water reduces the grip between two surfaces, lowering friction. With less friction between wet brake pads and the wheel, the bike takes longer to slow down.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "You drag a heavy esky across a rough concrete path and it's much harder to move than across smooth tiles. What force between the two touching surfaces is making it harder to slide?",
+          "answer": [
+            "friction"
+          ],
+          "explain": "Friction is the force between touching surfaces that resists or slows movement. Rougher surfaces create more of it.",
+          "difficulty": 2
+        },
+        {
+          "type": "mc",
+          "prompt": "Walking barefoot, which of these surfaces would grip your feet the most?",
+          "choices": [
+            "A rough gravel path",
+            "A wet tiled floor",
+            "Smooth ice",
+            "A polished timber floor"
+          ],
+          "answer": "A rough gravel path",
+          "explain": "Rough, dry surfaces like gravel create much more friction against bare feet than smooth or wet surfaces do.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "In a ramp test, a marble rolled 55 cm across a smooth tray before stopping, but only 20 cm across a towel-covered tray. How many more centimetres did it roll on the smooth tray?",
+          "answer": 35,
+          "tolerance": 0,
+          "unit": "cm",
+          "explain": "Subtract the shorter distance from the longer one: 55 cm minus 20 cm equals 35 cm further on the lower-friction, smooth surface.",
+          "difficulty": 2
+        },
+        {
+          "type": "tf",
+          "prompt": "Friction can make a rolling ball speed up over time, even on a flat, level surface.",
+          "answer": false,
+          "explain": "Friction always acts against motion, slowing things down or resisting them starting. On a flat surface, friction will gradually slow a rolling ball, never speed it up.",
+          "difficulty": 3
+        },
+        {
+          "type": "text",
+          "prompt": "Before launching a boat, people often squirt water onto the metal rollers on a trailer. What effect does this have on the rollers that helps the boat slide off?",
+          "answer": [
+            "reduces friction",
+            "less friction",
+            "reduce friction",
+            "lowers friction"
+          ],
+          "explain": "Wetting the rollers reduces friction between the boat and the trailer, letting the boat slide off smoothly instead of catching or dragging.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A toy car rolls 60 cm on a smooth tile floor before stopping. On a carpeted floor with more friction, it only travels three-fifths as far. How far, in centimetres, does it travel on the carpet?",
+          "answer": 36,
+          "tolerance": 0,
+          "unit": "cm",
+          "explain": "Three-fifths of 60 cm is 60 multiplied by 3, divided by 5, which equals 36 cm.",
+          "difficulty": 4
+        },
+        {
+          "type": "text",
+          "prompt": "A driveway turns icy overnight. Before anyone walks on it, someone scatters sand across the surface. In one or two words, what does the sand do to the friction between shoes and the ice?",
+          "answer": [
+            "increases",
+            "increase"
+          ],
+          "explain": "Sand adds rough, gritty texture on top of the smooth ice, giving shoes something to grip. This increases the friction between shoes and the surface, making it safer to walk on.",
+          "difficulty": 4
+        },
+        {
+          "type": "text",
+          "prompt": "A block is pushed with the same amount of force across three different surfaces: smooth tiles, a wood floor, and a thick carpet. On which of these three surfaces would friction most likely bring the block to a stop soonest?",
+          "answer": [
+            "carpet",
+            "thick carpet"
+          ],
+          "explain": "Thick carpet is the roughest of the three surfaces, so it creates the most friction against the block. More friction means the block loses its motion energy fastest and stops soonest.",
+          "difficulty": 4
+        },
+        {
+          "type": "mc",
+          "prompt": "A wet-season storm turns a dirt road into slippery mud. A 4WD vehicle needs more grip to avoid getting bogged. Which change would most help the tyres regain traction (increase friction) in the mud?",
+          "choices": [
+            "Fitting tyres with deeper, chunkier tread",
+            "Inflating the tyres to their maximum pressure for less contact area",
+            "Removing the tyre tread completely for a smoother surface",
+            "Driving faster to skim across the mud's surface"
+          ],
+          "answer": "Fitting tyres with deeper, chunkier tread",
+          "explain": "Deeper tread digs into soft mud and channels it away, giving the tyre more rough contact with firmer ground underneath. This increases friction and grip, unlike smoother tyres or less tyre contact.",
+          "difficulty": 4
+        }
+      ],
+      "activity": {
+        "title": "Measure grip: a rubber-band friction test",
+        "why": "Using a stretched rubber band as a simple force meter lets them measure how much pull it actually takes to overcome friction on different surfaces, not just watch something roll.",
+        "est_minutes": 25,
+        "adult_help": "none",
+        "materials": [
+          "a small heavy book or a full unopened can",
+          "a sturdy rubber band",
+          "a ruler",
+          "string (optional)"
+        ],
+        "steps": [
+          "Loop the rubber band around the book, or tie it on with string, so you can pull the book by stretching the rubber band.",
+          "Place the book on a smooth surface, like kitchen tiles or a wooden floor. Slowly pull the rubber band until the book JUST starts to slide, and measure how far the rubber band stretched at that moment.",
+          "Repeat this test 2 more times on the same smooth surface, noting the stretch each time.",
+          "Move the book to a rougher surface, like carpet or an outdoor concrete path, and repeat the same test 3 times, measuring the stretch needed each time.",
+          "Work out the average stretch for each surface by adding your 3 results and dividing by 3.",
+          "Record your average stretch for each surface and write a few sentences about which surface needed more stretch, and whether that matched your prediction."
+        ],
+        "record": [
+          {
+            "id": "smooth_avg_stretch_cm",
+            "label": "Average rubber band stretch needed on the SMOOTH surface, in cm",
+            "type": "number",
+            "unit": "cm",
+            "hint": "average of your 3 tries",
+            "min": 0.5,
+            "max": 25
+          },
+          {
+            "id": "rough_avg_stretch_cm",
+            "label": "Average rubber band stretch needed on the ROUGH surface, in cm",
+            "type": "number",
+            "unit": "cm",
+            "hint": "average of your 3 tries",
+            "min": 0.5,
+            "max": 25
+          },
+          {
+            "id": "explanation",
+            "label": "Which surface needed more stretch to start the book moving, and did that match what you expected?",
+            "type": "text",
+            "hint": "two or three sentences",
+            "min_words": 15
+          },
+          {
+            "id": "surfaces_tested",
+            "label": "Which two surfaces did you compare?",
+            "type": "choice",
+            "options": [
+              "Tiles vs carpet",
+              "Wood floor vs concrete",
+              "Tiles vs grass",
+              "Other combination"
+            ]
+          }
+        ],
+        "check": "The rough surface (carpet, concrete or grass) should almost always need a bigger stretch than a smooth floor or tiles. If the smooth surface needed more, check the same book and rubber band were used both times.",
+        "xp": 40
+      },
+      "kind": "lesson"
+    },
+    {
+      "slug": "y4-gravity-magnetism",
+      "title": "Gravity and magnetism: forces that act from a distance",
+      "strand": "Physical sciences",
+      "year_level": 4,
+      "curriculum_code": "AC9S4U03",
+      "curriculum_text": "identify how forces can be exerted by one object on another and investigate the effect of frictional, gravitational and magnetic forces on the motion of objects",
+      "position": 6,
+      "est_minutes": 14,
+      "intro": "A mango doesn't need to touch anything to fall from a tree, and a fridge magnet can grab a paperclip before it even makes contact. Let's explore forces that work without touching.",
+      "sections": [
+        {
+          "heading": "Non-contact forces",
+          "body": "Friction only works when two surfaces are touching. But some forces can act across empty space, without the objects touching at all. These are called **non-contact forces**.\n\nGravity and magnetism are both non-contact forces. You can feel their effect even when nothing is physically touching the object being pushed or pulled."
+        },
+        {
+          "heading": "Gravity pulls things down",
+          "body": "**Gravity** is a force that pulls objects toward each other. Earth's gravity pulls everything on or near it toward Earth's centre, which is why unsupported things fall straight down.\n\nA ripe mango dropping from a tree, rain falling from clouds, or debris getting flung about in a cyclone are all being pulled by gravity. Gravity acts on every object that has mass, all the time, whether or not anything is touching it."
+        },
+        {
+          "heading": "Magnetism: invisible pull and push",
+          "body": "**Magnetism** is a force that certain materials, especially iron, steel and nickel, can exert on each other without touching. A magnet can pull a steel paperclip toward it from a short distance away, or even through a thin barrier like paper or plastic.\n\nFridge magnets and compasses both rely on magnetism. Most everyday materials, like wood, plastic and aluminium, are not attracted to magnets at all."
+        },
+        {
+          "heading": "Poles and directions",
+          "body": "Every magnet has two ends called **poles**: a north pole and a south pole. Like poles repel each other, meaning two north poles or two south poles push apart. Unlike poles attract, meaning a north pole and a south pole pull together.\n\nA compass needle is actually a small magnet. It swings to line up with Earth's own magnetic field, which is how compasses help people work out direction.",
+          "example": {
+            "prompt": "Two magnets are pushed toward each other and they push apart instead of sticking together. What does this tell you about their poles?",
+            "working": [
+              "Attraction happens between unlike poles",
+              "Repulsion happens between like poles"
+            ],
+            "answer": "The two poles facing each other must be the same (both north or both south)"
+          }
+        }
+      ],
+      "key_points": [
+        "Non-contact forces, like gravity and magnetism, can act without objects touching.",
+        "Gravity pulls objects with mass toward each other, which is why things fall to the ground.",
+        "Magnetism attracts materials like iron, steel and nickel, even without touching.",
+        "Every magnet has a north pole and a south pole.",
+        "Like poles repel and unlike poles attract."
+      ],
+      "try_this": "Collect several small household objects, such as a coin, a paperclip, a plastic spoon, a piece of aluminium foil and a steel fork. Use a fridge magnet to test each one without touching it directly to the object at first, seeing how close you need to get before it's pulled in. Sort the objects into 'magnetic' and 'not magnetic' groups.",
+      "questions": [
+        {
+          "type": "tf",
+          "prompt": "Gravity is a force that can act without objects touching.",
+          "answer": true,
+          "explain": "Gravity is a non-contact force. It pulls objects toward each other across empty space, without needing them to touch.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "Which of these is a non-contact force?",
+          "choices": [
+            "Magnetism",
+            "Kicking a ball",
+            "Pushing a trolley",
+            "Friction"
+          ],
+          "answer": "Magnetism",
+          "explain": "Magnetism can act across a gap without the objects touching, unlike kicking, pushing or friction, which all need contact.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "A ripe mango, no longer held up by its stem, drops straight to the ground. What force is pulling it down?",
+          "choices": [
+            "Gravity",
+            "Magnetism",
+            "Friction",
+            "Air pressure"
+          ],
+          "answer": "Gravity",
+          "explain": "Gravity pulls objects with mass toward Earth's centre. Once nothing is holding the mango up, gravity pulls it straight down.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "Every magnet has two ends where its pulling and pushing force is strongest. What are these two ends called?",
+          "answer": [
+            "poles",
+            "pole"
+          ],
+          "explain": "The two ends of a magnet, where its magnetic force is strongest, are called poles - every magnet has a north pole and a south pole.",
+          "difficulty": 2
+        },
+        {
+          "type": "mc",
+          "prompt": "You hold a fridge magnet near a pile of small objects on the kitchen bench: a steel paperclip, a plastic ruler, a wooden spoon and a rubber band. Which one will the magnet pull toward it?",
+          "choices": [
+            "The steel paperclip",
+            "The plastic ruler",
+            "The wooden spoon",
+            "The rubber band"
+          ],
+          "answer": "The steel paperclip",
+          "explain": "Magnets attract materials like iron and steel. Plastic, wood and rubber are not magnetic and won't be pulled at all.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "A student tests 15 household objects with a magnet. 6 of them are attracted to it. How many are NOT attracted?",
+          "answer": 9,
+          "tolerance": 0,
+          "unit": "",
+          "explain": "Subtract the attracted objects from the total tested: 15 minus 6 equals 9 objects not attracted.",
+          "difficulty": 2
+        },
+        {
+          "type": "tf",
+          "prompt": "Pushing the north pole of one magnet toward the north pole of another magnet will make them snap together.",
+          "answer": false,
+          "explain": "Like poles repel each other. Two north poles facing each other push apart, not together - attraction only happens between unlike poles.",
+          "difficulty": 3
+        },
+        {
+          "type": "text",
+          "prompt": "An astronaut on the Moon drops a hammer and it falls to the ground much more slowly than it would on Earth. Compared with Earth's, is the Moon's gravity stronger or weaker?",
+          "answer": [
+            "weaker"
+          ],
+          "explain": "A weaker gravitational pull means objects speed up more slowly as they fall. The Moon's gravity is about a sixth of Earth's, which is why the hammer drifts down so much more slowly there.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A magnet can lift a steel paperclip through a stack of 3 sheets of paper, but fails as soon as a 4th sheet is added. If each sheet is 0.1 mm thick, what is the total thickness, in millimetres, of the stack the magnet successfully worked through?",
+          "answer": 0.3,
+          "tolerance": 0.02,
+          "unit": "mm",
+          "explain": "Multiply the number of sheets it worked through by the thickness of each sheet: 3 sheets times 0.1 mm equals 0.3 mm.",
+          "difficulty": 4
+        },
+        {
+          "type": "text",
+          "prompt": "A magnet attracts a steel coin but not an aluminium coin, even though both are metals and both conduct electricity well. This tells you that ____ metals are magnetic, not all of them.",
+          "answer": [
+            "some",
+            "only some",
+            "certain"
+          ],
+          "explain": "Being a metal isn't enough on its own. Only some metals, mainly iron, steel, cobalt and nickel, are strongly magnetic, which is why aluminium isn't attracted even though it's still a metal.",
+          "difficulty": 4
+        },
+        {
+          "type": "text",
+          "prompt": "Two bar magnets are placed north-pole to north-pole on a smooth table and let go. Predict what happens to the distance between them.",
+          "answer": [
+            "increases",
+            "gets bigger",
+            "move apart",
+            "moves apart"
+          ],
+          "explain": "Like poles repel. With both north poles facing each other, the magnets push apart, so the distance between them increases.",
+          "difficulty": 4
+        },
+        {
+          "type": "mc",
+          "prompt": "An astronaut on the Moon drops a hammer and a feather from the same height at the same time, where there is no air resistance. What happens?",
+          "choices": [
+            "They hit the ground at the same time, because without air resistance gravity accelerates all objects equally",
+            "The hammer lands first because it's heavier",
+            "The feather lands first because it's lighter",
+            "Neither ever lands because there is no gravity on the Moon"
+          ],
+          "answer": "They hit the ground at the same time, because without air resistance gravity accelerates all objects equally",
+          "explain": "On Earth, air resistance usually slows light objects like feathers more than heavy ones. Without any air, gravity pulls every object down at the same rate regardless of its weight, so they land together.",
+          "difficulty": 4
+        }
+      ],
+      "activity": {
+        "title": "Test your magnet's strength through layers",
+        "why": "Measuring exactly how many barriers a magnet can pull through, and how far its pull reaches through air, proves they understand magnetism as a force with a measurable limit, not just 'sticks or doesn't'.",
+        "est_minutes": 20,
+        "adult_help": "none",
+        "materials": [
+          "a fridge magnet or other flat magnet",
+          "a steel paperclip",
+          "a stack of at least 10 sheets of paper",
+          "a ruler"
+        ],
+        "steps": [
+          "Place a steel paperclip on a table. Hold the magnet just above it and check that it pulls the paperclip up on its own.",
+          "Slide one sheet of paper between the magnet and the paperclip, and check whether the magnet can still pull the paperclip through.",
+          "Keep adding one sheet at a time, testing after each sheet, until the magnet can no longer pull the paperclip through.",
+          "Record the largest number of sheets it worked through, not the number where it failed.",
+          "Now test through air: hold the paperclip still and slowly move the magnet away until it can no longer pull it. Measure that gap with a ruler in centimetres.",
+          "Record both results and write a few sentences comparing what surprised you and what it tells you about how far this magnet's pull reaches."
+        ],
+        "record": [
+          {
+            "id": "max_sheets",
+            "label": "What is the largest number of paper sheets the magnet worked through?",
+            "type": "number",
+            "unit": "",
+            "hint": "",
+            "min": 0,
+            "max": 30
+          },
+          {
+            "id": "max_air_gap_cm",
+            "label": "What is the largest air gap, in cm, where the magnet still pulled the paperclip?",
+            "type": "number",
+            "unit": "cm",
+            "hint": "",
+            "min": 0.2,
+            "max": 15
+          },
+          {
+            "id": "explanation",
+            "label": "What surprised you about how far this magnet's pull reaches, through paper or through air?",
+            "type": "text",
+            "hint": "two or three sentences",
+            "min_words": 15
+          },
+          {
+            "id": "magnet_type",
+            "label": "What kind of magnet did you use?",
+            "type": "choice",
+            "options": [
+              "Flat fridge magnet",
+              "Small round magnet",
+              "Bar magnet",
+              "Other magnet"
+            ]
+          }
+        ],
+        "check": "Most ordinary fridge magnets work through roughly 2 to 8 sheets of paper and across an air gap of a few millimetres up to about 2 cm. A much bigger number could mean a stronger magnet, or a paperclip that isn't fully steel.",
+        "xp": 35
+      },
+      "kind": "lesson"
+    },
+    {
+      "slug": "y4-material-properties",
+      "title": "Materials: fibres, metals, glass and plastics",
+      "strand": "Chemical sciences",
+      "year_level": 4,
+      "curriculum_code": "AC9S4U04",
+      "curriculum_text": "examine the properties of natural and made materials including fibres, metals, glass and plastics and consider how these properties influence their use",
+      "position": 7,
+      "est_minutes": 14,
+      "intro": "Your school shirt, a fishing hook, a window and a lunchbox are made from completely different materials, on purpose. Let's look at why.",
+      "sections": [
+        {
+          "heading": "Natural and made materials",
+          "body": "A **natural material** comes straight from plants, animals or the ground, like cotton, wool or wood. A **made material**, sometimes called synthetic, is manufactured by humans, like plastic or nylon.\n\nBoth kinds of material are chosen for particular jobs based on their **properties**, which are the features that describe how a material looks, feels and behaves."
+        },
+        {
+          "heading": "Fibres",
+          "body": "A **fibre** is a thin strand that can be spun or woven into fabric or rope. Cotton and wool are natural fibres. Nylon and polyester are synthetic fibres.\n\nCotton absorbs moisture and lets air pass through it, which helps keep skin cooler in hot, humid weather. Synthetic fibres like nylon often dry faster and resist rot better, which matters a lot during a wet Cooktown season."
+        },
+        {
+          "heading": "Metals",
+          "body": "Metals are usually strong, can be bent or shaped, and conduct electricity and heat well. That's why metal is used for wiring, cooking pots and tools.\n\nMany metals, especially plain steel and iron, react with oxygen and moisture in the air and slowly rust. In Cooktown's humid, salty coastal air, unprotected metal tools and fittings can rust faster than in a dry inland climate."
+        },
+        {
+          "heading": "Glass and plastics",
+          "body": "**Glass** is hard, transparent and doesn't corrode, but it is brittle and shatters if dropped or hit hard. That's why glass is great for windows but risky for a lunchbox.\n\n**Plastic** is light, waterproof and can be moulded into almost any shape, which is why it's used for containers, buckets and boat fittings. Most plastic doesn't break down naturally in the environment, so it can last a very long time if it ends up as rubbish.",
+          "example": {
+            "prompt": "Why are fishing nets and stinger suits often made from synthetic fibres rather than wool?",
+            "working": [
+              "Synthetic fibres dry quickly and don't rot in salt water",
+              "They also stretch and stay comfortable when wet"
+            ],
+            "answer": "Because synthetic fibres are quick-drying, stretchy and resist rotting in salt water"
+          }
+        }
+      ],
+      "key_points": [
+        "Natural materials come from plants, animals or the ground; made materials are manufactured by humans.",
+        "A material's properties, like strength, flexibility or waterproofing, determine what it's used for.",
+        "Cotton is breathable and absorbs moisture, while synthetic fibres often dry faster and resist rot.",
+        "Metals conduct heat and electricity well but can rust in humid, salty air.",
+        "Glass is transparent but brittle; plastic is light and waterproof but slow to break down."
+      ],
+      "try_this": "Collect five household objects made from different materials, such as a metal spoon, a glass cup, a plastic container, a cotton shirt and a rubber band. For each one, test and record whether it bends, whether it lets light through, and whether it feels warm or cool to touch. Talk about why each material suits its job.",
+      "questions": [
+        {
+          "type": "tf",
+          "prompt": "Glass is a material that lets light pass through it.",
+          "answer": true,
+          "explain": "Glass is transparent, meaning light passes straight through it. That's exactly why it's used for windows.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "Which material is best known for being an excellent conductor of electricity?",
+          "choices": [
+            "Metal",
+            "Glass",
+            "Wool",
+            "Plastic"
+          ],
+          "answer": "Metal",
+          "explain": "Metals conduct electricity very well, which is why electrical wires are made from metals like copper.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "On a hot, humid Cooktown day, a cotton shirt feels more comfortable than a thick synthetic one. What property of cotton mainly explains this?",
+          "choices": [
+            "It absorbs sweat and lets air pass through, helping skin feel cooler",
+            "It is completely waterproof",
+            "It conducts electricity very well",
+            "It never gets dirty"
+          ],
+          "answer": "It absorbs sweat and lets air pass through, helping skin feel cooler",
+          "explain": "Cotton's natural fibres soak up moisture and let air flow through the fabric, which helps the body feel cooler in hot, humid weather.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "Cotton and wool can both be spun or woven into cloth because they're made of thin strands of this kind of material. What is it called?",
+          "answer": [
+            "fibre",
+            "fiber"
+          ],
+          "explain": "A thin strand of natural or synthetic material that can be spun or woven into fabric or rope is called a fibre.",
+          "difficulty": 2
+        },
+        {
+          "type": "mc",
+          "prompt": "A humid tropical kitchen needs food containers that won't let moisture in and are easy to carry around. Which property makes plastic well suited to this job?",
+          "choices": [
+            "It is lightweight and waterproof",
+            "It conducts heat very well",
+            "It is see-through like glass and nothing else",
+            "It rusts easily"
+          ],
+          "answer": "It is lightweight and waterproof",
+          "explain": "Plastic containers are light to carry and don't let moisture through, which keeps food fresh and dry even in a humid kitchen.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "A hardware shop sells rope made from 4 different fibres. A shopper buys 3 metres of each type. How many metres of rope did they buy in total?",
+          "answer": 12,
+          "tolerance": 0,
+          "unit": "m",
+          "explain": "Multiply 3 metres by the 4 types of rope: 3 times 4 equals 12 metres in total.",
+          "difficulty": 2
+        },
+        {
+          "type": "tf",
+          "prompt": "A steel cable is always weaker than a rope made from a natural fibre like hemp, just because steel is a made material.",
+          "answer": false,
+          "explain": "Whether a material is natural or made doesn't automatically decide its strength. Many made materials, like steel, can be far stronger than natural ones, depending on the job.",
+          "difficulty": 3
+        },
+        {
+          "type": "mc",
+          "prompt": "A stinger suit worn in the ocean needs to stretch with the swimmer's movement, dry quickly after use, and feel comfortable against skin. Which property of a material has nothing to do with how well it does this job?",
+          "choices": [
+            "How well it conducts electricity",
+            "How flexible it is to move in",
+            "How quickly it dries after getting wet",
+            "How comfortable it feels against skin"
+          ],
+          "answer": "How well it conducts electricity",
+          "explain": "Conducting electricity has nothing to do with swimming comfort or safety. Flexibility, quick-drying and comfort are the properties that actually matter for a stinger suit.",
+          "difficulty": 3
+        },
+        {
+          "type": "text",
+          "prompt": "A fisherman needs a rope to tie up his boat overnight in salty harbour water. Nylon rope costs more than cotton rope, but nylon doesn't rot in salt water and cotton does. Which type of rope is the better long-term choice?",
+          "answer": [
+            "nylon"
+          ],
+          "explain": "Even though nylon costs more upfront, cotton rope left in salt water will rot and weaken, while nylon resists rot. For long-term use in wet, salty conditions, nylon is the better choice despite the higher price.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A cotton shirt that starts 60 cm long shrinks to 55 cm after washing. A polyester shirt that also starts 60 cm long shrinks to only 59 cm after the same wash. How many more centimetres did the cotton shirt shrink than the polyester shirt?",
+          "answer": 4,
+          "tolerance": 0,
+          "unit": "cm",
+          "explain": "The cotton shirt shrank 60 minus 55, which is 5 cm. The polyester shirt shrank 60 minus 59, which is 1 cm. 5 minus 1 equals 4 cm more shrinkage for the cotton shirt.",
+          "difficulty": 4
+        },
+        {
+          "type": "text",
+          "prompt": "A window needs to let light through and be easy to clean, but it must never be installed somewhere it could get hit hard, like right beside a backyard cricket pitch. What property of glass makes it a poor choice there?",
+          "answer": [
+            "brittle",
+            "brittleness",
+            "fragile",
+            "shatters"
+          ],
+          "explain": "Glass is transparent and easy to clean, but it's also brittle, meaning it shatters under a sudden hard impact like a cricket ball, which makes location matter as much as the material's other useful properties.",
+          "difficulty": 4
+        },
+        {
+          "type": "mc",
+          "prompt": "For a garden hose left outside in full Cooktown sun all year, a shopper is choosing between a cheap thin plastic hose and a more expensive UV-resistant, rubber-reinforced hose. The cheap plastic hose looks perfectly fine in the shop. Which best explains why it might still be the wrong choice?",
+          "choices": [
+            "Ordinary plastic can turn brittle and crack after months of UV exposure, even though it looks fine at first",
+            "Plastic never reacts to sunlight in any way",
+            "Rubber-reinforced hoses always conduct electricity, making them dangerous",
+            "Cheap plastic is always heavier than rubber, making it harder to store"
+          ],
+          "answer": "Ordinary plastic can turn brittle and crack after months of UV exposure, even though it looks fine at first",
+          "explain": "UV damage builds up slowly and invisibly at first. A cheap plastic hose might look identical to a UV-resistant one in the shop, but months of strong tropical sun will make the untreated plastic crack and fail much sooner.",
+          "difficulty": 4
+        }
+      ],
+      "activity": {
+        "title": "Strength test: which material holds the most weight?",
+        "why": "Loading real weight onto strips of different materials until they fail shows, with real numbers, why strength is a measurable property that matters for choosing a material.",
+        "est_minutes": 25,
+        "adult_help": "nearby",
+        "materials": [
+          "strips of at least 3 different materials (e.g. paper, plastic bag, cotton fabric, string)",
+          "a small bag or cup to hold weights",
+          "a supply of identical coins",
+          "sticky tape or a sturdy door handle"
+        ],
+        "steps": [
+          "Cut 3 strips of different materials to the same length and width, for example 2 cm wide and 20 cm long.",
+          "Tie or tape one end of the first strip to a door handle or similarly sturdy spot, and attach a small bag or cup to the other end.",
+          "Add coins to the bag one at a time, counting as you go, until the strip tears, stretches badly, or the bag falls.",
+          "Record how many coins that material held before it failed.",
+          "Repeat the test for the other two materials, using the same coins and the same counting method each time.",
+          "Record your results for all materials and write a few sentences about which material was strongest, and whether that matches what you'd expect from its properties."
+        ],
+        "record": [
+          {
+            "id": "strongest_material_coins",
+            "label": "How many coins did the STRONGEST material hold before failing?",
+            "type": "number",
+            "unit": "",
+            "hint": "",
+            "min": 1,
+            "max": 300
+          },
+          {
+            "id": "weakest_material_coins",
+            "label": "How many coins did the WEAKEST material hold before failing?",
+            "type": "number",
+            "unit": "",
+            "hint": "",
+            "min": 0,
+            "max": 300
+          },
+          {
+            "id": "explanation",
+            "label": "Which material was strongest, and does that match what you expected from its properties?",
+            "type": "text",
+            "hint": "two or three sentences",
+            "min_words": 15
+          },
+          {
+            "id": "materials_tested",
+            "label": "Which materials did you test?",
+            "type": "choice",
+            "options": [
+              "Paper vs plastic vs fabric",
+              "Paper vs string vs plastic",
+              "Fabric vs string vs paper",
+              "Other combination"
+            ]
+          }
+        ],
+        "check": "Results vary with the exact materials and coin weight used, but there should be a clear gap between the strongest and weakest strip — string or fabric usually holds several times more coins than a strip of paper.",
+        "xp": 45
+      },
+      "kind": "lesson"
+    },
+    {
+      "slug": "y4-materials-tropics-rust-rot",
+      "title": "Choosing the right material: rust, rot and sun damage in the tropics",
+      "strand": "Chemical sciences",
+      "year_level": 4,
+      "curriculum_code": "AC9S4U04",
+      "curriculum_text": "examine the properties of natural and made materials including fibres, metals, glass and plastics and consider how these properties influence their use",
+      "position": 8,
+      "est_minutes": 14,
+      "intro": "Leave the wrong tool outside in Cooktown for a season and you'll see exactly why choosing the right material matters. Let's find out what humidity, salt air and strong sun actually do to things.",
+      "sections": [
+        {
+          "heading": "Matching material to job",
+          "body": "Choosing a material isn't just about what's cheap or easy to find. A good choice matches the material's properties to the conditions it will face. A material that works perfectly indoors might fail quickly outside in a hot, humid, salty coastal climate like Cooktown's."
+        },
+        {
+          "heading": "Rust: when metal meets moisture",
+          "body": "**Rust** forms when iron reacts with oxygen and water, producing a reddish-brown, flaky coating. This is a chemical change, not just dirt sitting on the surface.\n\nCooktown's humid air and salty sea breezes both speed up rusting, because rust forms faster with more moisture and salt around. Tools, nails, boat fittings and roofing left unprotected outside can rust surprisingly quickly here. Stainless steel and galvanised metal resist rust far better than plain steel."
+        },
+        {
+          "heading": "Rot: when natural fibres and wood break down",
+          "body": "Untreated wood, cotton rope and other natural fibres can **rot** when fungi and bacteria, the same decomposers you might remember from food webs, break them down. Warm, wet conditions make rot happen faster.\n\nA wooden fence post left in damp tropical soil can rot through within a few years. Treated timber and synthetic ropes resist rot much better, because decomposers can't easily break them down."
+        },
+        {
+          "heading": "UV damage: sun's invisible rays",
+          "body": "Sunlight contains invisible **UV rays** that can slowly damage many plastics, making them turn brittle, fade in colour, and crack. A garden hose or plastic chair left outside for years in strong tropical sun often ends up cracked and flaky.\n\nSome plastics are made with UV-stabilisers to resist this damage better, and covering or storing items out of direct sun also helps them last longer.",
+          "example": {
+            "prompt": "A steel garden fork is left outside in Cooktown's wet season and starts turning orange-brown and flaky. What is happening, and why does the wet season make it worse?",
+            "working": [
+              "Rust forms when iron reacts with oxygen and water",
+              "The wet season adds far more moisture to the air and ground"
+            ],
+            "answer": "It's rusting, and the extra moisture in the wet season speeds up the chemical reaction"
+          }
+        }
+      ],
+      "key_points": [
+        "Rust forms when iron reacts with oxygen and water, and it's a chemical change.",
+        "Warm, humid, salty air speeds up rusting, which matters a lot in Far North Queensland.",
+        "Rot happens when fungi and bacteria break down untreated wood or natural fibres, faster in warm, wet conditions.",
+        "UV rays in sunlight can make many plastics turn brittle and crack over time.",
+        "Choosing materials for the local climate, not just the cheapest option, helps them last."
+      ],
+      "try_this": "Wet a paper towel and wrap it around a clean steel paperclip or nail. Leave a second, identical paperclip completely dry nearby. Check both once a day for several days and record when rust spots first appear on each. This is a safe way to see how moisture speeds up rusting.",
+      "questions": [
+        {
+          "type": "tf",
+          "prompt": "Rust forms when iron reacts with oxygen and water.",
+          "answer": true,
+          "explain": "Rust is the reddish-brown flaky substance produced when iron chemically reacts with oxygen in the presence of water.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "Which condition speeds up rusting the most?",
+          "choices": [
+            "Warm, humid, salty air",
+            "Cool, dry air",
+            "No air at all",
+            "Bright sunlight with no moisture present"
+          ],
+          "answer": "Warm, humid, salty air",
+          "explain": "Rusting needs both oxygen and water to happen, and it speeds up with more moisture, warmth and salt, exactly the conditions in humid coastal Far North Queensland.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "An untreated wooden fence post standing in wet tropical soil rots through within a few years. What is mainly responsible for this rot?",
+          "choices": [
+            "Fungi and bacteria breaking down the wood",
+            "Rust forming on the wood",
+            "Magnetism weakening the wood's fibres",
+            "UV light melting the wood"
+          ],
+          "answer": "Fungi and bacteria breaking down the wood",
+          "explain": "Fungi and bacteria are decomposers that break down natural materials like wood, working faster in warm, wet conditions.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "A plastic garden chair left outside for years in strong tropical sun turns brittle and cracks. What are the invisible rays in sunlight that cause this damage usually called?",
+          "answer": [
+            "UV",
+            "UV rays",
+            "ultraviolet",
+            "ultraviolet rays"
+          ],
+          "explain": "UV, or ultraviolet, rays in sunlight slowly break down the structure of many plastics, making them brittle and prone to cracking.",
+          "difficulty": 2
+        },
+        {
+          "type": "mc",
+          "prompt": "A builder is choosing screws for an outdoor deck in humid, coastal Cooktown. Which type of screw would best resist rust over many years?",
+          "choices": [
+            "Stainless steel or galvanised screws",
+            "Plain untreated steel screws",
+            "Screws made of chalk",
+            "It does not matter which screws are used"
+          ],
+          "answer": "Stainless steel or galvanised screws",
+          "explain": "Stainless steel and galvanised metal have extra protection against rust, making them far better suited to humid, salty coastal conditions than plain steel.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "In a rust experiment, a wet paperclip shows visible rust spots after 2 days. A dry paperclip in the same experiment takes 11 days to show the same rust spots. How many more days did the dry paperclip take?",
+          "answer": 9,
+          "tolerance": 0,
+          "unit": "days",
+          "explain": "Subtract the shorter time from the longer one: 11 days minus 2 days equals 9 more days for the dry paperclip.",
+          "difficulty": 2
+        },
+        {
+          "type": "tf",
+          "prompt": "Choosing the cheapest available screws for an outdoor Cooktown deck, without checking if they resist rust, usually works out cheaper in the long run than paying more for stainless steel ones.",
+          "answer": false,
+          "explain": "Cheap materials that aren't suited to humid, salty conditions often rust, rot or crack sooner, meaning they need replacing more often - which usually costs more over time than paying for a suitable material up front.",
+          "difficulty": 3
+        },
+        {
+          "type": "text",
+          "prompt": "A boat owner in Cooktown wants metal fittings that will last for years despite constant salt spray and sun. What property matters most for choosing those fittings?",
+          "answer": [
+            "rust resistance",
+            "resist rust",
+            "corrosion resistance"
+          ],
+          "explain": "Salt spray and constant moisture make rust the biggest threat to metal boat fittings, so resistance to rust and corrosion is the property that matters most.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A steel gate hinge painted with protective paint takes 5 years to show rust in Cooktown's climate. An identical unpainted hinge shows rust in just 4 months. About how many times longer did the painted hinge last before rusting?",
+          "answer": 15,
+          "tolerance": 1,
+          "unit": "times",
+          "explain": "5 years is 5 times 12, which is 60 months. Dividing 60 months by the unpainted hinge's 4 months gives 15, so the painted hinge lasted about 15 times as long.",
+          "difficulty": 4
+        },
+        {
+          "type": "text",
+          "prompt": "A boat owner greases one steel bolt, which stays rust-free through the wet season, while an identical ungreased bolt rusts through. Rust needs both oxygen and moisture to form. Besides oxygen, what other substance does the grease block from reaching the metal?",
+          "answer": [
+            "water",
+            "moisture"
+          ],
+          "explain": "Grease coats the metal's surface, sealing it off from both oxygen and water in the air. Without one of those two ingredients reaching the metal, the rust reaction can't happen.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A gardener tests two identical wooden stakes. One is left untreated in damp mulch and shows soft, rotten wood after 45 days. The other is coated in timber oil and takes 270 days to show the same rot. How many times longer did the oiled stake last?",
+          "answer": 6,
+          "tolerance": 0,
+          "unit": "times",
+          "explain": "Divide the oiled stake's time by the untreated stake's time: 270 divided by 45 equals 6, so the oiled stake lasted 6 times as long before rotting.",
+          "difficulty": 4
+        },
+        {
+          "type": "mc",
+          "prompt": "A hardware shop sells three types of screws for an outdoor Cooktown deck: plain steel (cheapest), galvanised steel (mid-price), and stainless steel (most expensive). All three look identical and shiny in the shop. What is the most scientifically sound reason NOT to automatically pick the cheapest plain steel option?",
+          "choices": [
+            "Plain steel has no protective coating, so it will rust fastest in humid, salty air even though it looks the same as the others right now",
+            "Plain steel screws are always too short to use outdoors",
+            "Plain steel is not actually a metal",
+            "Cheap screws are always the wrong colour for a deck"
+          ],
+          "answer": "Plain steel has no protective coating, so it will rust fastest in humid, salty air even though it looks the same as the others right now",
+          "explain": "Looking identical in the shop doesn't predict how a material copes with the local climate. Plain steel lacks the protective coating that galvanised and stainless steel have, so it will corrode fastest in Cooktown's humid, salty air, even though the difference isn't visible on day one.",
+          "difficulty": 4
+        }
+      ],
+      "activity": {
+        "title": "Rot race: cotton versus synthetic fabric",
+        "why": "Watching two fabrics in the same damp soil over a week gives them real, timed evidence for why synthetic materials resist rot better than natural fibres.",
+        "est_minutes": 15,
+        "adult_help": "nearby",
+        "materials": [
+          "a small scrap of 100% cotton fabric",
+          "a small scrap of synthetic fabric such as polyester or nylon",
+          "a small pot or container of damp soil or mulch",
+          "a stick or spoon for digging",
+          "gloves (optional)"
+        ],
+        "steps": [
+          "Cut two similar-sized small scraps, one of cotton fabric and one of synthetic fabric, checking the fabric label if unsure.",
+          "Bury both scraps a few centimetres deep in the same pot of damp soil or mulch, a little apart, and mark where each one is.",
+          "Keep the soil damp but not waterlogged, checking it every day and adding a small splash of water if it has dried out.",
+          "After 4 days, carefully dig up both scraps, rinse off the soil gently, and compare them for fraying, colour change, weakening or holes, then rebury them.",
+          "Dig them up again after 7 days total and compare once more.",
+          "Record how many days it took before you saw the first clear sign of rot on each fabric, and write a few sentences describing the difference between them."
+        ],
+        "record": [
+          {
+            "id": "cotton_days_to_rot_sign",
+            "label": "After how many days did you first see a clear sign of rot (fraying, weakening, holes) on the COTTON scrap? Use 7 if none appeared.",
+            "type": "number",
+            "unit": "days",
+            "hint": "",
+            "min": 1,
+            "max": 7
+          },
+          {
+            "id": "synthetic_days_to_rot_sign",
+            "label": "After how many days did you first see a clear sign of rot on the SYNTHETIC scrap? Use 7 if none appeared.",
+            "type": "number",
+            "unit": "days",
+            "hint": "",
+            "min": 1,
+            "max": 7
+          },
+          {
+            "id": "explanation",
+            "label": "Describe the difference you saw between the two fabrics after a week buried in damp soil.",
+            "type": "text",
+            "hint": "two or three sentences",
+            "min_words": 15
+          },
+          {
+            "id": "fabric_tested",
+            "label": "Which fabrics did you compare?",
+            "type": "choice",
+            "options": [
+              "Cotton vs polyester",
+              "Cotton vs nylon",
+              "Wool vs synthetic",
+              "Other combination"
+            ]
+          }
+        ],
+        "check": "The cotton scrap should show fraying, weakening or a musty smell well before the synthetic one, often within 3 to 5 days versus little or no change in the synthetic by day 7. If the synthetic rotted faster, double-check the fabric labels.",
+        "xp": 45
+      },
+      "kind": "lesson"
+    },
+    {
+      "slug": "y4-fair-test-variables",
+      "title": "Planning a fair test: change, measure, keep the same",
+      "strand": "Science inquiry skills",
+      "year_level": 4,
+      "curriculum_code": "AC9S4I02",
+      "curriculum_text": "use provided scaffolds to plan and conduct investigations to answer questions or test predictions, including identifying the elements of fair tests, and considering the safe use of materials and equipment",
+      "position": 9,
+      "est_minutes": 14,
+      "intro": "Ever wondered which shade keeps a drink bottle coolest, or which paper towel soaks up the most water? A fair test is how scientists find out for sure, instead of just guessing.",
+      "sections": [
+        {
+          "heading": "What is a fair test?",
+          "body": "A **fair test** is an investigation where you only change one thing at a time. Everything else about the test stays exactly the same. That way, if the result changes, you know it was caused by the one thing you changed, and nothing else."
+        },
+        {
+          "heading": "Three kinds of variables",
+          "body": "A **variable** is something in an investigation that can change or be changed. There are three kinds to think about in a fair test.\n\n- The thing you deliberately change is called the **variable you change** (the independent variable).\n- The thing you observe or measure to see the result is called the **variable you measure** (the dependent variable).\n- Everything else you deliberately keep exactly the same is called the **controlled variables**.",
+          "example": {
+            "prompt": "You want to find out which type of soil holds water best: sand, garden soil or potting mix. What should you keep the same across all three tests?",
+            "working": [
+              "The one thing you change here is the soil type",
+              "For a fair comparison, everything else about each test must match"
+            ],
+            "answer": "The amount of water poured, the container size, and how long you wait before checking"
+          }
+        },
+        {
+          "heading": "A Cooktown example: which shade keeps water coolest?",
+          "body": "Imagine testing whether a water bottle stays coolest under a tarp, in full sun, or under a tree. The variable you change is the location. The variable you measure is the water's temperature after a set time.\n\nTo make it fair, you'd keep the bottle size, the amount of water, the starting temperature and the length of time all exactly the same across every location you test."
+        },
+        {
+          "heading": "Staying safe while testing",
+          "body": "A good investigation is also a safe one. Use ordinary, safe materials, ask an adult before you start, and never use fire, sharp tools or unknown chemicals in a home experiment. Simple household items are usually all you need for a fair test."
+        }
+      ],
+      "key_points": [
+        "A fair test changes only one variable at a time.",
+        "The variable you change is called the independent variable.",
+        "The variable you measure or observe is called the dependent variable.",
+        "Controlled variables are everything you deliberately keep the same.",
+        "A good investigation is also planned to be safe, using ordinary, safe materials."
+      ],
+      "try_this": "Test which of two kitchen cloths or paper towel brands absorbs the most water. Drip the same number of drops of water from an eyedropper or spoon onto each, from the same height, and see which one soaks in the most before dripping through. Keep the amount of water, the drop height and the timing the same for both, so it's a fair test.",
+      "questions": [
+        {
+          "type": "tf",
+          "prompt": "In a fair test, you should only change one thing at a time.",
+          "answer": true,
+          "explain": "Changing only one variable at a time is what makes a test fair. It lets you be sure that any change in the result was caused by that one variable.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "What do we call the thing you deliberately change in a fair test?",
+          "choices": [
+            "The variable you change (independent variable)",
+            "The thing you measure",
+            "The thing you keep the same",
+            "The conclusion"
+          ],
+          "answer": "The variable you change (independent variable)",
+          "explain": "The independent variable is the one thing you deliberately choose to change between tests, in order to see its effect on the result.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "A student tests how far three different toy cars roll down the same ramp, to compare the cars themselves. What should stay exactly the same across all three tests?",
+          "choices": [
+            "The ramp height and surface, and how each car is released",
+            "The colour of each car",
+            "The name given to each car",
+            "The weather outside on the day"
+          ],
+          "answer": "The ramp height and surface, and how each car is released",
+          "explain": "To compare the cars fairly, everything about the ramp and how it's used must be kept identical each time, so any difference in distance is really down to the car.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "In a test comparing three fertilisers, a student records how tall each plant grows after two weeks. What do we call the thing being measured, like plant height here?",
+          "answer": [
+            "dependent variable",
+            "dependent"
+          ],
+          "explain": "The variable you observe or measure as the outcome of a test, like plant height, is called the dependent variable, because its value depends on what was changed.",
+          "difficulty": 2
+        },
+        {
+          "type": "mc",
+          "prompt": "A student is testing which material blocks the most sunlight. Which choice below keeps the test fair?",
+          "choices": [
+            "Using the same size piece of each material and testing at the same time of day",
+            "Using a different sized piece for each material",
+            "Testing each material on a different day with different weather",
+            "Changing the light source for each material"
+          ],
+          "answer": "Using the same size piece of each material and testing at the same time of day",
+          "explain": "Keeping the material's size and the time of testing the same means only the material itself differs between tests, which is what makes the comparison fair.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "A class tests how many paperclips 3 different types of paper can hold before ripping. Paper A held 9, Paper B held 6, and Paper C held 17. What is the difference between the strongest and weakest paper?",
+          "answer": 11,
+          "tolerance": 0,
+          "unit": "",
+          "explain": "The strongest was Paper C with 17 paperclips, and the weakest was Paper B with 6. 17 minus 6 equals 11.",
+          "difficulty": 2
+        },
+        {
+          "type": "tf",
+          "prompt": "A student changes both the amount of water and the amount of sunlight a plant gets, then measures its growth carefully with a ruler each day. Careful measuring makes this a fair test, even though two things were changed.",
+          "answer": false,
+          "explain": "Changing more than one variable at once means you can't tell which change actually caused the result, no matter how carefully you measure. A fair test only changes one thing at a time.",
+          "difficulty": 3
+        },
+        {
+          "type": "mc",
+          "prompt": "A student compares which brand of paper towel absorbs the most water, but pours a different amount of water onto each brand being tested. What is wrong with this test?",
+          "choices": [
+            "The amount of water should have been kept the same, but it was changed instead",
+            "Nothing is wrong, this is a perfectly fair test",
+            "Paper towels cannot be tested this way at all",
+            "The test needs fire to work properly"
+          ],
+          "answer": "The amount of water should have been kept the same, but it was changed instead",
+          "explain": "The amount of water is meant to be a controlled variable, kept the same across all tests, so that only the paper towel brand is being compared. Changing it too makes the test unfair.",
+          "difficulty": 3
+        },
+        {
+          "type": "text",
+          "prompt": "A student wants to find out which of three fertilisers makes tomato plants grow tallest. They plant each type in a different sized pot, in different spots in the yard, with different watering schedules. Name ONE thing they should have kept the same, other than the fertiliser itself, to make this a fair test.",
+          "answer": [
+            "pot size",
+            "watering",
+            "sunlight",
+            "location",
+            "water amount"
+          ],
+          "explain": "For a fair test of fertiliser alone, everything else, including pot size, watering and how much sunlight each plant gets, needs to be kept the same across all three plants.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "Four identical bean seeds get 2, 4, 6 and 8 hours of sunlight a day. After 2 weeks their heights are 3 cm, 6 cm, 9 cm and 11 cm. Based on the clear pattern in the first three results (each extra 2 hours of light adds 3 cm), what height would you predict for the seed with 8 hours of light if that same pattern had continued exactly?",
+          "answer": 12,
+          "tolerance": 0,
+          "unit": "cm",
+          "explain": "The pattern adds 3 cm for every extra 2 hours of light: 3, 6, 9, then 12. The actual result of 11 cm is slightly below this predicted pattern, which is a clue that something else affected that seed.",
+          "difficulty": 4
+        },
+        {
+          "type": "text",
+          "prompt": "A student compares two sunscreen brands by putting one on each arm, then goes outside for 20 minutes with the left arm's brand and 40 minutes with the right arm's brand. The right arm gets more sunburnt, so they conclude that brand is worse. Which variable did they fail to keep the same, making the test unfair?",
+          "answer": [
+            "time",
+            "exposure time",
+            "sun time"
+          ],
+          "explain": "The two arms were in the sun for different lengths of time. That difference alone could explain the extra sunburn, so the test can't fairly tell us which sunscreen brand actually works better.",
+          "difficulty": 4
+        },
+        {
+          "type": "mc",
+          "prompt": "A class wants to test whether the colour of paper (dark vs light) affects how much a water balloon dropped onto it splashes. Which of these would make the test UNFAIR?",
+          "choices": [
+            "Dropping the balloon on the dark paper from 1 m, but on the light paper from 2 m",
+            "Using the same size balloon for both",
+            "Dropping both balloons from exactly 1 m high",
+            "Using the same amount of water in both balloons"
+          ],
+          "answer": "Dropping the balloon on the dark paper from 1 m, but on the light paper from 2 m",
+          "explain": "Changing the drop height as well as the paper colour means two things are different at once. If the results differ, you can't tell whether it was the colour or the extra drop height that caused it.",
+          "difficulty": 4
+        }
+      ],
+      "activity": {
+        "title": "Run your own fair test: paper aeroplane distance",
+        "why": "Designing and running their own controlled experiment, with repeated throws and an average, proves they can apply fair-testing skills for real, not just spot a flaw in someone else's test.",
+        "est_minutes": 30,
+        "adult_help": "nearby",
+        "materials": [
+          "at least 2 sheets of paper, ideally different weights",
+          "a tape measure or long ruler",
+          "a clear open outdoor space",
+          "notebook and pencil"
+        ],
+        "steps": [
+          "Choose ONE variable to test, such as paper weight or wing shape. Fold two paper aeroplanes that are identical except for that one variable.",
+          "Decide what you will keep the same for a fair test: who throws it, how hard, the throwing height and the direction. Write these down before you start.",
+          "Throw the first aeroplane 3 times from the same spot, in the same way each time, and measure how far it flew in metres each time.",
+          "Work out the average distance for the first aeroplane by adding the 3 distances and dividing by 3.",
+          "Repeat the throwing and averaging for the second aeroplane, keeping everything the same except the one variable you're testing.",
+          "Record both average distances and write a few sentences about which aeroplane flew further, whether your test was truly fair, and what you'd change next time."
+        ],
+        "record": [
+          {
+            "id": "plane_a_avg_distance_m",
+            "label": "Average distance for Aeroplane A, in metres (of 3 throws)",
+            "type": "number",
+            "unit": "m",
+            "hint": "",
+            "min": 0.5,
+            "max": 40
+          },
+          {
+            "id": "plane_b_avg_distance_m",
+            "label": "Average distance for Aeroplane B, in metres (of 3 throws)",
+            "type": "number",
+            "unit": "m",
+            "hint": "",
+            "min": 0.5,
+            "max": 40
+          },
+          {
+            "id": "explanation",
+            "label": "Which aeroplane flew further, was your test truly fair, and what would you change next time?",
+            "type": "text",
+            "hint": "three or four sentences",
+            "min_words": 20
+          },
+          {
+            "id": "variable_tested",
+            "label": "Which variable did you test?",
+            "type": "choice",
+            "options": [
+              "Paper weight or thickness",
+              "Wing shape",
+              "Paper size",
+              "Added nose weight (e.g. paperclip)"
+            ]
+          }
+        ],
+        "check": "A genuine average of 3 throws is usually somewhere between 1 and 15 metres, depending on space and skill. The explanation should name the one variable that was changed and at least one thing kept the same — a vague answer like 'it just flew better' should be queried.",
+        "xp": 45
+      },
+      "kind": "lesson"
+    },
+    {
+      "slug": "y4-data-scientific-explanations",
+      "title": "Using data to build scientific explanations",
+      "strand": "Science as a human endeavour",
+      "year_level": 4,
+      "curriculum_code": "AC9S4H01",
+      "curriculum_text": "examine how people use data to develop scientific explanations",
+      "position": 10,
+      "est_minutes": 14,
+      "intro": "Long before satellites and weather apps, people were reading the signs around them, watching seasons, tides and animals to understand their world. That careful watching over time is exactly what data is for.",
+      "sections": [
+        {
+          "heading": "What counts as data?",
+          "body": "**Data** is information collected through careful observation or measurement, like rainfall totals, temperatures, tide times or the date a certain bird arrives each year. A single observation is useful, but data collected over and over, across many days or years, is far more powerful.\n\nScientists rely on data, not guesses, to build explanations that other people can check and trust."
+        },
+        {
+          "heading": "Scientists use data to explain and predict",
+          "body": "Meteorologists study many years of weather data, such as ocean temperatures and wind patterns, to help predict Far North Queensland's cyclone season each year. The more years of reliable data they have, the more confident their predictions can be.\n\nThis is how science generally works: collect data carefully, look for patterns in it, and use those patterns to build an explanation that can be tested and checked."
+        },
+        {
+          "heading": "Aboriginal and Torres Strait Islander seasonal knowledge",
+          "body": "Aboriginal and Torres Strait Islander peoples have observed and passed on detailed knowledge of seasons, tides, star positions, plant flowering and animal behaviour across many generations. This knowledge is often organised into **seasonal calendars**, which can describe more than the four seasons used in Europe, matching the real, local rhythms of a particular Country.\n\nThis is genuine scientific knowledge. It comes from long-term, careful observation, tested and refined generation after generation, not from guesswork or storytelling alone.",
+          "example": {
+            "prompt": "A ranger records the date the first storm bird (channel-billed cuckoo) arrives in Cooktown, every year for 20 years. How could this data help build a scientific explanation about the wet season?",
+            "working": [
+              "One year's date alone could just be chance",
+              "Twenty years of dates can reveal a real pattern"
+            ],
+            "answer": "A repeated pattern across many years would show the bird's arrival reliably signals the coming wet season"
+          }
+        },
+        {
+          "heading": "Combining old and new data",
+          "body": "Traditional knowledge, built from generations of careful observation, and modern tools, like weather stations and satellites, are both valuable sources of data. Traditional fire management, sometimes called cultural burning, is one example: careful, seasonal burning practices developed from long-term observation of how Country responds to fire, which modern science now also recognises can reduce the risk of severe, uncontrolled bushfires.\n\nWhen scientists combine long-term traditional observations with modern measurements, they often build a more complete and reliable explanation than either source could give alone."
+        }
+      ],
+      "key_points": [
+        "Data is information collected through careful observation or measurement.",
+        "Explanations built from long-term, repeated data are more trustworthy than a single observation.",
+        "Aboriginal and Torres Strait Islander seasonal calendars come from generations of careful, tested observation, which makes them genuine scientific knowledge.",
+        "Traditional knowledge and modern data, like weather station records, can be combined to build fuller explanations.",
+        "Scientists use patterns in data to explain what's happening and predict what might happen next."
+      ],
+      "try_this": "Start a simple week-long data log with your family. Each day, record something you can observe, like the temperature, what time the sun sets, or which birds visit the yard. At the end of the week, look back over your data together and talk about any pattern you notice.",
+      "questions": [
+        {
+          "type": "tf",
+          "prompt": "Data is information, such as measurements or observations, that scientists collect and use.",
+          "answer": true,
+          "explain": "Data means carefully collected information, gathered through observation or measurement, which scientists use as evidence to build explanations.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "Which of these is an example of data a scientist might collect?",
+          "choices": [
+            "Daily rainfall measurements recorded over a year",
+            "A made-up story about the weather",
+            "A guess with no observations behind it",
+            "A drawing with no numbers or facts included"
+          ],
+          "answer": "Daily rainfall measurements recorded over a year",
+          "explain": "Data is information gathered through real, careful observation or measurement, like rainfall recorded regularly over time.",
+          "difficulty": 1
+        },
+        {
+          "type": "mc",
+          "prompt": "Why do scientists trust an explanation more when it's based on many years of data instead of just one observation?",
+          "choices": [
+            "Patterns seen over a long time are less likely to be a coincidence",
+            "One single observation is always more accurate than many",
+            "Old data is always wrong and should be ignored",
+            "Data doesn't actually affect how much we trust an explanation"
+          ],
+          "answer": "Patterns seen over a long time are less likely to be a coincidence",
+          "explain": "A pattern that shows up again and again over many years is much less likely to be random chance than something seen only once.",
+          "difficulty": 2
+        },
+        {
+          "type": "text",
+          "prompt": "Some Aboriginal and Torres Strait Islander peoples describe the year using signs from plants, animals, winds and tides, built from generations of careful watching, rather than four fixed seasons. What is this kind of yearly pattern called?",
+          "answer": [
+            "seasonal calendar",
+            "seasonal calendars"
+          ],
+          "explain": "A seasonal calendar describes the changing patterns of a year through observed natural signs, built from generations of careful observation of Country.",
+          "difficulty": 2
+        },
+        {
+          "type": "mc",
+          "prompt": "Aboriginal and Torres Strait Islander peoples have passed on detailed observations of seasons, tides and animal behaviour across many generations. Why is this considered scientific knowledge?",
+          "choices": [
+            "It comes from long-term, careful observation and pattern-testing, refined over many generations",
+            "It is only guesswork with no real observation behind it",
+            "It only became science once it was written down in English",
+            "It is a myth and not based on real observation at all"
+          ],
+          "answer": "It comes from long-term, careful observation and pattern-testing, refined over many generations",
+          "explain": "Scientific knowledge is built from careful, repeated observation that can be tested and refined over time - exactly how these seasonal knowledge systems developed.",
+          "difficulty": 2
+        },
+        {
+          "type": "numeric",
+          "prompt": "A ranger records that a certain tree flowers within 10 days of the same date for 16 of the last 20 years. In how many of those 20 years did it NOT flower within that 10-day window?",
+          "answer": 4,
+          "tolerance": 0,
+          "unit": "",
+          "explain": "Subtract the years it did match from the total: 20 years minus 16 years equals 4 years it did not flower in that window.",
+          "difficulty": 2
+        },
+        {
+          "type": "tf",
+          "prompt": "Combining long-term Traditional Owner observations with modern scientific data, like weather station records, can make explanations about seasons and Country more complete than either source alone.",
+          "answer": true,
+          "explain": "Each source of data has strengths. Long-term traditional observation and modern instruments can complement each other, building a fuller, more reliable explanation together.",
+          "difficulty": 3
+        },
+        {
+          "type": "mc",
+          "prompt": "A meteorologist studies 50 years of cyclone data for Far North Queensland before making a prediction about this year's cyclone season. What is this an example of?",
+          "choices": [
+            "Using long-term data to build a scientific explanation and prediction",
+            "Guessing without using any evidence at all",
+            "Ignoring past weather patterns completely",
+            "Data that has nothing to do with science"
+          ],
+          "answer": "Using long-term data to build a scientific explanation and prediction",
+          "explain": "Studying many years of past data to find patterns, then using those patterns to predict future events, is a core part of how science works.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A ranger's 15 years of data show that a certain tree flowers within its usual window in 80% of years. If this pattern holds, about how many of the next 10 years would you predict will have on-time flowering?",
+          "answer": 8,
+          "tolerance": 1,
+          "unit": "years",
+          "explain": "80% of 10 years is 0.8 times 10, which equals 8. If the same long-term pattern continues, about 8 of the next 10 years would be expected to flower on time.",
+          "difficulty": 4
+        },
+        {
+          "type": "text",
+          "prompt": "A tourist visits Cooktown for one day in November and it doesn't rain, so they conclude 'it never rains in November here.' In one or two words, what is the main problem with this conclusion?",
+          "answer": [
+            "one day",
+            "one observation",
+            "small sample",
+            "not enough"
+          ],
+          "explain": "A single day is far too small a sample to reveal a real pattern. Reliable conclusions about typical weather need many days or years of data, not just one observation.",
+          "difficulty": 4
+        },
+        {
+          "type": "text",
+          "prompt": "Two scientists both notice Far North Queensland's wet season seems to be starting slightly later than it used to. One only has 2 years of rainfall data; the other has 40 years. Whose finding is more trustworthy, and in one or two words, what is the key factor that makes it so?",
+          "answer": [
+            "more data",
+            "more years",
+            "sample size",
+            "years"
+          ],
+          "explain": "A pattern seen across 40 years of data is far less likely to be coincidence than one seen across only 2 years. Having more years of data is what makes the second scientist's finding more trustworthy.",
+          "difficulty": 4
+        },
+        {
+          "type": "mc",
+          "prompt": "A cyclone forecaster combines 60 years of satellite ocean-temperature data with generations of Traditional Owner knowledge about when certain trees flower before storm season. Why might combining both sources give a more reliable prediction than using just one?",
+          "choices": [
+            "Each source captures different long-term patterns, so together they cross-check and strengthen the prediction",
+            "Traditional knowledge is not real evidence and should be ignored",
+            "Satellite data is always less reliable than any other kind of observation",
+            "Combining sources always guarantees a perfect forecast"
+          ],
+          "answer": "Each source captures different long-term patterns, so together they cross-check and strengthen the prediction",
+          "explain": "Satellite data and generations of careful traditional observation are both built from long-term patterns, just gathered in different ways. When they agree, that agreement makes the resulting prediction more reliable than either source alone.",
+          "difficulty": 4
+        }
+      ],
+      "activity": {
+        "title": "Four-day weather log: finding a real pattern",
+        "why": "Collecting their own repeated, same-time daily measurements and averaging them proves they can build data the way scientists actually do, not just read about it.",
+        "est_minutes": 10,
+        "adult_help": "none",
+        "materials": [
+          "an outdoor or window thermometer, or a weather app showing the current outdoor temperature",
+          "notebook and pencil",
+          "a clock or phone"
+        ],
+        "steps": [
+          "Choose one time each day for your reading, such as 3pm, and stick to that same time for all 4 days.",
+          "Each day at that time, check the temperature just outside and record it, along with a short description of the sky (clear, cloudy, raining).",
+          "Also note anything else you notice, like wind, humidity, or birds and insects being more or less active.",
+          "Repeat this for 4 days in a row.",
+          "Add up your 4 temperature readings and divide by 4 to find your average temperature over the 4 days.",
+          "Record your average and hottest readings, and write a few sentences about any pattern you noticed across the 4 days."
+        ],
+        "record": [
+          {
+            "id": "average_temp_c",
+            "label": "What was your average temperature across the 4 days, in degrees Celsius?",
+            "type": "number",
+            "unit": "°C",
+            "hint": "add the 4 readings and divide by 4",
+            "min": 15,
+            "max": 40
+          },
+          {
+            "id": "hottest_day_temp_c",
+            "label": "What was your hottest single reading, in degrees Celsius?",
+            "type": "number",
+            "unit": "°C",
+            "hint": "",
+            "min": 15,
+            "max": 45
+          },
+          {
+            "id": "explanation",
+            "label": "What pattern, if any, did you notice across your 4 days of data (temperature, clouds, wind, animals)?",
+            "type": "text",
+            "hint": "three or four sentences",
+            "min_words": 20
+          },
+          {
+            "id": "reading_time",
+            "label": "What time of day did you take your readings?",
+            "type": "choice",
+            "options": [
+              "Morning",
+              "Midday",
+              "Afternoon",
+              "Evening"
+            ]
+          }
+        ],
+        "check": "Cooktown temperatures realistically sit somewhere between about 18°C and 35°C for most of the year, so readings well outside that range should be queried. The written pattern doesn't need to be dramatic — 'it stayed about the same every day' is a valid, honest pattern too.",
+        "xp": 40
+      },
+      "kind": "lesson"
+    }
+  ]
+}

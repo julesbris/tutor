@@ -1,0 +1,142 @@
+{% extends "base.html" %}
+{% block title %}Parent dashboard{% endblock %}
+{% block content %}
+
+<div class="inline" style="justify-content:space-between">
+  <h1 style="margin-bottom:0">Parent dashboard</h1>
+  <a class="quiet" href="{{ url_for('parent_logout') }}">Lock</a>
+</div>
+<p class="sub">
+  {{ lesson_count }} lessons, {{ boss_count }} boss challenges, {{ activity_count }} activities
+  and {{ question_count }} questions loaded. Mastery needs {{ pass_mark }}% on the quiz
+  <em>and</em> the activity signed off.
+</p>
+
+<h2 id="signoff">Waiting on you{% if queue %} <span class="pill pill-amber">{{ queue|length }}</span>{% endif %}</h2>
+{% if queue %}
+  {% for log in queue %}
+    <div class="card" style="margin-bottom:14px;border-left:4px solid var(--violet)">
+      <div class="inline" style="justify-content:space-between">
+        <div>
+          <b>{{ log.activity.title }}</b>
+          <div class="meta">
+            {{ log.kid.name }} &middot; {{ log.activity.lesson.title }} &middot;
+            sent {{ log.submitted_at.strftime('%a %d %b, %H:%M') if log.submitted_at }}
+            {% if log.attempts > 1 %} &middot; go {{ log.attempts }}{% endif %}
+          </div>
+        </div>
+        <span class="pill pill-grey">{{ log.activity.xp }} XP</span>
+      </div>
+
+      <table style="margin-top:12px">
+        {% for label, value in log.display_pairs() %}
+          <tr><th style="width:42%">{{ label }}</th><td>{{ value }}</td></tr>
+        {% endfor %}
+      </table>
+
+      <p class="meta" style="margin:.8em 0 .4em"><b>What to look for:</b> {{ log.activity.check_note }}</p>
+
+      <form method="post" action="{{ url_for('parent_signoff', log_id=log.id) }}">
+        <input class="numin" style="max-width:100%;font-size:.95rem" name="note"
+               placeholder="A note back to them (optional)">
+        <div class="inline" style="margin-top:10px">
+          <button class="btn" type="submit" name="decision" value="approve">Sign it off</button>
+          <button class="btn btn-ghost" type="submit" name="decision" value="return">Send it back</button>
+        </div>
+      </form>
+    </div>
+  {% endfor %}
+{% else %}
+  <div class="card"><span class="meta">Nothing waiting. Activities show up here the moment they're sent off.</span></div>
+{% endif %}
+
+{% for r in report %}
+  {% set kid = r.kid %}
+  <div class="card" style="margin-bottom:18px">
+    <div class="inline" style="justify-content:space-between">
+      <div>
+        <h2 style="margin:0">{{ kid.name }}</h2>
+        <div class="meta">Year {{ kid.year_level }} &middot; Level {{ kid.level }} &middot; {{ kid.xp }} XP &middot; {{ kid.streak }} day streak &middot; {{ r.activities_done }} activities signed off &middot; {{ r.badges|length }} badges</div>
+      </div>
+      <form method="post" action="{{ url_for('kid_rename', kid_id=kid.id) }}" class="inline">
+        <input class="numin" style="max-width:150px;font-size:.9rem;padding:8px 10px" name="name" value="{{ kid.name }}">
+        <select class="numin" style="max-width:110px;font-size:.9rem;padding:8px 10px" name="year_level">
+          <option value="4" {{ 'selected' if kid.year_level == 4 }}>Year 4</option>
+          <option value="6" {{ 'selected' if kid.year_level == 6 }}>Year 6</option>
+        </select>
+        <button class="btn btn-ghost" style="padding:9px 14px" type="submit">Save</button>
+      </form>
+    </div>
+
+    <h3>Coverage</h3>
+    <table>
+      <tr><th>Subject</th><th>Mastered</th><th>Activity to go</th><th>Still practising</th><th>Read only</th></tr>
+      {% for subject in subjects %}
+        {% set s = r.by_subject.get(subject, {'mastered':0,'waiting':0,'practising':0,'read':0}) %}
+        <tr><td>{{ subject }}</td><td>{{ s.mastered }}</td><td>{{ s.waiting }}</td><td>{{ s.practising }}</td><td>{{ s.read }}</td></tr>
+      {% endfor %}
+    </table>
+
+    <h3>Boss challenges</h3>
+    <table>
+      <tr><th>Challenge</th><th>Lessons mastered</th><th>Status</th></tr>
+      {% for b in r.bosses %}
+        <tr>
+          <td>{{ b.boss.title }}</td>
+          <td class="meta">{{ b.done }} / {{ b.total }}</td>
+          <td>
+            {% if b.beaten %}<span class="pill pill-green">Beaten {{ b.best }}%</span>
+            {% elif b.unlocked %}<span class="pill pill-amber">Unlocked</span>
+            {% else %}<span class="pill pill-grey">Locked</span>{% endif %}
+          </td>
+        </tr>
+      {% endfor %}
+    </table>
+
+    {% if r.weakest %}
+    <h3>Where they're struggling</h3>
+    <table>
+      <tr><th>Strand</th><th>Correct</th><th>Answered</th></tr>
+      {% for w in r.weakest %}
+        <tr>
+          <td>{{ w.subject }} &middot; {{ w.strand }}</td>
+          <td><b>{{ w.pct }}%</b></td>
+          <td class="meta">{{ w.right }} of {{ w.n }}</td>
+        </tr>
+      {% endfor %}
+    </table>
+    <p class="meta">Only strands with 5 or more answers are shown.</p>
+    {% endif %}
+
+    {% if r.days %}
+    <h3>Last two weeks</h3>
+    {% set peak = (r.days|map(attribute='answered')|max) or 1 %}
+    <div class="spark">
+      {% for d in r.days %}
+        <div title="{{ d.day }}: {{ d.answered }} questions, {{ d.correct }} right">
+          <i style="height:{{ (100 * d.answered / peak)|round }}%"></i>
+        </div>
+      {% endfor %}
+    </div>
+    <p class="meta">{{ r.days|sum(attribute='answered') }} questions answered, {{ r.days|sum(attribute='correct') }} correct.</p>
+    {% endif %}
+
+    {% if r.recent %}
+    <h3>Recent quizzes</h3>
+    <table>
+      <tr><th>Quiz</th><th>Score</th><th>When</th></tr>
+      {% for a in r.recent %}
+        <tr>
+          <td>{{ a.label or 'Quiz' }}</td>
+          <td>{{ a.score }}/{{ a.total }} <span class="meta">({{ a.percent }}%)</span></td>
+          <td class="meta">{{ a.finished_at.strftime('%a %d %b, %H:%M') if a.finished_at }}</td>
+        </tr>
+      {% endfor %}
+    </table>
+    {% else %}
+    <p class="meta">No finished quizzes yet.</p>
+    {% endif %}
+  </div>
+{% endfor %}
+
+{% endblock %}

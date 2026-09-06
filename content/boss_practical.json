@@ -1,0 +1,968 @@
+{
+  "pack": "boss_practical",
+  "subject": "Practical",
+  "lessons": [
+    {
+      "slug": "boss-money-y4",
+      "kind": "boss",
+      "title": "Boss Challenge: Money and Budgeting",
+      "strand": "Boss challenge",
+      "year_level": 4,
+      "covers": ["Money and budgeting"],
+      "curriculum_code": "",
+      "curriculum_text": "",
+      "position": 99,
+      "est_minutes": 30,
+      "intro": "This isn't a normal quiz - it's every money skill you've learned so far, jammed into one shopping trip after another. It's meant to be hard, so slow down and work through each stage carefully.",
+      "sections": [
+        {
+          "heading": "Before you start",
+          "body": "Every question here mixes together at least two things you've already learned - rounding cash, working out change, comparing unit prices, sorting wants from needs, tracking a savings goal, or working out an hourly rate.\n\nRead each question twice before you touch a calculator. Work out what the very first number you need is, write it down, then use it for the next step. Getting the first stage wrong wrecks the whole answer, so it's worth double-checking that one before you move on."
+        }
+      ],
+      "key_points": [
+        "Work out what the first stage actually needs before you calculate anything.",
+        "Write down each stage's answer as you go, so you can use it in the next stage.",
+        "If a number looks too neat or too messy, go back and check your first step."
+      ],
+      "try_this": "",
+      "questions": [
+        {
+          "type": "numeric",
+          "prompt": "At the Cooktown IGA, a bag of ice costs $4.83 in cash. You pay with a $5 note. First work out what you're actually charged after rounding to the nearest 5 cents, then work out your change.",
+          "answer": 0.15,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "$4.83 ends in 3, and totals ending in 3 or 4 round up to the next 5, so you're charged $4.85. $5.00 - $4.85 = $0.15 change.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "Sunscreen (a real need in Cooktown's sun) comes in a 200 mL bottle for $9.00 or a 500 mL bottle for $19.50. Work out the price per 100 mL for each bottle, choose the cheaper one, then say how much is left from a $20 need-budget after buying it.",
+          "answer": 0.5,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "200 mL: $9.00 ÷ 2 = $4.50 per 100 mL. 500 mL: $19.50 ÷ 5 = $3.90 per 100 mL, which is cheaper. $20 - $19.50 = $0.50 left.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A servo sells chip packets: 150 g for $3.60, or 400 g for $8.72. Work out which size is cheaper per 100 g, then work out what you'd actually be charged in cash for that cheaper packet, once rounded to the nearest 5 cents.",
+          "answer": 8.7,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "150 g: $3.60 ÷ 1.5 = $2.40 per 100 g. 400 g: $8.72 ÷ 4 = $2.18 per 100 g, which is cheaper. $8.72 ends in 2, and totals ending in 1 or 2 round down, so it's charged as $8.70.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "Ruby wants a $75 fishing reel and already has $27 saved. She helps at the family shop for 2.5 hours every Saturday, earning $9 an hour. How many whole Saturdays (weeks) will it take her to save enough, rounding up?",
+          "answer": 3,
+          "tolerance": 0.01,
+          "unit": "weeks",
+          "explain": "She needs $75 - $27 = $48 more. Her weekly earnings are $9 x 2.5 = $22.50. $48 ÷ $22.50 = 2.13 weeks, so she needs to round up to 3 weeks.",
+          "difficulty": 4
+        },
+        {
+          "type": "mc",
+          "prompt": "Ruby has a $20 note. She buys a school hat (a need) for $12.00 and a comic (a want) for $6.50, paying cash. After rounding the total to the nearest 5 cents, what change does she get?",
+          "choices": ["$1.50", "$2.00", "$1.00", "$7.50"],
+          "answer": "$1.50",
+          "explain": "$12.00 + $6.50 = $18.50, which already ends in 0, so no rounding is needed. $20.00 - $18.50 = $1.50 change.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "Ben earns $15 for 2 hours mowing a neighbour's lawn, but spends $3 on fuel for the mower, so his net pay is $12 a week. He's saving for a $96 skateboard and already has $24. Doing this same job every week, how many whole weeks until he reaches his goal?",
+          "answer": 6,
+          "tolerance": 0.01,
+          "unit": "weeks",
+          "explain": "Net earnings: $15 - $3 = $12 a week. Amount still needed: $96 - $24 = $72. $72 ÷ $12 = 6 weeks exactly.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A cash total at the Sunday markets comes to $7.28. You pay with a $10 note. First round the total to the nearest 5 cents, then work out your change.",
+          "answer": 2.7,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "$7.28 ends in 8, and totals ending in 8 or 9 round up to the next 10, so it's charged as $7.30. $10.00 - $7.30 = $2.70 change.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "Mia earns $2 for every kilogram of mangoes she picks for a neighbour, and can pick 3 kg an hour, so her hourly rate is $6. A juice stand sells juice in a 250 mL cup for $2.50, or a 1 L bottle for $8.00. After working out which is cheaper per 100 mL, how many whole hours must Mia work (rounding up) to earn enough for one 1 L bottle?",
+          "answer": 2,
+          "tolerance": 0.01,
+          "unit": "hours",
+          "explain": "250 mL is $2.50 ÷ 2.5 = $1.00 per 100 mL. 1 L is $8.00 ÷ 10 = $0.80 per 100 mL, the cheaper option, but it still costs $8.00 in total. At $6 an hour, $8.00 ÷ $6 = 1.33 hours, which rounds up to 2 whole hours.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "Zoe has $50. She must first buy a $15 bike helmet (a need). After that, how much of her original $50 is left to put toward her $60 skateboard (a want) savings goal?",
+          "answer": 35,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "$50 - $15 = $35 left over once the need is covered, ready to go toward the savings goal.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "Zoe has $50 cash. A bike helmet (a need) costs $14.83 in cash - work out the rounded price first. After buying it, how much of her $50 is left to save toward her $60 skateboard goal?",
+          "answer": 35.15,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "$14.83 ends in 3, so it rounds up to $14.85. $50.00 - $14.85 = $35.15 left over.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "Zoe now has $35.15 saved toward her $60 skateboard. She earns a net $5.30 a week from her paper round after costs. How many more whole weeks until she reaches $60?",
+          "answer": 5,
+          "tolerance": 0.01,
+          "unit": "weeks",
+          "explain": "She needs $60 - $35.15 = $24.85 more. $24.85 ÷ $5.30 = 4.69 weeks, so she needs to round up to 5 weeks.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "Exercise books (a school need) come in packs of 8 for $9.60. You need at least 16 books and have a $20 budget. Buying two packs of 8, how much of your $20 budget is left over?",
+          "answer": 0.8,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "Two packs of 8 books cost 2 x $9.60 = $19.20. $20.00 - $19.20 = $0.80 left over.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A cash docket at the servo totals $16.94. Round this to the nearest 5 cents, then work out the change from a $20 note.",
+          "answer": 3.05,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "$16.94 ends in 4, so it rounds up to $16.95. $20.00 - $16.95 = $3.05 change.",
+          "difficulty": 3
+        },
+        {
+          "type": "mc",
+          "prompt": "Liam wants a $120 telescope and already has $30 saved, so needs $90 more. Job A: mowing lawns, earning $18/hr for 1 hour a week, minus $3 fuel cost each week, so net $15/week. Job B: dog walking, earning a net $6/hr for 3 hours a week, so net $18/week. Which job gets him to his goal in fewer weeks, and how many weeks does that take?",
+          "choices": ["Job B, in 5 weeks", "Job A, in 6 weeks", "Job B, in 6 weeks", "Job A, in 5 weeks"],
+          "answer": "Job B, in 5 weeks",
+          "explain": "Job A nets $15/week, so $90 ÷ $15 = 6 weeks. Job B nets $6 x 3 = $18/week, so $90 ÷ $18 = 5 weeks. Job B reaches the goal faster, in 5 weeks.",
+          "difficulty": 4
+        }
+      ]
+    },
+    {
+      "slug": "boss-money-y6",
+      "kind": "boss",
+      "title": "Boss Challenge: Money and Budgeting",
+      "strand": "Boss challenge",
+      "year_level": 6,
+      "covers": ["Money and budgeting"],
+      "curriculum_code": "",
+      "curriculum_text": "",
+      "position": 99,
+      "est_minutes": 30,
+      "intro": "Every discount, docket, budget and bank balance skill you've learned gets thrown together here, worked end to end like a real shopping trip. This is deliberately the hardest thing in the money strand, so take your time.",
+      "sections": [
+        {
+          "heading": "Before you start",
+          "body": "Most questions here run through two or three stages - a discount, then a GST check, then what it does to a budget, or a bank balance, or a savings plan. Getting the first stage wrong changes everything after it.\n\nWork stage by stage. Write down each number as you find it. If a question mentions a rule you've used before (like GST being total ÷ 11), check you're applying it to the right amount, not the wrong one."
+        }
+      ],
+      "key_points": [
+        "Work through multi-stage questions one stage at a time, checking each number before moving on.",
+        "GST is found by dividing a GST-included total by 11 - make sure you're dividing the right total.",
+        "Always compare final dollar amounts, not just percentages or rates, when two deals are involved."
+      ],
+      "try_this": "",
+      "questions": [
+        {
+          "type": "numeric",
+          "prompt": "A jacket is advertised 'was $132, now $92.40', both prices GST included. What percentage discount is this?",
+          "answer": 30,
+          "tolerance": 0.5,
+          "unit": "%",
+          "explain": "The discount is $132 - $92.40 = $39.60. $39.60 ÷ $132 = 0.30, which is 30%.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "The jacket's original $132 price already included GST. Work out the pre-GST amount of that $132 price, then use the same 30% discount rate to find the pre-GST version of the $92.40 'now' price, to the nearest cent.",
+          "answer": 84,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "Pre-GST 'was' price: $132 ÷ 1.10 = $120.00. A 30% discount on $120.00 is $36.00 off, leaving $120.00 - $36.00 = $84.00. (Handy fact: this matches $92.40 ÷ 1.10 = $84.00 exactly - GST doesn't change the discount percentage.)",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A family's monthly budget: income $200. Expenses are $60 savings and $45 phone/data, plus a jacket that normally costs $50 but is on 20% discount this month. Work out the discounted jacket price, add up all the expenses, and find what's left over (the surplus).",
+          "answer": 55,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "The jacket costs $50 x 0.80 = $40 after the discount. Total expenses: $60 + $45 + $40 = $145. Surplus: $200 - $145 = $55.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "Chloe's account starts the week with $75. Her tap purchases are $12.40, $8.15, $22.90 and $6.05. She wants to keep at least $25 in her account for an excursion payment. By how many dollars does her balance clear (go above) that $25 minimum?",
+          "answer": 0.5,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "Total spent: $12.40 + $8.15 + $22.90 + $6.05 = $49.50. Balance: $75 - $49.50 = $25.50. That clears the $25 minimum by $25.50 - $25 = $0.50.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A market stall's genuine docket totals $77.00 (GST included) for a fishing rod. An online marketplace lists what looks like the identical rod for $38, with the seller asking for payment upfront before you see it - a classic warning sign. As a sanity check on the legitimate price, what is the GST component hidden inside the $77.00 docket total?",
+          "answer": 7,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "GST is found by dividing the GST-included total by 11: $77.00 ÷ 11 = $7.00.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "Liam has $400 in savings earning 3% simple interest per year. Suppose the whole year's interest gets added to his budget as extra income in one particular month, on top of his usual $150 pocket money. If his expenses that month are $110, what is left over?",
+          "answer": 52,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "Interest earned: $400 x 0.03 = $12. Total income that month: $150 + $12 = $162. Leftover: $162 - $110 = $52.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "In the same month, suppose Liam also has a small $250 loan charging 4% simple interest per year, and he happens to earn $10 interest on a separate savings amount at the same 4% rate. If both the interest earned and the interest owed land in the same month, what is the combined effect on his budget's leftover figure (a positive number if it helps, 0 if there's no net change, or negative if it hurts)?",
+          "answer": 0,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "Interest owed on the loan: $250 x 0.04 = $10. Interest earned on savings: $10 (given). $10 earned minus $10 owed = $0 net change - the two exactly cancel out this month.",
+          "difficulty": 4
+        },
+        {
+          "type": "mc",
+          "prompt": "An app subscription charges $9.99 a month automatically. Maya's monthly entertainment budget is $15. After the subscription comes out, how much is left, and can she still afford a $6 movie ticket this month?",
+          "choices": [
+            "$5.01 left, not quite enough for the $6 ticket",
+            "$5.01 left, enough for the ticket",
+            "$6 left, enough for the ticket",
+            "$9.99 left, plenty"
+          ],
+          "answer": "$5.01 left, not quite enough for the $6 ticket",
+          "explain": "$15.00 - $9.99 = $5.01 left. Since $5.01 is less than $6.00, she can't quite afford the ticket this month.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A game sells gems in bundles of 800 for $12.10 (GST included). A skin costs 2000 gems. Work out how many bundles you must buy (rounding up), then find the GST component of the total amount spent, to the nearest cent.",
+          "answer": 3.3,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "2000 ÷ 800 = 2.5 bundles, rounded up to 3 bundles. Total spent: 3 x $12.10 = $36.30. GST component: $36.30 ÷ 11 = $3.30.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "Shop A sells an item for $45 with 20% off. Shop B sells the same item, originally $50, with 25% off. Work out the final price at the cheaper shop.",
+          "answer": 36,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "Shop A: $45 x 0.80 = $36.00. Shop B: $50 x 0.75 = $37.50. Shop A is cheaper, at $36.00.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A docket total is $99.00 (GST included), paid by card, so no rounding applies. Before this purchase, the account balance was $150. What is the balance after paying?",
+          "answer": 51,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "Card payments are exact, so $150 - $99.00 = $51 balance. (The GST portion of that $99.00 is $99 ÷ 11 = $9.00, though it isn't shown separately on the balance.)",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "An app subscription is $12.99 a month, and nobody notices it for 5 months. Maya's 'fun money' budget is $20 a month, so $100 across those 5 months. How much of that 5-month total would the subscription have used up, and how much would be left for everything else?",
+          "answer": 35.05,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "Subscription total: $12.99 x 5 = $64.95. Leftover: $100.00 - $64.95 = $35.05.",
+          "difficulty": 4
+        },
+        {
+          "type": "mc",
+          "prompt": "Comparing two loan offers for the same $200: Loan A charges 5% simple interest for 1 year. Loan B charges 5% simple interest for 2 years. Since the rate is the same, does that mean the total interest is the same too - and if not, which costs more and by how much?",
+          "choices": [
+            "Loan B, by $10 more",
+            "Loan A, by $10 more",
+            "They cost the same, since the rate is the same",
+            "Loan B, by $20 more"
+          ],
+          "answer": "Loan B, by $10 more",
+          "explain": "Loan A: $200 x 0.05 x 1 = $10. Loan B: $200 x 0.05 x 2 = $20. Even with the same rate, time matters - Loan B costs $10 more in total, so it's never safe to compare rates alone.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "Maya's monthly income is $180. She buys a jacket advertised 'was $110, now $82.50' (GST included, paid by card so no rounding). Her other expenses this month are $30 savings and $25 phone. What is her leftover for the month after everything?",
+          "answer": 42.5,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "The jacket's card price is exactly $82.50. Total expenses: $82.50 + $30 + $25 = $137.50. Leftover: $180 - $137.50 = $42.50.",
+          "difficulty": 4
+        }
+      ]
+    },
+    {
+      "slug": "boss-home-y4",
+      "kind": "boss",
+      "title": "Boss Challenge: Home and Tools",
+      "strand": "Boss challenge",
+      "year_level": 4,
+      "covers": ["Home and tools"],
+      "curriculum_code": "",
+      "curriculum_text": "",
+      "position": 99,
+      "est_minutes": 30,
+      "intro": "Measuring, tools, fasteners, following instructions, kitchen maths and looking after gear - it all gets mixed together here. This is meant to push you, so read carefully and work through each build or bake step by step.",
+      "sections": [
+        {
+          "heading": "Before you start",
+          "body": "A lot of these questions ask you to count parts across several identical pieces, or convert between mm, cm and m along the way. Work out the amount needed for ONE piece first, then multiply by how many pieces there are - don't try to do it all in your head in one go.\n\nIf a question mentions a tool, a fastener or looking after gear, think about which lesson that idea came from before you decide what it's really asking."
+        }
+      ],
+      "key_points": [
+        "Work out the amount for one item first, then multiply by how many identical items there are.",
+        "Keep your units straight - convert mm, cm and m before you add or compare them.",
+        "Reread the question once you have an answer to check it's actually answering what was asked."
+      ],
+      "try_this": "",
+      "questions": [
+        {
+          "type": "numeric",
+          "prompt": "A model kit's instructions say each of its 6 identical wing struts needs a 45 mm dowel. How many centimetres of dowel are needed in total for all 6 struts?",
+          "answer": 27,
+          "tolerance": 0,
+          "unit": "cm",
+          "explain": "6 struts x 45 mm = 270 mm in total. 270 mm ÷ 10 = 27 cm.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A flat-pack shelf's materials list needs 4 identical brackets. Each bracket needs 3 screws and 1 bolt. How many fasteners (screws and bolts combined) are needed for all 4 brackets?",
+          "answer": 16,
+          "tolerance": 0,
+          "unit": "fasteners",
+          "explain": "Each bracket uses 3 + 1 = 4 fasteners. 4 brackets x 4 fasteners = 16 fasteners in total.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A garden trellis kit needs 8 identical vertical slats, each 850 mm long. If you laid them all end to end, how many metres long would that be in total?",
+          "answer": 6.8,
+          "tolerance": 0.01,
+          "unit": "m",
+          "explain": "8 slats x 850 mm = 6800 mm in total. 6800 mm ÷ 1000 = 6.8 m.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A bracket is 2.2 cm thick. The bolt through it also needs an extra 12 mm of length for a washer and nut on the other side. What is the minimum bolt length needed, in millimetres?",
+          "answer": 34,
+          "tolerance": 0,
+          "unit": "mm",
+          "explain": "2.2 cm = 22 mm. Adding the 12 mm needed for the washer and nut: 22 mm + 12 mm = 34 mm.",
+          "difficulty": 4
+        },
+        {
+          "type": "mc",
+          "prompt": "You've just finished hammering nails outside and it starts to drizzle rain, leaving the hammer's metal head a bit damp. What should you do with it before putting it back on the shelf?",
+          "choices": [
+            "Wipe it dry before storing it",
+            "Leave it outside to dry naturally",
+            "Store it wet, it's just a hammer",
+            "Spray it with more water to clean it off"
+          ],
+          "answer": "Wipe it dry before storing it",
+          "explain": "Damp metal left to sit is exactly what causes rust to start, especially in a humid climate. Wiping it dry before storing it protects the tool.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "Two recipes share the kitchen. Recipe A's materials list (for 4 people) needs 200 mL of milk, and you're doubling it for 8 people. Recipe B's materials list (for 6 people) needs 300 mL of milk, and you're scaling it for 9 people (1.5 times the recipe). How many millilitres of milk do you need in total for both, combined?",
+          "answer": 850,
+          "tolerance": 1,
+          "unit": "mL",
+          "explain": "Recipe A doubled: 200 mL x 2 = 400 mL. Recipe B scaled by 1.5: 300 mL x 1.5 = 450 mL. Combined: 400 mL + 450 mL = 850 mL.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A door hinge needs a screw at least long enough to go through a 28 mm thick door edge plus a 5 mm hinge plate. If the screw you have is 3.5 cm long, how many millimetres of spare length does it have once it's through both?",
+          "answer": 2,
+          "tolerance": 0,
+          "unit": "mm",
+          "explain": "The screw needs to pass through 28 mm + 5 mm = 33 mm. Your screw is 3.5 cm = 35 mm long, so it has 35 mm - 33 mm = 2 mm spare.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A bookshelf kit needs 5 identical shelves. Each shelf is fixed with a screw every 300 mm along its 900 mm width, starting at 0 mm (so there's a screw at 0 mm, 300 mm, 600 mm and 900 mm). How many screws in total are needed for all 5 shelves?",
+          "answer": 20,
+          "tolerance": 0,
+          "unit": "screws",
+          "explain": "Each shelf uses 4 screws (at 0, 300, 600 and 900 mm). 5 shelves x 4 screws = 20 screws in total.",
+          "difficulty": 4
+        },
+        {
+          "type": "mc",
+          "prompt": "You're assembling a bike rack from a kit. It has 2 folding wooden shelf brackets that might need adjusting later, and 1 fixed wooden base join that will never come apart. Which fastener suits each part?",
+          "choices": [
+            "Nuts and bolts for the folding brackets, nails for the fixed base",
+            "Nails for the folding brackets, nuts and bolts for the fixed base",
+            "Nails for both",
+            "Nuts and bolts for both"
+          ],
+          "answer": "Nuts and bolts for the folding brackets, nails for the fixed base",
+          "explain": "Nuts and bolts can be tightened and undone again, which suits the folding brackets that might need adjusting. Nails are quick and fine for the base join, which never needs to come apart.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A biscuit recipe's materials list makes 24 biscuits using 200 g of butter. The school fete stall needs 90 biscuits. Scaling the recipe by the same factor, how many grams of butter are needed?",
+          "answer": 750,
+          "tolerance": 1,
+          "unit": "g",
+          "explain": "The scaling factor is 90 ÷ 24 = 3.75. Butter needed: 200 g x 3.75 = 750 g.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "You want to check a 2.4 m tool rack will fit on a shed wall before hanging it up, so tools can be stored properly and stay rust-free. The wall is 260 cm wide. How many centimetres of spare wall space will be left if you hang it up?",
+          "answer": 20,
+          "tolerance": 0,
+          "unit": "cm",
+          "explain": "2.4 m = 240 cm. The wall is 260 cm wide, so 260 cm - 240 cm = 20 cm of spare space.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A furniture kit's instructions list 4 steps. Step 1 needs a Phillips head screwdriver. Step 2 needs a hammer. Step 3 needs a shifter and pliers. Step 4 needs the Phillips head screwdriver again. How many different tools (not counting repeats) do you need to gather in total before starting?",
+          "answer": 4,
+          "tolerance": 0,
+          "unit": "tools",
+          "explain": "The different tools mentioned are: Phillips head screwdriver, hammer, shifter and pliers. That's 4 different tools, even though the screwdriver is used twice.",
+          "difficulty": 3
+        },
+        {
+          "type": "mc",
+          "prompt": "You finish using pliers to bend wire in humid Cooktown weather and notice the metal jaws are a little damp. What's the best thing to do before putting them away?",
+          "choices": [
+            "Wipe them dry (a light wipe of oil helps too) before storing them",
+            "Leave them as they are",
+            "Spray them with more water to rinse them off",
+            "Wrap them in a damp cloth for storage"
+          ],
+          "answer": "Wipe them dry (a light wipe of oil helps too) before storing them",
+          "explain": "Damp metal tools rust quickly, especially in a humid climate. Drying them off, and a light coat of oil on bare metal, helps stop rust before it starts.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A trellis kit needs 6 identical horizontal slats. Each slat is joined at both ends, and each joint uses 1 bolt, 2 washers and 1 nut. How many washers in total are needed for all 6 slats?",
+          "answer": 24,
+          "tolerance": 0,
+          "unit": "washers",
+          "explain": "Each slat has 2 joints, and each joint uses 2 washers, so each slat needs 2 x 2 = 4 washers. 6 slats x 4 washers = 24 washers in total.",
+          "difficulty": 4
+        }
+      ]
+    },
+    {
+      "slug": "boss-home-y6",
+      "kind": "boss",
+      "title": "Boss Challenge: Home and Tools",
+      "strand": "Boss challenge",
+      "year_level": 6,
+      "covers": ["Home and tools"],
+      "curriculum_code": "",
+      "curriculum_text": "",
+      "position": 99,
+      "est_minutes": 30,
+      "intro": "This is a whole small building job worked end to end: reading a scale plan, marking out and allowing for saw kerf, working out materials and cost, spotting hazards, and even a couple of basic fixes and a loaded trailer. It's meant to be the hardest thing in this strand.",
+      "sections": [
+        {
+          "heading": "Before you start",
+          "body": "Several of these questions run through a real build in order - read the plan's scale first, work out real-world lengths, then work out how much timber to buy and what it costs, allowing for the saw's kerf where cuts are involved.\n\nDo the stages in the order they're written. If a question also mentions a hazard, deal with that reasoning separately from the maths - naming the risk and the safe response matters just as much as getting a number right."
+        }
+      ],
+      "key_points": [
+        "Convert a scale drawing to real measurements before you calculate anything else about a build.",
+        "When cutting several identical pieces, add extra length for the kerf lost at each cut.",
+        "Round up to whole lengths or whole items when a hardware store only sells fixed sizes."
+      ],
+      "try_this": "",
+      "questions": [
+        {
+          "type": "numeric",
+          "prompt": "A garden bed plan is drawn at a scale of 1:20. One edge measures 12 cm on the plan. Edge board costs $9.20 per metre. Find the real length of that edge, then work out the cost of edge board for it.",
+          "answer": 22.08,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "Real length: 12 cm x 20 = 240 cm = 2.4 m. Cost: 2.4 m x $9.20 = $22.08.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "You need 4 identical fence pickets, each 400 mm long, cut from a piece of timber that already has one squared end. The saw's kerf is 4 mm. Timber is sold by the metre and you must buy a whole number of metres, at $6.50 per metre. Work out the minimum board length needed, then how much you must spend to buy enough.",
+          "answer": 13,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "4 pieces need 4 x 400 mm = 1600 mm. With one end already square, 3 more cuts are needed, losing 3 x 4 mm = 12 mm. Minimum length: 1600 + 12 = 1612 mm = 1.612 m, which rounds up to 2 whole metres. Cost: 2 x $6.50 = $13.00.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A garden bed plan is drawn at a scale of 1:50. The bed measures 8 cm by 6 cm on the plan. Find its real perimeter in metres, add 10% extra for waste, then work out the cost of edge board at $11 per metre, to the nearest cent.",
+          "answer": 169.4,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "Real size: 8 cm x 50 = 400 cm = 4 m, and 6 cm x 50 = 300 cm = 3 m. Perimeter: 2 x (4 + 3) = 14 m. Adding 10% waste: 14 x 1.10 = 15.4 m. Cost: 15.4 x $11 = $169.40.",
+          "difficulty": 4
+        },
+        {
+          "type": "mc",
+          "prompt": "Before you start cutting timber for a garden bed with a hand saw, you notice the shed light's extension cord is lying across the path where you'll be walking back and forth. What's the hazard here, and what should you do about it first?",
+          "choices": [
+            "It's a trip hazard - move the cord out of the walkway before you start",
+            "There's no real hazard, just start cutting",
+            "Cords are only a hazard around power tools",
+            "Put on ear muffs and continue as normal"
+          ],
+          "answer": "It's a trip hazard - move the cord out of the walkway before you start",
+          "explain": "A cord across a walkway is a trip hazard. Spotting it and moving it before you start is exactly the stop-and-look habit that catches problems before they happen.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "Your trailer's maximum load is 250 kg. You're already carrying timber (18 kg) and a toolbox (9 kg) for a garden bed job. Bags of cement weigh 20 kg each and cost $9 a bag. What is the maximum number of bags you can add without going over the load limit, and what would they cost in total?",
+          "answer": 99,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "Already loaded: 18 + 9 = 27 kg. Remaining capacity: 250 - 27 = 223 kg. 223 ÷ 20 = 11.15, so you can fit 11 whole bags (11 x 20 = 220 kg, within the limit). Cost: 11 x $9 = $99.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A shed plan is drawn at a scale of 1:100. The plan shows 3 identical wall supports, each drawn as 5 cm long. Find their real length, then find the minimum board length (in metres) needed to cut all 3 from one piece of timber that already has one squared end, allowing for a 5 mm saw kerf on every extra cut.",
+          "answer": 15.01,
+          "tolerance": 0.01,
+          "unit": "m",
+          "explain": "Real length of each support: 5 cm x 100 = 500 cm = 5 m. Three supports need 3 x 5 m = 15 m. With one end already square, 2 more cuts are needed, losing 2 x 5 mm = 10 mm = 0.01 m. Minimum board length: 15 + 0.01 = 15.01 m.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "You replace 2 tap washers at $2.20 each, and buy a $4.50 roll of plumber's tape while you're at the hardware store to finish the job. What is the total cost of fixing all the taps?",
+          "answer": 8.9,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "2 washers: 2 x $2.20 = $4.40. Adding the tape: $4.40 + $4.50 = $8.90.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A trailer's maximum load is 400 kg. Already loaded: 12 bags of sand at 25 kg each, and a mower at 45 kg. You want to add 2 more bags of sand at $8 each (25 kg each) if there's room. Work out whether they fit under the 400 kg limit, then give the total cost of those 2 bags (or 0 if they don't fit).",
+          "answer": 16,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "Already loaded: (12 x 25) + 45 = 300 + 45 = 345 kg. Remaining capacity: 400 - 345 = 55 kg. Two more bags weigh 2 x 25 = 50 kg, which fits within the 55 kg remaining. Cost: 2 x $8 = $16.",
+          "difficulty": 4
+        },
+        {
+          "type": "mc",
+          "prompt": "You're about to help oil a squeaky gate hinge, but the garden hose has left the ground right underneath it wet and slippery. What should you do first?",
+          "choices": [
+            "Point it out and get it sorted (or wait for it to dry) before starting",
+            "Ignore it, oil doesn't need dry ground",
+            "Start straight away, it's not a real hazard",
+            "Only mention it if someone actually slips"
+          ],
+          "answer": "Point it out and get it sorted (or wait for it to dry) before starting",
+          "explain": "A wet, slippery patch underfoot is a hazard worth dealing with before you start any job, not after someone gets hurt.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "You need 5 identical deck joists, each 600 mm long, cut from a board with one squared end. The saw's kerf is 3 mm. Timber costs $4.80 per metre and can be bought in any length. Find the minimum board length in metres, then its cost to the nearest cent.",
+          "answer": 14.46,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "5 pieces need 5 x 600 mm = 3000 mm. With one end already square, 4 more cuts are needed, losing 4 x 3 mm = 12 mm. Minimum length: 3000 + 12 = 3012 mm = 3.012 m. Cost: 3.012 x $4.80 = $14.46 (rounded to the nearest cent).",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A shed plan at a scale of 1:100 shows a wall 3.5 cm long. Decking board for that wall's base costs $7.50 per metre. Find the real length, then the cost for that length.",
+          "answer": 26.25,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "Real length: 3.5 cm x 100 = 350 cm = 3.5 m. Cost: 3.5 x $7.50 = $26.25.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A garden bed needs 10.5 m of edge board (waste already included). Timber is only sold in 3 m lengths, each weighing 8 kg. How many lengths must you buy (rounding up), and what is their total weight?",
+          "answer": 32,
+          "tolerance": 0,
+          "unit": "kg",
+          "explain": "10.5 ÷ 3 = 3.5, so you must round up to 4 lengths (3 lengths would only give 9 m). Total weight: 4 x 8 kg = 32 kg.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "You replace 2 tap washers at $1.80 each, and buy a $6 tube of lubricant for a squeaky hinge while you're at the shops. What is the total spent?",
+          "answer": 9.6,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "2 washers: 2 x $1.80 = $3.60. Adding the lubricant: $3.60 + $6.00 = $9.60.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "You need 6 identical garden stakes, each 500 mm long, cut from boards sold only in 2 m lengths (each new board's first end already squared at the store). The saw's kerf is 4 mm. Work out the maximum stakes you can get from one board, then how many boards you must buy for all 6 stakes, and their total cost at $5.20 per board.",
+          "answer": 10.4,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "For 3 stakes from one 2 m (2000 mm) board: 3 x 500 mm + 2 cuts x 4 mm kerf = 1500 + 8 = 1508 mm, which fits. A 4th stake would need 2000 + 12 = 2012 mm, which doesn't fit, so a board only yields 3 stakes. For 6 stakes you need 2 boards. Cost: 2 x $5.20 = $10.40.",
+          "difficulty": 4
+        }
+      ]
+    },
+    {
+      "slug": "boss-digital-y4",
+      "kind": "boss",
+      "title": "Boss Challenge: Digital and Data Literacy",
+      "strand": "Boss challenge",
+      "year_level": 4,
+      "covers": ["Digital and data literacy"],
+      "curriculum_code": "",
+      "curriculum_text": "",
+      "position": 99,
+      "est_minutes": 30,
+      "intro": "Charts, tallies, algorithms, if/then rules, passwords and online privacy all get mixed together here. It's meant to be tough, so read every question twice before you answer.",
+      "sections": [
+        {
+          "heading": "Before you start",
+          "body": "Many of these questions give you a graph, a tally, or a set of steps, and then ask you to apply an IF/THEN rule on top of it. Work out the real numbers first - decode the graph or the tally properly - before you try to apply any rule to them.\n\nIf a question is about passwords or privacy, think about both how strong something is AND whether it's actually safe to share, since both ideas can show up in the same question."
+        }
+      ],
+      "key_points": [
+        "Decode a graph or tally fully into real numbers before applying any rule to it.",
+        "An IF/THEN rule only triggers its action when the condition is actually true - check carefully.",
+        "A password can be strong and still be unsafe if it uses information that should stay private."
+      ],
+      "try_this": "",
+      "questions": [
+        {
+          "type": "numeric",
+          "prompt": "Cooktown's wet season rainfall graph shows: November 50 mm, December 150 mm, January 250 mm, February 300 mm, March 200 mm. A rule says: IF a month's rainfall is above 150 mm AND the month is January, February or March, THEN it's a 'peak wet' month. How many months from this graph count as 'peak wet'?",
+          "answer": 3,
+          "tolerance": 0,
+          "unit": "months",
+          "explain": "December is 150 mm, which is not above 150, so it fails. January (250), February (300) and March (200) are all above 150 mm and are all in the Jan/Feb/Mar group, so all three qualify.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "At the mango stall, each picture on the picture graph stands for 4 mangoes: Monday shows 3 pictures. A tally chart for lemonade cups sold that same Monday shows |||| |||| ||. If mangoes sell for $0.50 each and lemonade cups for $2 each, what was the total money taken from both stalls on Monday?",
+          "answer": 30,
+          "tolerance": 0,
+          "unit": "$",
+          "explain": "Mangoes: 3 pictures x 4 = 12 mangoes, worth 12 x $0.50 = $6.00. Lemonade tally: two groups of 5 plus 2 = 12 cups, worth 12 x $2 = $24.00. Total: $6.00 + $24.00 = $30.00.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "At the bird bath, tallies were: rainbow lorikeet 11, magpie 8, sulphur-crested cockatoo 15, blue-faced honeyeater 4. A rule says: IF a bird's total is 10 or more THEN it's a 'frequent visitor'. How many of the 4 birds count as frequent visitors?",
+          "answer": 2,
+          "tolerance": 0,
+          "unit": "birds",
+          "explain": "The lorikeet (11) and the cockatoo (15) both have totals of 10 or more. The magpie (8) and honeyeater (4) don't, so 2 birds qualify.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "The mango picture graph's key says each picture is 4 mangoes: Monday shows 3 pictures, Wednesday shows 2 whole pictures and 1 half picture. A separate tally of apple sales on Thursday shows |||| |||. If mangoes are $0.50 each and apples are $0.40 each, what is the combined total money from Monday's and Wednesday's mangoes plus Thursday's apples?",
+          "answer": 14.2,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "Monday mangoes: 3 x 4 = 12. Wednesday mangoes: (2 x 4) + (0.5 x 4) = 8 + 2 = 10. Total mangoes: 22, worth 22 x $0.50 = $11.00. Apple tally: one group of 5 plus 3 = 8 apples, worth 8 x $0.40 = $3.20. Combined: $11.00 + $3.20 = $14.20.",
+          "difficulty": 4
+        },
+        {
+          "type": "mc",
+          "prompt": "An algorithm for feeding the chickens says: 1) Check the food bin (IF empty THEN get more food from the shed, ELSE continue) 2) Put food in the tray 3) Latch the coop door. Today the bin is NOT empty. Which steps should you actually do, in order?",
+          "choices": [
+            "Put food in the tray, then latch the coop door",
+            "Get more food, put food in the tray, then latch the door",
+            "Only latch the door",
+            "Only check the bin"
+          ],
+          "answer": "Put food in the tray, then latch the coop door",
+          "explain": "Since the condition (bin is empty) is false, the ELSE path applies: skip getting more food, and go straight to putting food in the tray, then latching the door.",
+          "difficulty": 3
+        },
+        {
+          "type": "text",
+          "prompt": "A robot vacuum checks its battery every 10 minutes: IF the battery is below 20% THEN return to the charge dock, ELSE keep cleaning. At the first check the battery is 45%, so it keeps cleaning. Ten minutes later, at the second check, the battery has dropped to 18%. What should it do at this second check?",
+          "answer": ["return to dock", "return to charge dock", "charge dock"],
+          "explain": "At the second check, 18% is below the 20% threshold, so the condition is now true and it should return to the charge dock, even though it kept cleaning after the first check.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A tally of magpie sightings this week shows |||| ||||. A rule says: IF the weekly tally is 12 or more THEN put out extra bird seed. Decode the tally, and work out how many more sightings are needed before the rule would trigger.",
+          "answer": 2,
+          "tolerance": 0,
+          "unit": "sightings",
+          "explain": "The tally |||| |||| is two groups of 5, which is 10. Since the rule needs 12 or more, 2 more sightings are needed before it triggers.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "The Cooktown rainfall graph's bar for January sits exactly halfway between the 200 mm and 300 mm gridlines, so about 250 mm fell. A family's umbrella-use tally for January shows |||| |||| |||| ||||. Using a rule that every 50 mm of rainfall corresponds to roughly 4 umbrella uses, how many umbrella uses would you predict from the rainfall - and does the actual tally match?",
+          "answer": 20,
+          "tolerance": 0,
+          "unit": "umbrella uses",
+          "explain": "250 mm is 5 lots of 50 mm, so the prediction is 5 x 4 = 20 umbrella uses. The tally |||| |||| |||| |||| is four groups of 5, which is also 20 - the prediction matches the actual tally.",
+          "difficulty": 4
+        },
+        {
+          "type": "mc",
+          "prompt": "Which password is both strong AND doesn't use private personal information that should stay off the internet, like your school name or address?",
+          "choices": [
+            "Tr0pical-Mango!River42",
+            "CooktownStateSchool2016",
+            "MyHomeAddress123",
+            "yourpetname2015"
+          ],
+          "answer": "Tr0pical-Mango!River42",
+          "explain": "This password mixes upper and lower case letters, numbers and a symbol, and doesn't rely on personal details anyone could look up, unlike the others which use a school name, an address hint, or a pet's name.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A profile post says: 'Hi I'm Jack, I go to Cooktown State School, I live on Charlotte Street, and my favourite colour is blue!' How many separate pieces of information in this post are private and should stay off the internet?",
+          "answer": 2,
+          "tolerance": 0,
+          "unit": "",
+          "explain": "The school name and the street name are both private information that could help a stranger find Jack. A first name alone and a favourite colour are generally fine to share.",
+          "difficulty": 3
+        },
+        {
+          "type": "mc",
+          "prompt": "A morning routine has two rules: 1) IF it is raining THEN take the covered bus stop route, ELSE take the short path. 2) IF it is after 8:15am THEN jog the last bit, ELSE walk normally. Today it is raining and it's 8:20am. Which route and pace should you use?",
+          "choices": [
+            "Covered bus stop route, jogging the last bit",
+            "Short path, walking normally",
+            "Short path, jogging the last bit",
+            "Covered bus stop route, walking normally"
+          ],
+          "answer": "Covered bus stop route, jogging the last bit",
+          "explain": "It's raining, so rule 1's condition is true: take the covered bus stop route. It's 8:20am, which is after 8:15am, so rule 2's condition is also true: jog the last bit.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "Using the Cooktown rainfall graph (November 50 mm, December 150 mm, January 250 mm, February 300 mm, March 200 mm), what is the total rainfall across all 5 months?",
+          "answer": 950,
+          "tolerance": 0,
+          "unit": "mm",
+          "explain": "50 + 150 + 250 + 300 + 200 = 950 mm in total across the wet season.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A rule says: IF a passphrase is at least 16 characters long THEN it counts as 'very strong'. Your passphrase is 'TropicalBarraJumps17'. Count every letter and digit - how many characters long is it, and does it meet the 'very strong' rule?",
+          "answer": 20,
+          "tolerance": 0,
+          "unit": "characters",
+          "explain": "Counting every letter and digit: Tropical (8) + Barra (5) + Jumps (5) + 17 (2) = 20 characters, which is well above the 16-character rule for 'very strong'.",
+          "difficulty": 4
+        },
+        {
+          "type": "text",
+          "prompt": "A rule for staying safe online says: IF a message asks for personal information (like your address or school) OR makes you feel uncomfortable, THEN tell a trusted adult and don't reply with any details. A message says: 'Where do you live? Don't tell your parents about this chat!' Applying the rule, what should you do?",
+          "answer": ["tell a trusted adult", "tell a trusted adult and don't share details", "tell an adult"],
+          "explain": "This message both asks for personal information (where you live) and is trying to keep you from telling an adult, which is itself a warning sign. The rule's action applies: tell a trusted adult and don't share any details.",
+          "difficulty": 4
+        }
+      ]
+    },
+    {
+      "slug": "boss-digital-y6",
+      "kind": "boss",
+      "title": "Boss Challenge: Digital and Data Literacy",
+      "strand": "Boss challenge",
+      "year_level": 6,
+      "covers": ["Digital and data literacy"],
+      "curriculum_code": "",
+      "curriculum_text": "",
+      "position": 99,
+      "est_minutes": 30,
+      "intro": "This is a claim plus the real data behind it, worked through properly: read the numbers, compute the mean and median, spot what the average hides, and work out what's actually wrong with the headline. It's meant to be the hardest thing in this strand.",
+      "sections": [
+        {
+          "heading": "Before you start",
+          "body": "A lot of these questions give you a dramatic claim or headline, then ask you to do the real maths behind it - a mean, a median, a range or a percentage - to check whether the claim actually holds up.\n\nWork out every value in the data set first, then do the calculation carefully. If a claim uses only some of the data (cherry-picking) or an outlier is dragging an average around, that's usually exactly what the question wants you to notice."
+        }
+      ],
+      "key_points": [
+        "Work out the full data set before deciding whether a claim is fair.",
+        "An outlier can drag the mean away from what's typical - the median or mode often tells the fairer story.",
+        "Check whether a claim used the whole picture, or only cherry-picked the numbers that suited it."
+      ],
+      "try_this": "",
+      "questions": [
+        {
+          "type": "numeric",
+          "prompt": "Over 5 weeks, mango prices were $2.00, $2.05, $2.10, $2.10 and $2.30 - the kind of small rise a chopped-axis graph can make look dramatic. What is the mean price over these 5 weeks, to the nearest cent?",
+          "answer": 2.11,
+          "tolerance": 0.01,
+          "unit": "$",
+          "explain": "Total: $2.00 + $2.05 + $2.10 + $2.10 + $2.30 = $10.55. Mean: $10.55 ÷ 5 = $2.11.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "Weekly ice-cream sales (units) over 7 weeks were: 20, 22, 19, 21, 20, 95, 18 (week 6 was a heatwave day). Find the mean and the median, then work out the difference between them (mean minus median), to 1 decimal place.",
+          "answer": 10.7,
+          "tolerance": 0.1,
+          "unit": "",
+          "explain": "Total: 20+22+19+21+20+95+18 = 215. Mean: 215 ÷ 7 = 30.7 (1 d.p.). Sorted: 18,19,20,20,21,22,95, so the median (4th of 7) is 20. Difference: 30.7 - 20 = 10.7.",
+          "difficulty": 4
+        },
+        {
+          "type": "mc",
+          "prompt": "A chatbot tells you: 'Cooktown's population is exactly 2,704 people, verified in 2024.' You want to use this figure in a school project. What should you do?",
+          "choices": [
+            "Check the figure against another reliable source, like the ABS website, before using it",
+            "Use it straight away, since it sounded confident and precise",
+            "Assume it's wrong just because a chatbot said it",
+            "Round it to the nearest thousand and use that instead"
+          ],
+          "answer": "Check the figure against another reliable source, like the ABS website, before using it",
+          "explain": "A chatbot can sound confident while being completely wrong (a hallucination). An exact-sounding figure like this needs checking against another reliable source before it goes into schoolwork.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A claim says 'Cooktown temperatures are soaring!' using only the 3 hottest days of a 30-day month: 34°C, 35°C and 36°C. The other 27 days averaged 28°C. What is the true mean temperature across the whole 30-day month, to 1 decimal place?",
+          "answer": 28.7,
+          "tolerance": 0.1,
+          "unit": "°C",
+          "explain": "The 3 hot days total 34+35+36 = 105°C. The other 27 days total 27 x 28 = 756°C. Whole month total: 105 + 756 = 861°C. Mean: 861 ÷ 30 = 28.7°C - far cooler than the cherry-picked headline suggests.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "A scam bot's loop sends phishing messages: it has already sent 5, then adds 4 more messages every hour, repeating for 6 hours. How many messages will it have sent in total after those 6 hours?",
+          "answer": 29,
+          "tolerance": 0,
+          "unit": "messages",
+          "explain": "Starting at 5, adding 4 for each of 6 hours: 5 + (4 x 6) = 5 + 24 = 29 messages in total.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A security team's loop is meant to check 10 suspicious emails per account across 5 accounts (50 emails intended in total), but an off-by-one bug means it only checks 9 emails per account. How many emails are actually checked across all 5 accounts?",
+          "answer": 45,
+          "tolerance": 0,
+          "unit": "emails",
+          "explain": "With the bug, each account only gets 9 emails checked instead of 10. Across 5 accounts: 9 x 5 = 45 emails actually checked, 5 short of the intended 50.",
+          "difficulty": 4
+        },
+        {
+          "type": "mc",
+          "prompt": "A message claims to be from 'support@yourbank-secure-login.net': 'URGENT: verify your account in the next 10 minutes or it will be closed! Reply with your password now.' What's the safest response?",
+          "choices": [
+            "Contact the bank directly using a number or app you already know and trust, not anything in this message",
+            "Reply with your password since it sounds urgent",
+            "Click any link in the message to check if it's real",
+            "Ignore it and don't mention it to anyone"
+          ],
+          "answer": "Contact the bank directly using a number or app you already know and trust, not anything in this message",
+          "explain": "Urgency, a suspicious sender address, and a direct request for a password are all classic phishing signals. The safest check is to contact the organisation through a channel you already know is real, never through the message itself.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "Daily visitor counts to a museum over 9 days were: 40, 42, 38, 41, 39, 150, 40, 37, 43 (day 6 was a cruise ship day). A headline says 'Average visitors up to 150 a day!', cherry-picking only day 6. What is the true median number of visitors across all 9 days?",
+          "answer": 40,
+          "tolerance": 0,
+          "unit": "visitors",
+          "explain": "Sorted: 37, 38, 39, 40, 40, 41, 42, 43, 150. With 9 values, the median is the 5th value, which is 40 - a much fairer picture than the cherry-picked 150.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "Over 6 weeks, a shop's sales figures were $420, $410, $415, $180, $425 and $430 (week 4 had a big storm). A graph with a chopped axis could make week 4's dip look huge. What is the range of these sales figures?",
+          "answer": 250,
+          "tolerance": 0,
+          "unit": "$",
+          "explain": "The highest value is $430 and the lowest is $180. Range: $430 - $180 = $250.",
+          "difficulty": 4
+        },
+        {
+          "type": "text",
+          "prompt": "A chatbot confidently states: 'The Great Barrier Reef is exactly 4,321 km long and was discovered in 1897.' Before using this in a school project, what should you do?",
+          "answer": ["check another source", "verify with another source", "fact-check it", "check a reliable source"],
+          "explain": "A chatbot's confident tone is not proof it's correct - it can state made-up details (a hallucination) just as confidently as true ones. Checking the claim against another reliable source is the safe next step.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A survey simulates a loop collecting 6 ratings one at a time, adding each to a running total: 5, 4, 5, 3, 4, 5. Once the loop finishes summing them, what is the mean rating, to 1 decimal place?",
+          "answer": 4.3,
+          "tolerance": 0.1,
+          "unit": "",
+          "explain": "Total: 5+4+5+3+4+5 = 26. Mean: 26 ÷ 6 = 4.33, which rounds to 4.3.",
+          "difficulty": 4
+        },
+        {
+          "type": "mc",
+          "prompt": "A chatbot gives investment advice claiming: 'Buy this coin now, guaranteed 500% profit in a week!' This combines an AI-generated answer with a classic scam pressure signal. Which pressure signal is this?",
+          "choices": [
+            "Too good to be true",
+            "Urgency about a deadline",
+            "A request for secrecy",
+            "A slightly wrong sender name"
+          ],
+          "answer": "Too good to be true",
+          "explain": "A guaranteed, extremely high, fast profit is a classic 'too good to be true' signal - genuine investments never come with guarantees like that, whether the claim comes from a person or a chatbot.",
+          "difficulty": 3
+        },
+        {
+          "type": "numeric",
+          "prompt": "A graph headline claims attendance 'dropped dramatically' this week: Mon 28, Tue 27, Wed 26, Thu 25, Fri 20 (class of 30). What is the mean daily attendance across the whole week, to 1 decimal place, and how does it compare to the cherry-picked Friday number of 20?",
+          "answer": 25.2,
+          "tolerance": 0.1,
+          "unit": "students",
+          "explain": "Total: 28+27+26+25+20 = 126. Mean: 126 ÷ 5 = 25.2, noticeably higher than the cherry-picked Friday figure of 20 that the headline focused on.",
+          "difficulty": 4
+        },
+        {
+          "type": "numeric",
+          "prompt": "Daily crabs caught over a week were: 4, 5, 4, 6, 5, 4, 40 (day 7 was a lucky king tide). A social media post claims 'This spot averages 40 crabs a day!', cherry-picking only day 7. What is the median number of crabs caught across the full week - a fairer picture of a typical day?",
+          "answer": 5,
+          "tolerance": 0,
+          "unit": "crabs",
+          "explain": "Sorted: 4, 4, 4, 5, 5, 6, 40. With 7 values, the median is the 4th value, which is 5 - far more typical than the mean of 68 ÷ 7 ≈ 9.7, which the single huge day drags upward.",
+          "difficulty": 4
+        }
+      ]
+    }
+  ]
+}

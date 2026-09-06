@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block title %}Parent dashboard{% endblock %}
+{% block content %}
+
+<h1>Parent dashboard</h1>
+<p class="sub">Progress, weak spots and recent activity for each kid.</p>
+
+<div class="card" style="max-width:380px">
+  <form method="post">
+    <label class="meta" for="pin">PIN</label>
+    <input class="numin" id="pin" name="pin" type="password" inputmode="numeric" autofocus required>
+    <button class="btn btn-lg" style="margin-top:14px" type="submit">Open</button>
+  </form>
+  <p class="meta" style="margin-bottom:0">Set this with the <code>PARENT_PIN</code> environment variable. Default is 1234.</p>
+</div>
+
+{% endblock %}
